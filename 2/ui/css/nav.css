@@ -1,0 +1,15 @@
+/* &#x63; */
+
+@font-face {
+    font-family:'elegant-icons';font-weight:normal;font-style:normal;src:url("../fonts/elegant-icons.woff") format("woff"),url("../fonts/elegant-icons.ttf") format("truetype");
+}
+
+.font-symb {
+    font: normal 16px/1.5 "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    color: #000;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+}

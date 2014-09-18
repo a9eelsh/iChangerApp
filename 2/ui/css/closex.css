@@ -1,0 +1,144 @@
+#wrapper {
+     height: 100px;
+     width: 500px;
+ }
+ #wrapper {
+     bottom: 50%;
+     right: 50%;
+     position: absolute;
+ }
+ #container {
+     background: #FFF;
+     left: 50%;
+     padding: 10px;
+     top: 50%;
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     border: 1px solid rgb(128, 128, 128);
+     height: 100%;
+     position: relative;
+ }
+ #inner1 {
+     height: 100%;
+     border: 1px solid blue;
+ }
+ #inner2 {
+     height: 100%;
+     border: 1px solid green;
+ }
+ #titlebar {
+     cursor: pointer;
+     height: 23px;
+     width: 100%;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#0A246A, endColorStr=#A6CAF0, GradientType=1);
+     color: white;
+     font:13px arial, helvetica;
+ }
+ #button11 {
+     line-height: 12px;
+     width: 18px;
+     font-size: 8pt;
+     font-family: tahoma;
+     /*margin-top: 1px;
+     margin-right: 2px;*/
+     position:absolute;
+     top:0;
+     right:0;
+ }
+
+#mdiv
+{
+width:25px;
+height:25px;
+background-color:red;
+border:1px solid black;
+}
+.mdiv
+{
+height:25px;
+width:2px;
+margin-left:12px;
+background-color:black;
+transform: rotate(45deg);
+-ms-transform: rotate(45deg); /* IE 9 */
+-webkit-transform: rotate(45deg); /* Safari and Chrome */
+Z-index:1;
+
+}
+.md
+{
+height:25px;
+width:2px;
+
+background-color:black;
+transform: rotate(90deg);
+-ms-transform: rotate(90deg); /* IE 9 */
+-webkit-transform: rotate(90deg); /* Safari and Chrome */
+Z-index:2;
+
+}
+
+
+/*
+
+CSS BUTTON
+
+*/
+
+.closexmain {
+	background-color:transparent;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:37px;
+	-moz-border-radius-bottomleft:37px;
+	border-bottom-left-radius:37px;
+	text-indent:0;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ff0000;
+	font-family:iHateComicSans;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:86px;
+	text-decoration:none;
+	text-align:center;
+}.closexmain:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+/* position right corner */
+ .toprightcorner{
+  position:absolute;
+  top:10;
+  right:15;
+  }
+
+#topright {
+    position: relative;
+}
+#topright a {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+@font-face {
+    font-family: iHateComicSans;
+    src: url(http://ichanger.tk/ui/fonts/HateComicSans.TTF);
+}
+
+div9 {
+    font-family: iHateComicSans;
+}

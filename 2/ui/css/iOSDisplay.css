@@ -1,0 +1,48 @@
+/* 
+This CSS resource incorporates links to font software which is 
+the valuable copyrighted property of TheLocken LLC, and its sub-group iChanger (2). You may not attempt to copy, install, 
+redistribute, convert, modify or reverse engineer this font 
+software. 
+
+!!                                                                            !!
+----  Please contact TheLocken with any questions: rosco1502@thelocken.com  ----
+!!                                                                            !!
+
+*/
+
+@font-face {
+ font-family: "TheLocken iChanger iOS Display";
+ src: url("../fonts/iOS Display Norm Bold.woff") format("woff");
+ font-style: normal;
+ font-weight: bold;
+}
+@font-face {
+ font-family: "TheLocken iChanger iOS Display Med";
+ src: url("../fonts/iOS Display Med.woff") format("woff");
+ font-style: normal;
+ font-weight: normal;
+}
+@font-face {
+ font-family: "TheLocken iChanger iOS Text";
+ src: url("../fonts/iOS Display Norm Bold.woff") format("woff");
+ font-style: normal;
+ font-weight: bold;
+}
+@font-face {
+ font-family: "TheLocken iChanger iOS Text";
+ src: url("../fonts/iOS Display Norm Norm.woff") format("woff");
+ font-style: normal;
+ font-weight: normal;
+}
+@font-face {
+ font-family: "TheLocken iChanger iOS Text";
+ src: url("../fonts/iOS Display Italic Norm.woff") format("woff");
+ font-style: italic;
+ font-weight: normal;
+}
+@font-face {
+ font-family: "TheLocken iChanger iOS Text";
+ src: url("../fonts/iOS Display Italic Bold.woff") format("woff");
+ font-style: italic;
+ font-weight: bold;
+}
