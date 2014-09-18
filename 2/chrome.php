@@ -27,6 +27,11 @@ if(navigator.userAgent.match('CriOS')) {
           </p>
           <p>
              <center>
+             
+             </center>
+          </p>
+          <p>
+             <center>
                To Install iChanger
              </center>
           </p>
