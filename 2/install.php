@@ -25,7 +25,7 @@
 <head>
   <title>Installing iChanger</title>
   <meta name="apple-mobile-web-app-title" content="iChanger 2">
-  <link rel="apple-touch-icon" href="http://ichanger.tk/pics/logo.png">
+  <link rel="apple-touch-icon" href="http://www.ichanger.tk/pics/iC2-4-2.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
