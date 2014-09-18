@@ -18,4 +18,4 @@ if(navigator.userAgent.match('CriOS')) {
     background-color: #f3f3f3;
   }
   </style>
-  <div id="middle"><h2> To Install iChanger, Please Visit <a href="http://ichanger.tk/">iChanger.tk</a> in Safari.</h2></div>
+  <div id="middle"><h2>&nbsp; To Install iChanger, Please Visit <a href="http://ichanger.tk/">iChanger.tk</a> in Safari.</h2></div>
