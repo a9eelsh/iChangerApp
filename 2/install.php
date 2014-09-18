@@ -65,7 +65,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
       echo('Running in another browser on iPhone/iPad');
    }
 } else {
-   echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://ichanger.tk/pc/index.php" />');
+   echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
 }
 ?>
 <script>
