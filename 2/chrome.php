@@ -22,7 +22,7 @@ if(navigator.userAgent.match('CriOS')) {
        <h2>
           <p>
              <center>
-             &nbsp;
+             
              </center>
           </p>
           <p>
