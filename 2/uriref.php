@@ -24,5 +24,5 @@ $v = '' . htmlspecialchars($_GET["v"]) . '';
     }
 	</script>
 <body onload="simClickMain()">
-    <a id="simClickElement" href="urigen.php?n=<?php print $appname; ?>&a=<?php print $iconfolder; ?>&p=<?php print $iconmain; ?>&pe=<?php print $iconext; ?>&ur=<?php print $v; ?>">link1</a>
+    <a id="simClickElement" href="urigen.php?n=<?php print $appname; ?>&a=<?php print $iconfolder; ?>&p=<?php print $iconmain; ?>&pe=<?php print $iconext; ?>&ur=<?php print $appurl; ?>&v=<?php print $v; ?>">link1</a>
 </body>
