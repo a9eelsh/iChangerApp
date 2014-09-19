@@ -8,7 +8,6 @@ import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
-
 import javax.swing.JFrame;
 
 public class Game extends Canvas implements Runnable {
@@ -129,9 +128,28 @@ for Java
 give me a few secs
 yes the terminal tab is just like cmd. 
 it have javac so you can complime
-Be sure to Save the file! Ctrl+Save
+Be sure to Save the file! Ctrl+S
 Hello?
 
-LORENS GAME v1
+LOREN'S GAME v1
+
+The error i get when i run this file...
+
+Exception in thread "main" java.lang.NoClassDefFoundError: Game (wrong name: ca/spycraft/game/Game)
+        at java.lang.ClassLoader.defineClass1(Native Method)
+        at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+        at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+        at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+        at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+        at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+        at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+        at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:482)
+
+Im still at school on the shitty computers :(
 
 */
