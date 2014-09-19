@@ -54,7 +54,7 @@ if( $exist1 == "1" ) {
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"512"; print $iconext; ?>" sizes="512x512">
   <title><?php print $appname; ?></title>
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 <?php
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
