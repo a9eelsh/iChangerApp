@@ -575,7 +575,7 @@ echo "</p></div>";
                       </div></a></li>
                 </ul>
                 </ul>
-                <a href="#" class="button demo-alert">Alert</a>
+                <p><a href="#" class="alert-text-title">Alert With Text and Title</a></p>
               </div>
             </div>
           </div>
