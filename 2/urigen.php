@@ -75,7 +75,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 
 
 ?>
-<a id="go" href="' . htmlspecialchars($_GET["ur"]) . '">
+<a id="go" href="<?php echo '' . htmlspecialchars($_GET["ur"]) . ''; ?>">
 <Script>
     if (!document.referrer) {
         document.write("<div style='padding: 10px;'><p style=''></p></div>");
