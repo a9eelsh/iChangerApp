@@ -89,6 +89,7 @@ if ( $userraw == "" ) {
 	    })
     </script>
 	<script type="text/javascript">
+	// Load Heavy files so no half-loaded images appear
 		Image1= new Image(175,50)
 		Image1.src = "http://ichanger.tk/AppStore/lightOLD.png"
 		
@@ -109,9 +110,9 @@ if ( $userraw == "" ) {
 	</script>
 	</head>
   <body>
-	  <!--<noscript>
+	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
-	  </noscript>-->
+	  </noscript>
 	<div class="loader"></div>
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
@@ -217,6 +218,7 @@ if ( $userraw == "" ) {
 </div>
 </div></a></li>
 </ul>
+<a href="#" class="button demo-alert">Alert</a>
 <?php
 if ( $devmode == "true" ) {
 echo "<div class='content-block'>";
