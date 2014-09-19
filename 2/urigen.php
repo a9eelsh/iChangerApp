@@ -73,4 +73,23 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    echo('  <!--Running on device other than iPhone/iPad.--><p><h1>iChanger Only Works on iOS and Android Devices*</h1></p><p><h3>*Android Support Coming Soon</h3></p>');
 }
 
+
 ?>
+<a id="go" href="' . htmlspecialchars($_GET["ur"]) . '">
+<Script>
+    if (!document.referrer) {
+        document.write("<div style='padding: 10px;'><p style=''></p></div>");
+        activate();
+    }
+    
+    function activate() {
+        var e = document.getElementById("go");
+        var ev = document.createEvent("MouseEvents");
+        ev.initEvent("click", true, true);
+        e.dispatchEvent(ev);
+        window.opener = window;
+        var win = window.open(location.href, '_self');
+        win.close();
+    }  
+    
+</script>

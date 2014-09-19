@@ -15,5 +15,5 @@
 	</script>
 </head>
 <body onload="simClickMain()">
-    <a id="simClickElement" href="javascript:alert('hello world!')">link1</a>
+    <a id="simClickElement" href="javascript:alert('hello world!')">ENABLE JAVASCRIPT</a>
 </body>
