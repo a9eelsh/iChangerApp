@@ -129,6 +129,7 @@ give me a few secs
 yes the terminal tab is just like cmd. 
 it have javac so you can complime
 Be sure to Save the file! Ctrl+S
+
 Hello?
 
 LOREN'S GAME v1
@@ -150,6 +151,6 @@ Exception in thread "main" java.lang.NoClassDefFoundError: Game (wrong name: ca/
         at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:482)
 
-Im still at school on the shitty computers :(
+
 
 */

