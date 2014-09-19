@@ -2,7 +2,7 @@
 <?php
 // ------------------------------
 // |iChanger's App URI Generator|
-// |      Version 2.0.1.1       |
+// |      Version 2.1.1.1       |
 // ------------------------------
 // A = FOLDER
 // P = ICON 
@@ -55,7 +55,6 @@ if( $exist1 == "1" ) {
   <title><?php print $appname; ?></title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
 <?php
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
