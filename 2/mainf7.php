@@ -218,7 +218,6 @@ if ( $userraw == "" ) {
 </div>
 </div></a></li>
 </ul>
-<a href="#" class="button demo-alert">Alert</a>
 <?php
 if ( $devmode == "true" ) {
 echo "<div class='content-block'>";
@@ -576,6 +575,7 @@ echo "</p></div>";
                       </div></a></li>
                 </ul>
                 </ul>
+                <a href="#" class="button demo-alert">Alert</a>
               </div>
             </div>
           </div>
