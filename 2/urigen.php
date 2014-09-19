@@ -31,6 +31,9 @@ if( $appname == "" && $iconfolder == "" && $iconmain == "" ) {
  }
 
 ?>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo""; print $iconext; ?>">
 <?php
 if( $exist1 == "1" ) {
@@ -53,8 +56,6 @@ if( $exist1 == "1" ) {
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"256"; print $iconext; ?>" sizes="256x256">
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"512"; print $iconext; ?>" sizes="512x512">
   <title><?php print $appname; ?></title>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 <?php
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
