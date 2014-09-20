@@ -5,6 +5,7 @@ $appname = '' . htmlspecialchars($_GET["n"]) . '';
 $iconfolder = '' . htmlspecialchars($_GET["a"]) . '';
 $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
 $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
+$ur = '' . htmlspecialchars($_GET["ur"]) . '';
 // START ICON SIZES
 //$icon16l = "$iconfolder $icon16";
 $icon16 = '' . htmlspecialchars($_GET["p"]) . '16' . htmlspecialchars($_GET["pe"]) . '';
@@ -38,6 +39,8 @@ $uri11 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialc
 $uri12 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'512' . htmlspecialchars($iconext) . '" sizes="512x512">';
 $uri13 = '<title>' . htmlspecialchars($appname) . '</title>';
 $uri14 = '<h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>';
+$uri15 = '<a id="launch" href="' . htmlspecialchars($ur) . '">';
+$uri16 = 'if(!document.referrer){activate()}function activate(){var e=document.getElementById("launch");var t=document.createEvent("MouseEvents");t.initEvent("click",true,true);e.dispatchEvent(t);window.opener=window;var n=window.open(location.href,"_self");n.close()}';
 ?>
 
 <a href="<?php echo htmlspecialchars($uri1); echo htmlspecialchars($uri2); echo htmlspecialchars($uri3); echo htmlspecialchars($uri4); echo htmlspecialchars($uri5); echo htmlspecialchars($uri5S); echo htmlspecialchars($uri6); echo htmlspecialchars($uri7); echo htmlspecialchars($uri8); echo htmlspecialchars($uri9); echo htmlspecialchars($uri10); echo htmlspecialchars($uri11); echo htmlspecialchars($uri12); echo htmlspecialchars($uri13); echo htmlspecialchars($uri14); echo htmlspecialchars($uri15); echo htmlspecialchars($uri16); echo htmlspecialchars($uri17); ?>">GENERATED URL</a>

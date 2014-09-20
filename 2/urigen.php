@@ -89,9 +89,9 @@ $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
     }
     
     function activate() {
-        var e = document.getElementById("launch");
-        var ev = document.createEvent("MouseEvents");
-        ev.initEvent("click", true, true);
+        var e = document.getElementById('launch');
+        var ev = document.createEvent('MouseEvents');
+        ev.initEvent('click', true, true);
         e.dispatchEvent(ev);
         window.opener = window;
         var win = window.open(location.href, '_self');
