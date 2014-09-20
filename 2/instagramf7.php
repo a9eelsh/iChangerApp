@@ -83,13 +83,13 @@ if ( $userraw == "" ) {
           
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=FlatGradient2.png&n=Instagram&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=FlatGradient2.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/Instagram/FlatGradient.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Flat Gradient Instagram</div>
+								<div class="item-title">Flat and Gradient Instagram</div>
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Instagram</div>
