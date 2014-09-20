@@ -26,14 +26,17 @@ $uri1 = 'data:text/html;charset=utf-8,';
 $uri2 = '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
 $uri3 = '<meta name="apple-mobile-web-app-status-bar-style" content="black"/>';
 $uri4 = '<meta http-equiv="content-type" content="text/html;charset=utf-8"/>';
-$uri5 = '<link rel="apple-touch-icon" href=';
-
-echo $uri1;
-echo $uri2;
-echo $uri3;
-echo $uri4;
-
-
+$uri5 = '<link rel="apple-touch-icon" href="' . htmlspecialchars($iconmain) . '"';
+$uri6 = '<link rel="apple-touch-icon" href="' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'16' . htmlspecialchars($iconext) . '" sizes="16x16">';
+$uri7 = '<link rel="apple-touch-icon" href="' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'48' . htmlspecialchars($iconext) . '" sizes="48x48">';
+$uri8 = '<link rel="apple-touch-icon" href="' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'64' . htmlspecialchars($iconext) . '" sizes="64x64">';
+$uri9 = '<link rel="apple-touch-icon" href="' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'72' . htmlspecialchars($iconext) . '" sizes="72x72">';
+$uri10 = '<link rel="apple-touch-icon" href="' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'128' . htmlspecialchars($iconext) . '" sizes="128x128">';
+$uri11 = '<link rel="apple-touch-icon" href="' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'256' . htmlspecialchars($iconext) . '" sizes="256x256">';
+$uri12 = '<link rel="apple-touch-icon" href="' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'512' . htmlspecialchars($iconext) . '" sizes="512x512">';
+$uri13 = '<title>' . htmlspecialchars($appname) . '</title>';
+$uri14 = '<h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>';
 ?>
-<a href="<?php print $uri; ?>">GENERATED URL</a>
+
+<a href="<?php echo htmlspecialchars($uri1); echo htmlspecialchars($uri2); echo htmlspecialchars($uri3); echo htmlspecialchars($uri4); echo htmlspecialchars($uri5); echo htmlspecialchars($uri6); echo htmlspecialchars($uri7); echo htmlspecialchars($uri8); echo htmlspecialchars($uri9); echo htmlspecialchars($uri10); echo htmlspecialchars($uri11); ?>">GENERATED URL</a>
 
