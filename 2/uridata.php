@@ -22,14 +22,6 @@ $icon512 = '' . htmlspecialchars($_GET["p"]) . '512' . htmlspecialchars($_GET["p
 //  echo "<!-- Error Code [73b68w] -->";
 //}
 
-
-
-
-
-
-
-
-$uri = 'data:text/html;base64,' . base64_encode($html);
 $uri1 = 'data:text/html;charset=utf-8,';
 $uri2 = '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
 $uri3 = '<meta name="apple-mobile-web-app-status-bar-style" content="black"/>';
