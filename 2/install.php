@@ -1,4 +1,15 @@
 <?php 
+/*
+ _________________________
+|-------------------------|
+| iChanger 2 Main Handler |
+ \-----------------------/
+ / VERY IMPORTANT FILE!! \
+|  DO NOT EDIT W/O PERMS  |
+ \-----------------------/
+ 
+ 
+*/
 // Connects to your Database
 //mysql_connect("thelocken.com", "", "") 
 //	or die(mysql_error()); 
@@ -22,6 +33,7 @@
 //  echo "Failed to connect to iChanger Servers! Error Code: " . mysqli_connect_error(); 
 //}
 ?>
+<!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>
   <title>Installing iChanger</title>
   <meta name="apple-mobile-web-app-title" content="iChanger 2">

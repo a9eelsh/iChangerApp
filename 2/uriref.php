@@ -1,3 +1,4 @@
+<!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <?php
 // This file is here to set the HTTP_REF in urigen.php for improved dectection
 

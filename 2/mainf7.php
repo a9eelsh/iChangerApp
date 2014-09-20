@@ -49,6 +49,7 @@ if ( $userraw == "" ) {
 
 ?>
 <!DOCTYPE html>
+<!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <html>
   <head>
     <link href="http://www.lockenfiles.tk/cdn/h5form/test/qunit.css" rel="stylesheet" />
