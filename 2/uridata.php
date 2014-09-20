@@ -2,7 +2,6 @@
 <?php
 
 $uri = 'data:text/html;base64,' . base64_encode($html);
-print $uri;
-echo "\n";
+echo "$uri \n";
 ?>
 <a href="<?php print $uri; ?>">GENERATED URL</a>
