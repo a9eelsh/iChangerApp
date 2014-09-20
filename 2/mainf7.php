@@ -575,6 +575,7 @@ echo "</p></div>";
                       </div></a></li>
                 </ul>
                 </ul>
+                <iframe src="http://tylerlh.github.com/github-latest-commits-widget/?username=rosco1502&repo=iChanger-2&limit=2"  allowtransparency="true" frameborder="0" scrolling="no" width="502px" height="252px"></iframe>
                 <p><a href="#" class="beta-warning">BETA WARNING</a></p>
                 <p><a href="http://ichanger.tk/hayday.html" class="external">HeyDau</a></p>
               </div>
