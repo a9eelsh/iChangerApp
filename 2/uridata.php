@@ -1,5 +1,6 @@
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <?php
+
 $appname = '' . htmlspecialchars($_GET["n"]) . '';
 $iconfolder = '' . htmlspecialchars($_GET["a"]) . '';
 $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
@@ -15,11 +16,11 @@ $icon128 = '' . htmlspecialchars($_GET["p"]) . '128' . htmlspecialchars($_GET["p
 $icon256 = '' . htmlspecialchars($_GET["p"]) . '256' . htmlspecialchars($_GET["pe"]) . '';
 $icon512 = '' . htmlspecialchars($_GET["p"]) . '512' . htmlspecialchars($_GET["pe"]) . '';
 
-if( $appname == "" && $iconfolder == "" && $iconmain == "" ) {
-  echo "<h1>Invalid Generated Shortcut</h1>\n";
-  echo "<h2>If this shortcut is a stock/premade/example and this message keeps appearing, contact TheLocken LLC iChanger Support from the sidepanel in the iChanger app.</h2>\n";
-  echo "<!-- Error Code [73b68w] -->";
- }
+//if( $appname == "" && $iconfolder == "" && $iconmain == "" ) {
+//  echo "<h1>Invalid Generated Shortcut</h1>\n";
+//  echo "<h2>If this shortcut is a stock/premade/example and this message keeps appearing, contact TheLocken LLC iChanger Support from the sidepanel in the iChanger app.</h2>\n";
+//  echo "<!-- Error Code [73b68w] -->";
+//}
 
 
 
