@@ -36,7 +36,10 @@ $uri3 = '<meta name="apple-mobile-web-app-status-bar-style" content="black"/>';
 $uri4 = '<meta http-equiv="content-type" content="text/html;charset=utf-8"/>';
 $uri5 = '<link rel="apple-touch-icon" href="' . $iconfolder . '"/"' . $iconmain . '""' . $iconext . '">';
 
-echo "" . $uri1 . "" . $uri2 . "" . $uri3 . "" . $uri4 . "" . $uri1 . "" . $uri1 . "" . $uri1 . "";
+echo $uri1;
+echo $uri2;
+echo $uri3;
+echo $uri4;
 
 
 ?>
