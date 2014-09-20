@@ -32,5 +32,5 @@ $v = '' . htmlspecialchars($_GET["v"]) . '';
     }
 	</script>
 <body onload="simClickMain()">
-    <a id="simClickElement" href="urigen.php?n=<?php print $appname; ?>&a=<?php print $iconfolder; ?>&p=<?php print $iconmain; ?>&pe=<?php print $iconext; ?>&ur=<?php print $appurl; ?>&v=<?php print $v; ?>">ENABLE JAVASCRIPT</a>
+    <a id="simClickElement" href="uridata.php?n=<?php print $appname; ?>&a=<?php print $iconfolder; ?>&p=<?php print $iconmain; ?>&pe=<?php print $iconext; ?>&ur=<?php print $appurl; ?>&v=<?php print $v; ?>">ENABLE JAVASCRIPT</a>
 </body>
