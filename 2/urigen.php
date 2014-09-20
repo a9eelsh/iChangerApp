@@ -56,10 +56,11 @@ if( $exist1 == "1" ) {
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"256"; print $iconext; ?>" sizes="256x256">
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"512"; print $iconext; ?>" sizes="512x512">
   <title><?php print $appname; ?></title>
+  <h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>
 <?php
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
-if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
+/*if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       echo('<!--Running in safari on iPhone/iPad--><h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..' . htmlspecialchars($_GET["v"]) . '</h1>');
    } else if ( substr_count($ua, '/') === 3 ) {
@@ -72,7 +73,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 } else {
    echo('  <!--Running on device other than iPhone/iPad.--><p><h1>iChanger Only Works on iOS and Android Devices*</h1></p><p><h3>*Android Support Coming Soon</h3></p>');
 }
-
+*/
 
 ?>
 <a id="go" href="<?php echo '' . htmlspecialchars($_GET["ur"]) . ''; ?>">
