@@ -575,7 +575,7 @@ echo "</p></div>";
                       </div></a></li>
                 </ul>
                 </ul>
-                <p><a href="#" class="alert-text-title">Alert With Text and Title</a></p>
+                <p><a href="#" class="beta-warning">BETA WARNING</a></p>
                 <p><a href="http://ichanger.tk/hayday.html" class="external">HeyDau</a></p>
               </div>
             </div>
