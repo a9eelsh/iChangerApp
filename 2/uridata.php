@@ -29,8 +29,13 @@ if( $appname == "" && $iconfolder == "" && $iconmain == "" ) {
 
 
 $uri = 'data:text/html;base64,' . base64_encode($html);
-$urimain = 'data:text/html;charset=utf-8,<meta name="viewport" content="width=device-width, initial-scale=1.0"/> <meta name="apple-mobile-web-app-status-bar-style" content="black"/> <meta http-equiv="content-type" content="text/html;charset=utf-8"/> <link rel="apple-touch-icon" href="' $iconfolder; echo "/"; print $iconmain; echo""; print $iconext;">';
-echo "$uri \n";
+$uri1 = 'data:text/html;charset=utf-8,';
+$uri2 = '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
+$uri3 = '<meta name="apple-mobile-web-app-status-bar-style" content="black"/>';
+$uri4 = '<meta http-equiv="content-type" content="text/html;charset=utf-8"/>';
+$uri5 = '<link rel="apple-touch-icon" href="' . $iconfolder . '"/"' . $iconmain . '""' . $iconext . '">';
+
+echo "" . $uri1 . "" . $uri2 . "" . $uri3 . "" . $uri4 . "" . $uri1 . "" . $uri1 . "" . $uri1 . "";
 
 
 ?>
