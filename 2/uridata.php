@@ -40,5 +40,5 @@ $uri13 = '<title>' . htmlspecialchars($appname) . '</title>';
 $uri14 = '<h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>';
 ?>
 
-<a href="<?php echo htmlspecialchars($uri1); echo htmlspecialchars($uri2); echo htmlspecialchars($uri3); echo htmlspecialchars($uri4); echo htmlspecialchars($uri5); echo htmlspecialchars($uri5S); echo htmlspecialchars($uri6); echo htmlspecialchars($uri7); echo htmlspecialchars($uri8); echo htmlspecialchars($uri9); echo htmlspecialchars($uri10); echo htmlspecialchars($uri11); ?>">GENERATED URL</a>
+<a href="<?php echo htmlspecialchars($uri1); echo htmlspecialchars($uri2); echo htmlspecialchars($uri3); echo htmlspecialchars($uri4); echo htmlspecialchars($uri5); echo htmlspecialchars($uri5S); echo htmlspecialchars($uri6); echo htmlspecialchars($uri7); echo htmlspecialchars($uri8); echo htmlspecialchars($uri9); echo htmlspecialchars($uri10); echo htmlspecialchars($uri11); echo htmlspecialchars($uri12); echo htmlspecialchars($uri13); echo htmlspecialchars($uri14); echo htmlspecialchars($uri15); echo htmlspecialchars($uri16); echo htmlspecialchars($uri17); ?>">GENERATED URL</a>
 
