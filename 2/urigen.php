@@ -31,11 +31,14 @@ if( $appname == "" && $iconfolder == "" && $iconmain == "" ) {
  }
 
 ?>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
   <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo""; print $iconext; ?>">
+
 <?php
+
 if( $exist1 == "1" ) {
 	echo '<link rel="apple-touch-icon" href="';
 	print $iconfolder;
@@ -58,6 +61,7 @@ if( $exist1 == "1" ) {
   <title><?php print $appname; ?></title>
   <h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>
 <?php
+
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
 /*if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
@@ -76,7 +80,7 @@ $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 */
 
 ?>
-<a id="go" href="<?php echo '' . htmlspecialchars($_GET["ur"]) . ''; ?>">
+<a id="launch" href="<?php echo '' . htmlspecialchars($_GET["ur"]) . ''; ?>">
 <Script>
     if (!document.referrer) {
         document.write("<div style='padding: 10px;'><p style=''></p></div>");
@@ -84,7 +88,7 @@ $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
     }
     
     function activate() {
-        var e = document.getElementById("go");
+        var e = document.getElementById("launch");
         var ev = document.createEvent("MouseEvents");
         ev.initEvent("click", true, true);
         e.dispatchEvent(ev);
