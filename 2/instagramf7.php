@@ -58,7 +58,7 @@ if ( $userraw == "" ) {
 			<!--</ul>
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/urigen.php?a=Instagram&p=Flat&pe=.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=Flat&pe=.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/Instagram/Flat256.png" width="80">
 						</div>
@@ -83,7 +83,7 @@ if ( $userraw == "" ) {
           
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/urigen.php?a=Instagram&p=FlatGradient2.png&n=Instagram&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=FlatGradient2.png&n=Instagram&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/Instagram/FlatGradient.png" width="80">
 						</div>
@@ -102,7 +102,7 @@ if ( $userraw == "" ) {
             <ul>-->
           
 				<li>
-					<a href="http://ichanger.tk/urigen.php?a=AppStore&p=Glimpse.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=Glimpse.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/AppStore/Glimpse.png" width="80">
 						</div>
@@ -124,7 +124,7 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/urigen.php?a=AppStore&p=Novus.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=Novus.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/AppStore/Novus.png" width="80">
 						</div>
@@ -145,7 +145,7 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/urigen.php?a=AppStore&p=light.jpg&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=light.jpg&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/AppStore/lightOLD.png" width="80">
 						</div>
@@ -162,7 +162,7 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/urigen.php?a=AppStore&p=lightwinter.JPG&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=lightwinter.JPG&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/AppStore/lightwinter.JPG" width="80">
 						</div>
