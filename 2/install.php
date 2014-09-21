@@ -65,8 +65,8 @@
 <?php
 
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
-
-if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
+if ( $betaicon = "1" ) {
+    if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       echo('<!--Running in safari on iPhone/iPad--><h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
    } else if ( substr_count($ua, '/') === 3 ) {
@@ -79,6 +79,10 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 } else {
    echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
 }
+} else {
+    echo "Due to a huge update, please re-install iChanger 2 by visiting http://iChanger.tk/ In safari and install again.";
+}
+
 ?>
 <script>
 if(navigator.userAgent.match('CriOS')) {
