@@ -81,7 +81,9 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   	addToHomescreen.removeSession()
   </script>
 </head>
-
+	  <noscript>
+	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
+	  </noscript>
 <script>
 if(navigator.userAgent.match('CriOS')) {
     //document.write('<meta http-equiv="refresh" content="0;URL='http://example.com/'" />');
