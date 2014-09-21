@@ -63,9 +63,13 @@
   </script>
 </head>
 <?php
+if ( $betaicon = "" ) {
+    $betaicon = "false";
+    echo "Due to a huge update, please re-install iChanger 2 by visiting http://iChanger.tk/ In safari and install again.";
+}
 
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
-if ( $betaicon = "1" ) {
+if ( $betaicon = "true" ) {
     if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       echo('<!--Running in safari on iPhone/iPad--><h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
@@ -76,11 +80,9 @@ if ( $betaicon = "1" ) {
    } else {
       echo('Running in another browser on iPhone/iPad');
    }
-} else {
+    } else {
    echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
-}
-} else {
-    echo "Due to a huge update, please re-install iChanger 2 by visiting http://iChanger.tk/ In safari and install again.";
+    }
 }
 
 ?>
