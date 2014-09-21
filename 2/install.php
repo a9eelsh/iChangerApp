@@ -33,6 +33,25 @@
 //  echo "Failed to connect to iChanger Servers! Error Code: " . mysqli_connect_error(); 
 //}
 ?>
+<?php
+
+$ua = strtolower($_SERVER['HTTP_USER_AGENT']);
+if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
+   if ( strpos($ua,"safari") ) {
+      echo('<!--Running in safari on iPhone/iPad--><h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
+   } else if ( substr_count($ua, '/') === 3 ) {
+     header('Location: http://www.ichanger.tk/mainf7.php');
+   } else if ( substr_count($ua, '/') === 2 ) {
+      echo('Running in a WebView on a iPhone/iPad app');
+   } else {
+      echo('Running in another browser on iPhone/iPad');
+   }
+    } else {
+   echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
+    }
+
+
+?>
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>
   <title>Installing iChanger</title>
@@ -62,30 +81,7 @@
   	addToHomescreen.removeSession()
   </script>
 </head>
-<?php
-if ( $betaicon = "" ) {
-    $betaicon = "false";
-    echo "Due to a huge update, please re-install iChanger 2 by visiting http://iChanger.tk/ In safari and install again.";
-}
 
-$ua = strtolower($_SERVER['HTTP_USER_AGENT']);
-if ( $betaicon = "true" ) {
-    if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
-   if ( strpos($ua,"safari") ) {
-      echo('<!--Running in safari on iPhone/iPad--><h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
-   } else if ( substr_count($ua, '/') === 3 ) {
-     echo('<!--Running as stand alone WebApp on iPhone/iPad--><meta http-equiv="refresh" content="0; url=http://ichanger.tk/mainf7.php">');
-   } else if ( substr_count($ua, '/') === 2 ) {
-      echo('Running in a WebView on a iPhone/iPad app');
-   } else {
-      echo('Running in another browser on iPhone/iPad');
-   }
-    } else {
-   echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
-    }
-}
-
-?>
 <script>
 if(navigator.userAgent.match('CriOS')) {
     //document.write('<meta http-equiv="refresh" content="0;URL='http://example.com/'" />');
