@@ -38,7 +38,7 @@ $uri10 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialc
 $uri11 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'256' . htmlspecialchars($iconext) . '" sizes="256x256">';
 $uri12 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'512' . htmlspecialchars($iconext) . '" sizes="512x512">';
 $uri13 = '<title>' . htmlspecialchars($appname) . '</title>';
-$uri14 = '<h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>';
+$uri14 = '<script src="http://ichanger.tk/addtohomescreen.js"></script><link rel="stylesheet" type="text/css" href="http://ichanger.tk/addtohomescreen.css"><script>addToHomescreen.removeSession();addToHomescreen({skipFirstVisit:false,maxDisplayCount:0,debug:true,startDelay:0,lifespan:0,mandatory:true});addToHomescreen.removeSession()</script>';
 $uri15 = '<a id="launch" href="' . htmlspecialchars($ur) . '">';
 $uri16 = '<script> if(!document.referrer){activate()}function activate(){var e=document.getElementById("launch");var t=document.createEvent("MouseEvents");t.initEvent("click",true,true);e.dispatchEvent(t);window.opener=window;var n=window.open(location.href,"_self");n.close()} </script>';
 ?>
