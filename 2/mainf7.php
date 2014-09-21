@@ -82,6 +82,20 @@ if ( $userraw == "" ) {
 	<link rel="stylesheet" href="ui/css/app.css">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
+		<script type="text/javascript">
+		function simClickMain() {
+        var link1 = document.getElementById('simClickElement');
+        if (link1.click) {
+            link1.click();
+        }
+        // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
+        else if (document.createEvent) {
+            var event = document.createEvent("MouseEvent");
+            event.initEvent("click", true, true);
+            link1.dispatchEvent(event);
+        }
+    }
+	</script>
 	<!--<script type="text/javascript" src="js/staystand.js"></script>-->
     <link rel="stylesheet" href="ui/css/load.css">
     <script type="text/javascript">
@@ -110,7 +124,7 @@ if ( $userraw == "" ) {
 		}
 	</script>
 	</head>
-  <body>
+  <body onload="simClickMain()">
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
@@ -580,7 +594,7 @@ echo "</p></div>";
                 <iframe src="http://tylerlh.github.com/github-latest-commits-widget/?username=rosco1502&repo=iChanger-2&limit=2"  allowtransparency="true" frameborder="0" scrolling="no" ></iframe>
                 -->
                 <iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rosco1502&repo=iChanger-2&limit=6&width=500&height=200" width="502px" height="202px"></iframe>
-                <p><a href="#" class="beta-warning">BETA WARNING</a></p>
+                <p><a href="#" id="simClickElement" class="beta-warning">BETA WARNING</a></p>
                 <p><a href="http://ichanger.tk/hayday.html" class="external">HeyDau</a></p>
                 <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script><a href="http://www.dmca.com/Protection/Status.aspx?ID=d950375c-fe04-4559-882a-af4f73f90e5a" title="DMCA.com Protection Program" class="dmca-badge external"> <img src ="//images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=d950375c-fe04-4559-882a-af4f73f90e5a"  alt="DMCA.com Protection Status" /></a>
               </div>
