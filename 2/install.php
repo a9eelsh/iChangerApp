@@ -59,7 +59,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   <link rel="apple-touch-icon" href="http://www.ichanger.tk/pics/iC2-4-2-BETA.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
   <script type="text/javascript" src="http://ichanger.tk/js/staystand.js"></script>
   <link rel="stylesheet" type="text/css" href="http://ichanger.tk/addtohomescreen.css">
   <script src="http://ichanger.tk/addtohomescreen.js"></script>
