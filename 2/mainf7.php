@@ -313,7 +313,7 @@ echo "</p></div>";
                         </div>
                       </div></a></li>
                 </ul>
-                <iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rosco1502&repo=iChanger-2&limit=6&width=500&height=200" width="502px" height="202px"></iframe>
+                <center><iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rosco1502&repo=iChanger-2&limit=6&width=500&height=200" width="502px" height="202px"></iframe></center>
               </div>
             </div>
           </div>
@@ -594,7 +594,6 @@ echo "</p></div>";
                 <!-- width="502px" height="252px"
                 <iframe src="http://tylerlh.github.com/github-latest-commits-widget/?username=rosco1502&repo=iChanger-2&limit=2"  allowtransparency="true" frameborder="0" scrolling="no" ></iframe>
                 -->
-                <iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rosco1502&repo=iChanger-2&limit=6&width=500&height=200" width="502px" height="202px"></iframe>
                 <p><a href="#" id="simClickElement" class="beta-warning">BETA WARNING</a></p>
                 <p><a href="http://ichanger.tk/hayday.html" class="external">HeyDau</a></p>
                 <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script><a href="http://www.dmca.com/Protection/Status.aspx?ID=d950375c-fe04-4559-882a-af4f73f90e5a" title="DMCA.com Protection Program" class="dmca-badge external"> <img src ="//images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=d950375c-fe04-4559-882a-af4f73f90e5a"  alt="DMCA.com Protection Status" /></a>
