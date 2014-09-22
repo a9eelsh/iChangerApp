@@ -331,7 +331,7 @@ echo "</p></div>";
 
 
               -->
-            <div class="center sliding">iChanger - How To?</div>
+            <div class="center sliding">iChanger - How To</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-menu"></i></a></div>
           </div>
         </div>
