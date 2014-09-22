@@ -378,6 +378,10 @@ echo "</p></div>";
             <div class="center sliding">iChanger - Apps 
             <?php 
             $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
+            if( $dev = "" || $dev = "null" || $dev = "0" ) {
+              $dev = "false";
+            }
+            
             if( $dev = "true" ) {
               echo "- DEV MODE ENABLED";
             } else {
