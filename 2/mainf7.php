@@ -566,7 +566,7 @@ echo "</p></div>";
                       </div></a></li>
                   <li><a href="custom/custom.php" class="item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <div class="item-media"><i class="icon icon-app-custom"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Custom</div>
 							<span class="list-val button ">Make</span>
