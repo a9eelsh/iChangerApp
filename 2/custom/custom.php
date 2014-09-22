@@ -42,7 +42,90 @@ $name = $email = $gender = $comment = $website = "";
 	color:white;
 	}
 </style>
-  <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js"></script>
+  <script>
+  	$.validator.setDefaults({
+		submitHandler: function() {
+			alert("submitted!");
+		}
+	});
+
+	$().ready(function() {
+		// validate the comment form when it is submitted
+		$("#commentForm").validate();
+
+		// validate signup form on keyup and submit
+		$("#customForm").validate({
+			rules: {
+				title: "required",
+				lastname: "required",
+				username: {
+					required: true,
+					minlength: 2
+				},
+				password: {
+					required: true,
+					minlength: 5
+				},
+				confirm_password: {
+					required: true,
+					minlength: 5,
+					equalTo: "#password"
+				},
+				email: {
+					required: true,
+					email: true
+				},
+				topic: {
+					required: "#newsletter:checked",
+					minlength: 2
+				},
+				agree: "required"
+			},
+			messages: {
+				firstname: "Please enter your firstname",
+				lastname: "Please enter your lastname",
+				username: {
+					required: "Please enter a username",
+					minlength: "Your username must consist of at least 2 characters"
+				},
+				password: {
+					required: "Please provide a password",
+					minlength: "Your password must be at least 5 characters long"
+				},
+				confirm_password: {
+					required: "Please provide a password",
+					minlength: "Your password must be at least 5 characters long",
+					equalTo: "Please enter the same password as above"
+				},
+				email: "Please enter a valid email address",
+				agree: "Please accept our policy"
+			}
+		});
+
+		// propose username by combining first- and lastname
+		$("#username").focus(function() {
+			var firstname = $("#firstname").val();
+			var lastname = $("#lastname").val();
+			if (firstname && lastname && !this.value) {
+				this.value = firstname + "." + lastname;
+			}
+		});
+
+		//code to hide topic selection, disable for demo
+		var newsletter = $("#newsletter");
+		// newsletter topics are optional, hide at first
+		var inital = newsletter.is(":checked");
+		var topics = $("#newsletter_topics")[inital ? "removeClass" : "addClass"]("gray");
+		var topicInputs = topics.find("input").attr("disabled", !inital);
+		// show when newsletter is checked
+		newsletter.click(function() {
+			topics[this.checked ? "removeClass" : "addClass"]("gray");
+			topicInputs.attr("disabled", !this.checked);
+		});
+	});
+	</script>
   <link rel="stylesheet" href="ui/css/load.css">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -91,7 +174,7 @@ $name = $email = $gender = $comment = $website = "";
 		<p><em>Hint: Select it, then click somewhere else without typing anything.</em></p>
 		<input type="submit" value="Submit" class="ui-state-valid">
 	</form>-->
-<form onsubmit="" id="form" class="form" name="form" action="http://ichanger.tk/custom/customend.php" method="post" data-h5-instanceid="0" novalidate="novalidate" enctype="multipart/form-data">
+<form onsubmit="" id="customForm" class="customForm" name="customForm" action="http://ichanger.tk/custom/customend.php" method="post" data-h5-instanceid="0" novalidate="novalidate" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -->
     <li>
@@ -100,7 +183,7 @@ $name = $email = $gender = $comment = $website = "";
         <div class="item-inner">
           <div class="item-title label">Title:*</div>
           <div class="item-input">
-            <input name="name" id="name" type="text" placeholder="Shortcut Title" title="Your name is required." required="" class="h5-active ui-state-error">
+            <input id="title" name="title" type="text" required>
 			<!--<div id="invalid-FirstName" class="ui-state-error message" style="">Required: Please provide your first name.</div>-->
 			<!-- <input id="birthdate" name="name" type="text" placeholder="mm/dd/yyyy" title="mm/dd/yyyy" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" class="h5-active ui-state-valid"> -->
           </div>

@@ -197,3 +197,9 @@ width:29px;
 height:29px;
 background-image:url(../../thumbs/privacyicon.png);
 }
+
+i.icon.icon-app-custom {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/custom.jpg);
+}
