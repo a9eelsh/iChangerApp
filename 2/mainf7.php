@@ -375,7 +375,13 @@ echo "</p></div>";
           -->
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">iChanger - Apps <?php $dev = '' . htmlspecialchars($_GET["dev"]) . ''; if( $dev = "true" ) { echo "- DEV MODE ENABLED" } ?></div>
+            <div class="center sliding">iChanger - Apps 
+            <?php 
+            $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
+            if( $dev = "true" ) {
+              echo "- DEV MODE ENABLED";
+            }
+            ?></div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
