@@ -24,7 +24,7 @@ $devmodel = "Dev Mode $devmodedis";
 // TheLocken iChanger 2 Authentication Handler and Carrier
 
 // !!!!! THIS ATTEMPT HAS FAILED TO CARRY ACCROSS PAGES !!!!!
-// !!!!! DUE TO HOW FRAMEWORK7 LOADS PAGES USING AJAX   !!!!!
+// !!!!! DUE TO HOW FRAMEWORK7 LOADS PAGES USIfNG AJAX   !!!!!
 // !!!!!        THIS DOES NOT FUNCTION ANYMORE          !!!!!
 
 	// Convert ?user=USERNAME to USERNAME
@@ -313,6 +313,7 @@ echo "</p></div>";
                         </div>
                       </div></a></li>
                 </ul>
+                <iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rosco1502&repo=iChanger-2&limit=6&width=500&height=200" width="502px" height="202px"></iframe>
               </div>
             </div>
           </div>
