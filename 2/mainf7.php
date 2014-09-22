@@ -391,7 +391,7 @@ echo "</p></div>";
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-appstore"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">App Store</div>
+                          <div class="item-title">App Store - WORKING</div>
 						<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -560,7 +560,7 @@ echo "</p></div>";
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-3-instagram"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Instagram</div>
+                          <div class="item-title">Instagram - WORKING</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
