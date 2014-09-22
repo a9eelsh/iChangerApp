@@ -34,19 +34,24 @@
 //}
 ?>
 <?php
+// Variables
+// Display Dev-Titles
+$dev = '' . htmlspecialchars($_GET["dev"]) . '';
 
+// START MAIN FOWARDING
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       echo('<!--Running in safari on iPhone/iPad--><h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
    } else if ( substr_count($ua, '/') === 3 ) {
-     header('Location: http://www.ichanger.tk/mainf7.php');
+     header('Location: http://www.ichanger.tk/mainf7.php?dev=' . htmlspecialchars($_GET["dev"]) . '&');
    } else if ( substr_count($ua, '/') === 2 ) {
       echo('Running in a WebView on a iPhone/iPad app');
    } else {
       echo('Running in another browser on iPhone/iPad');
    }
     } else {
+        header('Location: http://www.thelocken.com/ichangerinfo/');
    echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
     }
 
