@@ -380,6 +380,8 @@ echo "</p></div>";
             $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
             if( $dev = "true" ) {
               echo "- DEV MODE ENABLED";
+            } else {
+              echo "";
             }
             ?></div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
