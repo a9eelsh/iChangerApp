@@ -288,7 +288,7 @@ echo "</p></div>";
            -->
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">iChanger 2</div>
+            <div class="center sliding">iChanger 2 - Home</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
@@ -296,7 +296,7 @@ echo "</p></div>";
           <div data-page="index-1" class="page">
             <div class="page-content">
               <div class="content-block">
-                <p>This is a second view. Lets, for example, have here some internal pages with navbar navigation<a href="appStoref7.php<?php print $uend; ?>">hi</a></p>
+                <p>Welcome Home.</p>
               </div>
               <div class="list-block">
                 <ul>
@@ -331,7 +331,7 @@ echo "</p></div>";
 
 
               -->
-            <div class="center sliding">Second View</div>
+            <div class="center sliding">iChanger - How To?</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-menu"></i></a></div>
           </div>
         </div>
@@ -375,7 +375,7 @@ echo "</p></div>";
           -->
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">Apps</div>
+            <div class="center sliding">iChanger - Apps</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
@@ -618,7 +618,7 @@ echo "</p></div>";
                 -->
             <div class="navbar">
               <div class="navbar-inner">
-                <div class="center">Settings</div>
+                <div class="center">iChanger - iPeeps</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
               </div>
             </div>
