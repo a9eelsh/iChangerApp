@@ -22,7 +22,7 @@ if(navigator.userAgent.match('CriOS')) {
   }
   </style>
   <div id="middle">
-       
+       <h2>
           <p>
              <center>
              
@@ -53,5 +53,5 @@ if(navigator.userAgent.match('CriOS')) {
                In Safari.
              </center>
           </p>
-      
+      <h2>
   </div>
