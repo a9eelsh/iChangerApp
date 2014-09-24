@@ -4,6 +4,8 @@ if(navigator.userAgent.match('CriOS')) {
 }
 </script>-->
   <title>To install iChanger use Safari</title>
+  	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
   <style>
   #middle {

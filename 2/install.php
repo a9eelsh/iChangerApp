@@ -48,7 +48,8 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    } else if ( substr_count($ua, '/') === 2 ) {
       echo('Running in a WebView on a iPhone/iPad app');
    } else {
-      echo('Running in another browser on iPhone/iPad');
+      echo('<!--Running in another browser on iPhone/iPad-->');
+      header('Location: http://www.ichanger.tk/chrome.php');
    }
     } else {
         header('Location: http://www.thelocken.com/ichangerinfo/');
