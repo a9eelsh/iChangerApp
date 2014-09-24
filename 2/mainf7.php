@@ -379,9 +379,10 @@ echo "</p></div>";
             <?php 
             $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
             if(empty($dev)) {
-              echo"hello false";
+              echo"";
+              
             } else {
-              print $dev;
+              echo"- Dev Mode";
             }
             
             ?></div>
