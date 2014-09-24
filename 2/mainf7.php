@@ -378,7 +378,7 @@ echo "</p></div>";
             <div class="center sliding">iChanger - Apps 
             <?php 
             $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
-            if (!empty($dev)) {
+            if(empty($dev)) {
               echo"hello false";
             } else {
               print $dev;
