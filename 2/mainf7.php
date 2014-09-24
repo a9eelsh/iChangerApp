@@ -378,7 +378,12 @@ echo "</p></div>";
             <div class="center sliding">iChanger - Apps 
             <?php 
             $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
-            print $dev;
+            if (!empty($dev)) {
+              echo"hello false";
+            } else {
+              print $dev;
+            }
+            
             ?></div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
