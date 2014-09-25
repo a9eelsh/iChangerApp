@@ -405,11 +405,11 @@ echo "</p></div>";
 						<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="popover.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="calendarf7.php<?php print $uend; ?>" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-calendar"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Calendar</div>
+                          <div class="item-title">Calendar - NEW</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
