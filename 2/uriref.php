@@ -10,7 +10,7 @@ $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
 $v = '' . htmlspecialchars($_GET["v"]) . '';
 
 // A few settings
-$image = '', $iconfolder, '/' $iconmain, '' $iconext, '';
+$image = '' . $iconfolder . '/' . $iconmain . '' . $iconext . '';
 print $image;
 
 // Read image path, convert to base64 encoding
