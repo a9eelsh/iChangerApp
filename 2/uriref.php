@@ -2,8 +2,6 @@
 <?php
 // This file is here to set the HTTP_REF in urigen.php for improved dectection
 
-
-
 $appname = '' . htmlspecialchars($_GET["n"]) . '';
 $iconfolder = '' . htmlspecialchars($_GET["a"]) . '';
 $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
@@ -11,14 +9,25 @@ $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
 $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
 $v = '' . htmlspecialchars($_GET["v"]) . '';
 
+// A few settings
+$image = '', $iconfolder, '/', $iconmain, '', $iconext, '';
+print $image;
 
+// Read image path, convert to base64 encoding
+$imageData = base64_encode(file_get_contents($image));
+
+// Format the image SRC:  data:{mime};base64,{data};
+$src = 'data: '.mime_content_type($image).';base64,'.$imageData;
+
+// Echo out a sample image
+echo '<img src="', $src, '">';
 
 ?>
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
 	<script type="text/javascript">
-		function simClickMain() {
+		function simClickMain1() {
         var link1 = document.getElementById('simClickElement');
         if (link1.click) {
             link1.click();
