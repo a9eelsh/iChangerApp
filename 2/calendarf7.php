@@ -58,17 +58,17 @@ if ( $userraw == "" ) {
 			<!--</ul>
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=FlurryStyle2.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=Calendar&p=boxedmetal.png&n=Calendar&ur=calshow://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/FlurryStyle2.png" width="80">
+							<img src="http://ichanger.tk/Calendar/boxedmetal.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Flurry Style</div>
+								<div class="item-title">Metal Boxed Calendar</div>
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Calendar</div>
-							<div class="item-text">Like Dislike</div>
+							<div class="item-text">Put your Calendar in a metal box!</div>
 						</div>
 					</a>
 				</li>
