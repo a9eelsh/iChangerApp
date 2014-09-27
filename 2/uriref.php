@@ -9,6 +9,16 @@ $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
 $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
 $v = '' . htmlspecialchars($_GET["v"]) . '';
 
+function _mime_content_type($image) {
+    $result = new finfo();
+
+    if (is_resource($result) === true) {
+        return $result->file($image, FILEINFO_MIME_TYPE);
+    }
+
+    return false;
+}
+print $result;
 // A few settings
 $image = '' . $iconfolder . '/' . $iconmain . '' . $iconext . '';
 print $image;
