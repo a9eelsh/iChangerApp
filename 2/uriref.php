@@ -9,6 +9,8 @@ $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
 $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
 $v = '' . htmlspecialchars($_GET["v"]) . '';
 
+echo 'Current PHP version: ' . phpversion();
+
 function _mime_content_type($image) {
     $result = new finfo();
 
