@@ -19,11 +19,11 @@ echo " -->";
 $switch = '' . htmlspecialchars($_GET["switch"]) . '';
 
 // Start Switch
-if ( $switch = "yes" ) {
-    $url = "urigen.php";
-} else {
+//if ( $switch = "yes" ) {
+//    $url = "urigen.php";
+//} else {
     $url = "uridata.php";
-}
+//}
 
 print $url;
 
