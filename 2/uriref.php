@@ -15,7 +15,7 @@ $v = '' . htmlspecialchars($_GET["v"]) . '';
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
 	<script type="text/javascript">
-		function simClickMain() {
+		function simClickMain1() {
         var link1 = document.getElementById('simClickElement');
         if (link1.click) {
             link1.click();
