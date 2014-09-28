@@ -245,20 +245,8 @@ if ( $userraw == "" ) {
 <?php
 echo "v";
 print $version;
-if ( $devmode == "true" ) {
-echo "<div class='content-block'>";
-echo "<p>";
-print $devmodel;
-echo "</p><p>";
-echo "Username:";
-print $user_name;
-echo "</p><p>";
-echo "Userdisplay:";
-print $user_display;
-echo "</p></div>";
-}
 ?>
-    </p>
+</p>
     </div>
     </div>
 	
