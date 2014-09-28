@@ -213,7 +213,7 @@ if ( $userraw == "" ) {
 </div></a></li>
 <li><a href="grid.html" class="close-panel item-link">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-f7"></i></div>
+<div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
 <div class="item-inner">
 <div class="item-title">Quick Tutorial</div>
 </div>
@@ -222,12 +222,12 @@ if ( $userraw == "" ) {
 <div class="item-content">
 <div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
 <div class="item-inner">
-<div class="item-title">Report Bug<span>or Issue</span></div>
+<div class="item-title">Report Bug<span> or Issue</span></div>
 </div>
 </div></a></li>
 <li><a href="navbars-toolbars.html" class="close-panel item-link">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-f7"></i></div>
+<div class="item-media"><i class="icon icon-menu-privacy"></i></div>
 <div class="item-inner">
 <div class="item-title">Terms of Service</div>
 </div>
