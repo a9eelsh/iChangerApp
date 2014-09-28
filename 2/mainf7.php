@@ -1,4 +1,11 @@
 <?php
+// Echo Dynamic Global Version Text File
+$vfile = "version.txt";
+$fh = fopen($vfile, 'r');
+$version = fread($fh, filesize($vfile));
+fclose($fh);
+// echo $version;
+
 $devmode = '' . htmlspecialchars($GET_["devmode"]) . '';
 
 // Start session
@@ -211,11 +218,11 @@ if ( $userraw == "" ) {
 <div class="item-title">Quick Tutorial</div>
 </div>
 </div></a></li>
-<li><a href="preloader.html" class="close-panel item-link">
+<li><a href="http://bit.ly/iC2newissue" class="external close-panel item-link">
 <div class="item-content">
 <div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
 <div class="item-inner">
-<div class="item-title">Send Feedback</div>
+<div class="item-title">Report Bug<span>or Issue</span></div>
 </div>
 </div></a></li>
 <li><a href="navbars-toolbars.html" class="close-panel item-link">
@@ -234,6 +241,8 @@ if ( $userraw == "" ) {
 </div></a></li>
 </ul>
 <?php
+echo "v";
+print $version;
 if ( $devmode == "true" ) {
 echo "<div class='content-block'>";
 echo "<p>";
