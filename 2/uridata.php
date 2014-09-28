@@ -1,6 +1,12 @@
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <?php
+/*
+ function close_window() {
+    close();
+}
 
+function close_window(){close()}
+*/
 $appname = '' . htmlspecialchars($_GET["n"]) . '';
 $iconfolder = '' . htmlspecialchars($_GET["a"]) . '';
 $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
@@ -56,7 +62,7 @@ $uri1 = 'data:text/html;charset=utf-8,';
 $uri2 = '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
 $uri3 = '<meta name="apple-mobile-web-app-status-bar-style" content="black"/>';
 $uri4 = '<meta http-equiv="content-type" content="text/html;charset=utf-8"/>';
-$uri5 = '';
+$uri5 = '<script> function close_window(){close()} </script>';
 $uri5S = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . $src . '"';
 // . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'16' . htmlspecialchars($iconext) . '
 $uri6 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'16' . htmlspecialchars($iconext) . '" sizes="16x16">';
