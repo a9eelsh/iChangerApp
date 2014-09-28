@@ -211,7 +211,7 @@ if ( $userraw == "" ) {
 <div class="item-title">Sumbit a Theme</div>
 </div>
 </div></a></li>
-<li><a href="grid.html" class="close-panel item-link">
+<li><a href="#view-2" class="tab-link close-panel">
 <div class="item-content">
 <div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
 <div class="item-inner">
