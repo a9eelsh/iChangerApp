@@ -86,7 +86,7 @@ if ( $userraw == "" ) {
 	<!-- Path to TheLocken Core CSS -->
     <link rel="stylesheet" href="ui/css/f7-2.css">
     <link rel="stylesheet" href="ui/css/tabs.css">
-	<link rel="stylesheet" href="ui/css/app.css?v=1">
+	<link rel="stylesheet" href="ui/css/app.css?v=2">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
 		<script type="text/javascript">

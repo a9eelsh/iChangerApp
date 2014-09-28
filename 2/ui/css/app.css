@@ -165,13 +165,13 @@ background-image:url(../../pics/youtube.png);
 i.icon.icon-menu-submitatheme {
 width:29px;
 height:29px;
-background-image:url(http://cdn.icons8.com/storage/iOS7/PNG/50/Very_Basic/upload_to_cloud-50.png);
+background-image:url(../../thumbs/upload_to_cloud-50.png);
 }
 
 i.icon.icon-menu-reportaproblem {
 width:29px;
 height:29px;
-background-image:url(http://cdn.icons8.com/storage/windows8/PNG/48/Programming/bug-48.png);
+background-image:url(../../thumbs/bug-50.png);
 }
 
 i.icon.icon-menu-thelocken {
@@ -195,7 +195,7 @@ background-image:url(../../pics/instagram.png);
 i.icon.icon-menu-privacy {
 width:29px;
 height:29px;
-background-image:url(http://cdn.icons8.com/storage/windows8/PNG/48/Very_Basic/document-48.png);
+background-image:url(../../thumbs/document-48.png);
 }
 
 i.icon.icon-app-custom {
@@ -207,5 +207,5 @@ background-image:url(../../thumbs/custom.jpg);
 i.icon.icon-menu-tutorial {
 width:29px;
 height:29px;
-background-image:url(http://cdn.icons8.com/storage/Android_L/PNG/48/Programming/help-48.png);
+background-image:url(../../thumbs/help-50.png);
 }
