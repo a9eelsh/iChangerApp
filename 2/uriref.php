@@ -1,6 +1,7 @@
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <?php
-// This file is here to set the HTTP_REF in urigen.php for improved dectection
+// This file is here to set the HTTP_REF in urigen.php for improved dectection and
+// convert photos to URI Data Photos
 
 $appname = '' . htmlspecialchars($_GET["n"]) . '';
 $iconfolder = '' . htmlspecialchars($_GET["a"]) . '';
@@ -8,8 +9,6 @@ $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
 $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
 $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
 $v = '' . htmlspecialchars($_GET["v"]) . '';
-
-echo 'Current PHP version: ' . phpversion();
 
 function _mime_content_type($image) {
     $result = new finfo();
@@ -24,6 +23,7 @@ print $result;
 // A few settings
 $image = '' . $iconfolder . '/' . $iconmain . '' . $iconext . '';
 print $image;
+echo "\n";
 
 // Read image path, convert to base64 encoding
 $imageData = base64_encode(file_get_contents($image));
@@ -32,7 +32,7 @@ $imageData = base64_encode(file_get_contents($image));
 $src = 'data: '._mime_content_type($image).';base64,'.$imageData;
 
 // Echo out a sample image
-echo '<img src="', $src, '">';
+// echo '<img src="', $src, '">';
 
 ?>
 	  <noscript>
@@ -53,5 +53,5 @@ echo '<img src="', $src, '">';
     }
 	</script>
 <body onload="simClickMain()">
-    <a id="simClickElement" href="uridata.php?n=<?php print $appname; ?>&a=<?php print $iconfolder; ?>&p=<?php print $iconmain; ?>&pe=<?php print $iconext; ?>&ur=<?php print $appurl; ?>&v=<?php print $v; ?>">ENABLE JAVASCRIPT</a>
+    <a id="simClickElement" href="uridata.php?n=<?php print $appname; ?>&a=UNSUPPORTED&p=<?php print $src; ?>&pe=UNSUPPORTED&ur=<?php print $appurl; ?>&v=<?php print $v; ?>">ENABLE JAVASCRIPT TO INSTALL APPS</a>
 </body>
