@@ -40,14 +40,16 @@ if( $appname == "" && $iconfolder == "" && $iconmain == "" ) {
 
 <?php
 
-if( $exist1 == "1" ) {
-	echo '<link rel="apple-touch-icon" href="';
+if( $override == "1" ) {
+	/*echo '<link rel="apple-touch-icon" href="';
 	print $iconfolder;
 	echo'/';
 	print $iconmain; 
 	echo '16' ;
 	print $iconext;
 	echo '" sizes="16x16">';
+    */
+    echo "<h1> Override Enabled - Go On - </h1>";
 }
 
 ?>
@@ -60,7 +62,7 @@ if( $exist1 == "1" ) {
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"256"; print $iconext; ?>" sizes="256x256">
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"512"; print $iconext; ?>" sizes="512x512">
   <title><?php print $appname; ?></title>
-  <h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>
+  <h1> -- !OUTDATED PLEASE REINSTALL FOR OFFLINE SUPPORT! -- Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>
 <?php
 
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
@@ -82,10 +84,12 @@ $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
 ?>
 <a id="launch" href="<?php echo '' . htmlspecialchars($_GET["ur"]) . ''; ?>">
-<Script>
+<script>
+    
     if (!document.referrer) {
-        document.write("<div style='padding: 10px;'><p style=''></p></div>");
-        activate();
+        setInterval(function() {
+            activate();
+        }, 3000);
     }
     
     function activate() {
