@@ -77,7 +77,7 @@ $uri14 = '<h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src
 $uri15 = '<a id="launch" href="' . htmlspecialchars($ur) . '">';
 $uri16 = '<script> if(!document.referrer){activate()}function activate(){var e=document.getElementById("launch");var t=document.createEvent("MouseEvents");t.initEvent("click",true,true);e.dispatchEvent(t);window.opener=window;var n=window.open(location.href,"_self");n.close()} </script>';
 ?>
-<body onload="simClickMain()">
+<body onload="simClickMain();">
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/handle.php?no=js'" /> 
 	  </noscript>
