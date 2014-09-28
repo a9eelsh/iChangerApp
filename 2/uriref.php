@@ -10,6 +10,10 @@ $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
 $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
 $v = '' . htmlspecialchars($_GET["v"]) . '';
 
+print $iconfolder;
+print $iconmain;
+print $iconext;
+
 ?>
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
