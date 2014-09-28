@@ -240,6 +240,8 @@ if ( $userraw == "" ) {
 </div>
 </div></a></li>
 </ul>
+<div class="content-block">
+<p>
 <?php
 echo "v";
 print $version;
@@ -256,7 +258,8 @@ print $user_display;
 echo "</p></div>";
 }
 ?>
-</div>
+    </p>
+    </div>
     </div>
 	
     <!-- 
