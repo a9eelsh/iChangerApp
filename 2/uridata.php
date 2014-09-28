@@ -17,6 +17,10 @@ $icon128 = '' . htmlspecialchars($_GET["p"]) . '128' . htmlspecialchars($_GET["p
 $icon256 = '' . htmlspecialchars($_GET["p"]) . '256' . htmlspecialchars($_GET["pe"]) . '';
 $icon512 = '' . htmlspecialchars($_GET["p"]) . '512' . htmlspecialchars($_GET["pe"]) . '';
 
+print $iconfolder;
+print $iconmain;
+print $iconext;
+
 // _mime_content_type is unsupported so replace it with FileInfo (Recently Installed To Server)
 function _mime_content_type($image) {
     $result = new finfo();
