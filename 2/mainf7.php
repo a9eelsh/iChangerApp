@@ -249,6 +249,7 @@ print $version;
 </p>
     </div>
     </div>
+    </div>
 	
     <!-- 
 
