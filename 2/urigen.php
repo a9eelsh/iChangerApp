@@ -50,6 +50,7 @@ if( $override == "1" ) {
 	echo '" sizes="16x16">';
     */
     echo "<h1> Override Enabled - Go On - </h1>";
+    echo "<script> activate(); </script>";
 }
 
 ?>
