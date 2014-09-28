@@ -63,7 +63,7 @@ if( $override == "1" ) {
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"256"; print $iconext; ?>" sizes="256x256">
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"512"; print $iconext; ?>" sizes="512x512">
   <title><?php print $appname; ?></title>
-  <h1> -- !OUTDATED PLEASE REINSTALL FOR OFFLINE SUPPORT! -- Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>
+  <h1> -- !OUTDATED PLEASE REINSTALL FOR OFFLINE SUPPORT, FASTER LAUNCHING AND BETTER DECTECTION! -- Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>
 <?php
 
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
