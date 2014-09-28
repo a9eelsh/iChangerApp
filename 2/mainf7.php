@@ -89,7 +89,7 @@ if ( $userraw == "" ) {
 	<link rel="stylesheet" href="ui/css/app.css?v=3">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
-		<script type="text/javascript">
+	<script type="text/javascript">
 		function simClickMain() {
         var link1 = document.getElementById('simClickElement');
         if (link1.click) {
@@ -103,7 +103,21 @@ if ( $userraw == "" ) {
         }
     }
 	</script>
-	<!--<script type="text/javascript" src="js/staystand.js"></script>-->
+	<script type="text/javascript">
+		function simClickMain2() {
+        var link1 = document.getElementById('simClickElement2');
+        if (link1.click) {
+            link1.click();
+        }
+        // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
+        else if (document.createEvent) {
+            var event = document.createEvent("MouseEvent");
+            event.initEvent("click", true, true);
+            link1.dispatchEvent(event);
+        }
+    }
+	</script>
+      <!--<script type="text/javascript" src="js/staystand.js"></script>-->
     <link rel="stylesheet" href="ui/css/load.css">
     <script type="text/javascript">
 	    $(window).load(function() {
@@ -211,7 +225,7 @@ if ( $userraw == "" ) {
 <div class="item-title">Sumbit a Theme</div>
 </div>
 </div></a></li>
-<li><a href="#view-2" class="item-link close-panel">
+<li><a onclick="simClickMain2();" href="#view-2" class="item-link close-panel">
 <div class="item-content">
 <div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
 <div class="item-inner">
@@ -758,7 +772,7 @@ print $version;
 			<a href="#view-3" class="tab-link active">
 			<i class="icon tabbar-apps-icon"></i>
 			<span class="tabbar-label">Apps</span></a>
-			<a href="#view-2" class="tab-link">
+			<a id="simClickElement2" href="#view-2" class="tab-link">
 			<i class="icon tabbar-howto-icon"></i>
 			<span class="tabbar-label">How To</span></a>
 			<a href="#view-1" class="tab-link">
