@@ -10,36 +10,12 @@ $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
 $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
 $v = '' . htmlspecialchars($_GET["v"]) . '';
 
-function _mime_content_type($image) {
-    $result = new finfo();
-
-    if (is_resource($result) === true) {
-        return $result->file($image, FILEINFO_MIME_TYPE);
-    }
-
-    return false;
-}
-print $result;
-// A few settings
-$image = '' . $iconfolder . '/' . $iconmain . '' . $iconext . '';
-print $image;
-echo "\n";
-
-// Read image path, convert to base64 encoding
-$imageData = base64_encode(file_get_contents($image));
-
-// Format the image SRC:  data:{mime};base64,{data};
-$src = 'data: '._mime_content_type($image).';base64,'.$imageData;
-
-// Echo out a sample image
-// echo '<img src="', $src, '">';
-
 ?>
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
 	<script type="text/javascript">
-		function simClickMain1() {
+		function simClickMain() {
         var link1 = document.getElementById('simClickElement');
         if (link1.click) {
             link1.click();
