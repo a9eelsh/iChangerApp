@@ -28,7 +28,7 @@ print $iconmain;
 print $iconext;
 
 // _mime_content_type is unsupported so replace it with FileInfo (Recently Installed To Server)
-function _mime_content_type($image) {
+/* function _mime_content_type($image) {
     $result = new finfo();
 
     if (is_resource($result) === true) {
@@ -37,18 +37,18 @@ function _mime_content_type($image) {
 
     return false;
 }
-
+ */
 print $result;
 // A few settings
 $image = '' . $iconfolder . '/' . $iconmain . '' . $iconext . '';
 print $image;
 
-// Read image path, convert to base64 encoding
+/* Read image path, convert to base64 encoding
 $imageData = base64_encode(file_get_contents($image));
 
 // Format the image SRC:  data:{mime};base64,{data};
 $src = 'data: '._mime_content_type($image).';base64,'.$imageData;
-
+*/
 // Echo out a sample image
 // echo '<img src="', $src, '">';
 
