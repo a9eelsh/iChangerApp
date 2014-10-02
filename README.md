@@ -1,4 +1,4 @@
-iChanger - Theme Your iDevice Without Jailbreaking
+iChanger - Theme Your Device w/o a Computer
 =========
 With iChanger you can make shortcuts to apps with a custom name and icon, opening what app you want.
 iChanger is currently in BETA Stages which means there will be a lot of problems, if you find any issues please report them.
