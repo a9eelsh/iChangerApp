@@ -1,4 +1,9 @@
-iChanger-2
-==========
+iChanger - Theme Your Device w/o a Computer
+=========
+With iChanger you can make shortcuts to apps with a custom name and icon, opening what app you want.
+iChanger is currently in BETA Stages which means there will be a lot of problems, if you find any issues please report them.
+
+ 
+=========
 iChanger 2 is made by TheLocken LLC, Bradley Grace.
-This repo is here to sync files and for devs to see what was changed, so please dont copy/fork/etc without direct permission.
+iChanger is leagly owned by TheLocken LLC and is illegal to reproduce, or sell copies or modifyed copies of iChanger. Read LICENSE for more on Legal info.

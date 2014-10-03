@@ -1,5 +1,15 @@
 <?php
+<<<<<<< HEAD
 // Λ⥤И
+=======
+// Echo Dynamic Global Version Text File
+$vfile = "version.txt";
+$fh = fopen($vfile, 'r');
+$version = fread($fh, filesize($vfile));
+fclose($fh);
+// echo $version;
+
+>>>>>>> a9372ba52cea9b4847dc7940a4bd3b0881ae7a9d
 $devmode = '' . htmlspecialchars($GET_["devmode"]) . '';
 
 // Start session
@@ -80,10 +90,10 @@ if ( $userraw == "" ) {
 	<!-- Path to TheLocken Core CSS -->
     <link rel="stylesheet" href="ui/css/f7-2.css">
     <link rel="stylesheet" href="ui/css/tabs.css">
-	<link rel="stylesheet" href="ui/css/app.css">
+	<link rel="stylesheet" href="ui/css/app.css?v=3">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
-		<script type="text/javascript">
+	<script type="text/javascript">
 		function simClickMain() {
         var link1 = document.getElementById('simClickElement');
         if (link1.click) {
@@ -97,7 +107,21 @@ if ( $userraw == "" ) {
         }
     }
 	</script>
-	<!--<script type="text/javascript" src="js/staystand.js"></script>-->
+	<script type="text/javascript">
+		function simClickMain2() {
+        var link1 = document.getElementById('simClickElement2');
+        if (link1.click) {
+            link1.click();
+        }
+        // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
+        else if (document.createEvent) {
+            var event = document.createEvent("MouseEvent");
+            event.initEvent("click", true, true);
+            link1.dispatchEvent(event);
+        }
+    }
+	</script>
+      <!--<script type="text/javascript" src="js/staystand.js"></script>-->
     <link rel="stylesheet" href="ui/css/load.css">
     <script type="text/javascript">
 	    $(window).load(function() {
@@ -205,23 +229,23 @@ if ( $userraw == "" ) {
 <div class="item-title">Sumbit a Theme</div>
 </div>
 </div></a></li>
-<li><a href="grid.html" class="close-panel item-link">
+<li><a onclick="simClickMain2();" href="#view-2" class="item-link close-panel">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-f7"></i></div>
+<div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
 <div class="item-inner">
 <div class="item-title">Quick Tutorial</div>
 </div>
 </div></a></li>
-<li><a href="preloader.html" class="close-panel item-link">
+<li><a href="http://bit.ly/iC2newissue" class="external close-panel item-link">
 <div class="item-content">
 <div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
 <div class="item-inner">
-<div class="item-title">Send Feedback</div>
+<div class="item-title">Report Bug<span> or Issue</span></div>
 </div>
 </div></a></li>
 <li><a href="navbars-toolbars.html" class="close-panel item-link">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-f7"></i></div>
+<div class="item-media"><i class="icon icon-menu-privacy"></i></div>
 <div class="item-inner">
 <div class="item-title">Terms of Service</div>
 </div>
@@ -234,21 +258,15 @@ if ( $userraw == "" ) {
 </div>
 </div></a></li>
 </ul>
+<div class="content-block">
+<p>
 <?php
-if ( $devmode == "true" ) {
-echo "<div class='content-block'>";
-echo "<p>";
-print $devmodel;
-echo "</p><p>";
-echo "Username:";
-print $user_name;
-echo "</p><p>";
-echo "Userdisplay:";
-print $user_display;
-echo "</p></div>";
-}
+echo "v";
+print $version;
 ?>
-</div>
+</p>
+    </div>
+    </div>
     </div>
 	
     <!-- 
@@ -758,7 +776,7 @@ echo "</p></div>";
 			<a href="#view-3" class="tab-link active">
 			<i class="icon tabbar-apps-icon"></i>
 			<span class="tabbar-label">Apps</span></a>
-			<a href="#view-2" class="tab-link">
+			<a id="simClickElement2" href="#view-2" class="tab-link">
 			<i class="icon tabbar-howto-icon"></i>
 			<span class="tabbar-label">How To</span></a>
 			<a href="#view-1" class="tab-link">
@@ -844,11 +862,7 @@ If you feel that this site is not following its stated information policy, you m
 </div>
 <div class="page-content">
 <div class="content-block">
-<p>Here comes popup. You can put here anything, even independent view with its own navigation. Also not, that by default popup looks a bit different on iPhone/iPod and iPad, on iPhone it is fullscreen.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus mauris leo, eu bibendum neque congue non. Ut leo mauris, eleifend eu commodo a, egestas ac urna. Maecenas in lacus faucibus, viverra ipsum pulvinar, molestie arcu. Etiam lacinia venenatis dignissim. Suspendisse non nisl semper tellus malesuada suscipit eu et eros. Nulla eu enim quis quam elementum vulputate. Mauris ornare consequat nunc viverra pellentesque. Aenean semper eu massa sit amet aliquam. Integer et neque sed libero mollis elementum at vitae ligula. Vestibulum pharetra sed libero sed porttitor. Suspendisse a faucibus lectus.</p>
-<p>Duis ut mauris sollicitudin, venenatis nisi sed, luctus ligula. Phasellus blandit nisl ut lorem semper pharetra. Nullam tortor nibh, suscipit in consequat vel, feugiat sed quam. Nam risus libero, auctor vel tristique ac, malesuada ut ante. Sed molestie, est in eleifend sagittis, leo tortor ullamcorper erat, at vulputate eros sapien nec libero. Mauris dapibus laoreet nibh quis bibendum. Fusce dolor sem, suscipit in iaculis id, pharetra at urna. Pellentesque tempor congue massa quis faucibus. Vestibulum nunc eros, convallis blandit dui sit amet, gravida adipiscing libero.</p>
-<p>Morbi posuere ipsum nisl, accumsan tincidunt nibh lobortis sit amet. Proin felis lorem, dictum vel nulla quis, lobortis dignissim nunc. Pellentesque dapibus urna ut imperdiet mattis. Proin purus diam, accumsan ut mollis ac, vulputate nec metus. Etiam at risus neque. Fusce tincidunt, risus in faucibus lobortis, diam mi blandit nunc, quis molestie dolor tellus ac enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum turpis a velit vestibulum pharetra. Vivamus blandit dapibus cursus. Aenean lorem augue, vehicula in eleifend ut, imperdiet quis felis.</p>
-<p>Duis non erat vel lacus consectetur ultricies. Sed non velit dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel varius mi, a tristique ante. Vivamus eget nibh ac elit tempor bibendum sit amet vitae velit. Proin sit amet dapibus nunc, non porta tellus. Fusce interdum vulputate imperdiet. Sed faucibus metus at pharetra fringilla. Fusce mattis orci et massa congue, eget dapibus ante rhoncus. Morbi semper sed tellus vel dignissim. Cras vestibulum, sapien in suscipit tincidunt, lectus mi sodales purus, at egestas ligula dui vel erat. Etiam cursus neque eu lectus eleifend accumsan vitae non leo. Aliquam scelerisque nisl sed lacus suscipit, ac consectetur sapien volutpat. Etiam nulla diam, accumsan ut enim vel, hendrerit venenatis sem. Vestibulum convallis justo vitae pharetra consequat. Mauris sollicitudin ac quam non congue.</p>
+<p>Credits to </p>
 </div>
 </div>
 </div>

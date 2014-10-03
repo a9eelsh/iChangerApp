@@ -165,13 +165,13 @@ background-image:url(../../pics/youtube.png);
 i.icon.icon-menu-submitatheme {
 width:29px;
 height:29px;
-background-image:url(../../thumbs/upload.png);
+background-image:url(../../thumbs/upload_to_cloud-50.png);
 }
 
 i.icon.icon-menu-reportaproblem {
 width:29px;
 height:29px;
-background-image:url(../../thumbs/problem.png);
+background-image:url(../../thumbs/bug-50.png);
 }
 
 i.icon.icon-menu-thelocken {
@@ -195,11 +195,17 @@ background-image:url(../../pics/instagram.png);
 i.icon.icon-menu-privacy {
 width:29px;
 height:29px;
-background-image:url(../../thumbs/privacyicon.png);
+background-image:url(../../thumbs/document-48.png);
 }
 
 i.icon.icon-app-custom {
 width:29px;
 height:29px;
 background-image:url(../../thumbs/custom.jpg);
+}
+
+i.icon.icon-menu-tutorial {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/help-50.png);
 }
