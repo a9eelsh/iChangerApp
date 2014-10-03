@@ -1,7 +1,5 @@
 <?php
-<<<<<<< HEAD
-// Λ⥤И
-=======
+
 // Echo Dynamic Global Version Text File
 $vfile = "version.txt";
 $fh = fopen($vfile, 'r');
