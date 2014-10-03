@@ -1,4 +1,5 @@
 <?php
+// Λ⥤И
 $devmode = '' . htmlspecialchars($GET_["devmode"]) . '';
 
 // Start session

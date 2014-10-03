@@ -37,7 +37,7 @@
 // Variables
 // Display Dev-Titles
 $dev = '' . htmlspecialchars($_GET["dev"]) . '';
-
+// http://74.125.224.174:6080/php/urlblock.php?vsys=1&cat=7509&title=streaming-media&rulename=Allow%20Student%20Content%20Filtering&uid=30687&url=http://youtube.com%2fMacy%27s
 // START MAIN FOWARDING
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
@@ -60,7 +60,9 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 ?>
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>
-  <title>Installing iChanger</title>
+  <title>iChanger</title>
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" href="http://www.ichanger.tk/pics/iC2-4-2-BETA.png">
   <meta name="apple-mobile-web-app-title" content="iChanger 2">
   <link rel="apple-touch-icon" href="http://www.ichanger.tk/pics/iC2-4-2-BETA.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
