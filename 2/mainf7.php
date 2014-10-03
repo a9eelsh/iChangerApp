@@ -7,7 +7,6 @@ $version = fread($fh, filesize($vfile));
 fclose($fh);
 // echo $version;
 
->>>>>>> a9372ba52cea9b4847dc7940a4bd3b0881ae7a9d
 $devmode = '' . htmlspecialchars($GET_["devmode"]) . '';
 
 // Start session
