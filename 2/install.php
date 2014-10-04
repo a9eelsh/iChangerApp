@@ -55,7 +55,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
         header('Location: http://www.thelocken.com/ichangerinfo/');
    echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
     }
-
+ 
 
 ?>
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
@@ -75,8 +75,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   <script>
   // remove session if visit again
   	addToHomescreen.removeSession()
-  </script>
-  <script>
+
   // set ath to awalys stay open, etc
     addToHomescreen({
    		skipFirstVisit: false,
@@ -86,8 +85,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 		lifespan: 0,
 		mandatory: true,
     });
-  </script>
-  <script>
+
   // remove session if visit again
   	addToHomescreen.removeSession()
   </script>
@@ -99,7 +97,7 @@ objImage = new Image();
      
 
 // set what happens once the image has loaded objImage.onLoad=imagesLoaded();
-     
+
 
 // preload iChanger icon
 
