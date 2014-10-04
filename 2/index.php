@@ -16,3 +16,4 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
 }
 ?>
+<title>Loading...</title>

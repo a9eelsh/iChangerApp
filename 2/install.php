@@ -62,9 +62,9 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 <head>
   <title>iChanger</title>
   <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" href="http://www.ichanger.tk/pics/iC2-4-2-BETA.png">
-  <meta name="apple-mobile-web-app-title" content="iChanger 2">
-  <link rel="apple-touch-icon" href="http://www.ichanger.tk/pics/iC2-4-2-BETA.png">
+  <link rel="icon" type="image/png" href="http://www.ichanger.tk/pics/iC2-5.png">
+  <meta name="apple-mobile-web-app-title" content="iChanger">
+  <link rel="apple-touch-icon-precomposed" href="http://www.ichanger.tk/pics/iC2-5.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -73,9 +73,11 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   <script src="http://ichanger.tk/addtohomescreen.js"></script>
   <script src="http://ichanger.tk/js/staystand.js"></script>
   <script>
+  // remove session if visit again
   	addToHomescreen.removeSession()
   </script>
   <script>
+  // set ath to awalys stay open, etc
     addToHomescreen({
    		skipFirstVisit: false,
    		maxDisplayCount: 0,
@@ -86,8 +88,24 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
     });
   </script>
   <script>
+  // remove session if visit again
   	addToHomescreen.removeSession()
   </script>
+  <script language="JavaScript">
+
+// create an image object
+
+objImage = new Image();
+     
+
+// set what happens once the image has loaded objImage.onLoad=imagesLoaded();
+     
+
+// preload iChanger icon
+
+objImage.src='pics/iC2-5.png';
+
+</script>
 </head>
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
