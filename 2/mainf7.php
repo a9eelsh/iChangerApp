@@ -60,28 +60,33 @@ if ( $userraw == "" ) {
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <html>
   <head>
-  <link href="http://www.lockenfiles.tk/cdn/h5form/test/qunit.css" rel="stylesheet" />
-  <link href="http://www.lockenfiles.tk/cdn/h5form/style0000000.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="http://www.lockenfiles.tk/cdn/h5form/test/qunit.css" rel="stylesheet" />
+    <link href="http://www.lockenfiles.tk/cdn/h5form/style0000000.css" media="screen" rel="stylesheet" type="text/css" />
 	<style>
 		.ui-state-error {
 			background-color:#BB1100;
 			color:white;
 		}
 	</style>
-  <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>  
+  	<script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>  
 	<script src="http://www.lockenfiles.tk/cdn/h5form/jquery.h5validate.js"></script>
 	<script>
 		$(document).ready(function () {
     	$('form').h5Validate();
 		});
-  </script>
-  <!-- Path to Framework7 Library CSS -->
-  <link rel="stylesheet" href="ui/css/framework7.css">
-  <link rel="stylesheet" href="ui/css/framework7.min.css">
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>iChanger 2</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="ui/css/framework7.css">
+    <link rel="stylesheet" href="ui/css/framework7.min.css">
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
 	<!-- Path to TheLocken Core CSS -->
-  <link rel="stylesheet" href="ui/css/f7-2.css">
-  <link rel="stylesheet" href="ui/css/tabs.css">
+    <link rel="stylesheet" href="ui/css/f7-2.css">
+    <link rel="stylesheet" href="ui/css/tabs.css">
 	<link rel="stylesheet" href="ui/css/app.css?v=3">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
@@ -113,13 +118,13 @@ if ( $userraw == "" ) {
         }
     }
 	</script>
-  <!--<script type="text/javascript" src="js/staystand.js"></script>-->
-  <link rel="stylesheet" href="ui/css/load.css">
-  <script type="text/javascript">
+      <!--<script type="text/javascript" src="js/staystand.js"></script>-->
+    <link rel="stylesheet" href="ui/css/load.css">
+    <script type="text/javascript">
 	    $(window).load(function() {
 		$(".loader").fadeOut("slow");
 	    })
-  </script>
+    </script>
 	<script type="text/javascript">
 	// Load Heavy files so no half-loaded images appear
 		Image1= new Image(175,50)
@@ -140,8 +145,8 @@ if ( $userraw == "" ) {
 	    	})
 		}
 	</script>
-</head>
-<body onload="simClickMain()">
+	</head>
+  <body onload="simClickMain()">
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
