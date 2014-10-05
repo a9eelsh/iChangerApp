@@ -7,8 +7,8 @@
  / VERY IMPORTANT FILE!! \
 |  DO NOT EDIT W/O PERMS  |
  \_______________________/
-  
- 
+
+
 */
 // Connects to your Database
 //mysql_connect("thelocken.com", "", "") 
@@ -21,7 +21,7 @@
 //Retreives the current count 
 //$count = mysql_fetch_row(mysql_query("SELECT counter FROM counter WHERE refer=''"));
 //$ref1 = mysql_fetch_row(mysql_query("SELECT counter FROM counter WHERE refer='" . htmlspecialchars($_GET["ref"]) . "'")); 
- 
+
 //Displays the count on your site
 //echo "<!--<p>Count=</p>";
 //print $count[0]; 
@@ -55,16 +55,16 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
         header('Location: http://www.thelocken.com/ichangerinfo/');
    echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
     }
- 
+
 
 ?>
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>
   <title>iChanger</title>
   <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" type="image/png" href="http://www.ichanger.tk/pics/iC2-5.png">
+  <link rel="icon" type="image/png" href="/pics/iC2-5.png">
   <meta name="apple-mobile-web-app-title" content="iChanger">
-  <link rel="apple-touch-icon-precomposed" href="http://www.ichanger.tk/pics/iC2-5.png">
+  <link rel="apple-touch-icon-precomposed" href="/pics/iC2-5.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -94,7 +94,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 // create an image object
 
 objImage = new Image();
-     
+
 
 // set what happens once the image has loaded objImage.onLoad=imagesLoaded();
 
