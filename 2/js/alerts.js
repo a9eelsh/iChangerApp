@@ -7,7 +7,11 @@ $$('.alert-text').on('click', function () {
 });
  
 $$('.beta-warning').on('click', function () {
-    myApp.alert('You are running a BETA Version of iChanger, Expect Bugs', 'Warning');
+    myApp.alert('You are running a BETA Version of iChanger, Expect Bugs and Report Bugs', 'Warning');
+});
+ 
+$$('.already-installed').on('click', function () {
+    myApp.alert('This icon is displayed for comparison only, to install the app visit AppStore', 'Notice');
 });
  
 $$('.alert-text-title-callback').on('click', function () {

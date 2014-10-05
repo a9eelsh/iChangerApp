@@ -40,7 +40,7 @@ if ( $userraw == "" ) {
 		<div class="list-block media-list">
 			<ul>
 				<li>
-					<a href="#" data-popover=".popover-installed" class="open-popover link item-link item-content">
+					<a href="" class="already-istalled open-popover link item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/Instagram/InstagramDefault.png" width="80">
 						</div>

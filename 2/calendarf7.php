@@ -40,7 +40,7 @@ if ( $userraw == "" ) {
 		<div class="list-block media-list">
 			<ul>
 				<li>
-					<a href="<?php print $uend; ?>" data-popover=".popover-installed" class="open-popover link item-link item-content">
+					<a href="" class="already-istalled open-popover link item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/AppStore/AppStoreDefault.png" width="80">
 						</div>
