@@ -142,7 +142,6 @@ if ( $userraw == "" ) {
 	</script>
 </head>
 <body onload="simClickMain()">
-  <div class="statusbar-overlay"></div>
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
