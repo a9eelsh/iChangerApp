@@ -414,7 +414,7 @@ print $version;
           <div data-page="index-3" class="page">
             <div class="page-content">
               <div class="content-block">
-                <p>Apps To Theme!</p>
+                Apps To Theme!
               </div>
               <div class="list-block">
                 <ul>
