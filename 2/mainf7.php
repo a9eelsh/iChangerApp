@@ -87,6 +87,11 @@ if ( $userraw == "" ) {
 	<!-- Path to TheLocken Core CSS -->
     <link rel="stylesheet" href="ui/css/f7-2.css">
     <link rel="stylesheet" href="ui/css/tabs.css">
+    <style>
+    .statusbar-overlay {
+      background: pink;
+    }
+  </style>
 	<link rel="stylesheet" href="ui/css/app.css?v=3">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
