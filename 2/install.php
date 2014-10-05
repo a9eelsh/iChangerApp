@@ -42,7 +42,7 @@ $dev = '' . htmlspecialchars($_GET["dev"]) . '';
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 //if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 //   if ( strpos($ua,"safari") ) {
-      echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
+      //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
 /*   } else if ( substr_count($ua, '/') === 3 ) {
      header('Location: http://www.ichanger.tk/mainf7.php?dev=' . htmlspecialchars($_GET["dev"]) . '&');
    } else if ( substr_count($ua, '/') === 2 ) {
