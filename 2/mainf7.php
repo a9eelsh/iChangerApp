@@ -213,21 +213,21 @@ if ( $userraw == "" ) {
 </div></a></li>
 <li><a href="forms.html" class="close-panel item-link">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-f7"></i></div>
+<div class="item-media"><i class="icon icon-menu-submitatheme"></i></div>
 <div class="item-inner">
 <div class="item-title">Sumbit a Theme</div>
 </div>
 </div></a></li>
 <li><a onclick="simClickMain2();" href="#" class="close-panel item-link">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-menu-submitatheme"></i></div>
+<div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
 <div class="item-inner">
 <div class="item-title">Quick Tutorial</div>
 </div>
 </div></a></li>
 <li><a href="http://bit.ly/iC2newissue" class="item-link close-panel">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
+<div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
 <div class="item-inner">
 <div class="item-title">Report Bug<span> or Issue</span></div>
 </div>
