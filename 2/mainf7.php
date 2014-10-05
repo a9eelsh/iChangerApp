@@ -484,11 +484,11 @@ print $version;
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="accordion.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="musicf7.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-music"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Music</div>
+                          <div class="item-title">Music - NEW</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
