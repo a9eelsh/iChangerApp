@@ -60,7 +60,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   <title>iChanger 2</title>
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="icon" type="image/png" href="/pics/iC2-5.png">
-  <meta name="apple-mobile-web-app-title" content="iChanger">
+  <meta name="apple-mobile-web-app-title" content="iChanger 2">
   <link rel="apple-touch-icon-precomposed" href="/pics/iC2-5.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
