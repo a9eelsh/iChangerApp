@@ -40,27 +40,24 @@ $dev = '' . htmlspecialchars($_GET["dev"]) . '';
 // http://74.125.224.174:6080/php/urlblock.php?vsys=1&cat=7509&title=streaming-media&rulename=Allow%20Student%20Content%20Filtering&uid=30687&url=http://youtube.com%2fMacy%27s
 // START MAIN FOWARDING
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
-//if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
-//   if ( strpos($ua,"safari") ) {
+if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
+   if ( strpos($ua,"safari") ) {
       //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
-/*   } else if ( substr_count($ua, '/') === 3 ) {
+   } else if ( substr_count($ua, '/') === 3 ) {
      header('Location: http://www.ichanger.tk/mainf7.php?dev=' . htmlspecialchars($_GET["dev"]) . '&');
    } else if ( substr_count($ua, '/') === 2 ) {
-      echo('Running in a WebView on a iPhone/iPad app');
    } else {
-      echo('<!--Running in another browser on iPhone/iPad-->');
       header('Location: http://www.ichanger.tk/chrome.php');
    }
     } else {
         header('Location: http://www.thelocken.com/ichangerinfo/');
-   echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
     }
-*/
+
 
 ?>
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>
-  <title>iChanger</title>
+  <title>iChanger 2</title>
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="icon" type="image/png" href="/pics/iC2-5.png">
   <meta name="apple-mobile-web-app-title" content="iChanger">
@@ -105,6 +102,21 @@ objImage.src='pics/iC2-5.png';
 
 </script>
 </head>
+<?php
+if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
+   if ( strpos($ua,"safari") ) {
+      //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
+   } else if ( substr_count($ua, '/') === 3 ) {
+     echo('Sucessfuly Installed. Loading...');
+   } else if ( substr_count($ua, '/') === 2 ) {
+      echo('Running in a WebView on a iPhone/iPad app');
+   } else {
+      echo('<!--Running in another browser on iPhone/iPad-->');
+   }
+   } else {
+      echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
+   }
+?>
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
