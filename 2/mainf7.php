@@ -89,7 +89,7 @@ if ( $userraw == "" ) {
     <link rel="stylesheet" href="ui/css/tabs.css">
     <style>
     .statusbar-overlay {
-      background: pink;
+      background: SkyBlue;
     }
   </style>
 	<link rel="stylesheet" href="ui/css/app.css?v=3">
