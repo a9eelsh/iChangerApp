@@ -1,7 +1,5 @@
 <?php
-
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
-
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       echo('<!--Running in safari on iPhone/iPad--><meta http-equiv="refresh" content="0; url=http://ichanger.tk/install.php?ref=ic2main" />');
