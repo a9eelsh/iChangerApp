@@ -96,4 +96,5 @@ $uri16 = '<script> if(!document.referrer){activate()}function activate(){var e=d
     }
 	</script>
     <a id="simClickElement" href="<?php echo htmlspecialchars($uri1); echo htmlspecialchars($uri2); echo htmlspecialchars($uri3); echo htmlspecialchars($uri4); echo htmlspecialchars($uri5); echo htmlspecialchars($uri5S); echo htmlspecialchars($uri6); echo htmlspecialchars($uri7); echo htmlspecialchars($uri8); echo htmlspecialchars($uri9); echo htmlspecialchars($uri10); echo htmlspecialchars($uri11); echo htmlspecialchars($uri12); echo htmlspecialchars($uri13); echo htmlspecialchars($uri14); echo htmlspecialchars($uri15); echo htmlspecialchars($uri16); echo htmlspecialchars($uri17); ?>">GENERATED URL</a>
+<h1> Generating, Please Wait... </h1>
 </body>
