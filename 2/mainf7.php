@@ -44,10 +44,11 @@ $user_display0 = '' . htmlspecialchars($_GET["user"]) . '';
 
 	// take username ($userraw) and turn it into ?user=USERNAME
 
+
 $uend = "?user=$userraw&user_display=$user_display";
 $userraw0 = '' . htmlspecialchars($_GET["user"]) . '';
 $userraw = '' . $_SESSION['sess_user_id'] . '';
-	
+
 	// if userraw = "" (no user) set userraw to NULL
 
 if ( $userraw == "" ) {
@@ -92,7 +93,7 @@ if ( $userraw == "" ) {
       background: SkyBlue;
     }
   </style>
-	<link rel="stylesheet" href="ui/css/app.css?v=3">
+	<link rel="stylesheet" href="ui/css/app.css?v=4">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
 	<script type="text/javascript">
@@ -140,7 +141,7 @@ if ( $userraw == "" ) {
 		
 		Image3 = new Image(256,256)
 		Image3.src = "http://ichanger.tk/Instagram/FlatGradient.png"
-		
+
 		// End Hiding -->
 	</script>
 	<script>
@@ -210,39 +211,32 @@ if ( $userraw == "" ) {
 <div class="item-title">List View</div>
 </div>
 </div></a></li>
-<li><a href="swipe-delete.html" class="close-panel item-link">
-<div class="item-content">
-<div class="item-media"><i class="icon icon-f7"></i></div>
-<div class="item-inner">
-<div class="item-title">Swipe To Delete</div>
-</div>
-</div></a></li>
 <li><a href="forms.html" class="close-panel item-link">
 <div class="item-content">
 <div class="item-media"><i class="icon icon-f7"></i></div>
 <div class="item-inner">
-<div class="item-title">Forms</div>
-</div>
-</div></a></li>
-<li><a href="messages.html" class="close-panel item-link">
-<div class="item-content">
-<div class="item-media"><i class="icon icon-menu-submitatheme"></i></div>
-<div class="item-inner">
 <div class="item-title">Sumbit a Theme</div>
 </div>
 </div></a></li>
-<li><a onclick="simClickMain2();" href="#view-2" class="item-link close-panel">
+<li><a onclick="simClickMain2();" href="#" class="close-panel item-link">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
+<div class="item-media"><i class="icon icon-menu-submitatheme"></i></div>
 <div class="item-inner">
 <div class="item-title">Quick Tutorial</div>
 </div>
 </div></a></li>
-<li><a href="http://bit.ly/iC2newissue" class="external close-panel item-link">
+<li><a href="http://bit.ly/iC2newissue" class="item-link close-panel">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
+<div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
 <div class="item-inner">
 <div class="item-title">Report Bug<span> or Issue</span></div>
+</div>
+</div></a></li>
+<li><a href="#" data-popup=".popup-about" class="open-popup external close-panel item-link">
+<div class="item-content">
+<div class="item-media"><i class="icon icon-menu-about"></i></div>
+<div class="item-inner">
+<div class="item-title">About <span> Credits</span></div>
 </div>
 </div></a></li>
 <li><a href="navbars-toolbars.html" class="close-panel item-link">
