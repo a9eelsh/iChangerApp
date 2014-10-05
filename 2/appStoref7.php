@@ -192,3 +192,4 @@ if ( $userraw == "" ) {
 
 	</div>
 </div>
+<script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=2"></script>
