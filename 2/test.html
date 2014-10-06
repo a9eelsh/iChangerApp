@@ -3,8 +3,7 @@
         var isiPad = navigator.userAgent.match(/iPad/i) != null;
         var isiPhone = navigator.userAgent.match(/iPhone/i) != null;
         if (isiPad || isiPhone) {
-           setTimeout( \"refresh()\", 300 );
-        } else {
+           setTimeout( "refresh()", 300 );
            window.close();
         }
     }

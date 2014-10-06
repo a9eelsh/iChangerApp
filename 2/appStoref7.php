@@ -178,6 +178,21 @@ if ( $userraw == "" ) {
 					</a>
 				</li>
 
+				<li>
+					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=appstore-round1.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+						<div class="item-media">
+							<img src="http://ichanger.tk/AppStore/appstore-round.png" width="80">
+						</div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Round Edged AppStore</div>
+								<div class="item-after">Install</div>
+							</div>
+							<div class="item-subtitle">App Store</div>
+							<div class="item-text">A Round-Edged AppStore</div>
+						</div>
+					</a>
+				</li>
 
 				<!-- </ul> does not seem to need it, good for including user's custom creations with PHP -->
     
