@@ -541,11 +541,11 @@ print $version;
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="searchbar.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="chromef7.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-3-chrome"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Chrome</div>
+                          <div class="item-title">Chrome - NEW</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
