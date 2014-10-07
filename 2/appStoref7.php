@@ -90,7 +90,7 @@ if ( $userraw == "" ) {
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Soft</div>
+								<div class="item-title">Realistically Soft</div>
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">App Store</div>
