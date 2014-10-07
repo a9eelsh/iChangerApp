@@ -102,16 +102,16 @@ if ( $userraw == "" ) {
             <ul>-->
           
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=Glimpse.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=maximal.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/Glimpse.png" width="80">
+							<img src="http://ichanger.tk/Instagram/maximal.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Glimpse</div>
+								<div class="item-title">Maximal</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">App Store</div>
+							<div class="item-subtitle">Instagram</div>
 							<div class="item-text">Like Dislike</div>
 						</div>
 					</a>
