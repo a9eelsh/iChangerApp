@@ -61,7 +61,7 @@ if ( $userraw == "" ) {
 				<li>
 					<a href="http://ichanger.tk/uriref.php?a=Google&p=flattest.png&n=Google&ur=googleapp://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Google/flattest.png" width="80">
+							<img src="http://ichanger.tk/pics/photos.jpg" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
