@@ -43,7 +43,7 @@ if ( $userraw == "" ) {
 				<li>
 					<a href="" class="already-istalled open-popover link item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Photos/photos.png" width="80">
+							<img src="http://ichanger.tk/pics/photos.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
