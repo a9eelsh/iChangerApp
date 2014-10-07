@@ -93,7 +93,7 @@ if ( $userraw == "" ) {
       background: SkyBlue;
     }
   </style>
-	<link rel="stylesheet" href="ui/css/app.css?v=4">
+	<link rel="stylesheet" href="ui/css/app.css?v=5">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
 	<script type="text/javascript">
@@ -589,12 +589,12 @@ print $version;
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="custom/custom.php" class="item-link">
+                  <li><a href="skypef7.php" class="item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-custom"></i></div>
+                        <div class="item-media"><i class="icon icon-app-skype"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Custom - NOT WORKING</div>
-							<span class="list-val button ">Make</span>
+                          <div class="item-title">Skype - NEW</div>
+							<span class="list-val button ">Theme</span>
                           <!--<div class="item-after"><span class="badge bg-green">NEW</span></div>-->
                         </div>
                       </div></a></li>
@@ -603,15 +603,15 @@ print $version;
                         <div class="item-media"><i class="icon icon-f7"></i></div>
                         <div class="item-inner">
                           <div class="item-title">--</div>
-							<span class="list-val button ">- -</span>
+							<span class="list-val button ">----</span>
                         </div>
                       </div></a></li>
-                  <li><a href="transitions.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="custom/custom.php" class="item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <div class="item-media"><i class="icon icon-custom"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">--</div>
-							<span class="list-val button ">- -</span>
+                          <div class="item-title">Custom - NOT WORKING</div>
+							<span class="list-val button ">Make</span>
                         </div>
                       </div></a></li>
                 </ul>
