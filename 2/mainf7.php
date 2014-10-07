@@ -598,12 +598,12 @@ print $version;
                           <!--<div class="item-after"><span class="badge bg-green">NEW</span></div>-->
                         </div>
                       </div></a></li>
-                  <li><a href="#" class="item-link ks-generate-page">
+                  <li><a href="photosf7.php" class="item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <div class="item-media"><i class="icon icon-app-photos"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">--</div>
-							<span class="list-val button ">----</span>
+                          <div class="item-title">Photos - NEW</div>
+							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
                   <li><a href="custom/custom.php" class="item-link">
