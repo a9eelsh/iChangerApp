@@ -93,7 +93,7 @@ if ( $userraw == "" ) {
       background: SkyBlue;
     }
   </style>
-	<link rel="stylesheet" href="ui/css/app.css?v=5">
+	<link rel="stylesheet" href="ui/css/app.css?v=6">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
 	<script type="text/javascript">
@@ -603,6 +603,14 @@ print $version;
                         <div class="item-media"><i class="icon icon-app-photos"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Photos - NEW</div>
+							<span class="list-val button ">Theme</span>
+                        </div>
+                      </div></a></li>
+                  <li><a href="googlef7.php" class="item-link">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-app-google"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Google - NEW</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>

@@ -227,3 +227,9 @@ width:29px;
 height:29px;
 background-image:url(../../pics/photos.jpg);
 }
+
+i.icon.icon-app-google {
+width:29px;
+height:29px;
+background-image:url(../../Google/google.png);
+}
