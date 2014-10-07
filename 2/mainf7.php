@@ -608,7 +608,7 @@ print $version;
                       </div></a></li>
                   <li><a href="custom/custom.php" class="item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-custom"></i></div>
+                        <div class="item-media"><i class="icon icon-app-custom"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Custom - NOT WORKING</div>
 							<span class="list-val button ">Make</span>
