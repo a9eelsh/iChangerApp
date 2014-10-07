@@ -64,11 +64,11 @@ if ( $userraw == "" ) {
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Flat and Simple</div>
+								<div class="item-title">Maximal</div>
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Chrome</div>
-							<div class="item-text">Flat and Simple designed by Unknown</div>
+							<div class="item-text">Maximal Icon for Google Chrome</div>
 						</div>
 					</a>
 				</li>
