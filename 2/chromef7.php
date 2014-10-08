@@ -102,16 +102,16 @@ if ( $userraw == "" ) {
             <ul>-->
           
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=maximal.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=Chrome&p=LuminoSquare.png&n=Chrome&ur=googlechrome://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Instagram/maximal.png" width="80">
+							<img src="http://ichanger.tk/Chrome/LuminoSquare.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Maximal</div>
+								<div class="item-title">Lumino Square</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Instagram</div>
+							<div class="item-subtitle">Chrome</div>
 							<div class="item-text">Like Dislike</div>
 						</div>
 					</a>
