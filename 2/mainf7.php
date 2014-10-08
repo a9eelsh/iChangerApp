@@ -476,7 +476,7 @@ print $version;
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="messagesf7.ph" class="item-link">
+                  <li><a href="messagesf7.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-messages"></i></div>
                         <div class="item-inner">
