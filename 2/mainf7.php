@@ -476,11 +476,11 @@ print $version;
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="sortable-list.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="messagesf7.ph" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-messages"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Messages</div>
+                          <div class="item-title">Messages - NEW</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
