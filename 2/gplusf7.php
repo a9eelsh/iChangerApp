@@ -125,16 +125,16 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=Novus2&pe=.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=novusfull.png&n=Google%2B&ur=gplus://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/Novus.png" width="80">
+							<img src="http://ichanger.tk/GPlus/Novus.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
 								<div class="item-title">Novus</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">App Store</div>
+							<div class="item-subtitle">Google+</div>
 							<div class="item-text">Like Dislike</div>
 						</div>
 					</a>
