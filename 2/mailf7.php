@@ -38,7 +38,7 @@ if ( $userraw == "" ) {
           <div data-page="index-1" class="page">
             <div class="page-content">
 		<div class="content-block-title">
-		<p>Mail Icons</p>
+		Mail Icons
 		<p>Experimental</p></div>
 		<div class="list-block media-list">
 			<ul>
