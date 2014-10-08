@@ -39,7 +39,7 @@ if ( $userraw == "" ) {
             <div class="page-content">
 		<div class="content-block-title">
 		Mail Icons
-		<p>Experimental</p></div>
+		<p>Experimental-Opens New Message</p></div>
 		<div class="list-block media-list">
 			<ul>
 				<li>
