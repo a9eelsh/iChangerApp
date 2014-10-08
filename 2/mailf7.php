@@ -37,7 +37,9 @@ if ( $userraw == "" ) {
         <div class="pages navbar-through">
           <div data-page="index-1" class="page">
             <div class="page-content">
-		<div class="content-block-title">Mail Icons</div>
+		<div class="content-block-title">
+		<p>Mail Icons</p>
+		<p>Experimental</p></div>
 		<div class="list-block media-list">
 			<ul>
 				<li>
