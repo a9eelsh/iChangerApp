@@ -23,6 +23,11 @@ $icon128 = '' . htmlspecialchars($_GET["p"]) . '128' . htmlspecialchars($_GET["p
 $icon256 = '' . htmlspecialchars($_GET["p"]) . '256' . htmlspecialchars($_GET["pe"]) . '';
 $icon512 = '' . htmlspecialchars($_GET["p"]) . '512' . htmlspecialchars($_GET["pe"]) . '';
 
+$gplus = '' . htmlspecialchars($_GET["gplus"]) . '';
+if ( $gplus == "yes" ) {
+	$gplusn = "%2B";
+}
+
 print $iconfolder;
 print $iconmain;
 print $iconext;
@@ -72,7 +77,7 @@ $uri9 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialch
 $uri10 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'128' . htmlspecialchars($iconext) . '" sizes="128x128">';
 $uri11 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'256' . htmlspecialchars($iconext) . '" sizes="256x256">';
 $uri12 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'512' . htmlspecialchars($iconext) . '" sizes="512x512">';
-$uri13 = '<title>' . htmlspecialchars($appname) . '</title>';
+$uri13 = '<title>' . htmlspecialchars($appname) . '' . htmlspecialchars($gplusn) . '</title>';
 $uri14 = '<h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>';
 $uri15 = '<a id="launch" href="' . htmlspecialchars($ur) . '">';
 $uri16 = '<script> if(!document.referrer){activate()}function activate(){var e=document.getElementById("launch");var t=document.createEvent("MouseEvents");t.initEvent("click",true,true);e.dispatchEvent(t);window.opener=window;var n=window.open(location.href,"_self");n.close()} </script>';

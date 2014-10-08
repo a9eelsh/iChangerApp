@@ -59,7 +59,7 @@ if ( $userraw == "" ) {
 			<!--</ul>
 			<ul> %2B = + | Google%2B = Google+ -->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=maximal.png&n=Google+&ur=gplus://" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=maximal.png&n=Google&gplus=yes&ur=gplus://" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/GPlus/maximal.png" width="80">
 						</div>
@@ -84,7 +84,7 @@ if ( $userraw == "" ) {
           
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=LuminoSquare.png&n=Google+&ur=gplus://" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=LuminoSquare.png&n=Google&gplus=yes&ur=gplus://" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/GPlus/LuminoSquare.png" width="80">
 						</div>
@@ -103,7 +103,7 @@ if ( $userraw == "" ) {
             <ul>-->
           
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=LuminoSquare2.png&n=Google+&ur=gplus://" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=LuminoSquare2.png&n=Google&gplus=yes&ur=gplus://" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/GPlus/LuminoSquare2.png" width="80">
 						</div>
@@ -125,7 +125,7 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=novusfull.png&n=Google+&ur=gplus://" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=novusfull.png&n=Google&gplus=yes&ur=gplus://" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/GPlus/novus.png" width="80">
 						</div>
