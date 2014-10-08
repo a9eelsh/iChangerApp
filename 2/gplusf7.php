@@ -127,7 +127,7 @@ if ( $userraw == "" ) {
 				<li>
 					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=novusfull.png&n=Google%2B&ur=gplus://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/GPlus/Novus.png" width="80">
+							<img src="http://ichanger.tk/GPlus/novus.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
