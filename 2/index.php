@@ -2,17 +2,20 @@
 $dev = '' . htmlspecialchars($_GET["dev"]) . '';
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
-   if ( strpos($ua,"safari") && $dev == "y" ) {
-      echo('<!--Running in safari on iPhone/iPad--><meta http-equiv="refresh" content="0; url=http://ichanger.tk/install.php?ref=ic2main" />');
-   } else if ( substr_count($ua, '/') === 3 ) {
-      echo('<!--Running as stand alone WebApp on iPhone/iPad--><meta http-equiv="refresh" content="0; url=http://ichanger.tk/mainf7.php');
-   } else if ( substr_count($ua, '/') === 2 ) {
-      echo('<!--Running in a WebView on a iPhone/iPad app-->');
-   } else {
-      echo('<!--Running in another browser on iPhone/iPad-->Chrome Dectected');
+   if ( strpos($ua,"safari") && $dev == "y" ) { // safari on iPhone/iPad with dev perms
+      echo('<meta http-equiv="refresh" content="0; url=http://ichanger.tk/install.php?ref=ic2main" />');
+   } else if ( substr_count($ua, '/') === 3 ) { //stand alone WebApp on iPhone/iPad
+      echo('<meta http-equiv="refresh" content="0; url=http://ichanger.tk/mainf7.php');
+   } else if ( substr_count($ua, '/') === 2 ) { //WebView on a iPhone/iPad app
+      echo('Unplanned... Contact Devs Please!');
+   } else if ( strpos($ua,"safari") ) { // Safari on iPhone/iPad
+      echo('<meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/?dev=n" />');
+   } else { //another browser on iPhone/iPad
+      echo('<h1>Warning Chrome Dectected, Please Use Safari to Visit or Install iChanger<h1>');
    }
-} else {
-   echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
+} else { // device other than iPhone/iPad
+   echo('<meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
 }
 ?>
 <title>Loading...</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
