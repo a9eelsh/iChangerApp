@@ -504,7 +504,7 @@ print $version;
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-phone"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Phone - NEW</div>
+                          <div class="item-title">Phone - No Current URIS</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
