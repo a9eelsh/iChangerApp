@@ -636,7 +636,7 @@ print $version;
                 <iframe src="http://tylerlh.github.com/github-latest-commits-widget/?username=rosco1502&repo=iChanger-2&limit=2"  allowtransparency="true" frameborder="0" scrolling="no" ></iframe>
                 -->
               <div class="content-block">
-                <p>*App Icons when Installed May Vary</p>
+                *App Icons when Installed May Vary
                 <p>**Copyright Info Read 'About' In Menu</p>
                 <p><a href="#" id="simClickElement" class="beta-warning">Reopen Beta Warning</a></p>
                 <!--<p><a href="http://ichanger.tk/hayday.html" class="external">HeyDau</a></p>-->
