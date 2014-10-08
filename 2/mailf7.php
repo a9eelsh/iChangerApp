@@ -59,7 +59,7 @@ if ( $userraw == "" ) {
 			<!--</ul>
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Mail&p=maximal.png&n=Mail&ur=message://" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=Mail&p=maximal.png&n=Mail&ur=mailto://" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/Mail/maximal.png" width="80">
 						</div>
