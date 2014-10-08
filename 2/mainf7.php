@@ -573,11 +573,11 @@ print $version;
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="notifications.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="youtubef7.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-youtube"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">YouTube</div>
+                          <div class="item-title">YouTube - NEW</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
