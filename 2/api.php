@@ -48,7 +48,7 @@
         href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/users">Users</a></li>
       <li class=""><a
         href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/companies">General</a></li>
-      <li class=""><a
+      <li class="dropdown active"><a
         href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/messages/auto">iPeeps</a></li>
     </ul>
   </div>
