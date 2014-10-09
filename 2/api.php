@@ -178,7 +178,14 @@
           <ul>
             <li>Add this link as a <code>&lt;a href="CODE HERE"&gt;</code> where you want the user to install your shortcut <br></li>
           </ul> <!-- ?a=Google&p=maximal.png&n=Google&ur=googleapp:// -->
-          <pre class="prettyprint install-code" rows="12">&lt;a id="simClickElement" href="&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;/a&gt;</pre>
+          <pre class="prettyprint install-code" rows="12">&lt;a id="simClickElement" href="&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;/a&gt;
+          $appname = '' . htmlspecialchars($_GET["n"]) . '';
+          $iconfolder = '' . htmlspecialchars($_GET["a"]) . '';
+          $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
+          $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
+          $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
+          $v = '' . htmlspecialchars($_GET["v"]) . '';
+          </pre>
           <ul>
             <li>Review the <span class="text-info">TODO</span> comments and edit the code if necessary.</li>
             <li>Activate your app by <strong>logging into it in your development environment</strong>.</li>
