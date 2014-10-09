@@ -6,12 +6,12 @@
   <title>iChanger API - Working With iChanger</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-  <link href="ui/API/main.css" rel="stylesheet">
+  <link href="https://cdn.retain.cc/static/1.4.0/css/main.css" rel="stylesheet">
   <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
   <!-- Setting requirejs baseUrl -->
-  <script src="ui/API/require.js"></script>
-  <script src="ui/API/require-config.js"></script>
+  <script src="https://cdn.retain.cc/static/1.4.0/scripts/require.js"></script>
+  <script src="https://cdn.retain.cc/static/1.4.0/scripts/require-config.js"></script>
   <script>
     require.config({
       baseUrl: "https://cdn.retain.cc/static/1.4.0/scripts/",
@@ -21,7 +21,10 @@
       }
     });
   </script>
-  <script src="ui/API/main.js"></script>
+  <script src="https://cdn.retain.cc/static/1.4.0/dist/main.js"></script>
+
+
+<script>var retaincc = retaincc || [];(function(){var w=window;var ic=w.Citofono;if(typeof ic==="function"){ic('reattach_activator');ic('update',retainSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Citofono=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://nightly.retain.cc/app.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
 
   
   <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
@@ -33,7 +36,11 @@
       }
     );
   </script>
-      <link rel="stylesheet" type="text/css" href="ui/API/foundation.joyride.css">
+      <link rel="stylesheet" type="text/css" href="https://cdn.retain.cc/static/1.4.0/css/foundation.joyride.css">
+    <script type="text/javascript">
+      var heap=heap||[];heap.load=function(a){window._heapid=a;var b=document.createElement("script");b.type="text/javascript",b.async=!0,b.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.heapanalytics.com/js/heap.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c);var d=function(a){return function(){heap.push([a].concat(Array.prototype.slice.call(arguments,0)))}},e=["identify","track"];for(var f=0;f<e.length;f++)heap[e[f]]=d(e[f])};
+      heap.load("2148301338");
+    </script>
 </head>
 <body class="cit white-bg">
   
