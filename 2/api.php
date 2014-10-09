@@ -180,9 +180,13 @@
           </ul> <!-- ?a=Google&p=maximal.png&n=Google&ur=googleapp:// -->
           <pre class="prettyprint lang-html install-code" rows="22">
           &lt;?php
+          // -----------------
+          // iChanger API v1.0
+          // Copyright 2014, TheLocken LLC All Rights Reserved
+          // -----------------
           // App Name (example: Google+)
           $appname = 'My API Created App';
-          // Folder Icon Is Located At (example: Icons)
+          // Folder Icon Is Located At (example: Icons)*
           $iconfolder = 'Icons';
           // Icon Name (example: Picture)
           $iconmain = 'Picture';
@@ -190,7 +194,7 @@
           $iconext = '.png';
           // iOS App URLScheme (example: gplus://)
           $appurl = 'gplus://';
-          // WebSite Icon is hosted on (example: http://www.google.com/) (Only needed during install)*
+          // WebSite Icon is hosted on (example: http://www.google.com/) (Only needed during install)**
           $webhost = 'http://google.com/';
           // Link Text (example: Install My App)
           $aname = 'Click Here To Install My App';
@@ -203,8 +207,8 @@
           ?&gt;
           </pre>
           <ul>
-            <li>*Icon is only needed while installing the Shortcut, iOS will save the icon to its storage (no dynamic icons).</li>
-            <li>Activate your app by <strong>logging into it in your development environment</strong>.</li>
+            <li>*Having the Icon loacted in a folder is a requirement</li>
+            <li>**Icon is only needed while installing the Shortcut, iOS will save the icon to its storage (no dynamic icons).</li>
           </ul>
         </div>
       </div>
