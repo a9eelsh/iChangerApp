@@ -200,8 +200,6 @@
           // Located at http://www.google.com/Icons/Picture.png
           // ----------
           ?&gt;
-          
-          &lt;a id="simClickElement" href="http://www.ichanger.tk/apicore.php?a=&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;?php print $aname; ?&gt;&lt;/a&gt;
           </pre>
           <ul>
             <li>Review the <span class="text-info">TODO</span> comments and edit the code if necessary.</li>
@@ -220,14 +218,9 @@
             <li>You can send us anything and then filter, sort and automatically message users by whatever you send. 
             For data unique to an individual user, send it as user data.</li>
           </ul>
-          <pre class="prettyprint install-code" rows="10">
-window.retainSettings = {
-  ...
-  // TODO: Add any extra data you want in Retain.cc to your retainSettings
-  "avatar_set" : true,
-  "friend_count" : 32,
-  "app_id": "3bfbff722f1141d6bc9dddaf4e926f5a"
-}</pre>
+          <pre class="prettyprint lang-html install-code" rows="10">
+           &lt;a id="simClickElement" href="http://www.ichanger.tk/apicore.php?a=&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;?php print $aname; ?&gt;&lt;/a&gt;
+          </pre>
           <ul>
             <li>Once it's done, <strong>enable secure mode</strong>
               to prevent attackers from impersonating your users
