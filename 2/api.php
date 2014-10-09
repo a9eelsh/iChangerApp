@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
   <link href="https://cdn.retain.cc/static/1.4.0/css/main.css" rel="stylesheet">
-  <link href="http://www.ichanger.tk/ui/API/main.css" rel="stylesheet">
+  <link href="http://www.ichanger.tk/ui/API/logo.css?v=1" rel="stylesheet">
   <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
   <!-- Setting requirejs baseUrl -->
