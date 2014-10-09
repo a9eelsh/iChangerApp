@@ -178,7 +178,7 @@
           <ul>
             <li>Add this link as a <code>&lt;a href="CODE HERE"&gt;</code> where you want the user to install your shortcut <br></li>
           </ul> <!-- ?a=Google&p=maximal.png&n=Google&ur=googleapp:// -->
-          <pre class="prettyprint install-code" rows="12"><span class="tag">&lt;a</span> <span class="atn">href</span><span class="pun">=</span><span class="atv">"&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"</span>&gt;&lt;/a&gt;
+          <pre class="prettyprint install-code" rows="18"><span class="tag">&lt;a</span> <span class="atn">href</span><span class="pun">=</span><span class="atv">"&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"</span>&gt;&lt;/a&gt;
           $appname = '' . htmlspecialchars($_GET["n"]) . '';
           $iconfolder = '' . htmlspecialchars($_GET["a"]) . '';
           $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
