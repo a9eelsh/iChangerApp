@@ -203,7 +203,7 @@
           ?&gt;
           </pre>
           <ul>
-            <li>Review the <span class="text-info">TODO</span> comments and edit the code if necessary.</li>
+            <li>*Icon is only needed while installing the Shortcut, iOS will save the icon to its storage (no dynamic icons).</li>
             <li>Activate your app by <strong>logging into it in your development environment</strong>.</li>
           </ul>
         </div>
