@@ -41,8 +41,8 @@
 </head>
 <body class="cit white-bg">
   
-<!--<div class="navbar">
-  <a class="brand" href="http://iChanger.tk/">iChanger API </a>
+<div class="navbar">
+  <!--<a class="brand" href="http://iChanger.tk/">iChanger API </a>
   <div id="nav-wrap">
     <ul class="nav">
       <li class=""><a
@@ -143,8 +143,8 @@
       </a>
     </li>
     </ul>
-  </div>
-</div>-->
+  </div>-->
+</div>
 
 
   <div id="flash-messages">
@@ -161,7 +161,7 @@
       <p>Have further questions?</p>
       <p><a href="mailto://techsupport@thelocken.com" class="widget-activator">Ask us directly!</a></p>
     </div>
-    <h1>General Docs</h1>
+    <h1>iChanger iOS API</h1>
   </div>
 </header>
 
