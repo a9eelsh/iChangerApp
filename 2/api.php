@@ -46,9 +46,9 @@
     <ul class="nav">
       <li class=""><a
         href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/users">Users</a></li>
-      <li class=""><a
-        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/companies">General</a></li>
       <li class="dropdown active"><a
+        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/companies">General</a></li>
+      <li class=""><a
         href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/messages/auto">iPeeps</a></li>
     </ul>
   </div>
@@ -163,7 +163,7 @@
       <p>Have further questions?</p>
       <p><a href="#" class="widget-activator">Ask us directly!</a></p>
     </div>
-    <h1>Install retain.cc</h1>
+    <h1>General Docs</h1>
   </div>
 </header>
 
@@ -176,7 +176,7 @@
         <h2><span class="first-step">1</span> Add the CODE</h2>
         <div class="step-todo">
           <ul>
-            <li>Paste this code before <code>&lt;/body&gt;</code> on every page where your users are logged in: <br></li>
+            <li>Add this code as a <code>&lt;a href=""&gt;</code> on every page where your users are logged in: <br></li>
           </ul>
           <pre class="prettyprint install-code" rows="12">&lt;script id="RetainSettingsScriptTag"&gt;
     window.retainSettings = {
