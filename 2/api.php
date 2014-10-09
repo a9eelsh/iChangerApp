@@ -23,9 +23,6 @@
   </script>
   <script src="https://cdn.retain.cc/static/1.4.0/dist/main.js"></script>
 
-
-<script>var retaincc = retaincc || [];(function(){var w=window;var ic=w.Citofono;if(typeof ic==="function"){ic('reattach_activator');ic('update',retainSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Citofono=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://nightly.retain.cc/app.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
-
   
   <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
 
@@ -140,7 +137,7 @@
       </ul>
     </li>
     <li id="question-mark" class="widget-activator">
-      <a href="#">
+      <a href="mailto://techsupport@thelocken.com">
         <span class="question">?</span>
         <span class="got-question">Got questions or feedback?</span>
       </a>
@@ -161,11 +158,8 @@
 <header class="jumbotron subhead">
   <div class="container-fluid">
     <div class="install-help">
-      <img
-        class="user-gravatar"
-        src="https://www.gravatar.com/avatar/23c052ac6cc00b48c68261a41e12744f?s=48&d=https%3A%2F%2Fretain-cc.s3.amazonaws.com%2Fstatic%2Favatar.png">
       <p>Have further questions?</p>
-      <p><a href="#" class="widget-activator">Ask us directly!</a></p>
+      <p><a href="mailto://techsupport@thelocken.com" class="widget-activator">Ask us directly!</a></p>
     </div>
     <h1>General Docs</h1>
   </div>
@@ -254,20 +248,11 @@
           <hr>
           <ul>
             <li>
-              Your app's secret key is <span class="text-info">2e3eb78825ce4a69a21ccdf14abcf5b7</span>
+              Your app's secret key is <span class="text-info">--------</span>
             </li>
             <li>Generate the user_hash on every request with the user id or email address of the current user.</li>
           </ul>
-          <pre class="prettyprint install-code" rows="10">&lt;script id="RetainSettingsScriptTag"&gt;
-  window.retainSettings = {
-      // TODO: The current logged in user's email address.
-      email: "john.doe@example.com",
-      // TODO: The current logged in user's sign-up date as a Unix timestamp.
-      created_at: 1234567890,
-      app_uid: "3bfbff722f1141d6bc9dddaf4e926f5a",
-      user_hash: "<?php echo hash_hmac("sha256", $user->email, "2e3eb78825ce4a69a21ccdf14abcf5b7"); ?>",
-  };
-&lt;/script&gt;</pre>
+          <pre class="prettyprint install-code" rows="10">CODE GOES HERE STEP 3</pre>
         </div>
       </div>
     </div>
