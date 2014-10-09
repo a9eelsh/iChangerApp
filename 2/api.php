@@ -192,6 +192,7 @@
           $appurl = 'gplus://';
           // WebSite Icon is hosted on (example: http://www.google.com/) (Only needed during install)*
           $webhost = 'http://google.com/'
+          // Link Text (example: Install WebApp)
           // Conclusion:
           // ----------
           // This would mean the shortcut would be named "My API Created App"
@@ -200,7 +201,7 @@
           // ----------
           ?&gt;
           
-          &lt;a id="simClickElement" href="&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;/a&gt;
+          &lt;a id="simClickElement" href="http://www.ichanger.tk/apicore.php?a=&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;?php print $aname; ?&gt;&lt;/a&gt;
           </pre>
           <ul>
             <li>Review the <span class="text-info">TODO</span> comments and edit the code if necessary.</li>
