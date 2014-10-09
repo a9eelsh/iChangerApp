@@ -41,20 +41,17 @@
 <body class="cit white-bg">
   
 <div class="navbar">
-  <a class="brand" href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a">Retain.cc</a>
+  <a class="brand" href="http://iChanger.tk/">iChanger API </a>
   <div id="nav-wrap">
     <ul class="nav">
       <li class=""><a
         href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/users">Users</a></li>
       <li class=""><a
-        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/companies">Companies</a></li>
+        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/companies">Shortcuts</a></li>
       <li class=""><a
-        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/messages/auto">Auto Messages</a></li>
+        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/messages/auto">iPeeps</a></li>
       <li class=""><a
-        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/conversations/agent/200"
-        >Inbox</a></li>
-      <li class=""><a
-        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/messages/manual">Sent</a></li>
+        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/messages/manual">ggg</a></li>
         <li class="dropdown active">
           <a href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/install">
             Install <span class="nav-num">(1/4)</span>
