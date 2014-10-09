@@ -176,18 +176,9 @@
         <h2><span class="first-step">1</span> Add the CODE</h2>
         <div class="step-todo">
           <ul>
-            <li>Add this code as a <code>&lt;a href=""&gt;</code> on every page where your users are logged in: <br></li>
-          </ul>
-          <pre class="prettyprint install-code" rows="12">&lt;script id="RetainSettingsScriptTag"&gt;
-    window.retainSettings = {
-        // TODO: The current logged in user's email address.
-        email: "john.doe@example.com",
-        // TODO: The current logged in user's sign-up date as a Unix timestamp.
-        created_at: 1234567890,
-        app_uid: "3bfbff722f1141d6bc9dddaf4e926f5a"
-    };
-&lt;/script&gt;
-&lt;script&gt;var retaincc = retaincc || [];(function(){var w=window;var ic=w.Citofono;if(typeof ic==="function"){ic('reattach_activator');ic('update',retainSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Citofono=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://cdn.retain.cc/app.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()&lt;/script&gt;</pre>
+            <li>Add this link as a <code>&lt;a href="CODE HERE"&gt;</code> where you want the user to install your shortcut <br></li>
+          </ul> <!-- ?a=Google&p=maximal.png&n=Google&ur=googleapp:// -->
+          <pre class="prettyprint install-code" rows="12">&lt;a id="simClickElement" href="&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;/a&gt;</pre>
           <ul>
             <li>Review the <span class="text-info">TODO</span> comments and edit the code if necessary.</li>
             <li>Activate your app by <strong>logging into it in your development environment</strong>.</li>
