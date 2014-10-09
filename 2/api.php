@@ -192,7 +192,12 @@
           $appurl = 'gplus://';
           // WebSite Icon is hosted on (example: http://www.google.com/) (Only needed during install)*
           $webhost = 'http://google.com/'
-          // This would mean the shortcut would be named "My API Created App" with the icon "Picture.png" Located in Icons/Picture.png
+          // Conclusion:
+          // ----------
+          // This would mean the shortcut would be named "My API Created App"
+          // with the icon "Picture.png"
+          // Located at http://www.google.com/Icons/Picture.png
+          // ----------
           ?&gt;
           
           &lt;a id="simClickElement" href="&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;/a&gt;
