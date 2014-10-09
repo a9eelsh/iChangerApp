@@ -93,7 +93,7 @@ if ( $userraw == "" ) {
       background: SkyBlue;
     }
   </style>
-	<link rel="stylesheet" href="ui/css/app.css?v=7">
+	<link rel="stylesheet" href="ui/css/app.css?v=8">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
 	<script type="text/javascript">
@@ -204,11 +204,11 @@ if ( $userraw == "" ) {
 <div class="item-title">Side Panels</div>
 </div>
 </div></a></li>
-<li><a href="list-view.html" class="close-panel item-link">
+<li><a href="api.php" class="close-panel item-link">
 <div class="item-content">
-<div class="item-media"><i class="icon icon-f7"></i></div>
+<div class="item-media"><i class="icon icon-menu-api"></i></div>
 <div class="item-inner">
-<div class="item-title">List View</div>
+<div class="item-title">Dev API</div>
 </div>
 </div></a></li>
 <li><a href="forms.html" class="close-panel item-link">
