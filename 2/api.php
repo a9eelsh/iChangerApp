@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Communiate with clients</title>
+  <title>iChanger API - Working With iChanger</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   <link rel="icon" 
       type="image/png" 
@@ -26,35 +26,6 @@
   </script>
   <script src="https://cdn.retain.cc/static/1.4.0/dist/main.js"></script>
 
-  <script id="RetainSettingsScriptTag">
-  window.retainSettings = {
-    user_id: 200,
-    email: "thelocken@gmail.com",
-    name: "Bradley",
-    // TODO: The current logged in user's sign-up date as a Unix timestamp.
-    created_at: 1412652576.0,
-    app_uid: "fd47d3c296fb4f44a0987288177aae66",
-    user_hash: "62cafccf534105068184d5c5c810f0c9efd87aa56f752ac52de81674a2adc013",
-    custom_data: {
-        app_count: 1
-    },
-    last_app_id: 238,
-    company: {
-        id: 238,
-        name: "iChanger",
-        spending: 0,
-        created_at: 1412652695.0,
-        sent_auto_message: false,
-        sent_manual_message: false,
-        received_event_count: 0,
-    },
-    widget: {
-        activator: ".widget-activator"
-    }
-  };
-</script>
-<script>var retaincc = retaincc || [];(function(){var w=window;var ic=w.Citofono;if(typeof ic==="function"){ic('reattach_activator');ic('update',retainSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Citofono=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://nightly.retain.cc/app.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
-
   
   <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
 
@@ -66,10 +37,6 @@
     );
   </script>
       <link rel="stylesheet" type="text/css" href="https://cdn.retain.cc/static/1.4.0/css/foundation.joyride.css">
-    <script type="text/javascript">
-      var heap=heap||[];heap.load=function(a){window._heapid=a;var b=document.createElement("script");b.type="text/javascript",b.async=!0,b.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.heapanalytics.com/js/heap.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c);var d=function(a){return function(){heap.push([a].concat(Array.prototype.slice.call(arguments,0)))}},e=["identify","track"];for(var f=0;f<e.length;f++)heap[e[f]]=d(e[f])};
-      heap.load("2148301338");
-    </script>
 </head>
 <body class="cit white-bg">
   
