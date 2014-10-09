@@ -7,6 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
   <link href="https://cdn.retain.cc/static/1.4.0/css/main.css" rel="stylesheet">
+  <link href="http://www.ichanger.tk/ui/API/main.css" rel="stylesheet">
   <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
   <!-- Setting requirejs baseUrl -->
@@ -42,8 +43,8 @@
 <body class="cit white-bg">
   
 <div class="navbar">
-  <!--<a class="brand" href="http://iChanger.tk/">iChanger API </a>
-  <div id="nav-wrap">
+  <a class="brand-ios" href="http://iChanger.tk/">iChanger API</a>
+  <!--<div id="nav-wrap">
     <ul class="nav">
       <li class=""><a
         href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/users">Users</a></li>
