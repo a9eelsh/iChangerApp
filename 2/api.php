@@ -180,16 +180,19 @@
           </ul> <!-- ?a=Google&p=maximal.png&n=Google&ur=googleapp:// -->
           <pre class="prettyprint lang-html install-code" rows="12">
           &lt;?php
-          // App Name (example: AppStore)
+          // App Name (example: Google+)
           $appname = 'My API Created App';
           // Folder Icon Is Located At (example: Icons)
           $iconfolder = 'Icons';
-          // Icon Name (example: picture)
-          $iconmain = 'picture';
+          // Icon Name (example: Picture)
+          $iconmain = 'Picture';
           // Icon Extension (example: .png)
           $iconext = '.png';
-          // iOS App URLScheme (example: googleapp://)
-          $appurl = 'googleapp://';
+          // iOS App URLScheme (example: gplus://)
+          $appurl = 'gplus://';
+          // WebSite Icon is hosted on (example: http://www.google.com/) (Only needed during install)*
+          $webhost = 'http://google.com/'
+          // This would mean the shortcut would be named "My API Created App" with the icon "Picture.png" Located in Icons/Picture.png
           ?&gt;
           
           &lt;a id="simClickElement" href="&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;/a&gt;
