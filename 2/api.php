@@ -231,6 +231,7 @@
     </div>
 
     <!-- 3: secure -->
+    <!--
     <div id="step-3" class="row-fluid">
       <div class="install-step">
         <h2><span class="third-step">3</span> Turn on secure mode</h2>
@@ -258,7 +259,7 @@
     </div>
 
     <!-- 4: team -->
-    <div id="step-4" class="row-fluid">
+    <!--<div id="step-4" class="row-fluid">
       <div class="install-step">
         <h2><span class="fourth-step">4</span> Let your users contact you</h2>
         <div class="step-todo">
@@ -358,21 +359,7 @@
 
   </div>
   <!-- *** END page content ***-->
-  
-  <footer class="footer"><div class="container-fluid">
-    <p>Citonofo</p>
-  </div></footer>
 
-
-  
-
-
-    <script type="text/javascript">
-      heap.identify({
-        email: "thelocken@gmail.com",
-        name: "Bradley"
-      });
-    </script>
 </body>
 </html>
 
