@@ -5,16 +5,13 @@
 <head>
   <title>iChanger API - Working With iChanger</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-  <link rel="icon" 
-      type="image/png" 
-      href="https://cdn.retain.cc/static/1.4.0/img/favicon.png">
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-  <link href="https://cdn.retain.cc/static/1.4.0/css/main.css" rel="stylesheet">
+  <link href="ui/API/main.css" rel="stylesheet">
   <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
   <!-- Setting requirejs baseUrl -->
-  <script src="https://cdn.retain.cc/static/1.4.0/scripts/require.js"></script>
-  <script src="https://cdn.retain.cc/static/1.4.0/scripts/require-config.js"></script>
+  <script src="ui/API/require.js"></script>
+  <script src="ui/API/require-config.js"></script>
   <script>
     require.config({
       baseUrl: "https://cdn.retain.cc/static/1.4.0/scripts/",
@@ -24,7 +21,7 @@
       }
     });
   </script>
-  <script src="https://cdn.retain.cc/static/1.4.0/dist/main.js"></script>
+  <script src="ui/API/main.js"></script>
 
   
   <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
@@ -36,7 +33,7 @@
       }
     );
   </script>
-      <link rel="stylesheet" type="text/css" href="https://cdn.retain.cc/static/1.4.0/css/foundation.joyride.css">
+      <link rel="stylesheet" type="text/css" href="ui/API/foundation.joyride.css">
 </head>
 <body class="cit white-bg">
   
@@ -217,19 +214,16 @@
     <!-- page 2 -->
     <div id="step-2" class="row-fluid">
       <div class="install-step">
-        <h2><span class="second-step">2</span> Send DATA about your USERS</h2>
+        <h2><span class="second-step">2</span> Link USERS to the Shortcut/App</h2>
         <div class="step-todo">
           <ul>
-            <li>You can send us anything and then filter, sort and automatically message users by whatever you send. 
-            For data unique to an individual user, send it as user data.</li>
+            <li>Locate this link where you want your users to find it, customize it all you want:</li>
           </ul>
           <pre class="prettyprint lang-html install-code" rows="10">
 &lt;a id="simClickElement" href="http://www.ichanger.tk/apicore.php?a=&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;?php print $aname; ?&gt;&lt;/a&gt;
           </pre>
           <ul>
-            <li>Once it's done, <strong>enable secure mode</strong>
-              to prevent attackers from impersonating your users
-            </li>
+            <li>Remember to have <a href="#step-1">STEP 1</a> complete for this to work.</li>
           </ul>
         </div>
       </div>
