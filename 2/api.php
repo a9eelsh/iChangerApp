@@ -178,7 +178,7 @@
           <ul>
             <li>Add this php code before <code>&lt;head&gt;</code> on the page you want your app to be linked: <br></li>
           </ul> <!-- ?a=Google&p=maximal.png&n=Google&ur=googleapp:// -->
-          <pre class="prettyprint lang-html install-code" rows="12">
+          <pre class="prettyprint lang-html install-code" rows="22">
           &lt;?php
           // App Name (example: Google+)
           $appname = 'My API Created App';
@@ -191,8 +191,9 @@
           // iOS App URLScheme (example: gplus://)
           $appurl = 'gplus://';
           // WebSite Icon is hosted on (example: http://www.google.com/) (Only needed during install)*
-          $webhost = 'http://google.com/'
-          // Link Text (example: Install WebApp)
+          $webhost = 'http://google.com/';
+          // Link Text (example: Install My App)
+          $aname = 'Click Here To Install My App';
           // Conclusion:
           // ----------
           // This would mean the shortcut would be named "My API Created App"
