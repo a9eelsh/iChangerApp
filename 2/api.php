@@ -41,7 +41,7 @@
 </head>
 <body class="cit white-bg">
   
-<div class="navbar">
+<!--<div class="navbar">
   <a class="brand" href="http://iChanger.tk/">iChanger API </a>
   <div id="nav-wrap">
     <ul class="nav">
@@ -144,7 +144,7 @@
     </li>
     </ul>
   </div>
-</div>
+</div>-->
 
 
   <div id="flash-messages">
