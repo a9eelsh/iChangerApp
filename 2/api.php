@@ -173,10 +173,10 @@
     <!-- 1: code -->
     <div id="step-1" class="row-fluid">
       <div class="install-step">
-        <h2><span class="first-step">1</span> Add the CODE</h2>
+        <h2><span class="first-step">1</span> Add the Configuration Code</h2>
         <div class="step-todo">
           <ul>
-            <li>Add this link as a <code>&lt;a href="CODE HERE"&gt;</code> where you want the user to install your shortcut <br></li>
+            <li>Add this php code before <code>&lt;head&gt;</code> on the page you want your app to be linked: <br></li>
           </ul> <!-- ?a=Google&p=maximal.png&n=Google&ur=googleapp:// -->
           <pre class="prettyprint lang-html install-code" rows="12">
           &lt;?php
