@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
   <link href="https://cdn.retain.cc/static/1.4.0/css/main.css" rel="stylesheet">
-  <link href="http://www.ichanger.tk/ui/API/logo.css?v=" rel="stylesheet">
+  <link href="http://www.ichanger.tk/ui/API/logo.css?v=3" rel="stylesheet">
   <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
   <!-- Setting requirejs baseUrl -->
@@ -222,6 +222,7 @@
             <li>Locate this link where you want your users to find it, customize it all you want:</li>
           </ul>
           <pre class="prettyprint lang-html install-code" rows="10">
+&lt;!-- iChanger API v1.0 --&gt;
 &lt;a id="simClickElement" href="http://www.ichanger.tk/apicore.php?a=&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;?php print $aname; ?&gt;&lt;/a&gt;
           </pre>
           <ul>
