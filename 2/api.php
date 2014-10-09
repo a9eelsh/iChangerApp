@@ -178,7 +178,7 @@
           <ul>
             <li>Add this link as a <code>&lt;a href="CODE HERE"&gt;</code> where you want the user to install your shortcut <br></li>
           </ul> <!-- ?a=Google&p=maximal.png&n=Google&ur=googleapp:// -->
-          <pre class="prettyprint lang-html install-code" rows="12">&lt;a id="simClickElement" href="&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;/a&gt;
+          <pre class="prettyprint lang-html install-code" rows="12">
           &lt;?php
           // App Name (example: AppStore)
           $appname = 'My API Created App';
@@ -191,6 +191,8 @@
           // iOS App URLScheme (example: googleapp://)
           $appurl = 'googleapp://';
           ?&gt;
+          
+          &lt;a id="simClickElement" href="&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;/a&gt;
           </pre>
           <ul>
             <li>Review the <span class="text-info">TODO</span> comments and edit the code if necessary.</li>
