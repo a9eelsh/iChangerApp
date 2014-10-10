@@ -879,8 +879,8 @@ If you feel that this site is not following its stated information policy, you m
 <div class="page-content">
 <div class="content-block">
 <p>iChanger is an iOS app that allows you to theme icons the way you want.</p>
-<p>iChanger is developed and maintained by a 3 Developer Group named TheLocken, Bradley (Rosco1502), Loren (Theredspy), and Jase (Aries).</p>
-<p><ul><li>Bradley is the lead developer and also started TheLocken, LLC and iChanger</li><li>Loren is the main Android and Java coder of iChanger.</li><li>Jase is the main Icon-Gatherer, he sends icons he finds on various sources to our team to implement into iChanger.</li></ul></p>
+<p>iChanger is developed and maintained by a 3 Developer Group named TheLocken, Bradley (Rosco1502), Loren (Theredspy1155), and Jase (Aries).</p>
+<p><ul><li>Bradley is the lead developer, he coded almost all of iChanger and also started TheLocken LLC, and iChanger</li><li>Loren is the main Android and Java coder of iChanger.</li><li>Jase is the main Icon-Gatherer, he sends icons he finds on various sources to our team to implement into iChanger.</li></ul></p>
 <p>We get icons form various sources, including (but not limited to) <a href="http://deviantart.com/" class="external close-popup">DiviantArt.com</a>, <a href="http://uiconstock.com/" class="external close-popup">UIconStock</a>, etc.</p>
 <p>Extra thanks to <a href="http://ffra.deviantart.com/" class="external close-popup">FFra</a> for supplying amazing icons packs such as Novus, Flatest, Maximal and to <a href="http://dtafalonso.deviantart.com/" class="external close-popup">Dtafalonso</a> for creating awesome packs such as iOS 7 Alternative, iOS 7 Icons (#1-7)</p>
 </div>
