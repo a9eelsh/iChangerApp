@@ -1,39 +1,32 @@
-<!--<script>
-if(navigator.userAgent.match('CriOS')) {
-    document.write('Hello');
-}
-</script>-->
-  <title>To install iChanger use Safari</title>
-  	<!-- Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+<html>
+ <head>
+  <link href="http://www.lockenfiles.tk/cdn/h5form/test/qunit.css" rel="stylesheet" />
+  <link href="http://www.lockenfiles.tk/cdn/h5form/style0000000.css" media="screen" rel="stylesheet" type="text/css" />
+  <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
+  <script>
+		$(document).ready(function () {
+    	$('form').h5Validate();
+		});
+  </script>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>iChanger 2</title>
+<!-- Path to Framework7 Library CSS -->
+  <link rel="stylesheet" href="ui/css/framework7.css">
+  <link rel="stylesheet" href="ui/css/framework7.min.css">
+  <link rel="stylesheet" href="ui/css/framework7.themes.css">
+<!-- Path to TheLocken Core CSS -->
+  <link rel="stylesheet" href="ui/css/f7-2.css">
+  <link rel="stylesheet" href="ui/css/tabs.css">
+  <link rel="stylesheet" href="ui/css/app.css?v=9">
+  <link rel="stylesheet" href="ui/css/nav.css">
+  <link rel="stylesheet" href="ui/css/closex.css">
   <style>
   body { font-family: 'Maven Pro', Arial, serif; font-weight: 400; }
-  #middle {
-    position:fixed;
-    top: 50%;
-    left: 50%;
-    width:30em;
-    height:18em;
-    margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -15em; /*set to a negative number 1/2 of your width*/
-    border: 1px solid #ccc;
-    background-color: #f3f3f3;
-  }
   </style>
-  <style>
-
- body {
-background-color: 000000!important;
-background-image: url(http://www.profilerehab.com/pb/designs/grunge/blue_grunge_layout_10.jpg); 
-background-position: left top;
-background-repeat: no-repeat;
-background-attachment: fixed;
-margin-bottom: 0px;
-margin-right: ;
- }
-
-</style>
+</head>
   <div id="middle">
        <h2>
           <p>
@@ -68,3 +61,9 @@ margin-right: ;
           </p>
       <h2>
   </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/f7-2.js"></script>
+    <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
+  </body>
+</html>

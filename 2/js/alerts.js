@@ -26,3 +26,6 @@ $$('.alert-text-callback').on('click', function () {
     });
 });
 
+$$('.no-mobile-view').on('click', function () {
+    myApp.alert('This page is meant to be viewed on a Computer, some elements of the page might not work correctly', 'Warning');
+});

@@ -4,7 +4,10 @@
 <html lang="en">
 <head>
   <title>iChanger API - Working With iChanger</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
   <link href="https://cdn.retain.cc/static/1.4.0/css/main.css" rel="stylesheet">
   <link href="http://www.ichanger.tk/ui/API/logo.css?v=3" rel="stylesheet">
