@@ -13,15 +13,6 @@
   <!-- Setting requirejs baseUrl -->
   <script src="https://cdn.retain.cc/static/1.4.0/scripts/require.js"></script>
   <script src="https://cdn.retain.cc/static/1.4.0/scripts/require-config.js"></script>
-  <script>
-    require.config({
-      baseUrl: "https://cdn.retain.cc/static/1.4.0/scripts/",
-      paths: {
-        'appConfig': 'https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/config',
-        'demoConfig': "https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/demo_config"
-      }
-    });
-  </script>
   <script src="https://cdn.retain.cc/static/1.4.0/dist/main.js"></script>
 
   
@@ -44,7 +35,7 @@
   
 <div class="navbar">
   <center><a href="http://iChanger.tk/"><img src="/pics/logo.png" alt="iChanger"></a></center>
-  <!--<div id="nav-wrap">
+  <?php /*<!--<div id="nav-wrap">
     <ul class="nav">
       <li class=""><a
         href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/users">Users</a></li>
@@ -144,7 +135,7 @@
       </a>
     </li>
     </ul>
-  </div>-->
+  </div>--> */ ?>
 </div>
 
 
