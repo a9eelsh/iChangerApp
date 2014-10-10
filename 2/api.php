@@ -244,7 +244,7 @@
             <li>Generate the user_hash on every request with the user id or email address of the current user.</li>
           </ul>
           <pre class="prettyprint install-code" rows="10">
-          &lt;script type=text/javascript"&gt; /* iChanger 1.0 API */ function simClickMain(){var e=document.getElementById("simClickElement");if(e.click){e.click()}else if(document.createEvent){var t=document.createEvent("MouseEvent");t.initEvent("click",true,true);e.dispatchEvent(t)}}&lt;/script&gt;
+&lt;script type=text/javascript"&gt; /* iChanger 1.0 API */ function simClickMain(){var e=document.getElementById("simClickElement");if(e.click){e.click()}else if(document.createEvent){var t=document.createEvent("MouseEvent");t.initEvent("click",true,true);e.dispatchEvent(t)}}&lt;/script&gt;
           </pre>
         </div>
       </div>
