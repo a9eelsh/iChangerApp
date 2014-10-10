@@ -224,10 +224,10 @@
     <!-- 3: secure -->
     <div id="step-3" class="row-fluid">
       <div class="install-step">
-        <h2><span class="third-step">3</span> Turn on secure mode</h2>
+        <h2><span class="third-step">3</span> Automaticly Install App (Optional)</h2>
         <div class="step-todo">
           <ul>
-            <li>Secure mode prevents an attacker from impersonating your users; without secure mode an attacker could send messages to your app as another user.</p>
+            <li>If you want to automaticly go the the Install page once its loaded add this code in the <code>&lt;head&gt;</code></p>
             <li><strong>Installing secure mode is mandatory once you enabled.</strong></p>
             <li>
               Secure mode is established by sending a <a href="http://en.wikipedia.org/wiki/Hash-based_message_authentication_code">HMAC SHA256</a> hash of a secret key and the user's user id or email with every request, this hash is referred to as the <span class="text-info">user_hash</span>.
