@@ -227,7 +227,7 @@
         <h2><span class="third-step">3</span> Automaticly Install App (Optional)</h2>
         <div class="step-todo">
           <ul>
-            <li>If you want to automaticly go the the Install page once its loaded add this code in the <code>&lt;head&gt;</code></p>
+            <li>If you want to automaticly go the the Install page once its loaded add this code after the <code>&lt;head&gt;</code> and before the <code>&lt;/head&gt;</code> tag:</p>
             <li><strong>Installing secure mode is mandatory once you enabled.</strong></p>
             <li>
               Secure mode is established by sending a <a href="http://en.wikipedia.org/wiki/Hash-based_message_authentication_code">HMAC SHA256</a> hash of a secret key and the user's user id or email with every request, this hash is referred to as the <span class="text-info">user_hash</span>.
