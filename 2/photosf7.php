@@ -103,7 +103,7 @@ if ( $userraw == "" ) {
             <ul>-->
           
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Photos&p=gcons.png=Photos&ur=photos-redirect://" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=Photos&p=gcons.png&n=Photos&ur=photos-redirect://" class="external item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/Photos/gcons.png" width="80">
 						</div>
