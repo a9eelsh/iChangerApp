@@ -43,7 +43,7 @@
 <body class="cit white-bg">
   
 <div class="navbar">
-  <a class="brand-ios" href="http://iChanger.tk/"></a>
+  <a href="http://iChanger.tk/"><img src="/pics/logo.png" alt="iChanger"></a>
   <!--<div id="nav-wrap">
     <ul class="nav">
       <li class=""><a
