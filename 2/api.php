@@ -34,7 +34,7 @@
 <body class="cit white-bg">
   
 <div class="navbar">
-  <center><a href="http://iChanger.tk/"><img src="/pics/logo.png" alt="iChanger"></a></center>
+  <p><center><a href="http://iChanger.tk/"><img src="/pics/logo.png" alt="iChanger"></a></center></p>
   <?php /*<!--<div id="nav-wrap">
     <ul class="nav">
       <li class=""><a
