@@ -93,7 +93,7 @@ if ( $userraw == "" ) {
       background: SkyBlue;
     }
   </style>
-	<link rel="stylesheet" href="ui/css/app.css?v=9">
+	<link rel="stylesheet" href="ui/css/app.css?v=10">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
 	<script type="text/javascript">
@@ -884,6 +884,7 @@ If you feel that this site is not following its stated information policy, you m
 <p>We get icons form various sources, including (but not limited to) <a href="http://deviantart.com/" class="external close-popup">DiviantArt.com</a>, <a href="http://uiconstock.com/" class="external close-popup">UIconStock</a>, etc.</p>
 <p>Extra thanks to <a href="http://ffra.deviantart.com/" class="external close-popup">FFra</a> for supplying amazing icons packs such as Novus, Flatest, Maximal and to <a href="http://dtafalonso.deviantart.com/" class="external close-popup">Dtafalonso</a> for creating awesome packs such as iOS 7 Alternative, iOS 7 Icons (#1-7)</p>
 <p>Follow us on Twitter <a href="https://twitter.com/TheLockenLLC" class="external close-popup">@TheLockenLLC</a> and <a href="http://ichangerteam.deviantart.com/" class="external close-popup">@iChangerTeam</a> on DeviantArt.</p>
+<p>Credits to <a href="http://icons8.com/" class="external close-popup">Icons8</a> for providing some icons throughout the app.</p>
 </div>
 </div>
 </div>
