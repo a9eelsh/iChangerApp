@@ -878,7 +878,10 @@ If you feel that this site is not following its stated information policy, you m
 </div>
 <div class="page-content">
 <div class="content-block">
-<p>Credits to </p>
+<p>iChanger is an iOS app that allows you to theme icons the way you want.</p>
+<p>iChanger is developed and maintained by a 3 Developer Group named TheLocken, LLC.</p>
+<p>We get icons form various sources, including (but not limited to) <a href="http://deviantart.com/" class="external close-popup">DiviantArt.com</a>, <a href="http://uiconstock.com/" class="external close-popup">UIconStock</a>, etc.</p>
+<p>Extra thanks to <a href="http://ffra.deviantart.com/" class="external close-popup">FFra</a> for supplying amazing icons packs such as Novus, Flatest, Maximal, etc. and <a href="http://dtafalonso.deviantart.com/" class="external close-popup">Dtafalonso</a> for creating awesome packs such as iOS 7 Alternative, iOS 7 Icons (#1-7), etc.</p>
 </div>
 </div>
 </div>
