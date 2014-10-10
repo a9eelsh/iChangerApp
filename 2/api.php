@@ -219,7 +219,7 @@
         <h2><span class="second-step">2</span> Link USERS to the Shortcut/App</h2>
         <div class="step-todo">
           <ul>
-            <li>Locate this link where you want your users to find it, customize it all you want:</li>
+            <li>Locate this link where you want your users to find it, customize it all you want but remember to keep <code>href=""</code> the same:</li>
           </ul>
           <pre class="prettyprint lang-html install-code" rows="10">
 &lt;!-- iChanger API v1.0 --&gt;
