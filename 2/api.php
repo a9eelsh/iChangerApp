@@ -235,7 +235,7 @@
         </div>
       </div>
     </div>
-
+<?php /*
     <!-- 4: team -->
     <!--<div id="step-4" class="row-fluid">
       <div class="install-step">
