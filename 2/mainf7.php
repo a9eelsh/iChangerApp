@@ -232,7 +232,7 @@ if ( $userraw == "" ) {
 <div class="item-title">Report Bug<span> or Issue</span></div>
 </div>
 </div></a></li>
-<li><a href="#" data-popup=".popup-about" class="open-popup external close-panel item-link">
+<li><a href="#" data-popup=".popup-about" class="open-popup close-panel item-link">
 <div class="item-content">
 <div class="item-media"><i class="icon icon-menu-about"></i></div>
 <div class="item-inner">
