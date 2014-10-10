@@ -221,7 +221,7 @@
       </div>
     </div>
 
-    <!-- 3: secure -->
+<?php /*    <!-- 3: secure -->
     <!--
     <div id="step-3" class="row-fluid">
       <div class="install-step">
@@ -313,15 +313,15 @@
               </ul>
               <pre class="prettyprint install-code" rows="3">
 #Citofono {
-    font-weight: buld; /* Whatever styles you want */
-}</pre>
+    font-weight: buld; /* Whatever styles you want *
+  } </pre>
             </div>
           </div>
 
         </div>
       </div>
     </div>
-
+--> */ ?>
   </div>
   <div class="span3 steps">
   <ul>
