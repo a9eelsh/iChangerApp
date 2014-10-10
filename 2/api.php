@@ -43,7 +43,7 @@
 <body class="cit white-bg">
   
 <div class="navbar">
-  <a href="http://iChanger.tk/"><img src="/pics/logo.png" alt="iChanger"></a>
+  <center><a href="http://iChanger.tk/"><img src="/pics/logo.png" alt="iChanger"></a></center>
   <!--<div id="nav-wrap">
     <ul class="nav">
       <li class=""><a
