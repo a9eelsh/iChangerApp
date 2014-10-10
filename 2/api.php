@@ -35,17 +35,15 @@
   
 <div class="navbar">
   <p><center><a href="http://iChanger.tk/"><img src="/pics/logo.png" alt="iChanger"></a></center></p>
-  <?php /*<!--<div id="nav-wrap">
+  <div id="nav-wrap">
     <ul class="nav">
-      <li class=""><a
-        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/users">Users</a></li>
       <li class="dropdown active"><a
-        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/companies">General</a></li>
+        href="#">General</a></li>
       <li class=""><a
-        href="https://app.retain.cc/app/3bfbff722f1141d6bc9dddaf4e926f5a/messages/auto">iPeeps</a></li>
+        href="#">iPeeps</a></li>
     </ul>
   </div>
-   
+   <?php /* <!--
   <div id="nav-app-wrap">
     <ul class="nav">
 
