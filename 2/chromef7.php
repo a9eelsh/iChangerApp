@@ -145,17 +145,17 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=light.jpg&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=Chrome&p=gcons.png&n=Chrome&ur=googlechrome://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/lightOLD.png" width="80">
+							<img src="http://ichanger.tk/Chrome/gcons.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Light</div>
+								<div class="item-title">GCon</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">App Store</div>
-							<div class="item-text">AppStore Icon in the Light Icons Pack</div>
+							<div class="item-subtitle">Chrome</div>
+							<div class="item-text">Chrome themed GCon</div>
 						</div>
 					</a>
 				</li>

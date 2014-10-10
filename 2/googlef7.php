@@ -65,7 +65,7 @@ if ( $userraw == "" ) {
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Flattest</div>
+								<div class="item-title">Flatest</div>
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Google</div>

@@ -59,13 +59,13 @@ if ( $userraw == "" ) {
 			<!--</ul>
 			<ul> %2B = + | Google%2B = Google+ -->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=maximal.png&n=Google&gplus=yes&ur=gplus://" class="external item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=GPlus&p=flatest.png&n=Google&gplus=yes&ur=gplus://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/GPlus/maximal.png" width="80">
+							<img src="http://ichanger.tk/GPlus/flatest.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Maximal</div>
+								<div class="item-title">Flatest</div>
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Google+</div>
