@@ -314,21 +314,21 @@
   <ul>
     <li class="first-step"><a href="#step-1">
           <span class="icon-checkmark"></span>
-      <span>Add the Code</span>
+      <span>Add the Configuration Code</span>
     </a></li>
     <li class="second-step"><a href="#step-2">
           <span class="icon-close">&nbsp;</span>
-      <span>Send Data about</span><br />
+      <span>Link USERS to the Shortcut/App</span><br />
       <span class="list-secondline">your Users</span>
     </a></li>
     <li class="third-step"><a href="#step-3">
           <span class="icon-close">&nbsp;</span>
-      <span>Turn on Secure Mode</span>
+      <span>Automaticly Install App (Optional)</span>
     </a></li>
-    <li class="fourth-step"><a href="#step-4">
+    <!--<li class="fourth-step"><a href="#step-4">
           <span class="icon-close">&nbsp;</span>
-      <span>Let Users contact you</span>
-    </a></li>
+      <span>Enable iPeep Support</span>
+    </a></li>-->
   </ul>
   </div>
 </div>
