@@ -328,7 +328,7 @@ print $version;
                         </div>
                       </div></a></li>
                 </ul>
-                <center><iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rosco1502&repo=iChanger-2&limit=6&width=500&height=200" width="502px" height="202px"></iframe></center>
+                <center><iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rosco1502&repo=iChanger-2&limit=6&width=200&height=200" width="502px" height="202px"></iframe></center>
               </div>
             </div>
           </div>
