@@ -7,7 +7,7 @@ $$('.alert-text').on('click', function () {
 });
  
 $$('.beta-warning').on('click', function () {
-    myApp.alert('You are running a BETA Version of iChanger, Expect Bugs and Report Bugs', 'Warning');
+    myApp.alert('You are running a BETA Version of iChanger, Expect and Report Bugs', 'Warning');
 });
  
 $$('.already-installed').on('click', function () {

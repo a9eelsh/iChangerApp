@@ -919,6 +919,6 @@ If you feel that this site is not following its stated information policy, you m
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/f7-2.js"></script>
-    <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=2"></script>
+    <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
   </body>
 </html>
