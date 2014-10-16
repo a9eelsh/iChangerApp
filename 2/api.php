@@ -17,7 +17,7 @@
   <script src="https://cdn.retain.cc/static/1.4.0/scripts/require.js"></script>
   <script src="https://cdn.retain.cc/static/1.4.0/scripts/require-config.js"></script>
   <script src="https://cdn.retain.cc/static/1.4.0/dist/main.js"></script>
-  <script
+  <script>
   if(navigator.userAgent.match('CriOS')) {
     //document.write('<meta http-equiv="refresh" content="0;URL='http://example.com/'" />');
     window.location.replace("http://www.ichanger.tk/chrome.php");
