@@ -69,7 +69,7 @@ if ( $userraw == "" ) {
 			color:white;
 		}
 	</style>
-  	<script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>  
+  	<script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
 	<script src="http://www.lockenfiles.tk/cdn/h5form/jquery.h5validate.js"></script>
 	<script>
 		$(document).ready(function () {
