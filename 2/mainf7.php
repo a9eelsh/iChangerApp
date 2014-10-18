@@ -141,7 +141,25 @@ if ( $userraw == "" ) {
 		
 		Image3 = new Image(256,256)
 		Image3.src = "http://ichanger.tk/Instagram/FlatGradient.png"
-
+		// end original
+		Image4= new Image(175,50)
+		Image4.src = "http://ichanger.tk/thumbs/about-50.png"
+		
+		Image5 = new Image(25,30)
+		Image5.src = "http://ichanger.tk/thumbs/bug-50.png"
+		
+		Image6 = new Image(256,256)
+		Image6.src = "http://ichanger.tk/thumbs/code-50.png"
+		// end repeat
+		Image7= new Image(175,50)
+		Image7.src = "http://ichanger.tk/thumbs/document-50.png"
+		
+		Image8 = new Image(25,30)
+		Image8.src = "http://ichanger.tk/thumbs/help-50.png"
+		
+		Image9 = new Image(256,256)
+		Image9.src = "http://ichanger.tk/thumbs/upload_to_cloud-50.png"
+		// end repeat
 		// End Hiding -->
 	</script>
 	<script>
