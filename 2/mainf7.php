@@ -174,7 +174,7 @@ if ( $userraw == "" ) {
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
-	<div class="loader">Loading iChanger...</div>
+	<div class="loader"></div>
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
@@ -851,7 +851,7 @@ We may disclose personally identifiable information under special circumstances,
 
 We adhere to valid legal processes and may provide information as required by law to protect and defend the rights of our company, and in certain instances, to protect the personal safety of users and the public.
 
-iChanger/TheLocken uses third party vendors and hosting partners such as but not limited to DreamHost and Google to provide the necessary hardware, software, networking, storage, and related technology required to run iChanger/TheLocken. Although Codeanywhere.com owns the code, databases, and all rights to the web application, you retain all rights to your data.
+iChanger/TheLocken uses third party vendors and hosting partners such as but not limited to DreamHost, Google, Amazon, and GitHub to provide the necessary hardware, software, networking, storage, and related technology required to run iChanger/TheLocken. Although Codeanywhere.com owns the code, databases, and all rights to the web application, you retain all rights to your data.
 
 If you feel that this site is not following its stated information policy, you may contact us. Codeanywhere.com reserves the right to modify all or some of this Privacy Policy at any time without notice.</div>
 </div>
