@@ -174,7 +174,7 @@ if ( $userraw == "" ) {
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
-	<div class="loader"></div>
+	<div class="loader">Loading iChanger...</div>
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
