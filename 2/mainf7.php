@@ -580,11 +580,11 @@ echo "</p>";
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="slider.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="facebookindex.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-3-facebook"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Facebook</div>
+                          <div class="item-title">Facebook - BETA</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
