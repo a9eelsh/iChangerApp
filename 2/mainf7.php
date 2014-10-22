@@ -99,7 +99,7 @@ if ( $userraw == "" ) {
       background: SkyBlue;
     }
   </style>
-	<link rel="stylesheet" href="ui/css/app.css?v=11">
+	<link rel="stylesheet" href="ui/css/app.css?v=12">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
 	<script type="text/javascript">
