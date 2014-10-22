@@ -284,9 +284,11 @@ if ( $userraw == "" ) {
 // iChanger version
 echo "v";
 print $version;
+echo " \n";
 // Novus Pack version
 echo "Novus v";
 print $novusversion;
+// 
 ?>
 </p>
     </div>
