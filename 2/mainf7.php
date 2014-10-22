@@ -844,7 +844,7 @@ echo "</p>";
 <div class="page">
 <div class="navbar">
 <div class="navbar-inner">
-<div class="center">Privacy</div>
+<div class="center">Privacy Policy</div>
 <div class="right"><a href="#" class="link close-popup">Done</a></div>
 </div>
 </div>
@@ -864,9 +864,9 @@ We may disclose personally identifiable information under special circumstances,
 
 We adhere to valid legal processes and may provide information as required by law to protect and defend the rights of our company, and in certain instances, to protect the personal safety of users and the public.
 
-iChanger/TheLocken uses third party vendors and hosting partners such as but not limited to DreamHost, Google, Amazon, and GitHub to provide the necessary hardware, software, networking, storage, and related technology required to run iChanger/TheLocken. Although Codeanywhere.com owns the code, databases, and all rights to the web application, you retain all rights to your data.
+iChanger/TheLocken uses third party vendors and hosting partners such as but not limited to DreamHost, Google, Amazon, and GitHub to provide the necessary hardware, software, networking, storage, and related technology required to run iChanger/TheLocken.
 
-If you feel that this site is not following its stated information policy, you may contact us. Codeanywhere.com reserves the right to modify all or some of this Privacy Policy at any time without notice.</div>
+If you feel that this iOS app is not following its stated information policy, you may contact us. iChanger/TheLocken reserves the right to modify all or some of this Privacy Policy at any time without notice.
 </div>
 </div>
 </div>
