@@ -16,7 +16,7 @@
                 <ul>
                   <li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-appstore"></i></div>
+                        <div class="item-media"><i class="icon icon-fb-profile"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Your Profile</div>
 						<span class="list-val button ">Go</span>
@@ -24,7 +24,7 @@
                       </div></a></li>
                   <li><a href="calendarf7.php<?php print $uend; ?>" class="item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-calendar"></i></div>
+                        <div class="item-media"><i class="icon icon-fb-friend"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Friends List</div>
 							<span class="list-val button ">Go</span>
@@ -32,7 +32,7 @@
                       </div></a></li>
                   <li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-appstore"></i></div>
+                        <div class="item-media"><i class="icon icon-fb-noti"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Notification List - BUGGED</div>
 						<span class="list-val button ">Go</span>
@@ -40,7 +40,7 @@
                       </div></a></li>
                   <li><a href="calendarf7.php<?php print $uend; ?>" class="item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-calendar"></i></div>
+                        <div class="item-media"><i class="icon icon-fb-news"></i></div>
                         <div class="item-inner">
                           <div class="item-title">News Feed</div>
 							<span class="list-val button ">Go</span>
@@ -48,7 +48,7 @@
                       </div></a></li>
                   <li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-appstore"></i></div>
+                        <div class="item-media"><i class="icon icon-fb-event"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Events Page</div>
 						<span class="list-val button ">Go</span>
@@ -56,7 +56,7 @@
                       </div></a></li>
                   <li><a href="calendarf7.php<?php print $uend; ?>" class="item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-calendar"></i></div>
+                        <div class="item-media"><i class="icon icon-fb-request"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Requests List</div>
 							<span class="list-val button ">Go</span>
@@ -64,7 +64,7 @@
                       </div></a></li>
                   <li><a href="calendarf7.php<?php print $uend; ?>" class="item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-calendar"></i></div>
+                        <div class="item-media"><i class="icon icon-fb-note"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Notes Page</div>
 							<span class="list-val button ">Go</span>
@@ -72,18 +72,10 @@
                       </div></a></li>
                   <li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-appstore"></i></div>
+                        <div class="item-media"><i class="icon icon-fb-photo"></i></div>
                         <div class="item-inner">
                           <div class="item-title">Photo Albums</div>
 						<span class="list-val button ">Go</span>
-                        </div>
-                      </div></a></li>
-                  <li><a href="calendarf7.php<?php print $uend; ?>" class="item-link">
-                      <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-calendar"></i></div>
-                        <div class="item-inner">
-                          <div class="item-title">Requests List</div>
-							<span class="list-val button ">Go</span>
                         </div>
                       </div></a></li>
 </div>

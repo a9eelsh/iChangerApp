@@ -245,3 +245,61 @@ width:29px;
 height:29px;
 background-image:url(../../thumbs/code-50.png);
 }
+
+/* // Start FacebookIndex Icons */
+
+i.icon.icon-fb-profile {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/fbprofile.png);
+}
+
+i.icon.icon-fb-friend {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/fbfriend.png);
+}
+
+i.icon.icon-fb-noti {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/fbnoti.png);
+}
+
+i.icon.icon-fb-news {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/fbnews.png);
+}
+
+i.icon.icon-fb-event {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/fbevent.png);
+}
+
+i.icon.icon-fb-request {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/fbrequest.png);
+}
+
+i.icon.icon-fb-note {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/fbnote.png);
+}
+
+i.icon.icon-fb-photo {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/fbphoto.png);
+}
+
+/*
+i.icon.icon-fb-- {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/fb--.png);
+}
+*/
