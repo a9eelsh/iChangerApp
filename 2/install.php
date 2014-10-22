@@ -53,7 +53,6 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
         header('Location: http://www.thelocken.com/ichangerinfo/');
     }
 
-
 ?>
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>

@@ -1,11 +1,17 @@
 <?php
 
-// Echo Dynamic Global Version Text File
+// Dynamic Global Version Text File
 $vfile = "version.txt";
 $fh = fopen($vfile, 'r');
 $version = fread($fh, filesize($vfile));
 fclose($fh);
-// echo $version;
+//end
+// Dynamic Global Novus Version Text File
+$vfile1 = "novusv.txt";
+$fh1 = fopen($vfile1, 'r');
+$novusversion = fread($fh1, filesize($vfile1));
+fclose($fh1);
+//end
 
 $devmode = '' . htmlspecialchars($GET_["devmode"]) . '';
 
@@ -275,8 +281,12 @@ if ( $userraw == "" ) {
 <div class="content-block">
 <p>
 <?php
+// iChanger version
 echo "v";
 print $version;
+// Novus Pack version
+echo "Novus v";
+print $novusversion;
 ?>
 </p>
     </div>
