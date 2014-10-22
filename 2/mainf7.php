@@ -1,4 +1,6 @@
-<?php
+<?php 
+// $dev = ?dev
+$dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
 
 // Dynamic Global Version Text File
 $vfile = "version.txt";
@@ -38,9 +40,9 @@ $devmodel = "Dev Mode $devmodedis";
 // TheLocken iChanger 2 Authentication Handler and Carrier
 
 // !!!!! THIS ATTEMPT HAS FAILED TO CARRY ACCROSS PAGES !!!!!
-// !!!!! DUE TO HOW FRAMEWORK7 LOADS PAGES USIfNG AJAX   !!!!!
-// !!!!!        THIS DOES NOT FUNCTION ANYMORE          !!!!!
-
+// !!!!! DUE TO HOW FRAMEWORK7 LOADS PAGES USING AJAX   !!!!!
+// !!!!!           THIS DOES NOT FUNCTION               !!!!!
+ 
 	// Convert ?user=USERNAME to USERNAME
 $user_name = '' . $_SESSION['sess_user_id'] . '';
 $user_name0 = '' . htmlspecialchars($_GET["user"]) . '';
@@ -290,6 +292,11 @@ echo "Novus v";
 print $novusversion;
 echo "</p>";
 // 
+
+if ( $dev == "y" ) {
+echo"Dev Mode Enabled";
+}
+
 ?>
 </p>
     </div>
@@ -424,13 +431,9 @@ echo "</p>";
             <div class="center sliding">iChanger - Apps 
             <?php 
             $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
-            if(empty($dev)) {
-              echo"";
-              
-            } else {
+            if ( $dev == "y" ) {
               echo"- Dev Mode";
             }
-            
             ?></div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
