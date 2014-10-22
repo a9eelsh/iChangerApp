@@ -197,7 +197,7 @@ if ( $userraw == "" ) {
 
 <div class="panel-overlay"></div>
 <div class="panel panel-left panel-cover layout-dark">
-<div class="content-block-title"><?php print $devmodel; ?></div>
+<div class="content-block-title">MENU</div>
 <div class="list-block">
 <ul>
 <li><a href="#" data-popup=".popup-privacy" class="open-popup close-panel item-link">
@@ -221,7 +221,7 @@ if ( $userraw == "" ) {
 <div class="item-title">Tabs</div>
 </div>
 </div></a></li>
-<li><a href="panels.html" class="close-panel item-link">
+<li><a href="test.php" class="close-panel item-link">
 <div class="item-content">
 <div class="item-media"><i class="icon icon-f7"></i></div>
 <div class="item-inner">
