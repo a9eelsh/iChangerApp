@@ -9,6 +9,7 @@ iChanger is currently in BETA Stages which means there will be a lot of problems
 <!-- /*
 // Changer featured a full documented API to use by PRO users where you can make your own fully hosted app.
 */ -->
+More information, pictures, etc. will be released overtime.
  
 =========
 ###Copyright and Legal Information
