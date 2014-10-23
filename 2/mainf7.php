@@ -900,7 +900,7 @@ If you feel that this iOS app is not following its stated information policy, yo
 </div>
 </div>
 <!-- About Popup -->
-<div class="popup popup-about">
+  <div class="popup popup-about">
 <div class="view navbar-fixed">
 <div class="pages">
 <div class="page">
@@ -912,14 +912,11 @@ If you feel that this iOS app is not following its stated information policy, yo
 </div>
 <div class="page-content">
 <div class="content-block">
-<p>iChanger is an iOS app that allows you to theme icons the way you want.</p>
-<p>iChanger is developed and maintained by a 3 Developer Group named TheLocken, Bradley (Rosco1502), Loren (Theredspy1155), and Jase (Aries).</p>
-<p><ul><li>Bradley is the lead developer, he coded almost all of iChanger and also started TheLocken LLC, and iChanger</li><li>Loren is the main Android and Java coder of iChanger.</li><li>Jase is the main Icon-Gatherer, he sends icons he finds on various sources to our team to implement into iChanger.</li></ul></p>
-<p>We get icons form various sources, including (but not limited to) <a href="http://deviantart.com/" class="external close-popup">DiviantArt.com</a>, <a href="http://uiconstock.com/" class="external close-popup">UIconStock</a>, etc.</p>
-<p>Extra thanks to <a href="http://ffra.deviantart.com/" class="external close-popup">FFra</a> for supplying amazing icons packs such as Novus, Flatest, Maximal and to <a href="http://dtafalonso.deviantart.com/" class="external close-popup">Dtafalonso</a> for creating awesome packs such as iOS 7 Alternative, iOS 7 Icons (#1-7)</p>
-<p>iChanger is built upon a modified version of <a href="http://www.idangero.us/framework7/">Framework7</a> and some of <a href="http://www.cssflow.com/ui-kits/clarity-ios7">Clarity UI</a>.</p>
-<p>Follow us on Twitter <a href="https://twitter.com/TheLockenLLC" class="external close-popup">@TheLockenLLC</a> and <a href="http://ichangerteam.deviantart.com/" class="external close-popup">@iChangerTeam</a> on DeviantArt.</p>
-<p>Credits to <a href="http://icons8.com/" class="external close-popup">Icons8</a> for providing some icons throughout the app.</p>
+<p>Here comes popup. You can put here anything, even independent view with its own navigation. Also not, that by default popup looks a bit different on iPhone/iPod and iPad, on iPhone it is fullscreen.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus mauris leo, eu bibendum neque congue non. Ut leo mauris, eleifend eu commodo a, egestas ac urna. Maecenas in lacus faucibus, viverra ipsum pulvinar, molestie arcu. Etiam lacinia venenatis dignissim. Suspendisse non nisl semper tellus malesuada suscipit eu et eros. Nulla eu enim quis quam elementum vulputate. Mauris ornare consequat nunc viverra pellentesque. Aenean semper eu massa sit amet aliquam. Integer et neque sed libero mollis elementum at vitae ligula. Vestibulum pharetra sed libero sed porttitor. Suspendisse a faucibus lectus.</p>
+<p>Duis ut mauris sollicitudin, venenatis nisi sed, luctus ligula. Phasellus blandit nisl ut lorem semper pharetra. Nullam tortor nibh, suscipit in consequat vel, feugiat sed quam. Nam risus libero, auctor vel tristique ac, malesuada ut ante. Sed molestie, est in eleifend sagittis, leo tortor ullamcorper erat, at vulputate eros sapien nec libero. Mauris dapibus laoreet nibh quis bibendum. Fusce dolor sem, suscipit in iaculis id, pharetra at urna. Pellentesque tempor congue massa quis faucibus. Vestibulum nunc eros, convallis blandit dui sit amet, gravida adipiscing libero.</p>
+<p>Morbi posuere ipsum nisl, accumsan tincidunt nibh lobortis sit amet. Proin felis lorem, dictum vel nulla quis, lobortis dignissim nunc. Pellentesque dapibus urna ut imperdiet mattis. Proin purus diam, accumsan ut mollis ac, vulputate nec metus. Etiam at risus neque. Fusce tincidunt, risus in faucibus lobortis, diam mi blandit nunc, quis molestie dolor tellus ac enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum turpis a velit vestibulum pharetra. Vivamus blandit dapibus cursus. Aenean lorem augue, vehicula in eleifend ut, imperdiet quis felis.</p>
+<p>Duis non erat vel lacus consectetur ultricies. Sed non velit dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel varius mi, a tristique ante. Vivamus eget nibh ac elit tempor bibendum sit amet vitae velit. Proin sit amet dapibus nunc, non porta tellus. Fusce interdum vulputate imperdiet. Sed faucibus metus at pharetra fringilla. Fusce mattis orci et massa congue, eget dapibus ante rhoncus. Morbi semper sed tellus vel dignissim. Cras vestibulum, sapien in suscipit tincidunt, lectus mi sodales purus, at egestas ligula dui vel erat. Etiam cursus neque eu lectus eleifend accumsan vitae non leo. Aliquam scelerisque nisl sed lacus suscipit, ac consectetur sapien volutpat. Etiam nulla diam, accumsan ut enim vel, hendrerit venenatis sem. Vestibulum convallis justo vitae pharetra consequat. Mauris sollicitudin ac quam non congue.</p>
 </div>
 </div>
 </div>
