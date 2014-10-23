@@ -4,7 +4,7 @@ With iChanger you can make shortcuts to apps with a custom name and icon, openin
 iChanger is currently in BETA Stages which means there will be a lot of problems. if you find any issues, please report them.
 
  
-<img src="http://www.lockenfiles.tk/git/novus10demo2.png" width="240"> <img src="http://www.lockenfiles.tk/git/flatestdemo3.png" width="240">
+<img src="http://www.lockenfiles.tk/git/novus10demo2.png" width=""> <img src="http://www.lockenfiles.tk/git/flatestdemo3.png" width="240">
 
  
 Changer featured a full documented API to use by PRO users where you can make your own fully hosted app.
