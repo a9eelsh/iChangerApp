@@ -14,6 +14,12 @@ $fh1 = fopen($vfile1, 'r');
 $novusversion = fread($fh1, filesize($vfile1));
 fclose($fh1);
 //end
+// Dynamic Global Numix Version Text File
+$vfile2 = "numixv.txt";
+$fh2 = fopen($vfile2, 'r');
+$numixversion = fread($fh2, filesize($vfile2));
+fclose($fh2);
+//end
 
 $devmode = '' . htmlspecialchars($GET_["devmode"]) . '';
 
@@ -290,6 +296,11 @@ echo "<p>";
 // Novus Pack version
 echo "Novus v";
 print $novusversion;
+echo "</p>";
+echo "<p>";
+// Numix Pack version
+echo "Numix v";
+print $numixversion;
 echo "</p>";
 // 
 
