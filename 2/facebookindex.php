@@ -14,7 +14,7 @@
               </div>
               <div class="list-block">
                 <ul>
-                  <li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
+                  <li><a href="fbtest.php?v=noo" onclick="slowLoad()" class="close-panel item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-fb-profile"></i></div>
                         <div class="item-inner">
@@ -22,7 +22,7 @@
 						<span class="list-val button ">Go</span>
                         </div>
                       </div></a></li>
-                  <li><a href="calendarf7.php<?php print $uend; ?>" class="item-link">
+                  <li><a href="fbtest.php?v=yess" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-fb-friend"></i></div>
                         <div class="item-inner">
@@ -30,7 +30,7 @@
 							<span class="list-val button ">Go</span>
                         </div>
                       </div></a></li>
-                  <li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
+                  <li><a href="fbnoti.php" onclick="slowLoad()" class="close-panel item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-fb-noti"></i></div>
                         <div class="item-inner">

@@ -13,6 +13,6 @@ More information, pictures, etc. will be released overtime.
  
 =========
 ###Copyright and Legal Information
-iChanger 2 is made by TheLocken LLC, Bradley Grace.
+iChanger 2 is made by TheLocken LLC.
 iChanger is legally owned by TheLocken LLC and is illegal to reproduce, or sell copies or modified copies of iChanger. Read LICENSE for more on Legal info.
 Icons or Icon Packs are supplyed with direct permission from their authors. For copyright and legal info on icons or icon packs please contact Icon (Pack) Designer(s).
