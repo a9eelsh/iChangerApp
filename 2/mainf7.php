@@ -667,7 +667,7 @@ echo"Dev Mode Enabled";
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="custom/custom.php" class="item-link">
+                  <li><a href="upload.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-custom"></i></div>
                         <div class="item-inner">

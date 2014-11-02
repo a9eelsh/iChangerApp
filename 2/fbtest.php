@@ -10,7 +10,7 @@ $user_display = '' . htmlspecialchars($_GET["user"]) . '';
 $uend = "?user=$userraw&user_display=$user_display";
 $userraw = '' . htmlspecialchars($_GET["user"]) . '';
 	
-	// if userraw = "" (no user) set userraw to NULL
+	// if userraw = "" (no user) set userraw vto NULL
 
 if ( $userraw == "" ) {
 	$userraw = "NULL";
