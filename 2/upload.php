@@ -9,7 +9,10 @@
 <div data-page="home" class="page">
 <div class="page-content">
 Start Hello
-<input type="file" accept="image/*" capture="camera">
+<form action="getfile.php" method="post"><br>
+Type (or select) Filename: <input type="file" name="uploadFile" accept="image/*" capture="camera">
+<input type="submit" value="Upload File">
+</form>
 Hi
 </div>
 </div>
