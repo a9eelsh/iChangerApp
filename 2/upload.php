@@ -9,11 +9,11 @@
 <div data-page="home" class="page">
 <div class="page-content">
 Start Hello
-<form action="getfile.php" method="post"><br>
-Type (or select) Filename: <input type="file" name="uploadFile" accept="image/*" capture="camera">
-<input type="submit" value="Upload File">
+<form action="getfile.php" method="post" enctype="multipart/form-data">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload" accept="image/*">
+    <input type="submit" value="Upload Image" name="submit">
 </form>
-Hi
 </div>
 </div>
 </div>
