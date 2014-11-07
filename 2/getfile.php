@@ -1,17 +1,38 @@
 <?php
-$target_dir = "usericons/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-// Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "Thats not an picture! Please try again!";
-        $uploadOk = 0;
-    }
+//if they DID upload a file...
+if($_FILES['photo']['name'])
+{
+	//if no errors...
+	if(!$_FILES['photo']['error'])
+	{
+		//now is the time to modify the future file name and validate the file
+		$new_file_name = strtolower($_FILES['photo']['tmp_name']); //rename file
+		if($_FILES['photo']['size'] > (1024000)) //can't be larger than 1 MB
+		{
+			$valid_file = false;
+			$message = 'Oops!  Your file\'s size is to large.';
+		}
+		
+		//if the file has passed the test
+		if($valid_file)
+		{
+			//move it to where we want it to be
+			move_uploaded_file($_FILES['photo']['tmp_name'], 'user/'.$new_file_name);
+			$message = 'Congratulations!  Your file was accepted.';
+		}
+	}
+	//if there is an error...
+	else
+	{
+		//set that to be the returned message
+		$message = 'Ooops!  Your upload triggered the following error:  '.$_FILES['photo']['error'];
+	}
 }
+
+/*you get the following information for each file:
+$_FILES['field_name']['name']
+$_FILES['field_name']['size']
+$_FILES['field_name']['type']
+$_FILES['field_name']['tmp_name']
+*/
 ?>

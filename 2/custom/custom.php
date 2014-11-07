@@ -44,7 +44,7 @@ $name = $email = $gender = $comment = $website = "";
 </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
   <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js"></script>
-  <script>
+  <!--<script>
   	$.validator.setDefaults({
 		submitHandler: function() {
 			alert("submitted!");
@@ -125,7 +125,7 @@ $name = $email = $gender = $comment = $website = "";
 			topicInputs.attr("disabled", !this.checked);
 		});
 	});
-	</script>
+	</script>-->
   <link rel="stylesheet" href="ui/css/load.css">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -183,7 +183,7 @@ $name = $email = $gender = $comment = $website = "";
         <div class="item-inner">
           <div class="item-title label">Title:*</div>
           <div class="item-input">
-            <input id="title" name="title" type="text" required>
+            <input id="title" name="title" type="text" 
 			<!--<div id="invalid-FirstName" class="ui-state-error message" style="">Required: Please provide your first name.</div>-->
 			<!-- <input id="birthdate" name="name" type="text" placeholder="mm/dd/yyyy" title="mm/dd/yyyy" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" class="h5-active ui-state-valid"> -->
           </div>
