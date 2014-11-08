@@ -58,9 +58,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 <head>
   <title>iChanger 2</title>
   <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" type="image/png" href="/pics/iChangerIconHD.png">
   <meta name="apple-mobile-web-app-title" content="iChanger 2">
-  <link rel="apple-touch-icon-precomposed" href="/pics/iChangerIconHD.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -68,6 +66,13 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   <link rel="stylesheet" type="text/css" href="http://ichanger.tk/addtohomescreen.css">
   <script src="http://ichanger.tk/addtohomescreen.js"></script>
   <script src="http://ichanger.tk/js/staystand.js"></script>
+  <!-- Icons -->
+  <link rel="apple-touch-icon" href="ios/AppIcon.appiconset/Icon-60@2x.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="ios/AppIcon.appiconset/Icon-60@3x.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="ios/AppIcon.appiconset/Icon-76.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="ios/AppIcon.appiconset/Icon-76@2x.png" />
+  <link rel="apple-touch-icon" sizes="58x58" href="ios/AppIcon.appiconset/Icon-Small@2x.png" />
+  <!-- End Icons -->
   <script>
   // remove session if visit again
   	addToHomescreen.removeSession()
