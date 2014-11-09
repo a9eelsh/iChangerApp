@@ -99,7 +99,6 @@ objImage = new Image();
 
 // set what happens once the image has loaded objImage.onLoad=imagesLoaded();
 
-
 // preload iChanger icon
 
 objImage.src='pics/iC2-5.png';
@@ -107,8 +106,10 @@ objImage.src='pics/iC2-5.png';
 </script>
 </head>
 <?php   
-$b = '' . htmlspecialchars($_GET["b"]) . '';
-if(!isset($b)){
+
+$bypass = '' . htmlspecialchars($_GET["b"]) . '';
+if(empty($bypass)){
+ 
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
