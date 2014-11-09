@@ -109,7 +109,10 @@ objImage.src='pics/iC2-5.png';
 
 $bypass = '' . htmlspecialchars($_GET["b"]) . '';
 if(empty($bypass)){
- 
+ $detect = "yes";
+}
+
+if ( $detect == "yes" ) {
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
@@ -123,6 +126,8 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    } else {
       echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
    }
+} else {
+    echo "BYPASS ENABLED";
 }
 ?>
 	  <noscript>
