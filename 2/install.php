@@ -38,6 +38,15 @@
 // Display Dev-Titles
 $dev = '' . htmlspecialchars($_GET["dev"]) . '';
 // http://74.125.224.174:6080/php/urlblock.php?vsys=1&cat=7509&title=streaming-media&rulename=Allow%20Student%20Content%20Filtering&uid=30687&url=http://youtube.com%2fMacy%27s
+// detect if bypass is enabled, if it is disable fowarding to computer site
+$bypass = '' . htmlspecialchars($_GET["b"]) . '';
+//if(empty($bypass)){
+if ( $bypass == "y" ) {
+ $detect = "no";
+} else {
+ $detect = "yes";
+}
+
 // START MAIN FOWARDING
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
@@ -46,10 +55,10 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    } else if ( substr_count($ua, '/') === 3 ) {
      header('Location: http://www.ichanger.tk/mainf7.php?dev=' . htmlspecialchars($_GET["dev"]) . '&');
    } else if ( substr_count($ua, '/') === 2 ) {
-   } else {
+   } else if ( $bypass == "no" ) {
       header('Location: http://www.ichanger.tk/chrome.php');
    }
-    } else {
+    } else if ( $bypass == "no" ) {
         header('Location: http://www.thelocken.com/ichangerinfo/');
     }
 
@@ -105,27 +114,6 @@ objImage.src='pics/iC2-5.png';
 
 </script>
 </head>
-<?php   
-
-$bypass = '' . htmlspecialchars($_GET["b"]) . '';
-if(empty($bypass)){
- $detect = "yes";
-}
-
-if ( strpos($ua,"iphone") && $detect == "yes" || strpos($ua,"ipad") && $detect == "yes" ) {
-   if ( strpos($ua,"safari") ) {
-      //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
-   } else if ( substr_count($ua, '/') === 3 ) {
-     echo('Sucessfuly Installed. Loading...');
-   } else if ( substr_count($ua, '/') === 2 ) {
-      echo('Running in a WebView on a iPhone/iPad app');
-   } else {
-      echo('<!--Running in another browser on iPhone/iPad-->');
-   }
-   } else {
-      echo('<!--Running on device other than iPhone/iPad.--><meta http-equiv="refresh" content="0; url=http://www.thelocken.com/ichangerinfo/" />');
-   }
-?>
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
