@@ -66,7 +66,7 @@ header('Location: ' . $uploadSuccess);
 // to output an HTML error page if the file upload fails 
 function error($error, $location, $seconds = 5) 
 { 
-    header("Refresh: $seconds; URL="$location""); 
+   // header("Refresh: $seconds; URL="$location""); 
     echo '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"'."n". 
     '"http://www.w3.org/TR/html4/strict.dtd">'."nn". 
     '<html lang="en">'."n". 
