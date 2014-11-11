@@ -228,7 +228,7 @@ $name = $email = $gender = $comment = $website = "";
         <div class="item-inner">
           <div class="item-title label">Icon</div>
           <div class="item-input">
-            <input name="file" id="file" type="file" accept="image/*" capture="camera">
+            <input name="file" id="file" type="file" accept="image/*" capture="camera" class="list-val button " value="Choose Icon">
           </div>
         </div>
       </div>
@@ -293,5 +293,5 @@ $name = $email = $gender = $comment = $website = "";
 	<div class="content-block-title">Notice</div>
     <div class="content-block">
         <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
-        <p><a href="#" data-popup=".popup-privacy" class="open-popup close-panel item-link">When you use iChanger you agree to the Privacy Policy</a></p>
+        <p><a href="#" data-popup=".popup-privacy" value="Create!" class="open-popup close-panel item-link">When you use iChanger you agree to the Privacy Policy</a></p>
     </div>
