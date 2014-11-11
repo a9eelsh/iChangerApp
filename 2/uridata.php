@@ -8,7 +8,8 @@
 function close_window(){close()}
 */
 $appname = '' . htmlspecialchars($_GET["n"]) . '';
-$iconfolder = '' . htmlspecialchars($_GET["a"]) . '';
+$icondir = '' . htmlspecialchars($_GET["a"]) . '';
+$iconcdir = '' . htmlspecialchars($_GET["c"]) . '';;
 $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
 $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
 $ur = '' . htmlspecialchars($_GET["ur"]) . '';
@@ -26,6 +27,12 @@ $icon512 = '' . htmlspecialchars($_GET["p"]) . '512' . htmlspecialchars($_GET["p
 $gplus = '' . htmlspecialchars($_GET["gplus"]) . '';
 if ( $gplus == "yes" ) {
 	$gplusn = "%2B";
+}
+
+if ( $iconcdir == "custom" ) {
+    $iconfolder = 'custom/'.$icondir.'';
+} else {
+    $iconfolder = ''.$icondir.'';
 }
 
 print $iconfolder;

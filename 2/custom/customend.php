@@ -146,7 +146,7 @@ if ( $requestraw == "custom" ) {
 		<div class="list-block media-list">
 			<ul>
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=<?php print $endfolder; ?>&p=<?php print $endpicture; ?>&n=<?php print $name; ?>&ur=calshow://" class="external link item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=<?php print $endfolder; ?>&p=<?php print $endpicture; ?>&n=<?php print $name; ?>&c=custom&ur=calshow://" class="external link item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/custom/upload/<?php print $endfile; ?>" width="80">
 						</div>
