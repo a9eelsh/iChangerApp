@@ -671,7 +671,7 @@ echo"Dev Mode Enabled";
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-custom"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Custom - NOT FINISHED</div>
+                          <div class="item-title">Custom - EXPERIMENTAL</div>
 							<span class="list-val button ">Make</span>
                         </div>
                       </div></a></li>
