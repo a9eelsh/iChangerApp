@@ -36,7 +36,7 @@ $name = $email = $gender = $comment = $website = "";
 ?>
   <link href="http://www.lockenfiles.tk/cdn/h5form/test/qunit.css" rel="stylesheet" />
   <link href="http://www.lockenfiles.tk/cdn/h5form/style0000000.css" media="screen" rel="stylesheet" type="text/css" />
-<style>
+<!--<style>
 	.ui-state-error {
 	background-color:#BB1100;
 	color:white;
@@ -179,7 +179,7 @@ $name = $email = $gender = $comment = $website = "";
 	Start Form 
 	
 	-->
-<form onsubmit="" action="customend.php" method="post" enctype="multipart/form-data">
+<form onsubmit="" action="http://www.ichanger.tk/custom/customend.php" method="post" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -
     <li>
