@@ -30,7 +30,7 @@ if ( $gplus == "yes" ) {
 }
 
 if ( $iconcdir == "custom" ) {
-    $iconfolder = 'custom/'.$icondir.'';
+    $iconfolder = ''.$iconcdir.'/'.$icondir.'';
 } else {
     $iconfolder = ''.$icondir.'';
 }
