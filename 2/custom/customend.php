@@ -162,5 +162,5 @@ if ( $requestraw == "custom" ) {
 				</div>
 	<div class="content-block-title">Ignore Me (Developer Info)</div>
     <div class="content-block">
-        <p><?php echo $result; ?></p>
+        <p><?php echo $result; print $rand; ?></p>
     </div>

@@ -42,8 +42,8 @@ $name = $email = $gender = $comment = $website = "";
 	color:white;
 	}
 </style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
-  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js"></script>-->
   <!--<script>
   	$.validator.setDefaults({
 		submitHandler: function() {
@@ -134,7 +134,7 @@ $name = $email = $gender = $comment = $website = "";
 	$(".loader").fadeOut("slow");
     })
   </script>
-  <script>
+  <!--<script>
   	$("form").validate({
     submitHandler: function () {
         alert('successful submit');
@@ -145,7 +145,7 @@ $name = $email = $gender = $comment = $website = "";
 	.error {
     	color:red;
     }
-  </style>
+  </style>-->
   <!--<script>
 	function validateForm() {
 	    var x = document.forms["form"]["name"].value;
@@ -174,7 +174,12 @@ $name = $email = $gender = $comment = $website = "";
 		<p><em>Hint: Select it, then click somewhere else without typing anything.</em></p>
 		<input type="submit" value="Submit" class="ui-state-valid">
 	</form>-->
-<form onsubmit="" id="customForm" class="customForm" name="customForm" action="http://ichanger.tk/custom/customend.php" method="post" data-h5-instanceid="0" novalidate="novalidate" enctype="multipart/form-data">
+	<!-- 
+	
+	Start Form 
+	
+	-->
+<form onsubmit="" action="customend.php" method="post" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -->
     <li>
@@ -183,8 +188,8 @@ $name = $email = $gender = $comment = $website = "";
         <div class="item-inner">
           <div class="item-title label">Title:*</div>
           <div class="item-input">
-            <input id="title" name="title" type="text" 
-			<!--<div id="invalid-FirstName" class="ui-state-error message" style="">Required: Please provide your first name.</div>-->
+            <input id="title" name="title" type="text">
+			<!-- <div id="invalid-FirstName" class="ui-state-error message" style="">Required: Please provide your first name.</div>-->
 			<!-- <input id="birthdate" name="name" type="text" placeholder="mm/dd/yyyy" title="mm/dd/yyyy" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" class="h5-active ui-state-valid"> -->
           </div>
         </div>
