@@ -28,9 +28,9 @@ $gplus = '' . htmlspecialchars($_GET["gplus"]) . '';
 if ( $gplus == "yes" ) {
 	$gplusn = "%2B";
 }
-
+$uploaddir = "upload";
 if ( $iconcdir == "custom" ) {
-    $iconfolder = ''.$iconcdir.'/'.$icondir.'';
+    $iconfolder = ''.$uploaddir.'/'.$iconcdir.'/'.$icondir.'';
 } else {
     $iconfolder = ''.$icondir.'';
 }
