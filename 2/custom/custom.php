@@ -166,7 +166,7 @@ $name = $email = $gender = $comment = $website = "";
         <div class="pages navbar-through">
           <div data-page="index-1" class="page">
             <div class="page-content">
-<div class="content-block-title">Full Layout</div>
+<div class="content-block-title">Customize!</div>
 <div class="list-block">
 	<!--<form id="form1" class="h5-defaults" data-h5-instanceid="0" novalidate="novalidate">
 		<label for="name">Your Name:*</label>
@@ -181,7 +181,7 @@ $name = $email = $gender = $comment = $website = "";
 	-->
 <form onsubmit="" action="customend.php" method="post" enctype="multipart/form-data">
   <ul>
-    <!-- Text inputs -->
+    <!-- Text inputs -
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-name"></i></div>
@@ -191,7 +191,7 @@ $name = $email = $gender = $comment = $website = "";
             <input id="title" name="title" type="text">
 			<!-- <div id="invalid-FirstName" class="ui-state-error message" style="">Required: Please provide your first name.</div>-->
 			<!-- <input id="birthdate" name="name" type="text" placeholder="mm/dd/yyyy" title="mm/dd/yyyy" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" class="h5-active ui-state-valid"> -->
-          </div>
+      <!--    </div>
         </div>
       </div>
     </li>
@@ -206,7 +206,7 @@ $name = $email = $gender = $comment = $website = "";
         </div>
       </div>
     </li>
-    <!-- Select -->
+    <!-- Select --
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-gender"></i></div>
@@ -221,19 +221,19 @@ $name = $email = $gender = $comment = $website = "";
         </div>
       </div>
     </li>
-    <!-- Date -->
+    Date -->
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-calendar"></i></div>
         <div class="item-inner">
           <div class="item-title label">Icon</div>
           <div class="item-input">
-            <input type="file" name="file" id="file" accept="image/*" capture="camera">
+            <input name="file" id="file" type="file" accept="image/*" capture="camera">
           </div>
         </div>
       </div>
     </li>
-    <!-- Date time-->
+    <!-- Date time--
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-calendar"></i></div>
@@ -245,7 +245,7 @@ $name = $email = $gender = $comment = $website = "";
         </div>
       </div>
     </li>
-    <!-- Switch (Checkbox) -->
+    !-- Switch (Checkbox) --
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-toggle"></i></div>
@@ -260,7 +260,7 @@ $name = $email = $gender = $comment = $website = "";
         </div>
       </div>
     </li>
-    <!-- Slider (Range input) -->
+    <!-- Slider (Range input) --
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-settings"></i></div>
@@ -274,7 +274,7 @@ $name = $email = $gender = $comment = $website = "";
         </div>
       </div>
     </li>
-    <!-- Textarea -->
+    <!-- Textarea --
     <li class="align-top">
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-comment"></i></div>
@@ -285,14 +285,8 @@ $name = $email = $gender = $comment = $website = "";
           </div>
         </div>
       </div>
-    </li>
+    </li>-->
   </ul>
-	<input type="submit" name="submit" class="ui-state-valid">
+	<input type="submit" name="submit" class="button">
 	</form>
 </div>
-<script src="http://www.lockenfiles.tk/cdn/h5form/jquery.h5validate.js"></script>
-<script>
-$(document).ready(function () {
-    $('form').h5Validate();
-});
-</script>
