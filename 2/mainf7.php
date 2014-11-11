@@ -964,6 +964,28 @@ If you feel that this iOS app is not following its stated information policy, yo
 </div>
 </div>
 </div>
+<!-- Privacy Popup -->
+<div class="popup popup-privacy">
+<div class="view navbar-fixed">
+<div class="pages">
+<div class="page">
+<div class="navbar">
+<div class="navbar-inner">
+<div class="center">Privacy</div>
+<div class="right"><a href="#" class="link close-popup">Done</a></div>
+</div>
+</div>
+<div class="page-content">
+<div class="content-block">
+<p>TheLocken LLC respects your privacy and does not distribute, make available, or claim any ownership or copyright to the images that you upload to the service.</p>
+<p>The images that are uploaded are stored on our server for a short period of time. They are not displayed to anyone unless you share the URL of the result page. Images may be deleted from our servers at any time without notice.</p>
+<p>In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall TheLocken LLC be liable to users of this service for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of the use or inability to use the service (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses).</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/f7-2.js"></script>
