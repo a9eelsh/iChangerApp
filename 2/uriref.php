@@ -5,6 +5,7 @@
 
 $appname = '' . htmlspecialchars($_GET["n"]) . '';
 $iconfolder = '' . htmlspecialchars($_GET["a"]) . '';
+$iconcdir = '' . htmlspecialchars($_GET["c"]) . '';
 $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
 $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
 $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
@@ -14,11 +15,7 @@ if ( $gplus == "yes" ) {
 	$gplusurl = "%2B";
 }
 
-echo "<h1>Generating Shortcut...</h1><!-- ";
-print $iconfolder;
-print $iconmain;
-print $iconext;
-echo " -->";
+echo "<h1>Generating Shortcut...</h1>";
 
 $switch = '' . htmlspecialchars($_GET["switch"]) . '';
 
@@ -50,6 +47,6 @@ print $url;
     }
 	</script>
 <body onload="simClickMain();">
-    <a id="simClickElement" href="<?php print $url; ?>?n=<?php print $appname; ?>&a=<?php print $iconfolder; ?>&p=<?php print $iconmain; ?>&pe=<?php print $iconext; ?>&ur=<?php print $appurl; ?>&v=<?php print $v; ?>&gplus=<?php print $gplus; ?>">ENABLE JAVASCRIPT TO INSTALL APPS</a>
-<h1> Generating, Please Wait... </h1>
+    <a id="simClickElement" href="<?php print $url; ?>?n=<?php print $appname; ?>&a=<?php print $iconfolder; ?>&p=<?php print $iconmain; ?>&pe=<?php print $iconext; ?>&ur=<?php print $appurl; ?>&v=<?php print $v; ?>&gplus=<?php print $gplus; ?>&c=<?php print $iconcdir; ?>">ENABLE JAVASCRIPT TO INSTALL APPS</a>
+<h1> Generating Your Icon, Please Wait... </h1>
 </body>

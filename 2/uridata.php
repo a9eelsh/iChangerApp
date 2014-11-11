@@ -9,7 +9,7 @@ function close_window(){close()}
 */
 $appname = '' . htmlspecialchars($_GET["n"]) . '';
 $icondir = '' . htmlspecialchars($_GET["a"]) . '';
-$iconcdir = '' . htmlspecialchars($_GET["c"]) . '';;
+$iconcdir = '' . htmlspecialchars($_GET["c"]) . '';
 $iconmain = '' . htmlspecialchars($_GET["p"]) . '';
 $iconext = '' . htmlspecialchars($_GET["pe"]) . '';
 $ur = '' . htmlspecialchars($_GET["ur"]) . '';
@@ -34,10 +34,6 @@ if ( $iconcdir == "custom" ) {
 } else {
     $iconfolder = ''.$icondir.'';
 }
-
-print $iconfolder;
-print $iconmain;
-print $iconext;
 
 // _mime_content_type is unsupported so replace it with FileInfo (Recently Installed To Server)
 /* function _mime_content_type($image) {
