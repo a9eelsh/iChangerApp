@@ -864,23 +864,19 @@ echo"Dev Mode Enabled";
 </div>
 <div class="page-content">
 <div class="content-block">
-iChanger/TheLocken is committed to user privacy and our policy below describes our principles in maintaining user trust and confidence and protecting your personal information.
-
-iChanger/TheLocken only collects the domain name of visitors to our Web page, the e-mail addresses of those who communicate with us via e-mail, and information volunteered by the consumer, such as site registrations. The information we collect is not shared with other organizations for any purpose.
-
-iChanger/TheLocken may also, from time-to-time, collect non-personally identifying information available from your browser when you request a page from our website. This information includes your IP address, your browser type, the URL requested by your browser and the date and time of your query. We use this information to monitor the usage of our website and to improve the quality of our service.
-
-On occasion and in the future, non-personally-identifiable information we collect may be shared with third-parties to provide more relevant services and advertisements to our visitors. For instance, we may share the number of users that have searched for a specific file or clicked on a specific advertisement featured on our site.
-
-Upon request we provide site visitors with access to unique identifier information that we maintain about them, transaction information (e.g., subscription dates or payments) that we maintain about them. Consumers can access this information by e-mailing us.
-
-We may disclose personally identifiable information under special circumstances, such as to comply with subpoenas or when your actions violate the Terms of Service.
-
-We adhere to valid legal processes and may provide information as required by law to protect and defend the rights of our company, and in certain instances, to protect the personal safety of users and the public.
-
-iChanger/TheLocken uses third party vendors and hosting partners such as but not limited to DreamHost, Google, Amazon, and GitHub to provide the necessary hardware, software, networking, storage, and related technology required to run iChanger/TheLocken.
-
-If you feel that this iOS app is not following its stated information policy, you may contact us. iChanger/TheLocken reserves the right to modify all or some of this Privacy Policy at any time without notice.
+<p>iChanger/TheLocken is committed to user privacy and our policy below describes our principles in maintaining user trust and confidence and protecting your personal information.</p>
+<p>iChanger/TheLocken only collects the domain name of visitors to our Web page, the e-mail addresses of those who communicate with us via e-mail, and information volunteered by the consumer, such as site registrations. The information we collect is not shared with other organizations for any purpose.</p>
+<p>iChanger/TheLocken may also, from time-to-time, collect non-personally identifying information available from your browser when you request a page from our website. This information includes your IP address, your browser type, the URL requested by your browser and the date and time of your query. We use this information to monitor the usage of our website and to improve the quality of our service.</p>
+<p>On occasion and in the future, non-personally-identifiable information we collect may be shared with third-parties to provide more relevant services and advertisements to our visitors. For instance, we may share the number of users that have searched for a specific file or clicked on a specific advertisement featured on our site.</p>
+<p>Upon request we provide site visitors with access to unique identifier information that we maintain about them, transaction information (e.g., subscription dates or payments) that we maintain about them. Consumers can access this information by e-mailing us.</p>
+<p>We may disclose personally identifiable information under special circumstances, such as to comply with subpoenas or when your actions violate the Terms of Service.</p>
+<p>We adhere to valid legal processes and may provide information as required by law to protect and defend the rights of our company, and in certain instances, to protect the personal safety of users and the public.</p>
+<p>iChanger/TheLocken uses third party vendors and hosting partners such as but not limited to DreamHost, Google, Amazon, and GitHub to provide the necessary hardware, software, networking, storage, and related technology required to run iChanger/TheLocken.</p>
+<p>If you feel that this iOS app is not following its stated information policy, you may contact us. iChanger/TheLocken reserves the right to modify all or some of this Privacy Policy at any time without notice.</p>
+<p> - Upload/Custom/iPeep Policy - </p>
+<p>TheLocken LLC respects your privacy and does not distribute, make available, or claim any ownership or copyright to the images that you upload to the service.</p>
+<p>The images that are uploaded are stored on our server for a short period of time. They are not displayed to anyone unless you share the URL of the result page. Images may be deleted from our servers at any time without notice.</p>
+<p>In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall TheLocken LLC be liable to users of this service for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of the use or inability to use the service (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses).</p>
 </div>
 </div>
 </div>
@@ -964,6 +960,8 @@ If you feel that this iOS app is not following its stated information policy, yo
 </div>
 </div>
 </div>
+
+
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/f7-2.js"></script>

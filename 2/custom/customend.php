@@ -114,6 +114,7 @@ if ( $requestraw == "custom" ) {
 ?>
   <link rel="stylesheet" href="../ui/css/load.css">
   <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
+  <script src="../js/staystand.js"></script>
   <script type="text/javascript">
     $(window).load(function() {
 	$(".loader").fadeOut("slow");
@@ -134,7 +135,7 @@ if ( $requestraw == "custom" ) {
 	  <div class="loader"></div>
         <div class="navbar">
           <div class="navbar-inner">
-			      <div class="left sliding"><a href="mainf7.php<?php print $uend; ?>" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
+			      <div class="left sliding"><a href="http://ichanger.tk/mainf7.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">iChanger 2 - Your Custom App Icon</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
