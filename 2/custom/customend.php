@@ -1,4 +1,5 @@
 <?php
+$name = "Test Icon";
 $allowedExts = array("gif", "jpeg", "jpg", "png");
 $temp = explode(".", $_FILES["file"]["name"]);
 $extension = end($temp);
@@ -26,14 +27,15 @@ if ((($_FILES["file"]["type"] == "image/gif")
     } else {
       move_uploaded_file($_FILES["file"]["tmp_name"],
       "upload/$rand/" . $_FILES["file"]["name"]);
-      $result .=  "Stored in: " . "$rand/" . $_FILES["file"]["name"];
+      $result .=  "<!-- Stored In -->: " . "$rand/" . $_FILES["file"]["name"];
 	$endfile = "$rand/" . $_FILES["file"]["name"] . "";
+	$endpicture = "" . $_FILES["file"]["name"] . "";
+	$endfolder = "$rand";
     }
   }
 } else {
 	$result .=  "FAIL";
 }
-  
 
 $myfile = fopen("latest_ref.txt", "w") 
 	// echo error if failed to open latest_ref.txt
@@ -144,7 +146,7 @@ if ( $requestraw == "custom" ) {
 		<div class="list-block media-list">
 			<ul>
 				<li>
-					<a href="#" data-popover=".popover-installed" class="open-popover link item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=<?php print $endfolder; ?>&p=<?php print $endpicture; ?>&n=<?php print $name; ?>&ur=calshow://" class="external link item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/custom/upload/<?php print $endfile; ?>" width="80">
 						</div>
@@ -160,7 +162,12 @@ if ( $requestraw == "custom" ) {
 				</li>
 			</ul>
 				</div>
-	<div class="content-block-title">Ignore Me (Developer Info)</div>
+	<div class="content-block-title">Notice</div>
+    <div class="content-block">
+        <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
+        <p>If you want to use the same picture again, just upload it again.</p>
+    </div>
+	<div class="content-block-title">(Developer Info)</div>
     <div class="content-block">
         <p><?php echo $result; print $rand; ?></p>
     </div>
