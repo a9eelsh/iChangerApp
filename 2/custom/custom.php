@@ -293,5 +293,5 @@ $name = $email = $gender = $comment = $website = "";
 	<div class="content-block-title">Notice</div>
     <div class="content-block">
         <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
-        <p><a href="#" data-popup=".popup-privacy" class="open-popup close-panel item-link">Tap here for privacy info</a></p>
+        <p><a href="#" data-popup=".popup-privacy" class="open-popup close-panel item-link">When you use iChanger you agree to the Privacy Policy</a></p>
     </div>
