@@ -163,7 +163,7 @@ if ( $requestraw == "custom" ) {
 				</li>
 			</ul>
 				</div>
-	<div class="content-block-title">Notice</div>
+	<div class="content-block-title">Notice<?php echo $_POST["title"]; ?></div>
     <div class="content-block">
         <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
         <p>If you want to use the same picture again, just upload it again.</p>

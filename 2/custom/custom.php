@@ -181,7 +181,7 @@ $name = $email = $gender = $comment = $website = "";
 	-->
 <form onsubmit="" action="http://www.ichanger.tk/custom/customend.php" method="post" enctype="multipart/form-data">
   <ul>
-    <!-- Text inputs -
+    <!-- Text inputs -->
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-name"></i></div>
@@ -191,7 +191,7 @@ $name = $email = $gender = $comment = $website = "";
             <input id="title" name="title" type="text">
 			<!-- <div id="invalid-FirstName" class="ui-state-error message" style="">Required: Please provide your first name.</div>-->
 			<!-- <input id="birthdate" name="name" type="text" placeholder="mm/dd/yyyy" title="mm/dd/yyyy" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" class="h5-active ui-state-valid"> -->
-      <!--    </div>
+         </div>
         </div>
       </div>
     </li>
