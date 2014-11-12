@@ -10,7 +10,7 @@ if (file_exists($rand)) {
     $resultnotice .= "Our servers are overloaded and cannot upload your icon.";
     $resultnotice .= "Please try again in 10 minutes or contact our report an issue.";
 } else {
-  // else create folder
+  // else create  
     mkdir("upload/$rand/");
     $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
 }
@@ -166,7 +166,7 @@ if ( $requestraw == "custom" ) {
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle"><?php print $request; ?></div>
-							<div class="item-text"><?php echo $resultnotice; ?></div>
+							<div class="item-text"><?php echo $_POST["app"]; ?><?php echo $resultnotice; ?></div>
 						</div>
 					</a>
 				</li>
