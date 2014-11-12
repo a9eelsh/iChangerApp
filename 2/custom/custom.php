@@ -179,7 +179,7 @@ $name = $email = $gender = $comment = $website = "";
 	Start Form 
 	
 	-->
-<form onsubmit="" action="http://www.ichanger.tk/custom/customend.php" method="post" enctype="multipart/form-data">
+<form onsubmit="" action="http://www.ichanger.tk/custom/customend.php?req=custom" method="post" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -->
     <li>

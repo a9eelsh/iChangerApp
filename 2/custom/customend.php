@@ -147,13 +147,13 @@ if ( $requestraw == "custom" ) {
 		<div class="list-block media-list">
 			<ul>
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=<?php print $endfolder; ?>&p=<?php print $endpicture; ?>&n=<?php print $name; ?>&c=custom&ur=calshow://" class="external link item-link item-content">
+					<a href="http://ichanger.tk/uriref.php?a=<?php print $endfolder; ?>&p=<?php print $endpicture; ?>&n=<?php echo $_POST["title"]; ?>&c=custom&ur=calshow://" class="external link item-link item-content">
 						<div class="item-media">
 							<img src="http://ichanger.tk/custom/upload/<?php print $endfile; ?>" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title"><?php print $fname; ?></div>
+								<div class="item-title"><?php echo $_POST["title"]; ?>></div>
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle"><?php print $request; ?></div>
@@ -163,7 +163,7 @@ if ( $requestraw == "custom" ) {
 				</li>
 			</ul>
 				</div>
-	<div class="content-block-title">Notice<?php echo $_POST["title"]; ?></div>
+	<div class="content-block-title">Notice</div>
     <div class="content-block">
         <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
         <p>If you want to use the same picture again, just upload it again.</p>
