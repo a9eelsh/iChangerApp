@@ -195,7 +195,7 @@ $name = $email = $gender = $comment = $website = "";
         </div>
       </div>
     </li>
-    <li>
+    <!--<li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-email"></i></div>
         <div class="item-inner">
@@ -206,22 +206,60 @@ $name = $email = $gender = $comment = $website = "";
         </div>
       </div>
     </li>
-    <!-- Select --
+    <!-- Select -->
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-gender"></i></div>
         <div class="item-inner">
-          <div class="item-title label">Gender</div>
+          <div class="item-title label">App</div>
           <div class="item-input">
-            <select>
-              <option>Male</option>
-              <option>Female</option>
+            <select id="app" name="app">
+              <option>App Store</option>
+              <option>Calendar</option>
+              <option>Facetime</option>
+              <option>GameCenter</option>
+              <option>iBooks</option>
+              <option>iTunes</option>
+              <option>Mail</option>
+              <option>Maps</option>
+              <option>Messages</option>
+              <option>Music</option>
+              <option>Passbook</option>
+              <option>Phone</option>
+              <option>Reminders</option>
+              <option>Remote</option>
+              <option>Safari</option>
+              <option>Videos</option>
+              <option>Chrome</option>
+              <option>Facebook</option>
+              <option>Twitter</option>
+              <option>Flipboard</option>
+              <option>YouTube</option>
+              <option>Instagram</option>
+              <option>Skype</option>
+              <option>Photos</option>
+              <option>Google</option>
+              <option>Google+</option>
+              <!--<option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>-->
             </select>
           </div>
         </div>
       </div>
     </li>
-    Date -->
+    <!-- Date -->
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-calendar"></i></div>

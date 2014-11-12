@@ -4,7 +4,16 @@ $allowedExts = array("gif", "jpeg", "jpg", "png");
 $temp = explode(".", $_FILES["file"]["name"]);
 $extension = end($temp);
 $rand = substr(md5(microtime()),rand(0,26),5);
-mkdir("upload/$rand/");
+// check if folder exists+
+if (file_exists($rand)) {
+  // folder exists, overlapping can occor
+    $resultnotice .= "Our servers are overloaded and cannot upload your icon.";
+    $resultnotice .= "Please try again in 10 minutes or contact our report an issue.";
+} else {
+  // else create folder
+    mkdir("upload/$rand/");
+    $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
+}
 
 if ((($_FILES["file"]["type"] == "image/gif")
 || ($_FILES["file"]["type"] == "image/jpeg")
@@ -153,11 +162,11 @@ if ( $requestraw == "custom" ) {
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title"><?php echo $_POST["title"]; ?>></div>
+								<div class="item-title"><?php echo $_POST["title"]; ?></div>
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle"><?php print $request; ?></div>
-							<div class="item-text">Your <?php print $request; ?>. This page will reset once you leave.</div>
+							<div class="item-text"><?php echo $resultnotice; ?></div>
 						</div>
 					</a>
 				</li>
