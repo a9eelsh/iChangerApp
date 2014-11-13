@@ -832,24 +832,28 @@ echo"Dev Mode Enabled";
         </div>
       </div>
       <!-- Bottom Tabbar-->
-      <div class="toolbar tabbar tabbar-labels">
-        <div class="toolbar-inner">
-      <!-- Premade -->
-			<a href="#view-3" class="tab-link active">
-			<i class="icon tabbar-apps-icon"></i>
-			<span class="tabbar-label">1</span></a>
-			<!-- Custom -->
-			<a  href="#view-2" class="tab-link">
-			<i class="icon tabbar-howto-icon"></i>
-			<span class="tabbar-label">2</span></a>
-			<!-- iPeeps -->
-			<a href="#view-4" class="tab-link">
-			<i class="icon tabbar-howto-icon">
-			<!--<span class="badge badge-red">4</span></i>-->
-			<span class="tabbar-label">3</span></a>
-		  </div>
-      </div>
+<div class="toolbar tabbar tabbar-labels">
+    <div class="toolbar-inner">
+        <a href="#tab1" class="tab-link active">
+            <i class="icon demo-icon-1"></i>
+            <span class="tabbar-label">Label 1</span>
+        </a>
+        <a href="#tab2" class="tab-link">
+            <i class="icon demo-icon-2">
+                <span class="badge bg-red">5</span>
+            </i>
+            <span class="tabbar-label">Label 2</span>
+        </a>
+        <a href="#tab3" class="tab-link">
+            <i class="icon demo-icon-3"></i>
+            <span class="tabbar-label">Label 3</span>
+        </a>
+        <a href="#tab4" class="tab-link">
+            <i class="icon demo-icon-4"></i>
+            <span class="tabbar-label">Label 4</span>
+        </a>
     </div>
+</div>
 	<!-- Popups -->
 	  <!-- Privacy Policy Popup -->
   <div class="popup popup-privacy">
