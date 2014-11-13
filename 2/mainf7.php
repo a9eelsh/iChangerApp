@@ -834,19 +834,22 @@ echo"Dev Mode Enabled";
       <!-- Bottom Tabbar-->
       <div class="toolbar tabbar tabbar-labels">
         <div class="toolbar-inner">
+      <!-- Premade -->
 			<a href="#view-3" class="tab-link active">
 			<i class="icon tabbar-apps-icon"></i>
-			<span class="tabbar-label">Apps</span></a>
-			<a id="simClickElement2" href="#view-2" class="tab-link">
+			<span class="tabbar-label">Premade</span></a>
+			<!-- Custom -->
+			<a  href="#view-2" class="tab-link">
 			<i class="icon tabbar-howto-icon"></i>
-			<span class="tabbar-label">How To</span></a>
-			<a href="#view-1" class="tab-link">
-			<i class="icon tabbar-home-icon">
-			<span class="badge badge-red">4</span></i>
-			<span class="tabbar-label">Home</span></a>
+			<span class="tabbar-label">Custom</span></a>
+			<!-- iPeeps -->
 			<a href="#view-4" class="tab-link">
-			<i class="icon tabbar-ipeeps-icon"></i>
+			<i class="icon tabbar-ipeeps-icon">
+			<!--<span class="badge badge-red">4</span></i>-->
 			<span class="tabbar-label">iPeeps</span></a>
+			<!--<a href="#view-4" class="tab-link">
+			<i class="icon tabbar-ipeeps-icon"></i>
+			<span class="tabbar-label">iPeeps</span></a>-->
 		  </div>
       </div>
     </div>
