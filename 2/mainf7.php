@@ -496,21 +496,20 @@ echo"Dev Mode Enabled";
               <option>Photos</option>
               <option>Google</option>
               <option>Google+</option>
-              <?php /*<!--<option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>-->*/ ?>
+              <option>URI Scheme</option>
             </select>
+          </div>
+        </div>
+      </div>
+    </li>
+    <!-- Date -->
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="icon icon-custom-icon"></i></div>
+        <div class="item-inner">
+          <div class="item-title label">Icon</div>
+          <div class="item-input">
+            <input name="file" id="file" type="file" accept="image/*" capture="camera" value="Choose Icon">
           </div>
         </div>
       </div>
@@ -540,18 +539,6 @@ echo"Dev Mode Enabled";
       </div>
     </li>
     </div>
-    <!-- Date -->
-    <li>
-      <div class="item-content">
-        <div class="item-media"><i class="icon icon-custom-icon"></i></div>
-        <div class="item-inner">
-          <div class="item-title label">Icon</div>
-          <div class="item-input">
-            <input name="file" id="file" type="file" accept="image/*" capture="camera" value="Choose Icon">
-          </div>
-        </div>
-      </div>
-    </li>
   </ul>
 	<input type="submit" name="submit" value="Create!" class="button button-big button-round color-yellow">
 	</form>
