@@ -1027,17 +1027,17 @@ $('#function').on('change',function(){
     <div class="toolbar-inner">
         <a href="#view-3" class="tab-link active">
             <i class="icon tabbar-apps-icon"></i>
-            <span class="tabbar-label">Label 1</span>
+            <span class="tabbar-label">Premade</span>
         </a>
         <a href="#view-2" class="tab-link">
             <i class="icon tabbar-custom-icon">
-                <span class="badge bg-red">5</span>
+                <span class="badge bg-red">NEW</span>
             </i>
-            <span class="tabbar-label">Label 2</span>
+            <span class="tabbar-label">Custom</span>
         </a>
         <a href="#view-1" class="tab-link">
             <i class="icon tabbar-ipeeps-icon"></i>
-            <span class="tabbar-label">Label 3</span>
+            <span class="tabbar-label">iPeeps</span>
         </a>
     </div>
 </div>
