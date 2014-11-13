@@ -516,13 +516,44 @@ echo"Dev Mode Enabled";
         </div>
       </div>
     </li>
+    <div id="Function" style="display:none;">
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="icon icon-custom-icon"></i></div>
+        <div class="item-inner">
+          <div class="item-title label">Function</div>
+          <div class="item-input">
+            <select id="function" name="function">
+              <option>Your Profile</option>
+              <option>Friends List</option>
+              <option>Notification List</option>
+              <option>News Feed</option>
+              <option>Events Feed</option>
+              <option>Requests List</option>
+              <option>Notes Page</option>
+              <option>Photo Albums</option>
+              <option>Mailbox</option>
+              <option>Messaging</option>
+          </div>
+        </div>
+      </div>
+    </li>
+    </div>
         <script>
 $('#app').on('change',function(){
     if( $(this).val()==="Facebook"){
-    $("#FBFunction").show()
+    $("#Function").show()
     }
     else{
-    $("#FBFunction").hide()
+    $("#Function").hide()
+    }
+});
+$('#function').on('change',function(){
+    if( $(this).val()==="Notification List"){
+    $("#NWarning").show()
+    }
+    else{
+    $("#NWarning").hide()
     }
 });
     </script>
@@ -544,7 +575,8 @@ $('#app').on('change',function(){
 </div>
 	<div class="content-block-title">Notice</div>
     <div class="content-block">
-        <p><div id="FBFunction" style="display:none;">Hello</div>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
+        <div id="Function" style="display:none;"><p style="color:red">Warning Facebook Notification List is bugged an may not work properly.</p></div>
+        <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
         <p><a href="#" data-popup=".popup-privacy" value="Create!" class="open-popup close-panel item-link">When you use iChanger you agree to the Privacy Policy</a></p>
     </div>
       </div>
