@@ -101,7 +101,7 @@ if ( $userraw == "" ) {
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
 	<!-- Path to TheLocken Core CSS -->
     <link rel="stylesheet" href="ui/css/f7-2.css">
-    <link rel="stylesheet" href="ui/css/tabs.css">
+    <link rel="stylesheet" href="ui/css/tabs.css?v=2">
     <style>
     .statusbar-overlay {
       background: SkyBlue;
@@ -834,17 +834,17 @@ echo"Dev Mode Enabled";
       <!-- Bottom Tabbar-->
 <div class="toolbar tabbar tabbar-labels">
     <div class="toolbar-inner">
-        <a href="#tab1" class="tab-link active">
+        <a href="#view-1" class="tab-link active">
             <i class="icon tabbar-apps-icon"></i>
             <span class="tabbar-label">Label 1</span>
         </a>
-        <a href="#tab2" class="tab-link">
-            <i class="icon demo-icon-2">
+        <a href="#view-2" class="tab-link">
+            <i class="icon tabbar-custom-icon">
                 <span class="badge bg-red">5</span>
             </i>
             <span class="tabbar-label">Label 2</span>
         </a>
-        <a href="#tab3" class="tab-link">
+        <a href="#view-3" class="tab-link">
             <i class="icon tabbar-ipeeps-icon"></i>
             <span class="tabbar-label">Label 3</span>
         </a>
