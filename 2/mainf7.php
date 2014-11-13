@@ -395,7 +395,7 @@ echo"Dev Mode Enabled";
 
 
               -->
-            <div class="center sliding">iChanger - How To</div>
+            <div class="center sliding">iChanger - Custom</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-menu"></i></a></div>
           </div>
         </div>
@@ -834,11 +834,11 @@ echo"Dev Mode Enabled";
       <!-- Bottom Tabbar-->
 <div class="toolbar tabbar tabbar-labels">
     <div class="toolbar-inner">
-        <a href="#view-1" class="tab-link active">
+        <a href="#view-3" class="tab-link active">
             <i class="icon tabbar-apps-icon"></i>
             <span class="tabbar-label">Label 1</span>
         </a>
-        <a href="#view-2" class="tab-link">
+        <a href="custom/custom.php" class="tab-link">
             <i class="icon tabbar-custom-icon">
                 <span class="badge bg-red">5</span>
             </i>
