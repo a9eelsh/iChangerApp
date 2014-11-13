@@ -455,7 +455,7 @@ echo"Dev Mode Enabled";
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-name"></i></div>
         <div class="item-inner">
-          <div class="item-title label">Title:*</div>
+          <div class="item-title label">Title</div>
           <div class="item-input">
             <input id="title" name="title" type="text">         </div>
         </div>
@@ -521,7 +521,7 @@ echo"Dev Mode Enabled";
         <div class="item-inner">
           <div class="item-title label">Icon</div>
           <div class="item-input">
-            <input name="file" id="file" type="file" accept="image/*" capture="camera" class="list-val button " value="Choose Icon">
+            <input name="file" id="file" type="file" accept="image/*" capture="camera" class="button" value="Choose Icon">
           </div>
         </div>
       </div>
@@ -566,7 +566,7 @@ echo"Dev Mode Enabled";
           -->
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">iChanger - Apps 
+            <div class="center sliding">iChanger - Premade Icons 
             <?php 
             $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
             if ( $dev == "y" ) {
@@ -1020,19 +1020,19 @@ echo"Dev Mode Enabled";
 </div>
 <div class="page-content">
 <div class="content-block">
-<p>iChanger/TheLocken is committed to user privacy and our policy below describes our principles in maintaining user trust and confidence and protecting your personal information.</p>
-<p>iChanger/TheLocken only collects the domain name of visitors to our Web page, the e-mail addresses of those who communicate with us via e-mail, and information volunteered by the consumer, such as site registrations. The information we collect is not shared with other organizations for any purpose.</p>
-<p>iChanger/TheLocken may also, from time-to-time, collect non-personally identifying information available from your browser when you request a page from our website. This information includes your IP address, your browser type, the URL requested by your browser and the date and time of your query. We use this information to monitor the usage of our website and to improve the quality of our service.</p>
+<p>TheLocken LLC is committed to user privacy and our policy below describes our principles in maintaining user trust and confidence and protecting your personal information.</p>
+<p>TheLocken LLC only collects the domain name of visitors to our Web page, the e-mail addresses of those who communicate with us via e-mail, and information volunteered by the consumer, such as site registrations. The information we collect is not shared with other organizations for any purpose.</p>
+<p>TheLocken LLC may also, from time-to-time, collect non-personally identifying information available from your browser when you request a page from our website. This information includes your IP address, your browser type, the URL requested by your browser and the date and time of your query. We use this information to monitor the usage of our website and to improve the quality of our service.</p>
 <p>On occasion and in the future, non-personally-identifiable information we collect may be shared with third-parties to provide more relevant services and advertisements to our visitors. For instance, we may share the number of users that have searched for a specific file or clicked on a specific advertisement featured on our site.</p>
 <p>Upon request we provide site visitors with access to unique identifier information that we maintain about them, transaction information (e.g., subscription dates or payments) that we maintain about them. Consumers can access this information by e-mailing us.</p>
 <p>We may disclose personally identifiable information under special circumstances, such as to comply with subpoenas or when your actions violate the Terms of Service.</p>
 <p>We adhere to valid legal processes and may provide information as required by law to protect and defend the rights of our company, and in certain instances, to protect the personal safety of users and the public.</p>
-<p>iChanger/TheLocken uses third party vendors and hosting partners such as but not limited to DreamHost, Google, Amazon, and GitHub to provide the necessary hardware, software, networking, storage, and related technology required to run iChanger/TheLocken.</p>
-<p>If you feel that this iOS app is not following its stated information policy, you may contact us. iChanger/TheLocken reserves the right to modify all or some of this Privacy Policy at any time without notice.</p>
-<p> - Upload/Custom/iPeep Policy - </p>
+<p>TheLocken LLC uses third party vendors and hosting partners such as but not limited to DreamHost, Google, CloudFlare, and GitHub to provide the necessary hardware, software, networking, storage, and related technology required to run TheLocken LLC.</p>
+<p>If you feel that this iOS app is not following its stated information policy, please contact us. TheLocken LLC reserves the right to modify all or some of this Privacy Policy at any time without notice.</p>
 <p>TheLocken LLC respects your privacy and does not distribute, make available, or claim any ownership or copyright to the images that you upload to the service.</p>
 <p>The images that are uploaded are stored on our server for a short period of time. They are not displayed to anyone unless you share the URL of the result page. Images may be deleted from our servers at any time without notice.</p>
 <p>In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall TheLocken LLC be liable to users of this service for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of the use or inability to use the service (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses).</p>
+<p>TheLocken LLC in no way is responsibe for damaged, broken, or dysfunctional devices, iChanger will not cause your device to be damaged as its using Apple's Addtohomescreen Bookmark function, if you think iChanger in any way damaged your device please contact us imidetly.</p>
 </div>
 </div>
 </div>
@@ -1079,7 +1079,7 @@ echo"Dev Mode Enabled";
 <div class="page-content">
 <div class="content-block">
 <p>iChanger is an iOS app that allows you to theme icons the way you want.</p>
-<p>iChanger is developed and maintained by a 3 Developer Group named TheLocken, Bradley (Rosco1502), Loren (Theredspy1155), and Jase (Aries).</p>
+<p>iChanger is developed and maintained by a 3 Developer Group named TheLocken, Bradley (Rosco1502), Loren (Theredspy1155), and Jase (NekrixZG).</p>
 <p><ul><li>Bradley is the lead developer, he coded almost all of iChanger and also started TheLocken LLC, and iChanger</li><li>Loren is the main Android and Java coder of iChanger.</li><li>Jase is the main Icon-Gatherer, he sends icons he finds on various sources to our team to implement into iChanger.</li></ul></p>
 <p>We get icons form various sources, including (but not limited to) <a href="http://deviantart.com/" class="external close-popup">DiviantArt.com</a>, <a href="http://uiconstock.com/" class="external close-popup">UIconStock</a>, etc.</p>
 <p>Extra thanks to <a href="http://ffra.deviantart.com/" class="external close-popup">FFra</a> for supplying amazing icons packs such as Novus, Flatest, Maximal and to <a href="http://dtafalonso.deviantart.com/" class="external close-popup">Dtafalonso</a> for creating awesome packs such as iOS 7 Alternative, iOS 7 Icons (#1-7)</p>
