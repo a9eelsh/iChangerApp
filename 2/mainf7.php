@@ -845,7 +845,7 @@ echo"Dev Mode Enabled";
             <span class="tabbar-label">Label 2</span>
         </a>
         <a href="#tab3" class="tab-link">
-            <i class="icon demo-icon-3"></i>
+            <i class="icon tabbar-ipeeps-icon"></i>
             <span class="tabbar-label">Label 3</span>
         </a>
     </div>
