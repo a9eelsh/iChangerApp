@@ -540,7 +540,7 @@ echo"Dev Mode Enabled";
     </li>
     </div>
   </ul>
-	<input type="submit" name="submit" value="Create!" class="button button-big button-round color-yellow">
+	<input type="submit" name="submit" value="Create!" class="button button-big button-round color-red">
 	</form>
 </div>
 	<div class="content-block-title">Notice</div>
@@ -824,14 +824,6 @@ $('#function').on('change',function(){
                         <div class="item-inner">
                           <div class="item-title">Google+ - NEW</div>
 							<span class="list-val button ">Theme</span>
-                        </div>
-                      </div></a></li>
-                  <li><a href="custom/custom.php" class="item-link">
-                      <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-custom"></i></div>
-                        <div class="item-inner">
-                          <div class="item-title">Custom - EXPERIMENTAL</div>
-							<span class="list-val button ">Make</span>
                         </div>
                       </div></a></li>
                 </ul>
