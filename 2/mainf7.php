@@ -99,6 +99,7 @@ if ( $userraw == "" ) {
     <link rel="stylesheet" href="ui/css/framework7.css">
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
+	<link rel="stylesheet" href="js/framework7.3dpanels.css">
 	<!-- Path to TheLocken Core CSS -->
     <link rel="stylesheet" href="ui/css/f7-2.css">
     <link rel="stylesheet" href="ui/css/tabs.css?v=3">
@@ -1168,5 +1169,6 @@ $('#function').on('change',function(){
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/f7-2.js"></script>
     <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
+    <script src="js/framework7.3dpanels.js"></script>
   </body>
 </html>
