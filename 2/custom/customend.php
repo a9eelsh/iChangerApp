@@ -9,11 +9,18 @@ if (file_exists($rand)) {
   // folder exists, overlapping can occor
     $resultnotice .= "Our servers are overloaded and cannot upload your icon.";
     $resultnotice .= "Please try again in 10 minutes or contact our report an issue.";
-} else {
-  // else create  
+} elseif (isset($_FILES['userfile']) && $_FILES['userfile']['size'] > 0) {
     mkdir("upload/$rand/");
     $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
+} else {
+    $resultnotice .= "You did not submit an icon, please try again.";
 }
+
+
+if(isset($_FILES['userfile']) && $_FILES['userfile']['size'] > 0){
+     echo"file uploaded";
+} else echo "Not Uploaded" ;
+
 
 if ((($_FILES["file"]["type"] == "image/gif")
 || ($_FILES["file"]["type"] == "image/jpeg")
@@ -264,16 +271,6 @@ if ( $func == "Notes Page" ) {
 if ( $func == "Photo Albums" ) {
   $urls = "fb://albums";
 }
-
-
-
-
-
-
-
-
-
-
 ?>
   <link rel="stylesheet" href="../ui/css/load.css">
   <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
@@ -331,5 +328,5 @@ if ( $func == "Photo Albums" ) {
     </div>
 	<div class="content-block-title">(Developer Info)</div>
     <div class="content-block">
-        <p><?php echo $result; print $rand; ?></p>
+        <p><?php echo $result; ?></p>
     </div>
