@@ -249,9 +249,6 @@ if ( $app == "Google+" ) {
 	<link rel="stylesheet" href="../ui/css/app.css">
 	<link rel="stylesheet" href="../ui/css/nav.css">
 	<link rel="stylesheet" href="../ui/css/closex.css">
-	<!--<script type="text/javascript" src="js/staystand.js"></script>-->
-    <link rel="stylesheet" href="../ui/css/load.css">
-	  <div class="loader"></div>
         <div class="navbar">
           <div class="navbar-inner">
 			      <div class="left sliding"><a href="http://ichanger.tk/mainf7.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
