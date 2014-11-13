@@ -75,43 +75,29 @@ if ( $userraw == "" ) {
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <html>
   <head>
-    <link href="http://www.lockenfiles.tk/cdn/h5form/test/qunit.css" rel="stylesheet" />
-    <link href="http://www.lockenfiles.tk/cdn/h5form/style0000000.css" media="screen" rel="stylesheet" type="text/css" />
-	<style>
-		.ui-state-error {
-			background-color:#BB1100;
-			color:white;
-		}
-	</style>
   	<script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
-	<script src="http://www.lockenfiles.tk/cdn/h5form/jquery.h5validate.js"></script>
-	<script>
-		$(document).ready(function () {
-    	$('form').h5Validate();
-		});
-    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>iChanger 2</title>
     <!-- Path to Framework7 Library CSS -->
-    <link rel="stylesheet" href="ui/css/framework7.css">
-    <link rel="stylesheet" href="ui/css/framework7.min.css">
-	<link rel="stylesheet" href="ui/css/framework7.themes.css">
-	<link rel="stylesheet" href="js/framework7.3dpanels.css">
-	<!-- Path to TheLocken Core CSS -->
-    <link rel="stylesheet" href="ui/css/f7-2.css">
     <link rel="stylesheet" href="ui/css/tabs.css?v=3">
+	  <link rel="stylesheet" href="ui/css/app.css?v=5">
+	  <link rel="stylesheet" href="ui/css/nav.css">
+	  <link rel="stylesheet" href="ui/css/closex.css">
+    <link rel="stylesheet" href="ui/css/f7-2.css">
+    <link rel="stylesheet" href="ui/css/framework7.themes.css">
+    <link rel="stylesheet" href="ui/css/framework7.min.css">
+    <link rel="stylesheet" href="js/framework7.3dpanels.css">
     <style>
     .statusbar-overlay {
       background: SkyBlue;
     }
-  </style>
-	<link rel="stylesheet" href="ui/css/app.css?v=5">
-	<link rel="stylesheet" href="ui/css/nav.css">
-	<link rel="stylesheet" href="ui/css/closex.css">
-	<script type="text/javascript">
+    </style>
+    <meta name="apple-mobile-web-app-title" content="NO_INSTALL">
+    <link href="pics/noinstall.png" rel="apple-touch-icon-precomposed">
+	  <script type="text/javascript">
 		function simClickMain() {
         var link1 = document.getElementById('simClickElement');
         if (link1.click) {
@@ -124,8 +110,8 @@ if ( $userraw == "" ) {
             link1.dispatchEvent(event);
         }
     }
-	</script>
-	<script type="text/javascript">
+	  </script>
+	  <script type="text/javascript">
 		function simClickMain2() {
         var link1 = document.getElementById('simClickElement2');
         if (link1.click) {
@@ -138,7 +124,7 @@ if ( $userraw == "" ) {
             link1.dispatchEvent(event);
         }
     }
-	</script>
+	  </script>
       <!--<script type="text/javascript" src="js/staystand.js"></script>-->
     <link rel="stylesheet" href="ui/css/load.css">
     <script type="text/javascript">
@@ -146,7 +132,7 @@ if ( $userraw == "" ) {
 		$(".loader").fadeOut("slow");
 	    })
     </script>
-	<script type="text/javascript">
+	  <script type="text/javascript">
 	// Load Heavy files so no half-loaded images appear
 		Image1= new Image(175,50)
 		Image1.src = "http://ichanger.tk/AppStore/lightOLD.png"
@@ -176,32 +162,25 @@ if ( $userraw == "" ) {
 		Image9.src = "http://ichanger.tk/thumbs/upload_to_cloud-50.png"
 		// end repeat
 		// End Hiding -->
-	</script>
-	<script>
+	  </script>
+	  <script>
 		function slowLoad() {
 	    	$(window).load(function() {
 			$(".loader").fadeOut("slow");
 	    	})
 		}
-	</script>
+	  </script>
 	</head>
   <body onload="simClickMain()">
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
-	<div class="loader"></div>
+	  <div class="loader"></div>
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
     <div class="panel-overlay"></div>
     <!-- Left panel with reveal effect--> 
-
-
-
-  <meta name="apple-mobile-web-app-title" content="DONT INSTALL HERE">
-  <link href="pics/noinstall.png" rel="apple-touch-icon-precomposed">
-
-
 
 
 <div class="panel-overlay"></div>
@@ -1169,6 +1148,6 @@ $('#function').on('change',function(){
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/f7-2.js"></script>
     <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
-    <script src="js/framework7.3dpanels.js"></script>
+    <script type="text/javascript" src="js/framework7.3dpanels.js"></script>
   </body>
 </html>
