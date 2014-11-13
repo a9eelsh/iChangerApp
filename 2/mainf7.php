@@ -524,6 +524,7 @@ echo"Dev Mode Enabled";
           <div class="item-title label">Function</div>
           <div class="item-input">
             <select id="function" name="function">
+              <option>-Default-</option>
               <option>Your Profile</option>
               <option>Friends List</option>
               <option>Notification List</option>
@@ -540,24 +541,6 @@ echo"Dev Mode Enabled";
       </div>
     </li>
     </div>
-        <script>
-$('#app').on('change',function(){
-    if( $(this).val()==="Facebook"){
-    $("#Function").show()
-    }
-    else{
-    $("#Function").hide()
-    }
-});
-$('#function').on('change',function(){
-    if( $(this).val()==="Notification List"){
-    $("#NWarning").show()
-    }
-    else{
-    $("#NWarning").hide()
-    }
-});
-    </script>
     <!-- Date -->
     <li>
       <div class="item-content">
@@ -576,7 +559,7 @@ $('#function').on('change',function(){
 </div>
 	<div class="content-block-title">Notice</div>
     <div class="content-block">
-        <div id="Function" style="display:none;"><p style="color:red">Warning Facebook Notification List is bugged an may not work properly.</p></div>
+        <div id="NWarning" style="display:none;"><p style="color:red">Warning Facebook Notification List is bugged an may not work properly.</p></div>
         <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
         <p><a href="#" data-popup=".popup-privacy" value="Create!" class="open-popup close-panel item-link">When you use iChanger you agree to the Privacy Policy</a></p>
     </div>
@@ -584,6 +567,24 @@ $('#function').on('change',function(){
       </div>
       </div>
       </div>
+<script>
+$('#app').on('change',function(){
+    if( $(this).val()==="Facebook"){
+    $("#Function").show()
+    }
+    else{
+    $("#Function").hide()
+    }
+});
+$('#function').on('change',function(){
+    if( $(this).val()==="Notification List"){
+    $("#NWarning").show()
+    }
+    else{
+    $("#NWarning").hide()
+    }
+});
+</script>
       <div id="view-3" class="view view-main tab active">
         <!-- We can make with view with navigation, let's add Top Navbar-->
 		  
