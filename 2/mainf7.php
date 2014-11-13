@@ -540,8 +540,6 @@ echo"Dev Mode Enabled";
         </div>
       </div>
     </li>
-    </ul>
-    <ul>
     </div>
     <!-- Date -->
     <li>
