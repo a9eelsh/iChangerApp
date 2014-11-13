@@ -233,11 +233,12 @@ if ( $app == "Google+" ) {
   <link rel="stylesheet" href="../ui/css/load.css">
   <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
   <script src="../js/staystand.js"></script>
-  <script type="text/javascript">
-    $(window).load(function() {
-	$(".loader").fadeOut("slow");
-    })
-  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <style>
+    .statusbar-overlay {
+      background: SkyBlue;
+    }
+  </style>
     <!-- Path to Framework7 Library CSS -->
     <link rel="stylesheet" href="../ui/css/framework7.css">
     <link rel="stylesheet" href="../ui/css/framework7.min.css">
