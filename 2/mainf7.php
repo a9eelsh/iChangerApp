@@ -837,19 +837,16 @@ echo"Dev Mode Enabled";
       <!-- Premade -->
 			<a href="#view-3" class="tab-link active">
 			<i class="icon tabbar-apps-icon"></i>
-			<span class="tabbar-label">Premade</span></a>
+			<span class="tabbar-label">1</span></a>
 			<!-- Custom -->
 			<a  href="#view-2" class="tab-link">
 			<i class="icon tabbar-howto-icon"></i>
-			<span class="tabbar-label">Custom</span></a>
+			<span class="tabbar-label">2</span></a>
 			<!-- iPeeps -->
 			<a href="#view-4" class="tab-link">
-			<i class="icon tabbar-ipeeps-icon">
+			<i class="icon tabbar-howto-icon">
 			<!--<span class="badge badge-red">4</span></i>-->
-			<span class="tabbar-label">iPeeps</span></a>
-			<!--<a href="#view-4" class="tab-link">
-			<i class="icon tabbar-ipeeps-icon"></i>
-			<span class="tabbar-label">iPeeps</span></a>-->
+			<span class="tabbar-label">3</span></a>
 		  </div>
       </div>
     </div>
