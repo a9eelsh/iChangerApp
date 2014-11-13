@@ -540,7 +540,6 @@ echo"Dev Mode Enabled";
       </div>
     </li>
     </div>
-    </div>
         <script>
 $('#app').on('change',function(){
     if( $(this).val()==="Facebook"){
