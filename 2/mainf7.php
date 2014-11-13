@@ -521,7 +521,7 @@ echo"Dev Mode Enabled";
         <div class="item-inner">
           <div class="item-title label">Icon</div>
           <div class="item-input">
-            <input name="file" id="file" type="file" accept="image/*" capture="camera" class="button" value="Choose Icon">
+            <input name="file" id="file" type="file" accept="image/*" capture="camera" value="Choose Icon">
           </div>
         </div>
       </div>
