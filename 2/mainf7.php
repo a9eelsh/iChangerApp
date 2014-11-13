@@ -344,8 +344,13 @@ echo"Dev Mode Enabled";
 		  <!--
 
  
+ 
+ 
 
                   Home 
+
+
+
 
 
 
@@ -383,47 +388,153 @@ echo"Dev Mode Enabled";
           </div>
         </div>
       </div>
-      <!-- Second view (for second wrap)-->
+<!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CUSTOM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
       <div id="view-2" class="view tab">
         <!-- We can make with view with navigation, let's add Top Navbar-->
         <div class="navbar">
           <div class="navbar-inner">
-			  <!--
-
-
-                   How To
-
-
-              -->
-            <div class="center sliding">iChanger - Custom</div>
-            <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-menu"></i></a></div>
+			      <div class="left sliding"><a href="mainf7.php<?php print $uend; ?>" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
+            <div class="center sliding">iChanger 2 - Custom</div>
+            <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
         <div class="pages navbar-through">
-          <div data-page="index-2" class="page">
+          <div data-page="index-1" class="page">
             <div class="page-content">
-              <div class="content-block">
-                <p>This is a second view. Lets, for example, have here some internal pages with navbar navigation</p>
-              </div>
-              <div class="list-block">
-                <ul>
-                  <li><a href="about.html<?php print $uend; ?>" class="item-link">
-                      <div class="item-content">
-                        <div class="item-inner">
-                          <div class="item-title">About Us</div>
-                        </div>
-                      </div></a></li>
-                  <li><a href="services.html<?php print $uend; ?>" class="item-link">
-                      <div class="item-content">
-                        <div class="item-inner">
-                          <div class="item-title">Services</div>
-                        </div>
-                      </div></a></li>
-                </ul>
-              </div>
-            </div>
+<div class="content-block-title">Customize!</div>
+<div class="list-block">
+	<!-- 
+	
+	Start Form 
+	
+	-->
+<form onsubmit="" action="http://www.ichanger.tk/custom/customend.php?req=custom" method="post" enctype="multipart/form-data">
+  <ul>
+    <!-- Text inputs -->
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="icon icon-form-name"></i></div>
+        <div class="item-inner">
+          <div class="item-title label">Title:*</div>
+          <div class="item-input">
+            <input id="title" name="title" type="text">         </div>
+        </div>
+      </div>
+    </li>
+    <!-- Select -->
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="icon icon-form-gender"></i></div>
+        <div class="item-inner">
+          <div class="item-title label">App</div>
+          <div class="item-input">
+            <select id="app" name="app">
+              <option>App Store</option>
+              <option>Calendar</option>
+              <option>Facetime</option>
+              <option>GameCenter</option>
+              <option>iBooks</option>
+              <option>iTunes</option>
+              <option>Mail</option>
+              <option>Maps</option>
+              <option>Messages</option>
+              <option>Music</option>
+              <option>Passbook</option>
+              <option>Phone</option>
+              <option>Reminders</option>
+              <option>Remote</option>
+              <option>Safari</option>
+              <option>Videos</option>
+              <option>Chrome</option>
+              <option>Facebook</option>
+              <option>Twitter</option>
+              <option>Flipboard</option>
+              <option>YouTube</option>
+              <option>Instagram</option>
+              <option>Skype</option>
+              <option>Photos</option>
+              <option>Google</option>
+              <option>Google+</option>
+              <?php /*<!--<option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>
+              <option></option>-->*/ ?>
+            </select>
           </div>
         </div>
+      </div>
+    </li>
+    <!-- Date -->
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+        <div class="item-inner">
+          <div class="item-title label">Icon</div>
+          <div class="item-input">
+            <input name="file" id="file" type="file" accept="image/*" capture="camera" class="list-val button " value="Choose Icon">
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+	<input type="submit" name="submit" class="button">
+	</form>
+</div>
+	<div class="content-block-title">Notice</div>
+    <div class="content-block">
+        <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
+        <p><a href="#" data-popup=".popup-privacy" value="Create!" class="open-popup close-panel item-link">When you use iChanger you agree to the Privacy Policy</a></p>
+    </div>
       </div>
       <div id="view-3" class="view view-main tab active">
         <!-- We can make with view with navigation, let's add Top Navbar-->
@@ -432,7 +543,20 @@ echo"Dev Mode Enabled";
 
 
 
-              Apps
+
+
+
+
+
+
+              PreMade
+
+
+
+
+
+
+
 
 
 
@@ -700,7 +824,11 @@ echo"Dev Mode Enabled";
 
 
 
+
+
                   iPeeps
+
+
 
 
 
@@ -831,26 +959,51 @@ echo"Dev Mode Enabled";
           </div>
         </div>
       </div>
-      <!-- Bottom Tabbar-->
+      <!--
+      
+      
+      
+      
+      
+      
+      Bottom Tabbar
+      
+      
+      
+      
+      
+      
+      -->
 <div class="toolbar tabbar tabbar-labels">
     <div class="toolbar-inner">
         <a href="#view-3" class="tab-link active">
             <i class="icon tabbar-apps-icon"></i>
             <span class="tabbar-label">Label 1</span>
         </a>
-        <a href="custom/custom.php" class="tab-link">
+        <a href="#view-2" class="tab-link">
             <i class="icon tabbar-custom-icon">
                 <span class="badge bg-red">5</span>
             </i>
             <span class="tabbar-label">Label 2</span>
         </a>
-        <a href="#view-3" class="tab-link">
+        <a href="#view-1" class="tab-link">
             <i class="icon tabbar-ipeeps-icon"></i>
             <span class="tabbar-label">Label 3</span>
         </a>
     </div>
 </div>
-	<!-- Popups -->
+	<!--
+	
+	
+	
+	
+	    Popups
+	
+	
+	
+	
+	
+	-->
 	  <!-- Privacy Policy Popup -->
   <div class="popup popup-privacy">
 <div class="view navbar-fixed">
