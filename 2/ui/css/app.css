@@ -303,3 +303,21 @@ height:29px;
 background-image:url(../../thumbs/fb--.png);
 }
 */
+
+i.icon.icon-custom-title {
+width:29px;
+height:29px;
+background-image:url(../I8/rename-50.png);
+}
+
+i.icon.icon-custom-app {
+width:29px;
+height:29px;
+background-image:url(../I8/rocket-50.png);
+}
+
+i.icon.icon-custom-icon {
+width:29px;
+height:29px;
+background-image:url(../I8/medium_icons-50.png);
+}

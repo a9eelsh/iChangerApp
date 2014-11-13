@@ -101,7 +101,7 @@ if ( $userraw == "" ) {
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
 	<!-- Path to TheLocken Core CSS -->
     <link rel="stylesheet" href="ui/css/f7-2.css">
-    <link rel="stylesheet" href="ui/css/tabs.css?v=2">
+    <link rel="stylesheet" href="ui/css/tabs.css?v=3">
     <style>
     .statusbar-overlay {
       background: SkyBlue;
@@ -453,7 +453,7 @@ echo"Dev Mode Enabled";
     <!-- Text inputs -->
     <li>
       <div class="item-content">
-        <div class="item-media"><i class="icon icon-form-name"></i></div>
+        <div class="item-media"><i class="icon icon-app-title"></i></div>
         <div class="item-inner">
           <div class="item-title label">Title</div>
           <div class="item-input">
@@ -464,11 +464,12 @@ echo"Dev Mode Enabled";
     <!-- Select -->
     <li>
       <div class="item-content">
-        <div class="item-media"><i class="icon icon-form-gender"></i></div>
+        <div class="item-media"><i class="icon icon-custom-app"></i></div>
         <div class="item-inner">
-          <div class="item-title label">App</div>
+          <div class="item-title label">App to Open</div>
           <div class="item-input">
             <select id="app" name="app">
+              <option>-Choose App-</option>
               <option>App Store</option>
               <option>Calendar</option>
               <option>Facetime</option>
@@ -517,7 +518,7 @@ echo"Dev Mode Enabled";
     <!-- Date -->
     <li>
       <div class="item-content">
-        <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+        <div class="item-media"><i class="icon icon-custom-icon"></i></div>
         <div class="item-inner">
           <div class="item-title label">Icon</div>
           <div class="item-input">
