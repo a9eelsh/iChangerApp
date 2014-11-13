@@ -534,10 +534,12 @@ echo"Dev Mode Enabled";
               <option>Photo Albums</option>
               <option>Mailbox</option>
               <option>Messaging</option>
+            </select>
           </div>
         </div>
       </div>
     </li>
+    </div>
     </div>
         <script>
 $('#app').on('change',function(){
