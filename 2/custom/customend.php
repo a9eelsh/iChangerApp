@@ -5,16 +5,14 @@ $temp = explode(".", $_FILES["file"]["name"]);
 $extension = end($temp);
 $rand = substr(md5(microtime()),rand(0,26),5);
 // check if folder exists+
-/* if (file_exists($rand)) {
+if (file_exists($rand)) {
   // folder exists, overlapping can occor
     $resultnotice .= "Our servers are overloaded and cannot upload your icon.";
     $resultnotice .= "Please try again in 10 minutes or contact our report an issue.";
-} elseif (isset($_FILES['userfile']) && $_FILES['userfile']['size'] > 0) {
+} else {
     mkdir("upload/$rand/");
     $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
-} else {
-    $resultnotice .= "You did not submit an icon, please try again.";
-} */
+}
 
 if ((($_FILES["file"]["type"] == "image/gif")
 || ($_FILES["file"]["type"] == "image/jpeg")
