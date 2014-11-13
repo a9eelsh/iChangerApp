@@ -835,7 +835,7 @@ echo"Dev Mode Enabled";
 <div class="toolbar tabbar tabbar-labels">
     <div class="toolbar-inner">
         <a href="#tab1" class="tab-link active">
-            <i class="icon demo-icon-1"></i>
+            <i class="icon tabbar-apps-icon"></i>
             <span class="tabbar-label">Label 1</span>
         </a>
         <a href="#tab2" class="tab-link">
