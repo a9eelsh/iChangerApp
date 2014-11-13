@@ -107,7 +107,7 @@ if ( $userraw == "" ) {
       background: SkyBlue;
     }
   </style>
-	<link rel="stylesheet" href="ui/css/app.css?v=12">
+	<link rel="stylesheet" href="ui/css/app.css?v=3">
 	<link rel="stylesheet" href="ui/css/nav.css">
 	<link rel="stylesheet" href="ui/css/closex.css">
 	<script type="text/javascript">
@@ -453,7 +453,7 @@ echo"Dev Mode Enabled";
     <!-- Text inputs -->
     <li>
       <div class="item-content">
-        <div class="item-media"><i class="icon icon-app-title"></i></div>
+        <div class="item-media"><i class="icon icon-custom-title"></i></div>
         <div class="item-inner">
           <div class="item-title label">Title</div>
           <div class="item-input">
