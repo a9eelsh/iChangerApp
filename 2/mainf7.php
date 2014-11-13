@@ -204,7 +204,7 @@ if ( $userraw == "" ) {
 
 
 <div class="panel-overlay"></div>
-<div class="panel panel-left panel-cover layout-dark">
+<div class="panel panel-left panel-cover layout-dark panel-reveal">
 <div class="content-block-title">MENU</div>
 <div class="list-block">
 <ul>
