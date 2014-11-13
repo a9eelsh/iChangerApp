@@ -119,6 +119,7 @@ if ( $requestraw == "custom" ) {
 }
 
 // URL SCHEME DATABASE
+$func = $_POST["function"];
 $app = $_POST["app"];
 // APP STORE
 if ( $app == "App Store" ) {
@@ -228,6 +229,50 @@ if ( $app == "Google" ) {
 if ( $app == "Google+" ) {
   $urls = "gplus://";
 }
+
+// ---- START FUNCTIONS ----
+
+// FB YOUR PROFILE
+if ( $func == "Your Profile" ) {
+  $urls = "fb://profile";
+}
+// FB FRIENDS LIST
+if ( $func == "Friends List" ) {
+  $urls = "fb://friends";
+}
+// FB NOTI LIST
+if ( $func == "Notification List" ) {
+  $urls = "fb://notifications";
+}
+// FB NEWS FEED
+if ( $func == "News Feed" ) {
+  $urls = "fb://feed";
+}
+// FB EVENTS PAGE
+if ( $func == "Events Page" ) {
+  $urls = "fb://events";
+}
+// FB REQUESTS LIST
+if ( $func == "Requests List" ) {
+  $urls = "fb://requests";
+}
+// FB NOTES PAGE
+if ( $func == "Notes Page" ) {
+  $urls = "fb://notes";
+}
+// FB PHOTO ALBUMS
+if ( $func == "Photo Albums" ) {
+  $urls = "fb://albums";
+}
+
+
+
+
+
+
+
+
+
 
 ?>
   <link rel="stylesheet" href="../ui/css/load.css">

@@ -101,7 +101,7 @@ if ( $userraw == "" ) {
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
 	<!-- Path to TheLocken Core CSS -->
     <link rel="stylesheet" href="ui/css/f7-2.css">
-    <link rel="stylesheet" href="ui/css/tabs.css?v=3">
+    <link rel="stylesheet" href="ui/css/tabs.css?v=4">
     <style>
     .statusbar-overlay {
       background: SkyBlue;
@@ -521,7 +521,7 @@ echo"Dev Mode Enabled";
         <div class="item-inner">
           <div class="item-title label">Function</div>
           <div class="item-input">
-            <select id="function" name="function">
+            <select id="function" name="t">
               <option>-Default-</option>
               <option>Your Profile</option>
               <option>Friends List</option>
