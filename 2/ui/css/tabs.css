@@ -71,10 +71,10 @@ i.tabbar-howto-icon {
 i.tabbar-apps-icon {
   width: 30px;
   height: 30px;
-  background-image: url("../I8/tails-50.png");
+  background-image: url("../I8/tails1-50.png");
 }
 .active i.tabbar-apps-icon {
-  background-image: url("../I8/tailsactive-50.png");
+  background-image: url("../I8/tailsactive1-50.png");
 }
 
 /* Custom */

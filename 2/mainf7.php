@@ -101,7 +101,7 @@ if ( $userraw == "" ) {
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
 	<!-- Path to TheLocken Core CSS -->
     <link rel="stylesheet" href="ui/css/f7-2.css">
-    <link rel="stylesheet" href="ui/css/tabs.css?v=4">
+    <link rel="stylesheet" href="ui/css/tabs.css?v=5">
     <style>
     .statusbar-overlay {
       background: SkyBlue;
