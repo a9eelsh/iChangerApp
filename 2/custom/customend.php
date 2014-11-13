@@ -117,9 +117,118 @@ if ( $requestraw == "ipeep" ) {
 if ( $requestraw == "custom" ) {
 	$request = "Custom Icon";
 }
-//echo $_GET["name"];
-//echo "\n";
-//echo $_GET["switch"]; // if switch on output is on
+
+// URL SCHEME DATABASE
+$app = $_POST["app"];
+// APP STORE
+if ( $app == "App Store" ) {
+  $urls = "itms-apps://itunes.apple.com";
+}
+// CALENDAR
+if ( $app == "Calendar" ) {
+  $urls = "calshow://";
+}
+// FACETIME
+if ( $app == "Facetime" ) {
+  $urls = "facetime://";
+}
+// GAMECENTER
+if ( $app == "GameCenter" ) {
+  $urls = "gamecenter://";
+}
+// IBOOKS
+if ( $app == "iBooks" ) {
+  $urls = "ibooks://";
+}
+// ITUNES
+if ( $app == "iTunes" ) {
+  $urls = "http://itunes.apple.com";
+}
+// MAIL
+if ( $app == "Mail" ) {
+  $urls = "message://";
+}
+// MAPS
+if ( $app == "Maps" ) {
+  $urls = "maps://";
+}
+// MESSAGES
+if ( $app == "Messages" ) {
+  $urls = "sms://";
+}
+// MUSIC
+if ( $app == "Music" ) {
+  $urls = "music://";
+}
+// PASSBOOK
+if ( $app == "Passbook" ) {
+  $urls = "shoebox://";
+}
+// PHONE
+if ( $app == "Phone" ) {
+  // calls person directly
+  $urls = "tel://";
+}
+// REMINDERS
+if ( $app == "Reminders" ) {
+  // Undocumented, Apple is against it
+  // http://www.iphonehacks.com/2013/10/launch-center-pro-undocumented-urls-apple-apps.html
+  $urls = "x-apple-reminder://";
+}
+// REMOTE
+if ( $app == "Remote" ) {
+  $urls = "remote://";
+}
+// SAFARI
+if ( $app == "Safari" ) {
+  // Run iChanger's BrowerClose.php
+  $urls = "http://ichanger.tk/BrowserClose.php";
+}
+// VIDEOS
+if ( $app == "Videos" ) {
+  $urls = "videos://";
+}
+// CHROME
+if ( $app == "Chrome" ) {
+  $urls = "googlechrome://";
+}
+// FACEBOOK
+if ( $app == "Facebook" ) {
+  $urls = "fb://feed";
+}
+// TWITTER
+if ( $app == "Twitter" ) {
+  $urls = "twitter://";
+}
+// FLIPBOARD
+if ( $app == "Flipboard" ) {
+  $urls = "flipboard://";
+}
+// YOUTUBE
+if ( $app == "YouTube" ) {
+  $urls = "http://www.youtube.com/";
+}
+// INSTAGRAM
+if ( $app == "Instagram" ) {
+  $urls = "instagram://app";
+}
+// SKYPE
+if ( $app == "Skype" ) {
+  $urls = "skype://";
+}
+// PHOTOS
+if ( $app == "Photos" ) {
+  $urls = "photos-redirect://";
+}
+// GOOGLE
+if ( $app == "Google" ) {
+  $urls = "googleapp://";
+}
+// GOOGLE+
+if ( $app == "Google+" ) {
+  $urls = "gplus://";
+}
+
 ?>
   <link rel="stylesheet" href="../ui/css/load.css">
   <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
@@ -174,8 +283,6 @@ if ( $requestraw == "custom" ) {
 				</div>
 	<div class="content-block-title">Notice</div>
     <div class="content-block">
-        <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
-        <p>If you want to use the same picture again, just upload it again.</p>
         <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
         <p><a href="#" data-popup=".popup-privacy" class="open-popup close-panel item-link">Tap here for privacy info</a></p>
     </div>

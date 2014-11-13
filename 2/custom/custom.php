@@ -240,7 +240,7 @@ $name = $email = $gender = $comment = $website = "";
               <option>Photos</option>
               <option>Google</option>
               <option>Google+</option>
-              <!--<option></option>
+              <?php /*<!--<option></option>
               <option></option>
               <option></option>
               <option></option>
@@ -253,7 +253,7 @@ $name = $email = $gender = $comment = $website = "";
               <option></option>
               <option></option>
               <option></option>
-              <option></option>-->
+              <option></option>-->*/ ?>
             </select>
           </div>
         </div>
