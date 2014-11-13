@@ -848,10 +848,6 @@ echo"Dev Mode Enabled";
             <i class="icon demo-icon-3"></i>
             <span class="tabbar-label">Label 3</span>
         </a>
-        <a href="#tab4" class="tab-link">
-            <i class="icon demo-icon-4"></i>
-            <span class="tabbar-label">Label 4</span>
-        </a>
     </div>
 </div>
 	<!-- Popups -->
