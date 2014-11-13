@@ -544,7 +544,7 @@ $('#app').on('change',function(){
 </div>
 	<div class="content-block-title">Notice</div>
     <div class="content-block">
-        <p><div id="otherType" style="display:none;">Hello</div>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
+        <p><div id="FBFunction" style="display:none;">Hello</div>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
         <p><a href="#" data-popup=".popup-privacy" value="Create!" class="open-popup close-panel item-link">When you use iChanger you agree to the Privacy Policy</a></p>
     </div>
       </div>
