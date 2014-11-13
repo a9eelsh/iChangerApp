@@ -321,3 +321,9 @@ width:29px;
 height:29px;
 background-image:url(../../thumbs/medium_icons-50.png);
 }
+
+i.icon.icon-custom-func {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/center_direction-50.png);
+}
