@@ -410,7 +410,7 @@ echo"Dev Mode Enabled";
 
 
 
-CUSTOM
+                                                                          CUSTOM
 
 
 
@@ -536,6 +536,9 @@ CUSTOM
         <p><a href="#" data-popup=".popup-privacy" value="Create!" class="open-popup close-panel item-link">When you use iChanger you agree to the Privacy Policy</a></p>
     </div>
       </div>
+      </div>
+      </div>
+      </div>
       <div id="view-3" class="view view-main tab active">
         <!-- We can make with view with navigation, let's add Top Navbar-->
 		  
@@ -549,7 +552,7 @@ CUSTOM
 
 
 
-              PreMade
+                                                                        PreMade
 
 
 
