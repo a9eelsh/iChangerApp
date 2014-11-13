@@ -451,16 +451,6 @@ echo"Dev Mode Enabled";
 <form onsubmit="" action="http://www.ichanger.tk/custom/customend.php?req=custom" method="post" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -->
-    <script>
-$('#app').on('change',function(){
-    if( $(this).val()==="Facebook"){
-    $("#FBFunction").show()
-    }
-    else{
-    $("#FBFunction").hide()
-    }
-});
-    </script>
     
     <li>
       <div class="item-content">
@@ -526,6 +516,16 @@ $('#app').on('change',function(){
         </div>
       </div>
     </li>
+        <script>
+$('#app').on('change',function(){
+    if( $(this).val()==="Facebook"){
+    $("#FBFunction").show()
+    }
+    else{
+    $("#FBFunction").hide()
+    }
+});
+    </script>
     <!-- Date -->
     <li>
       <div class="item-content">
