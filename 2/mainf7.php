@@ -527,7 +527,7 @@ echo"Dev Mode Enabled";
       </div>
     </li>
   </ul>
-	<input type="submit" name="submit" class="button">
+	<input type="submit" name="submit" value="Create!" class="button button-big button-round color-yellow">
 	</form>
 </div>
 	<div class="content-block-title">Notice</div>
