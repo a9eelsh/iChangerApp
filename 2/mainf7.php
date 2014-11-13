@@ -86,8 +86,8 @@ if ( $userraw == "" ) {
 	  <link rel="stylesheet" href="ui/css/app.css?v=5">
 	  <link rel="stylesheet" href="ui/css/nav.css">
 	  <link rel="stylesheet" href="ui/css/closex.css">
-    <link rel="stylesheet" href="ui/css/f7-2.css">
-    <link rel="stylesheet" href="ui/css/framework7.themes.css">
+    <!--<link rel="stylesheet" href="ui/css/f7-2.css">
+    <link rel="stylesheet" href="ui/css/framework7.themes.css">-->
     <link rel="stylesheet" href="ui/css/framework7.min.css">
     <link rel="stylesheet" href="js/framework7.3dpanels.css">
     <style>
@@ -1146,8 +1146,8 @@ $('#function').on('change',function(){
 
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
-    <script type="text/javascript" src="js/f7-2.js"></script>
-    <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
     <script type="text/javascript" src="js/framework7.3dpanels.js"></script>
+    <!--<script type="text/javascript" src="js/f7-2.js"></script>-->
+    <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
   </body>
 </html>
