@@ -132,7 +132,6 @@ if ( $userraw == "" ) {
         background: SkyBlue;
       }
     </style>
-    
 	  <script type="text/javascript">
 		  function simClickMain() {
           var link1 = document.getElementById('simClickElement');
@@ -168,30 +167,6 @@ if ( $userraw == "" ) {
         $(".se-pre-con").fadeOut("slow");;
       });
     </script>
-    <script>
-  $('#trigger').click(function () {
-    var clicks = $(this).data('clicks');
-    if (clicks) {
-        simClickMain3();
-    } else {
-
-    }
-    $(this).data("clicks", !clicks);
-});
-
-function simClickMain3() {
-    var link1 = document.getElementById('simClickElement3');
-    if (link1.click) {
-        link1.click();
-    }
-    // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
-    else if (document.createEvent) {
-        var event = document.createEvent("MouseEvent");
-        event.initEvent("click", true, true);
-        link1.dispatchEvent(event);
-    }
-}
-</script>
 	</head>
   <body onload="simClickMain()">
     <!-- Pre loader -->
@@ -388,16 +363,6 @@ echo"Dev Mode Enabled";
             <div class="page-content">
               <div class="content-block">
                 Welcome Home.
-<a href="#" class="trigger" id="trigger" style="color:black; text-decoration:none;cursor:pointer">Link</a>
-
-<a href="#" onclick='$("#noshow").show();' class="simClickElement" id="simClickElement">Hello</a>
-
-<p id="noshow" class="noshow" style="display:none;">
-    Show the text in this paragraph 
-    <a href="http://google.com">Hello</a>
-
-</p>
-
               </div>
               <div class="list-block">
                 <ul>
