@@ -94,7 +94,7 @@ if ( $userraw == "" ) {
 	  <link rel="stylesheet" href="ui/css/framework7.themes.css">
 	  <link rel="stylesheet" href="ui/css/f7-2.css">
     <link rel="stylesheet" href="ui/css/tabs.css?v=5">
-    <link rel="stylesheet" href="ui/css/app.css?v=5">
+    <link rel="stylesheet" href="ui/css/app.css?v=6">
 	  <link rel="stylesheet" href="ui/css/nav.css">
 	  <link rel="stylesheet" href="ui/css/closex.css">
 	  <link rel="stylesheet" href="ui/css/load.css">
