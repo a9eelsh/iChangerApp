@@ -132,30 +132,7 @@ if ( $userraw == "" ) {
         background: SkyBlue;
       }
     </style>
-    <script>
-  $('#trigger').click(function () {
-    var clicks = $(this).data('clicks');
-    if (clicks) {
-        simClickMain3();
-    } else {
-
-    }
-    $(this).data("clicks", !clicks);
-});
-
-function simClickMain3() {
-    var link1 = document.getElementById('simClickElement3');
-    if (link1.click) {
-        link1.click();
-    }
-    // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
-    else if (document.createEvent) {
-        var event = document.createEvent("MouseEvent");
-        event.initEvent("click", true, true);
-        link1.dispatchEvent(event);
-    }
-}
-</script>
+    
 	  <script type="text/javascript">
 		  function simClickMain() {
           var link1 = document.getElementById('simClickElement');
@@ -191,6 +168,30 @@ function simClickMain3() {
         $(".se-pre-con").fadeOut("slow");;
       });
     </script>
+    <script>
+  $('#trigger').click(function () {
+    var clicks = $(this).data('clicks');
+    if (clicks) {
+        simClickMain3();
+    } else {
+
+    }
+    $(this).data("clicks", !clicks);
+});
+
+function simClickMain3() {
+    var link1 = document.getElementById('simClickElement3');
+    if (link1.click) {
+        link1.click();
+    }
+    // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
+    else if (document.createEvent) {
+        var event = document.createEvent("MouseEvent");
+        event.initEvent("click", true, true);
+        link1.dispatchEvent(event);
+    }
+}
+</script>
 	</head>
   <body onload="simClickMain()">
     <!-- Pre loader -->
