@@ -210,7 +210,7 @@ if it's not present, don't show loader */
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
-	<div class="loader">Hello</div>
+	<!--<div class="loader">Hello</div>-->
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
