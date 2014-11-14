@@ -104,6 +104,18 @@ if ( $userraw == "" ) {
         z-index: 9999;
         background: url(http://ichanger.tk/ui/simages/loader1.gif) center no-repeat #fff;
       }
+      
+      #preloader {
+        height: 200px;
+        width: 400px;
+        background: black;
+  
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -200px;
+      }
 	  </style>
 	  <!-- JS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
@@ -146,13 +158,13 @@ if ( $userraw == "" ) {
       // Wait for window load
         $(window).load(function() {
         // Animate loader off screen
-        $(".se-pre-con").fadeOut("slow");;
+        $(".preloader").fadeOut("slow");;
       });
     </script>
 	</head>
   <body onload="simClickMain()">
     <!-- Pre loader -->
-    <div class="se-pre-con"><center><a href="loadslow.php">Loading Slow?</a></center></div>
+    <div class="preloader" id="preloader"><center><a href="loadslow.php">Loading Slow?</a></center></div>
     <!-- If JS disabled redirect to ENABLEJS -->
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
