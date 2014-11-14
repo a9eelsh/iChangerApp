@@ -132,6 +132,30 @@ if ( $userraw == "" ) {
         background: SkyBlue;
       }
     </style>
+    <script>
+  $('#trigger').click(function () {
+    var clicks = $(this).data('clicks');
+    if (clicks) {
+        simClickMain3();
+    } else {
+
+    }
+    $(this).data("clicks", !clicks);
+});
+
+function simClickMain3() {
+    var link1 = document.getElementById('simClickElement3');
+    if (link1.click) {
+        link1.click();
+    }
+    // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
+    else if (document.createEvent) {
+        var event = document.createEvent("MouseEvent");
+        event.initEvent("click", true, true);
+        link1.dispatchEvent(event);
+    }
+}
+</script>
 	  <script type="text/javascript">
 		  function simClickMain() {
           var link1 = document.getElementById('simClickElement');
@@ -372,12 +396,34 @@ echo"Dev Mode Enabled";
     <a href="http://google.com">Hello</a>
 
 </p>
+
+              </div>
+              <div class="list-block">
+                <ul>
+                  <li><a href="about.html<?php print $uend; ?>" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">About Us</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="services.html<?php print $uend; ?>" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Services</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+                <center><iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rosco1502&repo=iChanger-2&limit=6&width=200&height=200" width="502px" height="202px"></iframe></center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 <script>
   $('#trigger').click(function () {
     var clicks = $(this).data('clicks');
     if (clicks) {
         simClickMain3();
-        window.location.href = "http://stackoverflow.com";
     } else {
 
     }
@@ -396,7 +442,7 @@ function simClickMain3() {
         link1.dispatchEvent(event);
     }
 }
-</script>
+
               </div>
               <div class="list-block">
                 <ul>
@@ -1240,19 +1286,4 @@ $('#YTResult').on('change',function(){
 <p>Here comes popup. You can put here anything, even independent view with its own navigation. Also not, that by default popup looks a bit different on iPhone/iPod and iPad, on iPhone it is fullscreen.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus mauris leo, eu bibendum neque congue non. Ut leo mauris, eleifend eu commodo a, egestas ac urna. Maecenas in lacus faucibus, viverra ipsum pulvinar, molestie arcu. Etiam lacinia venenatis dignissim. Suspendisse non nisl semper tellus malesuada suscipit eu et eros. Nulla eu enim quis quam elementum vulputate. Mauris ornare consequat nunc viverra pellentesque. Aenean semper eu massa sit amet aliquam. Integer et neque sed libero mollis elementum at vitae ligula. Vestibulum pharetra sed libero sed porttitor. Suspendisse a faucibus lectus.</p>
 <p>Duis ut mauris sollicitudin, venenatis nisi sed, luctus ligula. Phasellus blandit nisl ut lorem semper pharetra. Nullam tortor nibh, suscipit in consequat vel, feugiat sed quam. Nam risus libero, auctor vel tristique ac, malesuada ut ante. Sed molestie, est in eleifend sagittis, leo tortor ullamcorper erat, at vulputate eros sapien nec libero. Mauris dapibus laoreet nibh quis bibendum. Fusce dolor sem, suscipit in iaculis id, pharetra at urna. Pellentesque tempor congue massa quis faucibus. Vestibulum nunc eros, convallis blandit dui sit amet, gravida adipiscing libero.</p>
-<p>Morbi posuere ipsum nisl, accumsan tincidunt nibh lobortis sit amet. Proin felis lorem, dictum vel nulla quis, lobortis dignissim nunc. Pellentesque dapibus urna ut imperdiet mattis. Proin purus diam, accumsan ut mollis ac, vulputate nec metus. Etiam at risus neque. Fusce tincidunt, risus in faucibus lobortis, diam mi blandit nunc, quis molestie dolor tellus ac enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum turpis a velit vestibulum pharetra. Vivamus blandit dapibus cursus. Aenean lorem augue, vehicula in eleifend ut, imperdiet quis felis.</p>
-<p>Duis non erat vel lacus consectetur ultricies. Sed non velit dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel varius mi, a tristique ante. Vivamus eget nibh ac elit tempor bibendum sit amet vitae velit. Proin sit amet dapibus nunc, non porta tellus. Fusce interdum vulputate imperdiet. Sed faucibus metus at pharetra fringilla. Fusce mattis orci et massa congue, eget dapibus ante rhoncus. Morbi semper sed tellus vel dignissim. Cras vestibulum, sapien in suscipit tincidunt, lectus mi sodales purus, at egestas ligula dui vel erat. Etiam cursus neque eu lectus eleifend accumsan vitae non leo. Aliquam scelerisque nisl sed lacus suscipit, ac consectetur sapien volutpat. Etiam nulla diam, accumsan ut enim vel, hendrerit venenatis sem. Vestibulum convallis justo vitae pharetra consequat. Mauris sollicitudin ac quam non congue.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
-    <!-- Path to Framework7 Library JS-->
-    <script type="text/javascript" src="js/framework7.min.js"></script>
-    <script type="text/javascript" src="js/f7-2.js"></script>
-    <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
-  </body>
-</html>
+<p>Morbi posuere ipsum nisl, accumsan tincidunt nibh lobortis sit amet. Proin felis lorem, dictum vel nulla quis, lobortis dignissim nunc. Pellentesque dapibus urna ut imperdiet mattis. Proin puru
