@@ -362,7 +362,7 @@ echo"Dev Mode Enabled";
           <div data-page="index-1" class="page">
             <div class="page-content">
               <div class="content-block">
-                <p>Welcome Home.
+                Welcome Home.
 <a href="#" class="trigger" id="trigger" style="color:black; text-decoration:none;cursor:pointer">Link</a>
 
 <a href="#" onclick='$("#noshow").show();' class="simClickElement" id="simClickElement">Hello</a>
@@ -371,7 +371,7 @@ echo"Dev Mode Enabled";
     Show the text in this paragraph 
     <a href="http://google.com">Hello</a>
 
-</p></p>
+</p>
 <script>
   $('#trigger').click(function () {
     var clicks = $(this).data('clicks');
