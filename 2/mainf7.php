@@ -140,11 +140,6 @@ if ( $userraw == "" ) {
 	</script>
       <!--<script type="text/javascript" src="js/staystand.js"></script>-->
     <link rel="stylesheet" href="ui/css/load.css">
-    <script type="text/javascript">
-	    $(window).load(function() {
-		$(".loader").fadeOut("slow");
-	    })
-    </script>
 	<script type="text/javascript">
 	// Load Heavy files so no half-loaded images appear
 		Image1= new Image(175,50)
@@ -188,7 +183,7 @@ if ( $userraw == "" ) {
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
-	<div class="loader"></div>
+	<div class="loader">Hello</div>
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
