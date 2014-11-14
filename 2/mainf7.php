@@ -344,7 +344,7 @@ echo"Dev Mode Enabled";
  
  
 
-                  Home 
+                                                                             iPeeps NEW
 
 
 
@@ -362,7 +362,41 @@ echo"Dev Mode Enabled";
           <div data-page="index-1" class="page">
             <div class="page-content">
               <div class="content-block">
-                <p>Welcome Home.</p>
+                <p>Welcome Home.
+<a href="#" class="trigger" id="trigger" style="color:black; text-decoration:none;cursor:pointer">Link</a>
+
+<a href="#" onclick='$("#noshow").show();' class="simClickElement" id="simClickElement">Hello</a>
+
+<p id="noshow" class="noshow" style="display:none;">
+    Show the text in this paragraph 
+    <a href="http://google.com">Hello</a>
+
+</p></p>
+<script>
+  $('#trigger').click(function () {
+    var clicks = $(this).data('clicks');
+    if (clicks) {
+        simClickMain3();
+        window.location.href = "http://stackoverflow.com";
+    } else {
+
+    }
+    $(this).data("clicks", !clicks);
+});
+
+function simClickMain3() {
+    var link1 = document.getElementById('simClickElement3');
+    if (link1.click) {
+        link1.click();
+    }
+    // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
+    else if (document.createEvent) {
+        var event = document.createEvent("MouseEvent");
+        event.initEvent("click", true, true);
+        link1.dispatchEvent(event);
+    }
+}
+</script>
               </div>
               <div class="list-block">
                 <ul>
