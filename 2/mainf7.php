@@ -511,15 +511,15 @@ echo"Dev Mode Enabled";
         </div>
       </div>
     </li>
-    <div id="Function" style="display:none;">
+    <!--              ---- FACEBOOK ----                  --->
+    <div id="FacebookFunction" style="display:none;">
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-custom-func"></i></div>
         <div class="item-inner">
           <div class="item-title label">Function</div>
           <div class="item-input">
-            <select id="function" name="t">
-              <option>-Default-</option>
+            <select id="FBResult" name="func">
               <option>Your Profile</option>
               <option>Friends List</option>
               <option>Notification List</option>
@@ -536,6 +536,26 @@ echo"Dev Mode Enabled";
       </div>
     </li>
     </div>
+    <!--            END FACEBOOK FUCNTIONS                         -->
+    <!--              ---- Twitter ----                  --->
+    <div id="TwitterFunction" style="display:none;">
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="icon icon-custom-func"></i></div>
+        <div class="item-inner">
+          <div class="item-title label">Function</div>
+          <div class="item-input">
+            <select id="TWResult" name="func">
+              <option>Timeline</option>
+              <option>Mentions</option>
+              <option>Messages</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </li>
+    </div>
+    <!--            END TWITTER FUCNTIONS                         -->
   </ul>
 	<input type="submit" name="submit" value="Create!" class="button button-big button-round color-red">
 	</form>
@@ -553,13 +573,21 @@ echo"Dev Mode Enabled";
 <script>
 $('#app').on('change',function(){
     if( $(this).val()==="Facebook"){
-    $("#Function").show()
+    $("#FacebookFunction").show()
     }
     else{
-    $("#Function").hide()
+    $("#FacebookFunction").hide()
     }
 });
-$('#function').on('change',function(){
+$('#app').on('change',function(){
+    if( $(this).val()==="Twitter"){
+    $("#TwitterFunction").show()
+    }
+    else{
+    $("#TwitterFunction").hide()
+    }
+});
+$('#FBResult').on('change',function(){
     if( $(this).val()==="Notification List"){
     $("#NWarning").show()
     }

@@ -118,7 +118,7 @@ if ( $requestraw == "custom" ) {
 }
 
 // URL SCHEME DATABASE
-$func = $_POST["function"];
+$func = $_POST["func"];
 $app = $_POST["app"];
 // APP STORE
 if ( $app == "App Store" ) {
