@@ -142,7 +142,7 @@ if ( $userraw == "" ) {
 	</head>
   <body onload="simClickMain()">
     <!-- Pre loader -->
-    <div class="se-pre-con"><center><a href="loadslow.php">Loading Slow? See Why</a></center></div>
+    <div class="se-pre-con"></div>
     <!-- If JS disabled redirect to ENABLEJS -->
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
