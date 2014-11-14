@@ -75,156 +75,96 @@ if ( $userraw == "" ) {
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <html>
   <head>
-    <link href="http://www.lockenfiles.tk/cdn/h5form/test/qunit.css" rel="stylesheet" />
-    <link href="http://www.lockenfiles.tk/cdn/h5form/style0000000.css" media="screen" rel="stylesheet" type="text/css" />
-	<style>
-		.ui-state-error {
-			background-color:#BB1100;
-			color:white;
-		}
-	</style>
-  	<script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
-	<script src="http://www.lockenfiles.tk/cdn/h5form/jquery.h5validate.js"></script>
-	<script>
-		$(document).ready(function () {
-    	$('form').h5Validate();
-		});
-    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="DONT INSTALL HERE">
+    <link href="pics/noinstall.png" rel="apple-touch-icon-precomposed">
     <title>iChanger 2</title>
-    <!-- Path to Framework7 Library CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="ui/css/framework7.css">
     <link rel="stylesheet" href="ui/css/framework7.min.css">
-	<link rel="stylesheet" href="ui/css/framework7.themes.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
- 
-	<!-- Path to TheLocken Core CSS -->
-    <link rel="stylesheet" href="ui/css/f7-2.css">
+	  <link rel="stylesheet" href="ui/css/framework7.themes.css">
+	  <link rel="stylesheet" href="ui/css/f7-2.css">
     <link rel="stylesheet" href="ui/css/tabs.css?v=5">
+    <link rel="stylesheet" href="ui/css/app.css?v=5">
+	  <link rel="stylesheet" href="ui/css/nav.css">
+	  <link rel="stylesheet" href="ui/css/closex.css">
+	  <link rel="stylesheet" href="ui/css/load.css">
+	  <!-- JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
     <style>
-    .statusbar-overlay {
-      background: SkyBlue;
-    }
-  </style>
-  <style>
-    /* This only works with JavaScript, 
-if it's not present, don't show loader */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url(http://ichanger.tk/ui/simages/loader1.gif) center no-repeat #fff;
-}
-  </style>
-	<link rel="stylesheet" href="ui/css/app.css?v=5">
-	<link rel="stylesheet" href="ui/css/nav.css">
-	<link rel="stylesheet" href="ui/css/closex.css">
-	<script type="text/javascript">
-		function simClickMain() {
-        var link1 = document.getElementById('simClickElement');
-        if (link1.click) {
-            link1.click();
-        }
-        // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
-        else if (document.createEvent) {
-            var event = document.createEvent("MouseEvent");
-            event.initEvent("click", true, true);
-            link1.dispatchEvent(event);
-        }
-    }
-	</script>
-	<script type="text/javascript">
-		function simClickMain2() {
-        var link1 = document.getElementById('simClickElement2');
-        if (link1.click) {
-            link1.click();
-        }
-        // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
-        else if (document.createEvent) {
-            var event = document.createEvent("MouseEvent");
-            event.initEvent("click", true, true);
-            link1.dispatchEvent(event);
-        }
-    }
-	</script>
-      <!--<script type="text/javascript" src="js/staystand.js"></script>-->
-    <link rel="stylesheet" href="ui/css/load.css">
-	<script type="text/javascript">
-	// Load Heavy files so no half-loaded images appear
-		Image1= new Image(175,50)
-		Image1.src = "http://ichanger.tk/AppStore/lightOLD.png"
+      .statusbar-overlay {
+        background: SkyBlue;
+      }
+    </style>
+	  <script type="text/javascript">
+		  function simClickMain() {
+          var link1 = document.getElementById('simClickElement');
+          if (link1.click) {
+              link1.click();
+          }
+          // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
+          else if (document.createEvent) {
+              var event = document.createEvent("MouseEvent");
+              event.initEvent("click", true, true);
+              link1.dispatchEvent(event);
+          }
+	  	}
 		
-		Image2 = new Image(25,30)
-		Image2.src = "http://ichanger.tk/Instagram/InstagramDefault.png"
-		
-		Image3 = new Image(256,256)
-		Image3.src = "http://ichanger.tk/Instagram/FlatGradient.png"
-		// end original
-		Image4= new Image(175,50)
-		Image4.src = "http://ichanger.tk/thumbs/about-50.png"
-		
-		Image5 = new Image(25,30)
-		Image5.src = "http://ichanger.tk/thumbs/bug-50.png"
-		
-		Image6 = new Image(256,256)
-		Image6.src = "http://ichanger.tk/thumbs/code-50.png"
-		// end repeat
-		Image7= new Image(175,50)
-		Image7.src = "http://ichanger.tk/thumbs/document-50.png"
-		
-		Image8 = new Image(25,30)
-		Image8.src = "http://ichanger.tk/thumbs/help-50.png"
-		
-		Image9 = new Image(256,256)
-		Image9.src = "http://ichanger.tk/thumbs/upload_to_cloud-50.png"
-		// end repeat
-		// End Hiding -->
-	</script>
-	<script>
-		function slowLoad() {
-	    	$(window).load(function() {
-			$(".loader").fadeOut("slow");
-	    	})
-		}
-	</script>
-<script>
-  //paste this code under head tag or in a seperate js file.
-    // Wait for window load
-    $(window).load(function() {
+  		function simClickMain2() {
+          var link1 = document.getElementById('simClickElement2');
+          if (link1.click) {
+              link1.click();
+          }
+          // For Safari on Mac OS. Also works with Chrome, and Firefox but not IE.
+          else if (document.createEvent) {
+              var event = document.createEvent("MouseEvent");
+              event.initEvent("click", true, true);
+              link1.dispatchEvent(event);
+          }
+      }
+
+
+      //paste this code under head tag or in a seperate js file.
+      // Wait for window load
+        $(window).load(function() {
         // Animate loader off screen
         $(".se-pre-con").fadeOut("slow");;
-    });
-</script>
+      });
+    </script>
 	</head>
   <body onload="simClickMain()">
-  <div class="se-pre-con"> Loading Slow? </div>
+    <!-- Pre loader -->
+    <div class="se-pre-con"><center><a href="loadslow.php">Loading Slow?</a></center></div>
+    <!-- If JS disabled redirect to ENABLEJS -->
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
-	<!--<div class="loader">Hello</div>-->
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
     <div class="panel-overlay"></div>
     <!-- Left panel with reveal effect--> 
-
-
-
-  <meta name="apple-mobile-web-app-title" content="DONT INSTALL HERE">
-  <link href="pics/noinstall.png" rel="apple-touch-icon-precomposed">
+    
+<!-- 
 
 
 
 
+                                                                    --------MENU--------
+
+
+
+
+
+
+
+
+-->
 <div class="panel-overlay"></div>
 <div class="panel panel-left panel-cover layout-dark">
 <div class="content-block-title">MENU</div>
@@ -875,7 +815,7 @@ $('#function').on('change',function(){
 
 
 
-                  iPeeps
+                                                                          iPeeps
 
 
 
@@ -1015,7 +955,7 @@ $('#function').on('change',function(){
       
       
       
-      Bottom Tabbar
+                                                                        Bottom Tabbar
       
       
       
@@ -1046,7 +986,7 @@ $('#function').on('change',function(){
 	
 	
 	
-	    Popups
+	                                                                          Popups
 	
 	
 	
