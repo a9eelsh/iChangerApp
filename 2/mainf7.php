@@ -158,13 +158,13 @@ if ( $userraw == "" ) {
       // Wait for window load
         $(window).load(function() {
         // Animate loader off screen
-        $(".preloader").fadeOut("slow");;
+        $(".se-pre-con").fadeOut("slow");;
       });
     </script>
 	</head>
   <body onload="simClickMain()">
     <!-- Pre loader -->
-    <div class="preloader" id="preloader"><center><a href="loadslow.php">Loading Slow?</a></center></div>
+    <div class="se-pre-con"><center><a href="loadslow.php">Loading Slow?</a></center></div>
     <!-- If JS disabled redirect to ENABLEJS -->
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
