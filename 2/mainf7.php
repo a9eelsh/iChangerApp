@@ -205,7 +205,7 @@ if it's not present, don't show loader */
     });
 </script>
 	</head>
-  <!--<body onload="simClickMain()">-->
+  <body onload="simClickMain()">
   <div class="se-pre-con"></div>
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
