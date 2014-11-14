@@ -556,6 +556,39 @@ echo"Dev Mode Enabled";
     </li>
     </div>
     <!--            END TWITTER FUCNTIONS                         -->
+    <!--              ---- YouTube ----                  --->
+    <div id="YouTubeFunction" style="display:none;">
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="icon icon-custom-func"></i></div>
+        <div class="item-inner">
+          <div class="item-title label">Function</div>
+          <div class="item-input">
+            <select id="YTResult" name="func">
+              <option>None</option>
+              <option>Open Video</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </li>
+    </div>
+    <!--            END YOUTUBE FUCNTIONS                         -->
+    <!--     YOUTUBE VIDEO ID IF OPEN VIDEO SELECTED              -->
+    <div id="YTVideo" style="display:none;">
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="icon icon-custom-video"></i></div>
+        <div class="item-inner">
+          <div class="item-title label">Video ID</div>
+            <div class="item-input">
+              <input type="text" name="video" placeholder="ZZ5LpwO-An4">
+            </div>  
+        </div>
+      </div>
+    </li>
+    </div>
+    <!--           END YOUTUBE VIDEO ID                           -->
   </ul>
 	<input type="submit" name="submit" value="Create!" class="button button-big button-round color-red">
 	</form>
@@ -587,12 +620,28 @@ $('#app').on('change',function(){
     $("#TwitterFunction").hide()
     }
 });
+$('#app').on('change',function(){
+    if( $(this).val()==="YouTube"){
+    $("#YouTubeFunction").show()
+    }
+    else{
+    $("#YouTubeFunction").hide()
+    }
+});
 $('#FBResult').on('change',function(){
     if( $(this).val()==="Notification List"){
     $("#NWarning").show()
     }
     else{
     $("#NWarning").hide()
+    }
+});
+$('#YTResult').on('change',function(){
+    if( $(this).val()==="Open Video"){
+    $("#YTVideo").show()
+    }
+    else{
+    $("#YTVideo").hide()
     }
 });
 </script>
