@@ -99,6 +99,9 @@ if ( $userraw == "" ) {
     <link rel="stylesheet" href="ui/css/framework7.css">
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+ 
 	<!-- Path to TheLocken Core CSS -->
     <link rel="stylesheet" href="ui/css/f7-2.css">
     <link rel="stylesheet" href="ui/css/tabs.css?v=5">
@@ -106,6 +109,21 @@ if ( $userraw == "" ) {
     .statusbar-overlay {
       background: SkyBlue;
     }
+  </style>
+  <style>
+    /* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(http://ichanger.tk/ui/simages/loader1.gif) center no-repeat #fff;
+}
   </style>
 	<link rel="stylesheet" href="ui/css/app.css?v=5">
 	<link rel="stylesheet" href="ui/css/nav.css">
@@ -178,8 +196,17 @@ if ( $userraw == "" ) {
 	    	})
 		}
 	</script>
+<script>
+  //paste this code under head tag or in a seperate js file.
+    // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+</script>
 	</head>
-  <body onload="simClickMain()">
+  <!--<body onload="simClickMain()">-->
+  <div class="se-pre-con"></div>
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
 	  </noscript>
