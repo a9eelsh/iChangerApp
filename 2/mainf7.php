@@ -20,6 +20,12 @@ $fh2 = fopen($vfile2, 'r');
 $numixversion = fread($fh2, filesize($vfile2));
 fclose($fh2);
 //end
+// Dynamic Global Framework Version Text File
+$vfile3 = "frameworkv.txt";
+$fh3 = fopen($vfile3, 'r');
+$frameworkversion = fread($fh3, filesize($vfile3));
+fclose($fh3);
+//end
 
 $devmode = '' . htmlspecialchars($GET_["devmode"]) . '';
 
@@ -277,9 +283,13 @@ if ( $userraw == "" ) {
 <p>
 <?php
 // iChanger version
-echo "v";
+echo "iC v";
 print $version;
 echo "<p>";
+// Framework7 version
+echo "Framework v";
+print $frameworkversion;
+echo "</p>";
 // Novus Pack version
 echo "Novus v";
 print $novusversion;
