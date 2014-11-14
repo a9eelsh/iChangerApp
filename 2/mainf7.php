@@ -96,9 +96,6 @@ if ( $userraw == "" ) {
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/framework7.min.js"></script>
-    <script type="text/javascript" src="js/f7-2.js"></script>
-    <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
     <style>
       .statusbar-overlay {
         background: SkyBlue;
@@ -142,7 +139,7 @@ if ( $userraw == "" ) {
 	</head>
   <body onload="simClickMain()">
     <!-- Pre loader -->
-    <div class="se-pre-con"></div>
+    <div class="se-pre-con"><center><a href="loadslow.php">Loading Slow?</a></center></div>
     <!-- If JS disabled redirect to ENABLEJS -->
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
@@ -312,7 +309,7 @@ echo"Dev Mode Enabled";
  
  
 
-                                                                            iPeeps
+                  Home 
 
 
 
@@ -818,7 +815,7 @@ $('#function').on('change',function(){
 
 
 
-                                                                          ------ NOTING -----
+                                                                          iPeeps
 
 
 
@@ -1107,5 +1104,9 @@ $('#function').on('change',function(){
 </div>
 
 
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/f7-2.js"></script>
+    <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
   </body>
 </html>
