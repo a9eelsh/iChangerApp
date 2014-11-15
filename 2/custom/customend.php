@@ -4,6 +4,12 @@ $allowedExts = array("gif", "jpeg", "jpg", "png");
 $temp = explode(".", $_FILES["file"]["name"]);
 $extension = end($temp);
 $filesize = $_FILES["file"]["size"];
+$requestraw = '' . htmlspecialchars($_GET["req"]) . '';
+$fname = '' . htmlspecialchars($_POST["name"]) . '';
+$ficon = '' . htmlspecialchars($_GET["icon"]) . '';
+$func = $_POST["func"];
+$app = $_POST["app"];
+$video = $_POST["video"];
 $rand = substr(md5(microtime()),rand(0,26),5);
 // check if folder exists+
 if (file_exists($rand)) {
@@ -14,7 +20,7 @@ if (file_exists($rand)) {
     mkdir("upload/$rand/");
     $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
 }
-if (empty($filesize)) {
+if (empty($filesize) || empty($fname) || empty($app)) {
     $resultnotice .= "Please Choose an Icon to upload.. Redirecting";
     header('Location: http://www.ichanger.tk/mainf7.php?error=noicon');
 }
@@ -110,11 +116,6 @@ fclose($myfile);
 ?>
 <?php
 
-
-$requestraw = '' . htmlspecialchars($_GET["req"]) . '';
-$fname = '' . htmlspecialchars($_POST["name"]) . '';
-$ficon = '' . htmlspecialchars($_GET["icon"]) . '';
-
 if ( $requestraw == "ipeep" ) {
 	$request = "Custom iPeep";
 }
@@ -126,9 +127,6 @@ if ( $requestraw == "custom" ) {
 $funcnotice = " and open ".$func.".";
 
 // URL SCHEME DATABASE
-$func = $_POST["func"];
-$app = $_POST["app"];
-$video = $_POST["video"];
 // APP STORE
 if ( $app == "App Store" ) {
   $urls = "itms-apps://itunes.apple.com";
