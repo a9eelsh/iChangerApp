@@ -16,7 +16,7 @@ if (file_exists($rand)) {
 }
 if (empty($filesize)) {
     $resultnotice .= "Please Choose an Icon to upload.. Redirecting";
-    header('Location: http://www.ichager.tk/mainf7.php?error=noicon');
+    header('Location: http://www.ichanger.tk/mainf7.php?error=noicon');
 }
 
 
