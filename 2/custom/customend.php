@@ -280,6 +280,15 @@ if ( $app == "YouTube" && $func == "None" ) {
   $urls = 'https://www.youtube.com/';
 }
 
+$filesize = $_FILES["file"]["size"];
+
+if (empty($filesize)) {
+    echo '$var is either 0, empty, or not set at all';
+} else {
+  echo 'var is set';
+}
+
+
 ?>
   <link rel="stylesheet" href="../ui/css/load.css">
   <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
