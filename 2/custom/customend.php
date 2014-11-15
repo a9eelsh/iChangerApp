@@ -117,6 +117,8 @@ if ( $requestraw == "custom" ) {
 	$request = "Custom Icon";
 }
 
+$funcnotice = "and open ".$func."";
+
 // URL SCHEME DATABASE
 $func = $_POST["func"];
 $app = $_POST["app"];
@@ -322,7 +324,7 @@ if ( $app == "YouTube" && $func == "None" ) {
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle"><?php print $request; ?></div>
-							<div class="item-text"><?php echo $_POST["app"]; ?><?php echo $resultnotice; ?></div>
+							<div class="item-text">You app will open <?php echo $_POST["app"]; print $funcnotice; ?><p><?php echo $resultnotice; ?></p></div>
 						</div>
 					</a>
 				</li>
