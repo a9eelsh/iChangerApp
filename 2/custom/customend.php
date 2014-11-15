@@ -120,6 +120,7 @@ if ( $requestraw == "custom" ) {
 // URL SCHEME DATABASE
 $func = $_POST["func"];
 $app = $_POST["app"];
+$video = $_POST["video"];
 // APP STORE
 if ( $app == "App Store" ) {
   $urls = "itms-apps://itunes.apple.com";
@@ -229,7 +230,8 @@ if ( $app == "Google+" ) {
   $urls = "gplus://";
 }
 
-// ---- START FUNCTIONS ----
+//                 ---- START FUNCTIONS ----
+// FACEBOOK
 
 // FB YOUR PROFILE
 if ( $func == "Your Profile" ) {
@@ -263,6 +265,19 @@ if ( $func == "Notes Page" ) {
 if ( $func == "Photo Albums" ) {
   $urls = "fb://albums";
 }
+
+// YOUTUBE
+
+// YT VIDEO LINK
+if ( $func == "Open Video" ) {
+  $urls = 'https://www.youtube.com/watch?v='.$video.'';
+}
+
+// YT NONE
+if ( $app == "YouTube" && $func == "None" ) {
+  $urls = 'https://www.youtube.com/';
+}
+
 ?>
   <link rel="stylesheet" href="../ui/css/load.css">
   <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>

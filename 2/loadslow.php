@@ -38,7 +38,7 @@
           <div data-page="index" class="page">
             <!-- Scrollable page content -->
             <div class="page-content">
-              <div class="content-block-title">LOADING SLOW SEE WHY</div>
+              <div class="content-block-title">LOADING SLOW? SEE WHY</div>
               <div class="content-block inset">
                 <p>TheLocken hosts iChanger using high speed Content Delivery Networks (CDN) such as CloudFlare CDN and DreamSpeed CDN so most likely this is a problem on your end. Check you connectivity to WiFi or make sure you have 3G or 4G Network Speeds. If the problem still occors after you get a strong network connection then you should contact us or file a bug report <a class="external" href="http://bit.ly/iC2newissue">here</a>.</p>
               </div>
