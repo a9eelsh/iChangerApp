@@ -3,6 +3,7 @@ $name = "Test Icon";
 $allowedExts = array("gif", "jpeg", "jpg", "png");
 $temp = explode(".", $_FILES["file"]["name"]);
 $extension = end($temp);
+$filesize = $_FILES["file"]["size"];
 $rand = substr(md5(microtime()),rand(0,26),5);
 // check if folder exists+
 if (file_exists($rand)) {
@@ -13,6 +14,11 @@ if (file_exists($rand)) {
     mkdir("upload/$rand/");
     $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
 }
+if (empty($filesize)) {
+    $resultnotice .= "Please Choose an Icon to upload.. Redirecting";
+    header('Location: http://www.ichager.tk/mainf7.php?error=noicon');
+}
+
 
 if ((($_FILES["file"]["type"] == "image/gif")
 || ($_FILES["file"]["type"] == "image/jpeg")
@@ -278,14 +284,6 @@ if ( $func == "Open Video" ) {
 // YT NONE
 if ( $app == "YouTube" && $func == "None" ) {
   $urls = 'https://www.youtube.com/';
-}
-
-$filesize = $_FILES["file"]["size"];
-
-if (empty($filesize)) {
-    echo '$var is either 0, empty, or not set at all';
-} else {
-  echo 'var is set';
 }
 
 

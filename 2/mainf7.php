@@ -460,6 +460,7 @@ echo"Dev Mode Enabled";
           <div class="item-title label">Function</div>
           <div class="item-input">
             <select id="FBResult" name="func">
+              <option>----</option>
               <option>Your Profile</option>
               <option>Friends List</option>
               <option>Notification List</option>
@@ -486,6 +487,7 @@ echo"Dev Mode Enabled";
           <div class="item-title label">Function</div>
           <div class="item-input">
             <select id="TWResult" name="func">
+              <option>----</option>
               <option>Timeline</option>
               <option>Mentions</option>
               <option>Messages</option>
@@ -505,6 +507,7 @@ echo"Dev Mode Enabled";
           <div class="item-title label">Function</div>
           <div class="item-input">
             <select id="YTResult" name="func">
+              <option>----</option>
               <option>None</option>
               <option>Open Video</option>
             </select>
