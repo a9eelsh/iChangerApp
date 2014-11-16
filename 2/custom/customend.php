@@ -20,7 +20,7 @@ if (file_exists($rand)) {
     mkdir("upload/$rand/");
     $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
 }
-if (empty($filesize) || empty($fname) || empty($app)) {
+if (empty($filesize)) {
     $resultnotice .= "Please Choose an Icon to upload.. Redirecting";
     header('Location: http://www.ichanger.tk/mainf7.php?error=noicon');
 }
