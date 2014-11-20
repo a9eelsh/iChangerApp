@@ -349,7 +349,7 @@ echo"Dev Mode Enabled";
         <!-- We can make with view with navigation, let's add Top Navbar-->
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">iChanger 2 - Custom</div>
+            <div class="center sliding">iChanger - Custom</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
@@ -405,8 +405,8 @@ echo"Dev Mode Enabled";
               <option>Facebook</option>
               <option>Twitter</option>
               <option>Flipboard</option>
-              <option>YouTube</option> 
-             <option>Instagram</option>
+              <option>YouTube</option>
+              <option>Instagram</option>
               <option>Skype</option>
               <option>Photos</option>
               <option>Google</option>
@@ -514,7 +514,7 @@ echo"Dev Mode Enabled";
     <div id="UriScheme" style="display:none;">
     <li>
       <div class="item-content">
-        <div class="item-media"><i class="icon icon-custom-uri"></i></div>
+        <div class="item-media"><i class="icon icon-custom-video"></i></div>
         <div class="item-inner">
           <div class="item-title label">URI</div>
             <div class="item-input">
@@ -831,8 +831,6 @@ $('#YTResult').on('change',function(){
                 <iframe src="http://tylerlh.github.com/github-latest-commits-widget/?username=rosco1502&repo=iChanger-2&limit=2"  allowtransparency="true" frameborder="0" scrolling="no" ></iframe>
                 -->
               <div class="content-block">
-                *App Icons when Installed May Vary
-                <p>**Copyright Info Read 'About' In Menu</p>
                 <p><a href="#" id="simClickElement" class="beta-warning">Reopen Beta Warning</a></p>
                 <!--<p><a href="http://ichanger.tk/hayday.html" class="external">HeyDau</a></p>-->
                 <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script><a href="http://www.dmca.com/Protection/Status.aspx?ID=d950375c-fe04-4559-882a-af4f73f90e5a" title="DMCA.com Protection Program" class="dmca-badge external"> <img src ="//images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=d950375c-fe04-4559-882a-af4f73f90e5a"  alt="DMCA.com Protection Status" /></a>
@@ -856,120 +854,7 @@ $('#YTResult').on('change',function(){
               </div>
             </div>
             <div class="page-content">
-              <div class="list-block">
-                <ul>
-                  <li>
-                    <div class="item-content">
-                      <div class="item-media"><i class="icon icon-form-name"></i></div>
-                      <div class="item-inner">
-                        <div class="item-title label">Name</div>
-                        <div class="item-input">
-                          <input type="text" placeholder="Your name">
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="item-content">
-                      <div class="item-media"><i class="icon icon-form-email"></i></div>
-                      <div class="item-inner">
-                        <div class="item-title label">E-mail</div>
-                        <div class="item-input">
-                          <input type="email" placeholder="E-mail">
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="item-content">
-                      <div class="item-media"><i class="icon icon-form-url"></i></div>
-                      <div class="item-inner">
-                        <div class="item-title label">URL</div>
-                        <div class="item-input">
-                          <input type="url" placeholder="URL">
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="item-content">
-                      <div class="item-media"><i class="icon icon-form-password"></i></div>
-                      <div class="item-inner">
-                        <div class="item-title label">Password</div>
-                        <div class="item-input">
-                          <input type="password" placeholder="Password">
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="item-content">
-                      <div class="item-media"><i class="icon icon-form-tel"></i></div>
-                      <div class="item-inner">
-                        <div class="item-title label">Phone</div>
-                        <div class="item-input">
-                          <input type="tel" placeholder="Phone">
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="item-content">
-                      <div class="item-media"><i class="icon icon-form-gender"></i></div>
-                      <div class="item-inner">
-                        <div class="item-title label">Gender</div>
-                        <div class="item-input">
-                          <select>
-                            <option>Male</option>
-                            <option>Female</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="item-content">
-                      <div class="item-media"><i class="icon icon-form-calendar"></i></div>
-                      <div class="item-inner">
-                        <div class="item-title label">Birth date</div>
-                        <div class="item-input">
-                          <input type="date" placeholder="Birth day" value="2014-04-30">
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="item-content">
-                      <div class="item-media"><i class="icon icon-form-toggle"></i></div>
-                      <div class="item-inner">
-                        <div class="item-title label">Switch</div>
-                        <div class="item-input">
-                          <label class="label-switch">
-                            <input type="checkbox">
-                            <div class="checkbox"></div>
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="item-content">
-                      <div class="item-media"><i class="icon icon-form-settings"></i></div>
-                      <div class="item-inner">
-                        <div class="item-title label">Slider</div>
-                        <div class="item-input">
-                          <div class="range-slider">
-                            <input type="range" min="0" max="100" value="50" step="0.1">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="content-block">
-                <p>Mauris commodo lacus at nisl lacinia, nec facilisis erat rhoncus. Sed eget pharetra nunc. Aenean vitae vehicula massa, sed sagittis ante. Quisque luctus nec velit dictum convallis. Nulla facilisi. Ut sed erat nisi. Donec non dolor massa. Mauris malesuada dolor velit, in suscipit leo consectetur vitae. Duis tempus ligula non eros pretium condimentum. Cras sed dolor odio.</p>
-              </div>
+<!-- iPeeps HERE -->
             </div>
           </div>
         </div>

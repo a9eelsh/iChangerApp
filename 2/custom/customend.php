@@ -10,6 +10,7 @@ $ficon = '' . htmlspecialchars($_GET["icon"]) . '';
 $func = $_POST["func"];
 $app = $_POST["app"];
 $video = $_POST["video"];
+$customuri = $_POST["customuri"];
 $rand = substr(md5(microtime()),rand(0,26),5);
 // check if folder exists+
 if (file_exists($rand)) {
@@ -235,6 +236,12 @@ if ( $app == "Google" ) {
 if ( $app == "Google+" ) {
   $urls = "gplus://";
 }
+
+// URLSCHEME
+if ( $app == "URL Scheme" ) {
+  $urls = "".$customuri."";
+}
+
 
 //                 ---- START FUNCTIONS ----
 // FACEBOOK
