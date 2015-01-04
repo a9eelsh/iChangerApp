@@ -10,7 +10,7 @@
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
   <link href="https://cdn.retain.cc/static/1.4.0/css/main.css" rel="stylesheet">
-  <link href="http://www.ichanger.tk/ui/API/logo.css?v=3" rel="stylesheet">
+  <link href="http://www.ichangerapp.com/ui/API/logo.css?v=3" rel="stylesheet">
   <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
   <!-- Setting requirejs baseUrl -->
@@ -20,7 +20,7 @@
   <script>
   if(navigator.userAgent.match('CriOS')) {
     //document.write('<meta http-equiv="refresh" content="0;URL='http://example.com/'" />');
-    window.location.replace("http://www.ichanger.tk/chrome.php");
+    window.location.replace("http://www.ichangerapp.com/chrome.php");
   }
   </script>
   
@@ -42,7 +42,7 @@
 <body class="cit white-bg">
   
 <div class="navbar">
-  <p><center><a href="http://iChanger.tk/"><img src="/pics/logo.png" alt="iChanger"></a></center></p>
+  <p><center><a href="http://iChangerapp.com/"><img src="/pics/logo.png" alt="iChanger"></a></center></p>
   <div id="nav-wrap">
     <ul class="nav">
       <li class="dropdown active"><a
@@ -220,7 +220,7 @@
           </ul>
           <pre class="prettyprint lang-html install-code" rows="10">
 &lt;!-- iChanger API v1.0 --&gt;
-&lt;a id="simClickElement" href="http://www.ichanger.tk/apicore.php?a=&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;?php print $aname; ?&gt;&lt;/a&gt;
+&lt;a id="simClickElement" href="http://www.ichangerapp.com/apicore.php?a=&lt;?php print $url; ?&gt;?n=&lt;?php print $appname; ?&gt;&a=&lt;?php print $iconfolder; ?&gt;&p=&lt;?php print $iconmain; ?&gt;&pe=&lt;?php print $iconext; ?&gt;&ur=&lt;?php print $appurl; ?&gt;&v=&lt;?php print $v; ?&gt;&gplus=&lt;?php print $gplus; ?&gt;"&gt;&lt;?php print $aname; ?&gt;&lt;/a&gt;
           </pre>
           <ul>
             <li>Remember to have <a href="#step-1">STEP 1</a> complete for this to work.</li>

@@ -3,9 +3,9 @@ $dev = '' . htmlspecialchars($_GET["dev"]) . '';
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") && $dev == "y" ) { // safari on iPhone/iPad with dev perms
-      echo('<meta http-equiv="refresh" content="0; url=http://ichanger.tk/install.php?ref=ic2main" />');
+      echo('<meta http-equiv="refresh" content="0; url=http://ichangerapp.com/install.php?ref=ic2main" />');
    } else if ( substr_count($ua, '/') === 3 ) { //stand alone WebApp on iPhone/iPad
-      echo('<meta http-equiv="refresh" content="0; url=http://ichanger.tk/mainf7.php');
+      echo('<meta http-equiv="refresh" content="0; url=http://ichangerapp.com/mainf7.php');
    } else if ( substr_count($ua, '/') === 2 ) { //WebView on a iPhone/iPad app
       echo('Unplanned... Contact Devs Please!');
    } else if ( strpos($ua,"safari") ) { // Safari on iPhone/iPad

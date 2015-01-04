@@ -34,7 +34,7 @@ print $url;
 
 ?>
 	  <noscript>
-	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
+	  	<meta http-equiv="refresh" content="0;URL='http://ichangerapp.com/enable/javascript.php?no=js'" /> 
 	  </noscript>
 	<script type="text/javascript">
 		function simClickMain() {

@@ -63,14 +63,14 @@ if( $override == "1" ) {
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"256"; print $iconext; ?>" sizes="256x256">
   <link rel="apple-touch-icon" href="<?php print $iconfolder; echo "/"; print $iconmain; echo"512"; print $iconext; ?>" sizes="512x512">
   <title><?php print $appname; ?></title>
-  <h1> -- !OUTDATED PLEASE REINSTALL FOR OFFLINE SUPPORT, FASTER LAUNCHING AND BETTER DECTECTION! -- Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>
+  <h1> -- !OUTDATED PLEASE REINSTALL FOR OFFLINE SUPPORT, FASTER LAUNCHING AND BETTER DECTECTION! -- Press <img src="http://ichangerapp.com/ui/simages/dl.png"> or <img src="http://ichangerapp.com/ui/simages/plus.png"> then select Add to Homescreen..</h1>
 <?php
 
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
 /*if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
-      echo('<!--Running in safari on iPhone/iPad--><h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..' . htmlspecialchars($_GET["v"]) . '</h1>');
+      echo('<!--Running in safari on iPhone/iPad--><h1>Press <img src="http://ichangerapp.com/ui/simages/dl.png"> or <img src="http://ichangerapp.com/ui/simages/plus.png"> then select Add to Homescreen..' . htmlspecialchars($_GET["v"]) . '</h1>');
    } else if ( substr_count($ua, '/') === 3 ) {
       echo('<!--Running as stand alone WebApp on iPhone/iPad--><META http-equiv="refresh" content="0;URL=' . htmlspecialchars($_GET["ur"]) . '">');
    } else if ( substr_count($ua, '/') === 2 ) {

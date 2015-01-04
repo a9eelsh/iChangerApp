@@ -23,7 +23,7 @@ if (file_exists($rand)) {
 }
 if (empty($filesize)) {
     $resultnotice .= "Please Choose an Icon to upload.. Redirecting";
-    header('Location: http://www.ichanger.tk/mainf7.php?error=noicon');
+    header('Location: http://www.ichangerapp.com/mainf7.php?error=noicon');
 }
 
 
@@ -190,7 +190,7 @@ if ( $app == "Remote" ) {
 // SAFARI
 if ( $app == "Safari" ) {
   // Run iChanger's BrowerClose.php
-  $urls = "http://ichanger.tk/BrowserClose.php";
+  $urls = "http://ichangerapp.com/BrowserClose.php";
 }
 // VIDEOS
 if ( $app == "Videos" ) {
@@ -314,7 +314,7 @@ if ( $app == "YouTube" && $func == "None" ) {
 	<link rel="stylesheet" href="../ui/css/closex.css">
         <div class="navbar">
           <div class="navbar-inner">
-			      <div class="left sliding"><a href="http://ichanger.tk/mainf7.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
+			      <div class="left sliding"><a href="http://ichangerapp.com/mainf7.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">iChanger 2 - Your Custom App Icon</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
@@ -326,9 +326,9 @@ if ( $app == "YouTube" && $func == "None" ) {
 		<div class="list-block media-list">
 			<ul>
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=<?php print $endfolder; ?>&p=<?php print $endpicture; ?>&n=<?php echo $_POST["title"]; ?>&c=custom&ur=<?php echo $urls; ?>" class="external link item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=<?php print $endfolder; ?>&p=<?php print $endpicture; ?>&n=<?php echo $_POST["title"]; ?>&c=custom&ur=<?php echo $urls; ?>" class="external link item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/custom/upload/<?php print $endfile; ?>" width="80">
+							<img src="http://ichangerapp.com/custom/upload/<?php print $endfile; ?>" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">

@@ -51,12 +51,12 @@ if ( $bypass == "y" ) {
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
-      //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..');
+      //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichangerapp.com/ui/simages/dl.png"> or <img src="http://ichangerapp.com/ui/simages/plus.png"> then select Add to Homescreen..');
    } else if ( substr_count($ua, '/') === 3 ) {
-     header('Location: http://www.ichanger.tk/mainf7.php?dev=' . htmlspecialchars($_GET["dev"]) . '&');
+     header('Location: http://www.ichangerapp.com/mainf7.php?dev=' . htmlspecialchars($_GET["dev"]) . '&');
    } else if ( substr_count($ua, '/') === 2 ) {
    } else if ( $bypass == "no" ) {
-      header('Location: http://www.ichanger.tk/chrome.php');
+      header('Location: http://www.ichangerapp.com/chrome.php');
    }
     } else if ( $bypass == "no" ) {
         header('Location: http://www.thelocken.com/ichangerinfo/');
@@ -71,10 +71,10 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-  <script type="text/javascript" src="http://ichanger.tk/js/staystand.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://ichanger.tk/addtohomescreen.css">
-  <script src="http://ichanger.tk/addtohomescreen.js"></script>
-  <script src="http://ichanger.tk/js/staystand.js"></script>
+  <script type="text/javascript" src="http://ichangerapp.com/js/staystand.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://ichangerapp.com/addtohomescreen.css">
+  <script src="http://ichangerapp.com/addtohomescreen.js"></script>
+  <script src="http://ichangerapp.com/js/staystand.js"></script>
   <!-- Icons -->
   <link rel="apple-touch-icon" href="ios/AppIcon.appiconset/Icon-60@2x.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="ios/AppIcon.appiconset/Icon-60@3x.png" />
@@ -115,12 +115,12 @@ objImage.src='pics/iC2-5.png';
 </script>
 </head>
 	  <noscript>
-	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
+	  	<meta http-equiv="refresh" content="0;URL='http://ichangerapp.com/enable/javascript.php?no=js'" /> 
 	  </noscript>
 <script>
 if(navigator.userAgent.match('CriOS')) {
     //document.write('<meta http-equiv="refresh" content="0;URL='http://example.com/'" />');
-    window.location.replace("http://www.ichanger.tk/chrome.php");
+    window.location.replace("http://www.ichangerapp.com/chrome.php");
 }
 </script>
 <script>

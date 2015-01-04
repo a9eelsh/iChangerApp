@@ -152,7 +152,7 @@ if ( $userraw == "" ) {
     <div class="se-pre-con"><p></p><p><center><a class="external" href="loadslow.php">Loading Slow? See Why</a></center></p></div>
     <!-- If JS disabled redirect to ENABLEJS -->
 	  <noscript>
-	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/javascript.php?no=js'" /> 
+	  	<meta http-equiv="refresh" content="0;URL='http://ichangerapp.com/enable/javascript.php?no=js'" /> 
 	  </noscript>
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
@@ -363,7 +363,7 @@ echo"Dev Mode Enabled";
 	Start Form 
 	
 	-->
-<form onsubmit="" action="http://www.ichanger.tk/custom/customend.php?req=custom" method="post" enctype="multipart/form-data">
+<form onsubmit="" action="http://www.ichangerapp.com/custom/customend.php?req=custom" method="post" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -->
     
@@ -832,7 +832,7 @@ $('#YTResult').on('change',function(){
                 -->
               <div class="content-block">
                 <p><a href="#" id="simClickElement" class="beta-warning">Reopen Beta Warning</a></p>
-                <!--<p><a href="http://ichanger.tk/hayday.html" class="external">HeyDau</a></p>-->
+                <!--<p><a href="http://ichangerapp.com/hayday.html" class="external">HeyDau</a></p>-->
                 <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script><a href="http://www.dmca.com/Protection/Status.aspx?ID=d950375c-fe04-4559-882a-af4f73f90e5a" title="DMCA.com Protection Program" class="dmca-badge external"> <img src ="//images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=d950375c-fe04-4559-882a-af4f73f90e5a"  alt="DMCA.com Protection Status" /></a>
               </div>
               </div>
@@ -952,6 +952,6 @@ $('#YTResult').on('change',function(){
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/f7-2.js"></script>
-    <script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=3"></script>
+    <script type="text/javascript" src="http://www.ichangerapp.com/js/alerts.js?v=3"></script>
   </body>
 </html>

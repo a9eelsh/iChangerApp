@@ -71,23 +71,23 @@ $uri2 = '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 $uri3 = '<meta name="apple-mobile-web-app-status-bar-style" content="black"/>';
 $uri4 = '<meta http-equiv="content-type" content="text/html;charset=utf-8"/>';
 $uri5 = '<script> function close_window(){close()} </script>';
-$uri5S = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) . '' . htmlspecialchars($iconext) . '">';
+$uri5S = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) . '' . htmlspecialchars($iconext) . '">';
 // . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'16' . htmlspecialchars($iconext) . '
-$uri6 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'16' . htmlspecialchars($iconext) . '" sizes="16x16">';
-$uri7 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'48' . htmlspecialchars($iconext) . '" sizes="48x48">';
-$uri8 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'64' . htmlspecialchars($iconext) . '" sizes="64x64">';
-$uri9 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'72' . htmlspecialchars($iconext) . '" sizes="72x72">';
-$uri10 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'128' . htmlspecialchars($iconext) . '" sizes="128x128">';
-$uri11 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'256' . htmlspecialchars($iconext) . '" sizes="256x256">';
-$uri12 = '<link rel="apple-touch-icon" href="http://ichanger.tk/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'512' . htmlspecialchars($iconext) . '" sizes="512x512">';
+$uri6 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'16' . htmlspecialchars($iconext) . '" sizes="16x16">';
+$uri7 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'48' . htmlspecialchars($iconext) . '" sizes="48x48">';
+$uri8 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'64' . htmlspecialchars($iconext) . '" sizes="64x64">';
+$uri9 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'72' . htmlspecialchars($iconext) . '" sizes="72x72">';
+$uri10 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'128' . htmlspecialchars($iconext) . '" sizes="128x128">';
+$uri11 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'256' . htmlspecialchars($iconext) . '" sizes="256x256">';
+$uri12 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'512' . htmlspecialchars($iconext) . '" sizes="512x512">';
 $uri13 = '<title>' . htmlspecialchars($appname) . '' . htmlspecialchars($gplusn) . '</title>';
-$uri14 = '<h1>Press <img src="http://ichanger.tk/ui/simages/dl.png"> or <img src="http://ichanger.tk/ui/simages/plus.png"> then select Add to Homescreen..</h1>';
+$uri14 = '<h1>Press <img src="http://ichangerapp.com/ui/simages/dl.png"> or <img src="http://ichangerapp.com/ui/simages/plus.png"> then select Add to Homescreen..</h1>';
 $uri15 = '<a id="launch" href="' . htmlspecialchars($ur) . '">';
 $uri16 = '<script> if(!document.referrer){activate()}function activate(){var e=document.getElementById("launch");var t=document.createEvent("MouseEvents");t.initEvent("click",true,true);e.dispatchEvent(t);window.opener=window;var n=window.open(location.href,"_self");n.close()} </script>';
 ?>
 <body onload="simClickMain();">
 	  <noscript>
-	  	<meta http-equiv="refresh" content="0;URL='http://ichanger.tk/enable/handle.php?no=js'" /> 
+	  	<meta http-equiv="refresh" content="0;URL='http://ichangerapp.com/enable/handle.php?no=js'" /> 
 	  </noscript>
 	<script type="text/javascript">
 		function simClickMain() {

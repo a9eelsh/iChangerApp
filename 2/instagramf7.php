@@ -42,7 +42,7 @@ if ( $userraw == "" ) {
 				<li>
 					<a href="" class="already-istalled open-popover link item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Instagram/InstagramDefault.png" width="80">
+							<img src="http://ichangerapp.com/Instagram/InstagramDefault.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -58,9 +58,9 @@ if ( $userraw == "" ) {
 			<!--</ul>
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=Flat&pe=.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Instagram&p=Flat&pe=.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Instagram/Flat256.png" width="80">
+							<img src="http://ichangerapp.com/Instagram/Flat256.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -83,9 +83,9 @@ if ( $userraw == "" ) {
           
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=FlatGradient2.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Instagram&p=FlatGradient2.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Instagram/FlatGradient.png" width="80">
+							<img src="http://ichangerapp.com/Instagram/FlatGradient.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -102,9 +102,9 @@ if ( $userraw == "" ) {
             <ul>-->
           
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=maximal.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Instagram&p=maximal.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Instagram/maximal.png" width="80">
+							<img src="http://ichangerapp.com/Instagram/maximal.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -124,9 +124,9 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=LuminoSquare.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Instagram&p=LuminoSquare.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Instagram/LuminoSquare.png" width="80">
+							<img src="http://ichangerapp.com/Instagram/LuminoSquare.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -145,9 +145,9 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Instagram&p=novusfull.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Instagram&p=novusfull.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Instagram/novus.png" width="80">
+							<img src="http://ichangerapp.com/Instagram/novus.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -162,9 +162,9 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=lightwinter.JPG&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=lightwinter.JPG&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/lightwinter.JPG" width="80">
+							<img src="http://ichangerapp.com/AppStore/lightwinter.JPG" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -185,4 +185,4 @@ if ( $userraw == "" ) {
 
 	</div>
 </div>
-<script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=2"></script>
+<script type="text/javascript" src="http://www.ichangerapp.com/js/alerts.js?v=2"></script>
