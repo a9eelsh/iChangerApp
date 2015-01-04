@@ -45,7 +45,7 @@ if ( $userraw == "" ) {
 				<li>
 					<a href="" class="already-istalled open-popover link item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Mail/Mail.ico" width="80">
+							<img src="http://ichangerapp.com/Mail/Mail.ico" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -61,9 +61,9 @@ if ( $userraw == "" ) {
 			<!--</ul>
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Mail&p=maximal.png&n=Mail&ur=mailto://" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Mail&p=maximal.png&n=Mail&ur=mailto://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Mail/maximal.png" width="80">
+							<img src="http://ichangerapp.com/Mail/maximal.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -86,9 +86,9 @@ if ( $userraw == "" ) {
           
 			<ul>-->
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=Mail&p=novusfull.png&n=Mail&ur=mailto://" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Mail&p=novusfull.png&n=Mail&ur=mailto://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/Mail/novus.png" width="80">
+							<img src="http://ichangerapp.com/Mail/novus.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -105,9 +105,9 @@ if ( $userraw == "" ) {
             <ul>-->
           
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=Glimpse.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=Glimpse.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/Glimpse.png" width="80">
+							<img src="http://ichangerapp.com/AppStore/Glimpse.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -127,9 +127,9 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=Novus2&pe=.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=Novus2&pe=.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/Novus.png" width="80">
+							<img src="http://ichangerapp.com/AppStore/Novus.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -148,9 +148,9 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=light.jpg&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=light.jpg&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/lightOLD.png" width="80">
+							<img src="http://ichangerapp.com/AppStore/lightOLD.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -165,9 +165,9 @@ if ( $userraw == "" ) {
               
               
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=lightwinter.JPG&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=lightwinter.JPG&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/lightwinter.JPG" width="80">
+							<img src="http://ichangerapp.com/AppStore/lightwinter.JPG" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -181,9 +181,9 @@ if ( $userraw == "" ) {
 				</li>
 
 				<li>
-					<a href="http://ichanger.tk/uriref.php?a=AppStore&p=appstore-round1.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=appstore-round1.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichanger.tk/AppStore/appstore-round.png" width="80">
+							<img src="http://ichangerapp.com/AppStore/appstore-round.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -209,4 +209,4 @@ if ( $userraw == "" ) {
 
 	</div>
 </div>
-<script type="text/javascript" src="http://www.ichanger.tk/js/alerts.js?v=2"></script>
+<script type="text/javascript" src="http://www.ichangerapp.com/js/alerts.js?v=2"></script>
