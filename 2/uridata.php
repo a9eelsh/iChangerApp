@@ -81,7 +81,7 @@ $uri10 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspec
 $uri11 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'256' . htmlspecialchars($iconext) . '" sizes="256x256">';
 $uri12 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'512' . htmlspecialchars($iconext) . '" sizes="512x512">';
 $uri13 = '<title>' . htmlspecialchars($appname) . '' . htmlspecialchars($gplusn) . '</title>';
-$uri14 = '<h1>Press <img src="http://ichangerapp.com/ui/simages/dl.png"> or <img src="http://ichangerapp.com/ui/simages/plus.png"> then select Add to Homescreen..</h1>';
+$uri14 = '<h1>Press <img src="http://ichangerapp.com/imgs/action-icon-ios6.png"> or <img src="http://ichangerapp.com/imgs/action-icon-ios7.png"> then select Add to Homescreen..</h1>';
 $uri15 = '<a id="launch" href="' . htmlspecialchars($ur) . '">';
 $uri16 = '<script> if(!document.referrer){activate()}function activate(){var e=document.getElementById("launch");var t=document.createEvent("MouseEvents");t.initEvent("click",true,true);e.dispatchEvent(t);window.opener=window;var n=window.open(location.href,"_self");n.close()} </script>';
 ?>
@@ -103,6 +103,6 @@ $uri16 = '<script> if(!document.referrer){activate()}function activate(){var e=d
         }
     }
 	</script>
-    <a id="simClickElement" href="<?php echo htmlspecialchars($uri1); echo htmlspecialchars($uri2); echo htmlspecialchars($uri3); echo htmlspecialchars($uri4); echo htmlspecialchars($uri5); echo htmlspecialchars($uri5S); echo htmlspecialchars($uri6); echo htmlspecialchars($uri7); echo htmlspecialchars($uri8); echo htmlspecialchars($uri9); echo htmlspecialchars($uri10); echo htmlspecialchars($uri11); echo htmlspecialchars($uri12); echo htmlspecialchars($uri13); echo htmlspecialchars($uri14); echo htmlspecialchars($uri15); echo htmlspecialchars($uri16); echo htmlspecialchars($uri17); ?>">GENERATED URL</a>
+    <a id="simClickElement" href="<?php echo htmlspecialchars($uri1); echo htmlspecialchars($uri2); echo htmlspecialchars($uri3); echo htmlspecialchars($uri4); echo htmlspecialchars($uri5); echo htmlspecialchars($uri5S); echo htmlspecialchars($uri6); echo htmlspecialchars($uri7); echo htmlspecialchars($uri8); echo htmlspecialchars($uri9); echo htmlspecialchars($uri10); echo htmlspecialchars($uri11); echo htmlspecialchars($uri12); echo htmlspecialchars($uri13); echo htmlspecialchars($uri14); echo htmlspecialchars($uri15); echo htmlspecialchars($uri16); echo htmlspecialchars($uri17); ?>">TMP</a>
 <h1> Generating, Please Wait... </h1>
 </body>

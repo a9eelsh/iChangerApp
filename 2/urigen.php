@@ -28,7 +28,7 @@ $icon512 = '' . htmlspecialchars($_GET["p"]) . '512' . htmlspecialchars($_GET["p
 if( $appname == "" && $iconfolder == "" && $iconmain == "" ) {
   echo "<h1>Invalid Generated Shortcut</h1>\n";
   echo "<h2>If this shortcut is a stock/premade/example and this message keeps appearing, contact TheLocken LLC iChanger Support from the sidepanel in the iChanger app.</h2>\n";
-  echo "<!-- Error Code [73b68w] -->";
+  echo "<!-- Error Code [nAII1] -->";
  }
 
 ?>
