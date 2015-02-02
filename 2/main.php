@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
 	<link rel="stylesheet" href="ui/css/f7-2.css">
+	<link rel="stylesheet" href="ui/css/app.css?v=8">
   </head>
   <body>
     <!-- Status bar overlay for full screen mode (PhoneGap) -->
