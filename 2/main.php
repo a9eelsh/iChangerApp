@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-      
+      </div>
             <div id="view-2" class="view tab">
         <!-- We can make with view with navigation, let's add Top Navbar-->
         <div class="navbar">
