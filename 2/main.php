@@ -16,38 +16,50 @@
   <body>
     <!-- Status bar overlay for full screen mode (PhoneGap) -->
     <div class="statusbar-overlay"></div>
-    <!-- Views -->
-      <!-- Your main view, should have "view-main" class -->
-      <div class="view view-main">
-        <!-- Top Navbar-->
+    <div class="views tabs toolbar-through">
+      <!-- Your first view, it is also a .tab and should have "active" class to make it visible by default-->
+      <div id="view-1" class="view tab">
+        <!-- We can make with view with navigation, let's add Top Navbar-->
+		  <!--
+
+                  Home 
+
+           -->
         <div class="navbar">
           <div class="navbar-inner">
-            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
-            <div class="center sliding">Awesome App</div>
+            <div class="center sliding">iChanger - Home</div>
+            <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
-        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
-        <div class="pages navbar-through toolbar-through">
-          <!-- Page, "data-page" contains page name -->
-          <div data-page="index" class="page">
-            <!-- Scrollable page content -->
+        <div class="pages navbar-through">
+          <div data-page="index-1" class="page">
             <div class="page-content">
-              <p>Page content goes here</p>
-              <!-- Link to another page -->
-              <a href="about.html">About app</a>
+              <div class="content-block">
+                <p>Welcome Home.</p>
+              </div>
+              <div class="list-block">
+                <ul>
+                  <li><a href="about.html<?php print $uend; ?>" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">About Us</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="services.html<?php print $uend; ?>" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Services</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+                <center><iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=rosco1502&repo=iChanger-2&limit=6&width=200&height=200" width="502px" height="202px"></iframe></center>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Bottom Toolbar-->
-        <div class="toolbar">
-          <div class="toolbar-inner">
-            <!-- Toolbar links -->
-            <a href="#view-2" class="link">Link 1</a>
-            <a href="#" class="link">Link 2</a>
-          </div>
-        </div>
       </div>
-      </div>
+      
+      
             <div id="view-2" class="view tab">
         <!-- We can make with view with navigation, let's add Top Navbar-->
         <div class="navbar">
