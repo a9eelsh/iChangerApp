@@ -98,10 +98,6 @@ if ( $userraw == "" ) {
 	  <link rel="stylesheet" href="ui/css/nav.css">
 	  <link rel="stylesheet" href="ui/css/closex.css">
 	  <link rel="stylesheet" href="ui/css/load.css">
-	  <style>
-.loading  {
-
-	  </style>
 	  <!-- JS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
