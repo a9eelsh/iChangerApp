@@ -17,7 +17,6 @@
     <!-- Status bar overlay for full screen mode (PhoneGap) -->
     <div class="statusbar-overlay"></div>
     <!-- Views -->
-    <div class="views">
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
         <!-- Top Navbar-->
