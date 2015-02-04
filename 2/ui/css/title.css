@@ -149,7 +149,7 @@ a {
 
 /*-----------------------------------*\
   $BASE
-\*-----------------------------------*/
+\*-----------------------------------*
 
 html {
   font: 100%/1.5 "Roboto", Verdana, sans-serif;
@@ -160,7 +160,7 @@ html {
 
   overflow: hidden-x;
 
-  /* Centering in The Unknown */
+  /* Centering in The Unknown *
   text-align: center;
 }
 
