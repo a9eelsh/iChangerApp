@@ -90,6 +90,41 @@
           <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
         </div>
       </div>
+      
+      <div class="view another-view">
+      <!-- Navbar-->
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Index Page-->
+          <div data-page="index" class="page">
+            <div class="page-content">
+              <div class="content-block-title">Welcome1234567890</div>
+              <div class="content-block">
+                <div class="content-block-inner">
+                  <p>This app 101010101011110101001011000000101010100101001010010101010111100101001010010011001011111010011001010100101r pages with required data.</p>
+                </div>
+              </div>
+              <div class="list-block">
+                <ul>
+                  <li><a href="#" data-template="about" date-contextName="about" class="item-link item-content">
+                      <div class="item-inner"> 
+                        <div class="item-title">Test 1</div>
+                      </div></a></li>
+                </ul>
+              </div>
+              <div class="content-block-title">Side panels</div>
+              <div class="content-block">
+                <div class="row">
+                  <div class="col-50"><a href="#" data-panel="left" class="button open-panel">Left Panel</a></div>
+                  <div class="col-50"><a href="#" data-panel="right" class="button open-panel">Right Panel</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+      
+      
+      
     </div>
     <!-- Template7 templates-->
     <script type="text/template7" id="about">

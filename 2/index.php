@@ -2,7 +2,9 @@
 $dev = '' . htmlspecialchars($_GET["dev"]) . '';
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
-   if ( strpos($ua,"safari") && $dev == "y" ) { // safari on iPhone/iPad with dev perms
+   if ( strpos($ua,"safari") && $dev == "y" && $v == "3" ) { // safari on iPhone/iPad with dev perms
+      echo('<meta http-equiv="refresh" content="0; url=http://ichangerapp.com/install.php?ref=ic2main&v=3" />');
+   } else if ( strpos($ua,"safari") && $dev == "y" ) { // safari on iPhone/iPad with dev perms
       echo('<meta http-equiv="refresh" content="0; url=http://ichangerapp.com/install.php?ref=ic2main" />');
    } else if ( substr_count($ua, '/') === 3 ) { //stand alone WebApp on iPhone/iPad
       echo('<meta http-equiv="refresh" content="0; url=http://ichangerapp.com/mainf7.php');

@@ -58,16 +58,16 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    } else if ( $bypass == "no" ) {
       header('Location: http://www.ichangerapp.com/chrome.php');
    }
-    } else if ( $bypass == "no" ) {
+    } else if ( $bypass == "" ) {
         header('Location: http://www.thelocken.com/ichangerinfo/');
     }
 
 ?>
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>
-  <title>iChanger 2</title>
+  <title>iChanger 3</title>
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="iChanger 2">
+  <meta name="apple-mobile-web-app-title" content="iChanger 3">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -85,7 +85,6 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   <script>
   // remove session if visit again
   	addToHomescreen.removeSession()
-
   // set ath to awalys stay open, etc
     addToHomescreen({
    		skipFirstVisit: false,
@@ -95,23 +94,12 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 		lifespan: 0,
 		mandatory: true,
     });
-
   // remove session if visit again
   	addToHomescreen.removeSession()
   </script>
   <script language="JavaScript">
-
-// create an image object
-
 objImage = new Image();
-
-
-// set what happens once the image has loaded objImage.onLoad=imagesLoaded();
-
-// preload iChanger icon
-
 objImage.src='pics/iC2-5.png';
-
 </script>
 </head>
 	  <noscript>
@@ -122,9 +110,4 @@ if(navigator.userAgent.match('CriOS')) {
     //document.write('<meta http-equiv="refresh" content="0;URL='http://example.com/'" />');
     window.location.replace("http://www.ichangerapp.com/chrome.php");
 }
-</script>
-<script>
-//if (window.navigator.standalone == true) {
-// document.write('');
-//}
 </script>
