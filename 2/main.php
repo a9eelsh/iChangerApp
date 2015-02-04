@@ -9,12 +9,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- App Name, Title -->
-    <title>iChanger b3</title>
+    <title>iChanger 3b</title>
     <!-- CSS -->
     <link rel="stylesheet" href="ui/css/framework7.css">
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
-	<link rel="stylesheet" href="ui/css/title.css?v=1">
+	<link rel="stylesheet" href="ui/css/title.css?v=2">
 	<style> .statusbar-overlay{background:#87ceeb} </style>
   </head>
   <body>
@@ -50,13 +50,13 @@
           <!-- Index Page-->
           <div data-page="index" class="page">
             <div class="page-content">
-              <div class="content-block-title">Welcome To My Awesome App</div>
+              <div class="content-block-title"></div>
               <div class="content-block">
                 <div class="content-block-inner">
                   <p>
                       <header class="site__header island">
   <div class="wrap">
-   <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">Animate.css</h1></span>
+   <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">iChanger 3b</h1></span>
   </div>
 </header><!-- /.site__header -->
 </p>
