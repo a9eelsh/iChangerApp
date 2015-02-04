@@ -53,13 +53,15 @@
               <div class="content-block-title"></div>
               <div class="content-block">
                 <div class="content-block-inner">
-                  <p>
+                   <p>
+                     <center>
                       <header class="site__header island">
-  <div class="wrap">
-   <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">iChanger 3b</h1></span>
-  </div>
-</header><!-- /.site__header -->
-</p>
+                       <div class="wrap">
+                         <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">iChanger 3b</h1></span>
+                       </div>
+                      </header>
+                     </center>
+                  </p>
                 </div>
               </div>
               
