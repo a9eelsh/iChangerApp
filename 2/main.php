@@ -53,7 +53,13 @@
               <div class="content-block-title">Welcome To My Awesome App</div>
               <div class="content-block">
                 <div class="content-block-inner">
-                  <p>This app illustrates how you can use built-in template engine Template7 to render pages with required data.</p>
+                  <p>
+                      <header class="site__header island">
+  <div class="wrap">
+   <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">Animate.css</h1></span>
+  </div>
+</header><!-- /.site__header -->
+</p>
                 </div>
               </div>
               <div class="list-block">
