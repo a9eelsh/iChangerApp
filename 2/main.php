@@ -57,7 +57,7 @@
               </div>
               <div class="list-block">
                 <ul>
-                  <li><a href="#" data-template="about" date-contextName="about" class="item-link item-content">
+                  <li><a href="#view-2" data-template="about" date-contextName="about" class="item-link item-content">
                       <div class="item-inner"> 
                         <div class="item-title">About Me</div>
                       </div></a></li>
@@ -91,7 +91,7 @@
         </div>
       </div>
       
-      <div class="view another-view">
+      <div id="view-2" class="view tab">
       <!-- Navbar-->
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
         <div class="pages navbar-through toolbar-through">
