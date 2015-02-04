@@ -62,26 +62,10 @@
 </p>
                 </div>
               </div>
-              <div class="list-block">
-                <ul>
-                  <li><a href="#view-2" class="tab-link">
-                      <div class="item-inner"> 
-                        <div class="item-title">About Me</div>
-                      </div></a></li>
-                  <li><a href="projects.html" class="item-link item-content">
-                      <div class="item-inner"> 
-                        <div class="item-title">My Projects</div>
-                      </div></a></li>
-                  <li><a href="cars.html" data-contextName="cars" class="item-link item-content">
-                      <div class="item-inner">
-                        <div class="item-title">My Cars</div>
-                      </div></a></li>
-                  <li><a href="contacts.html" class="item-link item-content">
-                      <div class="item-inner">
-                        <div class="item-title">Contacts</div>
-                      </div></a></li>
-                </ul>
-              </div>
+              
+              <!-- Content -->
+              
+              
               <div class="content-block-title">Side panels</div>
               <div class="content-block">
                 <div class="row">
