@@ -57,7 +57,7 @@
               </div>
               <div class="list-block">
                 <ul>
-                  <li><a href="#view-2" data-template="about" date-contextName="about" class="item-link item-content">
+                  <li><a href="#view-2" class="tab-link">
                       <div class="item-inner"> 
                         <div class="item-title">About Me</div>
                       </div></a></li>
