@@ -56,9 +56,9 @@
                    <p>
                      <center>
                       <header class="site__header island">
-                       <div class="wrap">
+                       <!--<div class="wrap">-->
                          <h1 class="site__title mega">iChanger 3b</h1>
-                       </div>
+                       <!--</div>-->
                       </header>
                      </center>
                   </p>
