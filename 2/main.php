@@ -83,6 +83,7 @@
           <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
         </div>
       </div>
+      </div>
       
       <div id="view-2" class="view tab">
       <!-- Navbar-->
