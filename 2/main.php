@@ -57,7 +57,7 @@
                      <center>
                       <header class="site__header island">
                        <div class="wrap">
-                         <span id="animationSandbox"><h1 class="site__title mega">iChanger 3b</h1></span>
+                         <h1 class="site__title mega">iChanger 3b</h1>
                        </div>
                       </header>
                      </center>
