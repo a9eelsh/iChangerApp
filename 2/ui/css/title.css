@@ -104,9 +104,9 @@ h2, .beta {
   text-align: center;
 }
 
-p, hr, form {
+/*p, hr, form {
   margin-bottom: 1.5rem;
-}
+}*/
 
 hr {
   border: none;
