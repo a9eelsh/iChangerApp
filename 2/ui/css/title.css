@@ -77,17 +77,10 @@ h1, .alpha {
 
   font-size: 3rem;
   font-weight: 100;
-  line-height: 2;
+  line-height: 10;
   letter-spacing: -.05em;
 }
 
-h2, .beta {
-  margin-bottom: .75rem;
-
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1;
-}
 
 @media (min-width: 650px) {
   .mega {
