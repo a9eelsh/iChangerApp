@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="ui/css/framework7.css">
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	<link rel="stylesheet" href="ui/css/framework7.themes.css">
-	<link rel="stylesheet" href="ui/css/title.css?v=6">
+	<link rel="stylesheet" href="ui/css/title.css?v=7">
 	<style> .statusbar-overlay{background:#87ceeb} </style>
   </head>
   <body>
