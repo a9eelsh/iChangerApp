@@ -91,7 +91,7 @@ h2, .beta {
 
 @media (min-width: 650px) {
   .mega {
-    font-size: 1rem;
+    font-size: 5rem;
     line-height: 1;
   }
 }
