@@ -333,3 +333,7 @@ width:29px;
 height:29px;
 background-image:url(../../thumbs/add_link-50.png);
 }
+
+.browse, .meta {
+color: #3498DB;
+}

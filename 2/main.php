@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	  <link rel="stylesheet" href="ui/css/framework7.themes.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=10">
-	  <link rel="stylesheet" href="ui/css/app.css?v=8">
+	  <link rel="stylesheet" href="ui/css/app.css">
 	  <style> .statusbar-overlay{background:#87ceeb} </style>
   </head>
   <body>
@@ -78,7 +78,7 @@
                 <div class="row">
                   <div class="col-50">
                     <center><a href="#view-3" class="tab-link active">
-                    <img src="pics/browse.png">
+                    <img class="browse" src="pics/browse.png">
                     <span class="tabbar-label">Browse</span>
                     </a></center>
                   </div>
