@@ -11,7 +11,7 @@
     <!-- App Name, Title -->
     <title>iChanger 3b</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="ui/css/framework7.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/nolimits4web/Framework7/master/dist/css/framework7.min.css">
 	  <link rel="stylesheet" href="ui/css/framework7.themes.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=10">
 	  <link rel="stylesheet" href="ui/css/app.css">
