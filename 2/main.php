@@ -77,9 +77,8 @@
                 </div>
                 <div class="row">
                   <div class="col-50">
-                    
                     <center><a href="#view-3" class="tab-link active">
-                    <i class="icon tabbar-apps-icon"></i>
+                    <img src="pics/browse.png">
                     <span class="tabbar-label">Browse</span>
                     </a></center>
                   </div>
