@@ -76,10 +76,10 @@
                 </div>
                 <div class="row">
                   <div class="col-50">
-                    <center><a href="#view-3" class="tab-link active">
-                    <span class="icon browse"><img src="pics/browse.png"></span>
+                    <a href="#view-3" class="tab-link active">
+                    <center><span class="icon browse"><img src="pics/browse.png"></span></center>
                     <span class="tabbar-label">Browse</span>
-                    </a></center>
+                    </a>
                   </div>
                   <div class="col-50">
                     <center><a href="#view-3" class="tab-link active">
