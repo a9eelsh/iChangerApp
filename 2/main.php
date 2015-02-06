@@ -13,9 +13,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="ui/css/framework7.css">
     <link rel="stylesheet" href="ui/css/framework7.min.css">
-	<link rel="stylesheet" href="ui/css/framework7.themes.css">
-	<link rel="stylesheet" href="ui/css/title.css?v=10">
-	<style> .statusbar-overlay{background:#87ceeb} </style>
+	  <link rel="stylesheet" href="ui/css/framework7.themes.css">
+	  <link rel="stylesheet" href="ui/css/title.css?v=10">
+	  <link rel="stylesheet" href="ui/css/app.css?v=8">
+	  <style> .statusbar-overlay{background:#87ceeb} </style>
   </head>
   <body>
     <!-- Status bar overlay for fullscreen mode-->
@@ -75,8 +76,18 @@
                   <div class="col-50"><a href="#" data-panel="right" class="button open-panel">Right Panel</a></div>
                 </div>
                 <div class="row">
-                  <div class="col-50"><center>50%</center></div>
-                  <div class="col-50"><center>50%</center></div>
+                  <div class="col-50">
+                    <center><a href="#view-3" class="tab-link active">
+                    <i class="icon tabbar-apps-icon"></i>
+                    <span class="tabbar-label">Browse</span>
+                    </a></center>
+                  </div>
+                  <div class="col-50">
+                    <center><a href="#view-3" class="tab-link active">
+                    <i class="icon tabbar-apps-icon"></i>
+                    <span class="tabbar-label">Create</span>
+                    </a></center>
+                  </div>
                 </div>
               </div>
             </div>
