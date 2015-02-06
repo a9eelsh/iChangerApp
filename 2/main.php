@@ -11,7 +11,6 @@
     <!-- App Name, Title -->
     <title>iChanger 3b</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="ui/css/framework7.css">
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	  <link rel="stylesheet" href="ui/css/framework7.themes.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=10">
