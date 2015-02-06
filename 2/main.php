@@ -77,10 +77,12 @@
                 </div>
                 <div class="row">
                   <div class="col-50">
+                    <div class="toolbar tabbar tabbar-labels">
+    <div class="toolbar-inner">
                     <center><a href="#view-3" class="tab-link active">
                     <i class="icon tabbar-apps-icon"></i>
                     <span class="tabbar-label">Browse</span>
-                    </a></center>
+                    </a></center></div>
                   </div>
                   <div class="col-50">
                     <center><a href="#view-3" class="tab-link active">
