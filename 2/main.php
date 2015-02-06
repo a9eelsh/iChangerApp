@@ -75,8 +75,8 @@
                   <div class="col-50"><a href="#" data-panel="right" class="button open-panel">Right Panel</a></div>
                 </div>
                 <div class="row">
-                  <div class="col-50">50%</div>
-                  <div class="col-50">50%</div>
+                  <div class="col-50"><center>50%</center></div>
+                  <div class="col-50"><center>50%</center></div>
                 </div>
               </div>
             </div>
