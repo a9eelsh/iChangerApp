@@ -78,7 +78,7 @@
                   <div class="col-50">
                     <a href="#view-3" class="tab-link active">
                     <center><span class="icon browse"><img src="pics/browse.png"></span></center>
-                    <span class="tabbar-label">Browse</span>
+                    <center><span class="tabbar-label browse">Browse</span></center>
                     </a>
                   </div>
                   <div class="col-50">
