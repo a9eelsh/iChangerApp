@@ -1,7 +1,12 @@
-      <div id="view-3" class="view view-main tab active">
+      <div id="view-3" class="view tab">
+        <!-- We can make with view with navigation, let's add Top Navbar-->
+        
+        <!-- PREMADE -->
+        
+        
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">Premade Icons 
+            <div class="center sliding">iChanger - Premade Icons 
             <?php 
             $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
             if ( $dev == "y" ) {
@@ -21,7 +26,7 @@
                 <ul>
                   <li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-appstore"></i></div>
+                        <div class=" item-media"><i class="icon icon-app-appstore"></i></div>
                         <div class="item-inner">
                           <div class="item-title">App Store - WORKING</div>
 						<span class="list-val button ">Theme</span>

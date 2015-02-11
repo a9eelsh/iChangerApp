@@ -35,20 +35,23 @@
       </div>
     </div>
     <!-- Views-->
-    <div class="views">
-      <!-- Your main view, should have "view-main" class-->
-      <div class="view view-main">
-        <!-- Top Navbar-->
+    <div class="views tabs toolbar-through">
+      <!-- Your first view, it is also a .tab and should have "active" class to make it visible by default-->
+      <div id="view-1" class="view tab">
+        <!-- We can make with view with navigation, let's add Top Navbar-->
+		  <!--
+
+                  Home 
+
+           -->
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">iChanger</div>
-            <div class="right"><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a></div>
+            <div class="center sliding">iChanger - Home</div>
+            <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
-        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
-        <div class="pages navbar-through toolbar-through">
-          <!-- Index Page-->
-          <div data-page="index" class="page">
+        <div class="pages navbar-through">
+          <div data-page="index-1" class="page">
             <div class="page-content">
               <div class="content-block-title"></div>
               <div class="content-block">
@@ -93,34 +96,25 @@
               </div>
             </div>
           </div>
-        </div>
+        
         <!-- Bottom Toolbar-->
         <div class="toolbar">
           <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
         </div>
       </div>
+      </div>
       
       
-      <div id="view-2" class="view another-view">
+      <div id="view-2" class="view tab">
         <!-- We can make with view with navigation, let's add Top Navbar-->
-        
-        <!-- PREMADE -->
-        
-        
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">iChanger - Premade Icons 
-            <?php 
-            $dev = '' . htmlspecialchars($_GET["dev"]) . ''; 
-            if ( $dev == "y" ) {
-              echo"- Dev Mode";
-            }
-            ?></div>
+            <div class="center sliding">iChanger - Custom</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
         <div class="pages navbar-through">
-          <div data-page="index-3" class="page">
+          <div data-page="index-1" class="page">
             <div class="page-content">
               <div class="content-block">
                 Apps To Theme!
@@ -351,29 +345,8 @@
             </div>
           </div>
         </div>
+      </div>
       </div><!-- End LOL -->
-    <!-- Template7 templates-->
-    <script type="text/template7" id="about">
-      <div class="navbar">
-        <div class="navbar-inner">
-          <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
-          <div class="center sliding">About Me</div>
-          <div class="right"><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a></div>
-        </div>
-      </div>
-      <div class="pages">
-        <div data-page="about" class="page">
-          <div class="page-content">
-            <div class="content-block">
-              <div class="content-block-inner">
-                <p>Hello, my name is {{name}}. I am {{age}} years old and i am working as {{position}} at {{company}}.</p>
-                <p>I have a lot of interests: {{#if interests}}{{join interests delimeter=", "}}{{/if}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </script>
     <!-- Javascript -->
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/f7-2.js"></script>
