@@ -76,13 +76,13 @@
                 </div>
                 <div class="row">
                   <div class="col-50">
-                    <a href="#view-3" class="tab-link active">
+                    <a href="#view-3" class="tab-link">
                     <center><span class="icon browse"><img src="pics/browse.png"></span></center>
                     <center><span class="tabbar-label browse">Browse</span></center>
                     </a>
                   </div>
                   <div class="col-50">
-                    <center><a href="#view-3" class="tab-link active">
+                    <center><a href="#view-3" class="tab-link">
                     <i class="icon tabbar-apps-icon"></i>
                     <span class="tabbar-label">Create</span>
                     </a></center>
@@ -99,7 +99,7 @@
       </div>
       </div>
       
-      <div id="view-3" class="view view-main tab active">
+      <div id="view-2" class="view tab">
         <!-- We can make with view with navigation, let's add Top Navbar-->
         
         <!-- PREMADE -->
@@ -127,7 +127,7 @@
                 <ul>
                   <li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
                       <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-appstore"></i></div>
+                        <div class=" item-media"><i class="icon icon-app-appstore"></i></div>
                         <div class="item-inner">
                           <div class="item-title">App Store - WORKING</div>
 						<span class="list-val button ">Theme</span>
