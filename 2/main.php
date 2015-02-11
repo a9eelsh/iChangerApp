@@ -99,7 +99,7 @@
       </div>
       
       
-      <div id="view-2" class="view tab">
+      <div id="view-2" class="view another-view">
         <!-- We can make with view with navigation, let's add Top Navbar-->
         
         <!-- PREMADE -->
