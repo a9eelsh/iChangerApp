@@ -126,6 +126,7 @@
             <div class="page-content">
               <div class="content-block">
                 Apps To Theme!
+                <a href="#view-2">View-2</a>
               </div>
               <div class="list-block">
                 <ul>
@@ -378,7 +379,7 @@
                                                                         Bottom Tabbar
 
       -->
-<div class="toolbar tabbar tabbar-labels">
+<!--<div class="toolbar tabbar tabbar-labels">
     <div class="toolbar-inner">
         <a href="#view-3" class="tab-link active">
             <i class="icon tabbar-apps-icon"></i>
@@ -395,4 +396,4 @@
             <span class="tabbar-label">iPeeps</span>
         </a>
     </div>
-</div>
+</div>-->
