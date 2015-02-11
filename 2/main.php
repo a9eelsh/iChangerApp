@@ -37,7 +37,7 @@
     <!-- Views-->
     <div class="views tabs toolbar-through">
       <!-- Your first view, it is also a .tab and should have "active" class to make it visible by default-->
-      <div id="view-1" class="view tab">
+      <div id="view-1" class="view tab active">
         <!-- We can make with view with navigation, let's add Top Navbar-->
 		  <!--
 
@@ -97,10 +97,7 @@
             </div>
           </div>
         
-        <!-- Bottom Toolbar-->
-        <div class="toolbar">
-          <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
-        </div>
+
       </div>
       </div>
       
