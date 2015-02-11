@@ -70,6 +70,7 @@
               
               <div class="content-block-title">Side panels</div>
               <div class="content-block">
+                <a href="#view-2">New View 2 Outside of Row</a>
                 <div class="row">
                   <a href="#view-2">New View 2</a>
                   <div class="col-50"><a href="#" data-panel="left" class="button open-panel">Left Panel</a></div>
