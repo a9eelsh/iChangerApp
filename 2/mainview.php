@@ -33,7 +33,7 @@
       <!-- Your main view, should have "view-main" class-->
       <div class="view view-main">
         <!-- Top Navbar-->
-        <div class="navbar">
+        <div class="navbar theme-white">
           <!-- Navbar inner for Index page-->
           <div data-page="index" class="navbar-inner">
             <!-- We have home navbar without left link-->
