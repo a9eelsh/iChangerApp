@@ -3,7 +3,7 @@
 	  <div class="loader"></div>
         <div class="navbar">
           <div class="navbar-inner">
-			      <div class="left sliding"><a href="mainf7.php<?php print $uend; ?>" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
+			      <div class="left sliding"><a href="mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">iChanger 2 - Custom</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
@@ -25,7 +25,7 @@
       <div class="item-content">
         <div class="item-media"><i class="icon icon-form-name"></i></div>
         <div class="item-inner">
-          <div class="item-title label">Title:*</div>
+          <div class="item-title label">Title</div>
           <div class="item-input">
             <input id="title" name="title" type="text">         </div>
         </div>
