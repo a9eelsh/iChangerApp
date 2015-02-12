@@ -1,17 +1,13 @@
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-	  <div class="loader"></div>
         <div class="navbar">
           <div class="navbar-inner">
 			      <div class="left sliding"><a href="mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
-            <div class="center sliding">iChanger 2 - Custom</div>
+            <div class="center sliding">iChanger - Browse</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
         <div class="pages navbar-through">
           <div data-page="index-1" class="page">
             <div class="page-content">
-<div class="content-block-title">Customize!</div>
 <div class="list-block">
 	<!-- 
 	
