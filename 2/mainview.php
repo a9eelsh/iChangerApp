@@ -99,7 +99,7 @@
                   <div class="row">
                   <div class="col-50">
                     <a href="#browse">
-                    <center><span class="icon browse"><img src="svg/list.svg"></span></center>
+                    <center><span class="icon browse"><div><img src="svg/list.svg"></div></span></center>
                     <center><span class="tabbar-label browse">Browse</span></center>
                     </a>
                   </div>
