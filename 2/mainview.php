@@ -79,7 +79,7 @@
                           <div class="item-title">About</div>
                         </div>
                       </div></a></li>
-                  <li><a href="#services" class="item-link">
+                  <li><a href="#browse" class="item-link">
                       <div class="item-content"> 
                         <div class="item-inner">
                           <div class="item-title">Services</div>
@@ -115,7 +115,7 @@
             </div>
           </div>
           <!-- Services Page-->
-          <div data-page="services" class="page cached">
+          <div data-page="browse" class="page cached">
             <div class="page-content">
               <div class="content-block">
                 <p>You may go <a href="#" class="back">back</a> or load <a href="#about">About</a> page.</p>
