@@ -1,4 +1,4 @@
-h1 {
+.maintitle {
 font: 100%/1.5 "Roboto", Verdana, sans-serif;
   color: #3d464d;
   background-color: #fff;
@@ -8,7 +8,7 @@ font: 100%/1.5 "Roboto", Verdana, sans-serif;
   letter-spacing: -.05em;
 }
 
-h1 {
+.maintitle {
     color: #f35626;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     -webkit-background-clip: text;
