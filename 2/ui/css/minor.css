@@ -6,3 +6,6 @@
 .statusbar-overlay {
   background: SkyBlue;
 }
+.picupload {
+  -webkit-appearence: none;
+}
