@@ -75,7 +75,7 @@
               <div class="content-block">
                   <div class="row">
                   <div class="col-50">
-                    <a href="#browse">
+                    <a href="browse.php">
                     <center><span class="icon browse"><img src="pics/browse.png"></span></center>
                     <center><span class="tabbar-label browse">Browse</span></center>
                     </a>
