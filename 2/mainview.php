@@ -40,7 +40,7 @@
           <!-- Navbar inner for Index page-->
           <div data-page="index" class="navbar-inner">
             <!-- We have home navbar without left link-->
-            <div class="center sliding">Awesome App</div>
+            <div class="center sliding"></div>
             <div class="right">
               <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
             </div>
