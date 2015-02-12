@@ -335,7 +335,7 @@
 <div class="view navbar-fixed">
 <div class="pages">
 <div class="page">
-<div class="navbar">
+<div class="navbar theme-white">
 <div class="navbar-inner">
 <div class="center">Privacy Policy</div>
 <div class="right"><a href="#" class="link close-popup">Done</a></div>
