@@ -8,7 +8,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>iChanger MainView</title>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
 	  <link rel="stylesheet" href="ui/css/minor.css?v=1">
