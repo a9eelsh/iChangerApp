@@ -361,6 +361,7 @@
 </div>
 </div>
 </div>
+</div>
     </div>
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/mainview.js"></script>
