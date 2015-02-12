@@ -7,10 +7,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>iChanger MainView</title>
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="ui/css/framework7.min.css">
-	<link rel="stylesheet" href="ui/css/framework7.themes.min.css">
-	<link rel="stylesheet" href="ui/css/minor.css">
-	<link rel="stylesheet" href="ui/css/app.css">
+	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
+	  <link rel="stylesheet" href="ui/css/minor.css">
+	  <link rel="stylesheet" href="ui/css/app.css">
+	  <link rel="stylesheet" href="ui/css/title.css">
   </head>
   <body>
     <!-- Status bar overlay for fullscreen mode-->
