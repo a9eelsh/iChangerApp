@@ -12,7 +12,7 @@
 	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
 	  <link rel="stylesheet" href="ui/css/minor.css">
 	  <link rel="stylesheet" href="ui/css/app.css">
-	  <link rel="stylesheet" href="ui/css/title.css?v=1">
+	  <link rel="stylesheet" href="ui/css/title.css?v=2">
   </head>
   <body>
     <!-- Status bar overlay for fullscreen mode-->
@@ -70,7 +70,7 @@
               <div class="content-block-title">Welcome To My Awesome App</div>
               <div class="content-block">
                 <div class="content-block-inner">
-                  <p><h1 class="maintitle mega">iChanger</h1></p>
+                  <p><h1 class="maintitle mega island">iChanger</h1></p>
                 </div>
               </div>
               <div class="content-block-title">What about simple navigation?</div>
