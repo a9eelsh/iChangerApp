@@ -1,3 +1,4 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
         <div class="navbar">
           <div class="navbar-inner">
 			      <div class="left sliding"><a href="mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
@@ -87,7 +88,15 @@
         <div class="item-inner">
           <div class="item-title label">Icon</div>
           <div class="item-input">
-            <input name="file" id="file" type="file" accept="image/*" capture="camera" class="list-val button picupload" value="Choose Icon">
+            <div class="input-group">
+                <span class="input-group-btn">
+                    <span class="btn btn-primary btn-file">
+                        Browse&hellip; <input type="file" multiple>
+                    </span>
+                </span>
+                <input type="text" class="form-control" readonly />
+            </div>
+            <!--<input name="file" id="file" type="file" accept="image/*" capture="camera" class="list-val button picupload" value="Choose Icon">-->
           </div>
         </div>
       </div>
@@ -98,6 +107,6 @@
 </div>
 	<div class="content-block-title">Notice</div>
     <div class="content-block">
-        <p>Icons are deleted off our server after 10 hours of being uploaded to keep our servers happy.</p>
+        <p>Icons are deleted off our server after a few days of being uploaded to keep our servers happy.</p>
         <p><a href="#" data-popup=".popup-privacy" value="Create!" class="open-popup close-panel item-link">When you use iChanger you agree to the Privacy Policy</a></p>
     </div>
