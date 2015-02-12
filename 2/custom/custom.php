@@ -93,7 +93,7 @@
                         Browse&hellip; <input type="file" multiple>
                     </span>
                 </span>
-                <input type="text" class="form-control" readonly />
+                <!--<input type="text" class="form-control" readonly />-->
             </div>
             <!--<input name="file" id="file" type="file" accept="image/*" capture="camera" class="list-val button picupload" value="Choose Icon">-->
           </div>
