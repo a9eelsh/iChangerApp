@@ -87,15 +87,7 @@
         <div class="item-inner">
           <div class="item-title label">Icon</div>
           <div class="item-input">
-            <div class="input-group">
-                <span class="input-group-btn">
-                    <span class="btn btn-primary btn-file">
-                        Browse&hellip; <input type="file" multiple>
-                    </span>
-                </span>
-                <!--<input type="text" class="form-control" readonly />-->
-            </div>
-            <!--<input name="file" id="file" type="file" accept="image/*" capture="camera" class="list-val button picupload" value="Choose Icon">-->
+            <input name="file" id="file" type="file" accept="image/*" capture="camera" class="list-val button picupload" value="Choose...">
           </div>
         </div>
       </div>
