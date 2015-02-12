@@ -129,8 +129,25 @@
               </div>
             </div>
           </div>
-          <!-- Services Page-->
+          <!-- Browse Page-->
           <div data-page="browse" class="page cached">
+            <div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="link">
+                <i class="icon icon-back"></i>
+                <span>Back</span>
+            </a>
+        </div>
+        <div class="center">Center</div>
+        <div class="right">
+            <a href="#" class="link">
+                <i class="icon icon-bars"></i>
+                <span>Menu</span>
+            </a>
+        </div>
+    </div>
+</div>
             <div class="page-content">
               <div class="content-block">
                 <p>You may go <a href="#" class="back">back</a> or load <a href="#about">About</a> page.</p>
