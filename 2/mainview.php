@@ -354,10 +354,6 @@
             </div>
           </div>
         </div>
-        <!-- Bottom Toolbar-->
-        <div class="toolbar">
-          <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
-        </div>
       </div>
     </div>
     <script type="text/javascript" src="js/framework7.min.js"></script>
