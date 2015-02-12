@@ -70,8 +70,7 @@
               <div class="content-block-title">Welcome To My Awesome App</div>
               <div class="content-block">
                 <div class="content-block-inner">
-                  <p>Couple of worlds here because my app is so awesome!</p>
-                  <p>Duis sed erat ac eros ultrices pharetra id ut tellus. Praesent rhoncus enim ornare ipsum aliquet ultricies. Pellentesque sodales erat quis elementum sagittis.</p>
+                  <p><h1 class="maintitle mega">iChanger</h1></p>
                 </div>
               </div>
               <div class="content-block-title">What about simple navigation?</div>
