@@ -20,7 +20,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichangerapp.com/ui/simages/dl.png"> or <img src="http://ichangerapp.com/ui/simages/plus.png"> then select Add to Homescreen..');
    } else if ( substr_count($ua, '/') === 3 ) {
-     header('Location: http://www.ichangerapp.com/main.php');
+     header('Location: http://www.ichangerapp.com/mainview.php');
    } else if ( substr_count($ua, '/') === 2 ) {
    } else if ( $bypass == "no" ) {
       header('Location: http://www.ichangerapp.com/chrome.php');
@@ -32,9 +32,9 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 ?>
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>
-  <title>iChanger 3</title>
+  <title>iChanger 3b</title>
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="iChanger 3">
+  <meta name="apple-mobile-web-app-title" content="iChanger 3b">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
