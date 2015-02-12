@@ -106,7 +106,7 @@
                   <div class="col-50">
                     <a href="custom/custom.php">
                     <center><span class="icon create"><img src="pics/create.png"></span></center>
-                    <center><span class="tabbar-label browse">Create</span></center>
+                    <center><span class="tabbar-label create">Create</span></center>
                     </a>
                   </div>
                 </div>
