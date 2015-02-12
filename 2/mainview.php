@@ -73,9 +73,6 @@
                   <p><center><h1 class="maintitle mega">iChanger 3b</h1></center></p>
                 </div>
               </div>
-              <div class="content-block-title">What about simple navigation?</div>
-              
-              <div class="content-block-title">Side panels</div>
               <div class="content-block">
                   <div class="row">
                   <div class="col-50">
