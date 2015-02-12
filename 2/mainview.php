@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	<link rel="stylesheet" href="ui/css/framework7.themes.min.css">
 	<link rel="stylesheet" href="ui/css/minor.css">
+	<link rel="stylesheet" href="ui/css/app.css">
   </head>
   <body>
     <!-- Status bar overlay for fullscreen mode-->
