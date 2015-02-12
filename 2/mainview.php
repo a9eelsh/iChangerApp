@@ -330,6 +330,7 @@
           </div>
         </div>
       </div>
+      </div>
 <div class="popup popup-privacy">
 <div class="view navbar-fixed">
 <div class="pages">
