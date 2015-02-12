@@ -104,15 +104,11 @@
                     </a>
                   </div>
                   <div class="col-50">
-                    <center><a href="#view-3" class="tab-link">
-                    <i class="icon tabbar-apps-icon"></i>
-                    <span class="tabbar-label">Create</span>
-                    </a></center>
+                    <a href="custom/custom.php">
+                    <center><span class="icon create"><img src="pics/create.png"></span></center>
+                    <center><span class="tabbar-label browse">Create</span></center>
+                    </a>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col-50"><a href="#" data-panel="left" class="button open-panel">Left Panel</a></div>
-                  <div class="col-50"><a href="#" data-panel="right" class="button open-panel">Right Panel</a></div>
                 </div>
               </div>
             </div>
