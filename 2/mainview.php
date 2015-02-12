@@ -98,7 +98,7 @@
               <div class="content-block">
                   <div class="row">
                   <div class="col-50">
-                    <a href="#view-3" class="tab-link">
+                    <a href="#browse">
                     <center><span class="icon browse"><img src="pics/browse.png"></span></center>
                     <center><span class="tabbar-label browse">Browse</span></center>
                     </a>
