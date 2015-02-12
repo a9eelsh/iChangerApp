@@ -70,7 +70,7 @@
               <div class="content-block-title">Welcome To My Awesome App</div>
               <div class="content-block">
                 <div class="content-block-inner">
-                  <p><center><h1 class="maintitle mega">iChanger</h1></center></p>
+                  <p><center><h1 class="maintitle mega">iChanger 3b</h1></center></p>
                 </div>
               </div>
               <div class="content-block-title">What about simple navigation?</div>
