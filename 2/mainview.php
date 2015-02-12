@@ -93,6 +93,21 @@
                       </div></a></li>
                 </ul>
               </div>
+              <!-- Start Major Buttons (Browse + Create) -->
+              <div class="row">
+                  <div class="col-50">
+                    <a href="#view-3" class="tab-link">
+                    <center><span class="icon browse"><img src="pics/browse.png"></span></center>
+                    <center><span class="tabbar-label browse">Browse</span></center>
+                    </a>
+                  </div>
+                  <div class="col-50">
+                    <center><a href="#view-3" class="tab-link">
+                    <i class="icon tabbar-apps-icon"></i>
+                    <span class="tabbar-label">Create</span>
+                    </a></center>
+                  </div>
+                </div>
               <div class="content-block-title">Side panels</div>
               <div class="content-block">
                 <div class="row">
