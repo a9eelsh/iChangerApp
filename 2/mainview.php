@@ -47,9 +47,9 @@
             <div class="center sliding">About Us</div>
           </div>
           <!-- Navbar inner for Services page-->
-          <div data-page="services" class="navbar-inner cached">
+          <div data-page="browse" class="navbar-inner cached">
             <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
-            <div class="center sliding">Services</div>
+            <div class="center sliding">Browse</div>
           </div>
           <!-- Navbar inner for Form page-->
           <div data-page="form" class="navbar-inner cached">
@@ -82,7 +82,7 @@
                   <li><a href="#browse" class="item-link">
                       <div class="item-content"> 
                         <div class="item-inner">
-                          <div class="item-title">Services</div>
+                          <div class="item-title">Browse</div>
                         </div>
                       </div></a></li>
                   <li><a href="#form" class="item-link">
