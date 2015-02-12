@@ -329,7 +329,7 @@
             </div>
           </div>
         </div>
-        <!-- Popups --
+      </div>
 <div class="popup popup-privacy">
 <div class="view navbar-fixed">
 <div class="pages">
@@ -361,8 +361,6 @@
 </div>
 </div>
 </div>
-        -->
-      </div>
     </div>
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/mainview.js"></script>
