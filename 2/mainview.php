@@ -36,6 +36,56 @@ $(document).ready( function() {
     });
 });
 	  </script>
+	  <script>
+$('#app').on('change',function(){
+    if( $(this).val()==="Facebook"){
+    $("#FacebookFunction").show()
+    }
+    else{
+    $("#FacebookFunction").hide()
+    }
+});
+$('#app').on('change',function(){
+    if( $(this).val()==="Twitter"){
+    $("#TwitterFunction").show()
+    }
+    else{
+    $("#TwitterFunction").hide()
+    }
+});
+$('#app').on('change',function(){
+    if( $(this).val()==="YouTube"){
+    $("#YouTubeFunction").show()
+    }
+    else{
+    $("#YouTubeFunction").hide()
+    }
+});
+$('#app').on('change',function(){
+    if( $(this).val()==="URI Scheme"){
+    $("#UriScheme").show()
+    }
+    else{
+    $("#UriScheme").hide()
+    }
+});
+$('#FBResult').on('change',function(){
+    if( $(this).val()==="Notification List"){
+    $("#NWarning").show()
+    }
+    else{
+    $("#NWarning").hide()
+    }
+});
+$('#YTResult').on('change',function(){
+    if( $(this).val()==="Open Video"){
+    $("#YTVideo").show()
+    }
+    else{
+    $("#YTVideo").hide()
+    }
+});
+</script>
   </head>
   <body>
     <!-- Status bar overlay for fullscreen mode-->
