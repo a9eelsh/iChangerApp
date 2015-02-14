@@ -35,56 +35,6 @@ $(document).ready( function() {
     });
 });
 	  </script>
-	  <script>
-$('#app').on('change',function(){
-    if( $(this).val()==="Facebook"){
-    $("#FacebookFunction").show()
-    }
-    else{
-    $("#FacebookFunction").hide()
-    }
-});
-$('#app').on('change',function(){
-    if( $(this).val()==="Twitter"){
-    $("#TwitterFunction").show()
-    }
-    else{
-    $("#TwitterFunction").hide()
-    }
-});
-$('#app').on('change',function(){
-    if( $(this).val()==="YouTube"){
-    $("#YouTubeFunction").show()
-    }
-    else{
-    $("#YouTubeFunction").hide()
-    }
-});
-$('#app').on('change',function(){
-    if( $(this).val()==="URI Scheme"){
-    $("#UriScheme").show()
-    }
-    else{
-    $("#UriScheme").hide()
-    }
-});
-$('#FBResult').on('change',function(){
-    if( $(this).val()==="Notification List"){
-    $("#NWarning").show()
-    }
-    else{
-    $("#NWarning").hide()
-    }
-});
-$('#YTResult').on('change',function(){
-    if( $(this).val()==="Open Video"){
-    $("#YTVideo").show()
-    }
-    else{
-    $("#YTVideo").hide()
-    }
-});
-</script>
   </head>
   <body>
     <!-- Status bar overlay for fullscreen mode-->
@@ -128,9 +78,9 @@ $('#YTResult').on('change',function(){
             <div class="center sliding">Browse</div>
           </div>
           <!-- Navbar inner for Create page-->
-          <div data-page="form" class="navbar-inner cached">
+          <div data-page="create" class="navbar-inner cached">
             <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
-            <div class="center sliding">iChanger - Create</div>
+            <div class="center sliding">Create</div>
           </div>
         </div>
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
@@ -373,6 +323,56 @@ $('#YTResult').on('change',function(){
         </div>
       </div>
       </div>
+      	  <script>
+$('#app').on('change',function(){
+    if( $(this).val()==="Facebook"){
+    $("#FacebookFunction").show()
+    }
+    else{
+    $("#FacebookFunction").hide()
+    }
+});
+$('#app').on('change',function(){
+    if( $(this).val()==="Twitter"){
+    $("#TwitterFunction").show()
+    }
+    else{
+    $("#TwitterFunction").hide()
+    }
+});
+$('#app').on('change',function(){
+    if( $(this).val()==="YouTube"){
+    $("#YouTubeFunction").show()
+    }
+    else{
+    $("#YouTubeFunction").hide()
+    }
+});
+$('#app').on('change',function(){
+    if( $(this).val()==="URI Scheme"){
+    $("#UriScheme").show()
+    }
+    else{
+    $("#UriScheme").hide()
+    }
+});
+$('#FBResult').on('change',function(){
+    if( $(this).val()==="Notification List"){
+    $("#NWarning").show()
+    }
+    else{
+    $("#NWarning").hide()
+    }
+});
+$('#YTResult').on('change',function(){
+    if( $(this).val()==="Open Video"){
+    $("#YTVideo").show()
+    }
+    else{
+    $("#YTVideo").hide()
+    }
+});
+</script>
 <div class="popup popup-privacy">
 <div class="view navbar-fixed">
 <div class="pages">
