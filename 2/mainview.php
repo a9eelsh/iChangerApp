@@ -9,7 +9,7 @@
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
-	  <link rel="stylesheet" href="ui/css/minor.css?v=2">
+	  <link rel="stylesheet" href="ui/css/minor.css?v=3">
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=3">
 	  <!-- JS -->
@@ -37,9 +37,13 @@ $(document).ready( function() {
     });
 });
 
+/* 
+Just some abritrary dumb thing to force redraw
+*/
 
-var width = $(window).width() - 120; 
-$("#titlediv").width(width);
+$(window).resize(function() {
+    $("#resize").css({ "font-size": "8vw" }); 
+});
 	  </script>
   </head>
   <body>
@@ -97,7 +101,7 @@ $("#titlediv").width(width);
             <div class="page-content">
               <div class="content-block">
                 <div class="content-block-inner">
-                  <p><center><h1 class="maintitle mega titlediv">iChanger</h1></center></p>
+                  <p><center><h1 class="maintitle mega resize">iChanger</h1></center></p>
                 </div>
               </div>
               <div class="content-block">

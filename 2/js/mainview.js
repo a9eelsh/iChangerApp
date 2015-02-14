@@ -13,3 +13,4 @@ var mainView = iChanger.addView('.view-main', {
     // Enable Dom Cache so we can use all inline pages
     domCache: true
 });
+

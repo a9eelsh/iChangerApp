@@ -36,3 +36,7 @@ input[readonly] {
 html{
     font-size: 100%;    
 }
+
+#resize {
+  font-size: 8vw;  
+}
