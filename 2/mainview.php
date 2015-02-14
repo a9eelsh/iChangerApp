@@ -38,7 +38,7 @@ $(document).ready( function() {
 });
 
 
-var width = $(window).width() - 25; 
+var width = $(window).width() - 120; 
 $("#titlediv").width(width);
 	  </script>
   </head>
