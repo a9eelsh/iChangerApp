@@ -12,6 +12,8 @@
 	  <link rel="stylesheet" href="ui/css/minor.css?v=1">
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=3">
+	  <!-- JS -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	  <script>
 	    $(document).on('change', '.btn-file :file', function() {
   var input = $(this),
