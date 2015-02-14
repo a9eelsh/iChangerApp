@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>iChanger MainView</title>
+    <title>iChanger</title>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
 	  <link rel="stylesheet" href="ui/css/minor.css?v=3">
 	  <link rel="stylesheet" href="ui/css/app.css">
-	  <link rel="stylesheet" href="ui/css/title.css?v=3">
+	  <link rel="stylesheet" href="ui/css/title.css?v=4">
 	  <!-- JS -->
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	  <script>
@@ -100,7 +100,7 @@ font-size: 8vw;
         </div>
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
         <div class="pages navbar-through toolbar-through">
-          <!-- Index Page-->
+          <!-- Index Page -->
           <div data-page="index" class="page">
             <!-- Scrollable page content-->
             <div class="page-content">
@@ -139,7 +139,7 @@ font-size: 8vw;
               </div>
             </div>
           </div>
-          <!-- Services Page-->
+          <!-- Services Page -->
           <div data-page="browse" class="page cached">
             <div class="page-content">
               <div class="content-block">
@@ -151,7 +151,7 @@ font-size: 8vw;
               </div>
             </div>
           </div>
-          <!-- Create Page-->
+          <!-- Create Page -->
           <div data-page="create" class="page cached">
                         <div class="page-content">
 <div class="content-block-title">Create!</div>
