@@ -42,9 +42,14 @@ Just some abritrary dumb thing to force redraw
 */
 
 $(window).resize(function() {
-    $("#resize").css({ "font-size": "8vw" }); 
+    $("h1").css({ "font-size": "8vw" }); 
 });
 	  </script>
+	  <style type="text/css">
+h1 {
+font-size: 8vw;  
+}
+	  </style>
   </head>
   <body>
     <!-- Status bar overlay for fullscreen mode-->
