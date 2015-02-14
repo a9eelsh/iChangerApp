@@ -106,7 +106,7 @@ font-size: 8vw;
             <div class="page-content">
               <div class="content-block">
                 <div class="content-block-inner">
-                  <p><center><h1 class="maintitle resize">iChanger</h1></center></p>
+                  <p><center><h1 class="maintitle resize mega">iChanger</h1></center></p>
                 </div>
               </div>
               <div class="content-block">
