@@ -31,3 +31,8 @@ input[readonly] {
   background-color: white !important;
   cursor: text !important;
 }
+
+
+html{
+    font-size: 100%;    
+}
