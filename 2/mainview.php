@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -154,7 +153,7 @@ $('#YTResult').on('change',function(){
                     </a>
                   </div>
                   <div class="col-50">
-                    <a href="custom/custom.php">
+                    <a href="#create">
                     <center><span class="icon create"><img src="pics/create.png"></span></center>
                     <center><span class="tabbar-label create">Create</span></center>
                     </a>
