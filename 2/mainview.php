@@ -235,26 +235,28 @@ jQuery("#res").fitText();
     <!--              ---- FACEBOOK ----                  --->
     <div id="FacebookFunction" style="display:none;">
     <li>
-      <div class="item-content">
-        <div class="item-media"><i class="icon icon-custom-func"></i></div>
-        <div class="item-inner">
-          <div class="item-title label">Function</div>
-          <div class="item-input">
+      <a href="#" class="item-link smart-select" data-searchbar="true" data-searchbar-placeholder="Search functions">
             <select id="FBResult" name="func">
-              <option value="">Your Profile</option>
-              <option value="">Friends List</option>
-              <option value="">Notification List</option>
-              <option value="">News Feed</option>
-              <option value="">Events Feed</option>
-              <option value="">Requests List</option>
-              <option value="">Notes Page</option>
-              <option value="">Photo Albums</option>
-              <option value="">Mailbox</option>
-              <option value="">Messaging</option>
+              <option value="Your Profile">Your Profile</option>
+              <option value="Friends List">Friends List</option>
+              <option value="Notification List">Notification List</option>
+              <option value="News Feed">News Feed</option>
+              <option value="Events Feed">Events Feed</option>
+              <option value="Requests List">Requests List</option>
+              <option value="Notes Page">Notes Page</option>
+              <option value="Photo Albums">Photo Albums</option>
+              <option value="Mailbox">Mailbox</option>
+              <option value="Messaging">Messaging</option>
             </select>
+          <div class="item-content">
+          <div class="item-media"><i class="icon icon-custom-func"></i></div>
+          <div class="item-inner">
+            <!-- Select label -->
+            <div class="item-title">Function</div>
+            <!-- Selected value, not required -->
           </div>
         </div>
-      </div>
+      </a>
     </li>
     </div>
     <!--            END FACEBOOK FUCNTIONS                         -->
