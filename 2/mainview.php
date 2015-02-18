@@ -1,6 +1,10 @@
 <?php
 $isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad');
-$titlesize = "";
+if ( $isiPad == "1" ) {
+  $titlesize = "10";
+} else if ( $isiPad == "0" ) {
+  $titlesize = "19";
+}
 ?>
 
 <!DOCTYPE html>
