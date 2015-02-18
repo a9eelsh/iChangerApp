@@ -330,7 +330,7 @@ jQuery("#res").fitText();
     </div>
     <!--          END CUSTOM URI SCHEME ID                        -->
   </ul>
-	<input type="submit" name="submit" value="Create!" class="button button-big button-round color-red">
+	<input type="submit" name="submit" value="Create!" class="button button-big color-red">
 	</form>
 </div>
 	<div class="content-block-title">Notice</div>
