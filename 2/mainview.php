@@ -14,6 +14,7 @@
 	  <link rel="stylesheet" href="ui/css/title.css?v=5">
 	  <!-- JS -->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	  <script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
 	  <script>
 	    $(document).on('change', '.btn-file :file', function() {
   var input = $(this),
@@ -43,11 +44,6 @@ Just some abritrary dumb thing to force redraw
 
 jQuery("#res").fitText();
 	  </script>
-	  <style type="text/css">
-h1 {
-font-size: 10vw;  
-}
-	  </style>
   </head>
   <body>
     <!-- Status bar overlay for fullscreen mode-->
@@ -422,12 +418,13 @@ $('#YTResult').on('change',function(){
     <script type="text/javascript" src="js/jquery.fittext.js"></script>
     <script>
       causeRepaintsOn = $("h1, h2, h3, p");
-    
-      $(window).resize(function() {
-      $("h1").css({ "font-size": "10vw" }); 
-      });
       
-      $("h1").css({ "font-size": "10vw" }); 
+      if ( $(window).width() > 321) {     
+        $(window).resize(function() {
+          $("h1").css({ "font-size": "19vw" }); 
+        });
+        $("h1").css({ "font-size": "19vw" }); 
+      }
     </script>
   </body>
 </html>
