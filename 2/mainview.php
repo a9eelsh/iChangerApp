@@ -179,7 +179,7 @@ jQuery("#res").fitText();
     </li>
     <!-- Select -->
     <li>
-          <a href="#" class="item-link smart-select">
+          <a href="#" class="item-link smart-select" data-searchbar="true" data-searchbar-placeholder="Search apps">
             <select id="app" name="app">
               <option>App Store</option>
               <option>Calendar</option>
