@@ -181,9 +181,6 @@ jQuery("#res").fitText();
     <li>
       <div class="item-content">
         <div class="item-media"><i class="icon icon-custom-app"></i></div>
-        <div class="item-inner">
-          <div class="item-title label">Open</div>
-          <div class="item-input">
           <a href="#" class="item-link smart-select">
             <select id="app" name="app">
               <option>App Store</option>
@@ -224,7 +221,6 @@ jQuery("#res").fitText();
           </div>
         </div>
       </a>
-          </div>
         </div>
       </div>
     </li>
