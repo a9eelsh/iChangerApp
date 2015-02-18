@@ -216,7 +216,6 @@ jQuery("#res").fitText();
             <!-- Select label -->
             <div class="item-title">App</div>
             <!-- Selected value, not required -->
-            <div class="item-after">Apple</div>
           </div>
         </div>
       </a>
