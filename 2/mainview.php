@@ -6,7 +6,6 @@ if ( $isiPad == "1" ) {
   $titlesize = "19";
 }
 ?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -46,12 +45,6 @@ $(document).ready( function() {
         
     });
 });
-
-/* 
-Just some abritrary dumb thing to force redraw
-*/
-
-jQuery("#res").fitText();
 	  </script>
   </head>
   <body>
