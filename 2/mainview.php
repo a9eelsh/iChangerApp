@@ -11,7 +11,7 @@
 	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
 	  <link rel="stylesheet" href="ui/css/minor.css?v=3">
 	  <link rel="stylesheet" href="ui/css/app.css">
-	  <link rel="stylesheet" href="ui/css/title.css?v=3">
+	  <link rel="stylesheet" href="ui/css/title.css?v=4">
 	  <!-- JS -->
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	  <script>

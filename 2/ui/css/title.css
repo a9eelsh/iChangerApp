@@ -1,3 +1,7 @@
+h1 {
+font-size: 8vw;  
+}
+
 .maintitle {
 font: 100%/1.5 "Roboto", Verdana, sans-serif;
   background-color: #fff;
@@ -25,9 +29,9 @@ font: 100%/1.5 "Roboto", Verdana, sans-serif;
     }
 }
 
-.mega {
+/*.mega {
 font-size: 6rem;
-}
+}*/
 
 .island {
   padding: 1.5rem;
