@@ -1,31 +1,3 @@
-<?php
-// TheLocken iChanger 2 Authentication Handler and Carrier
-
-	// Convert ?user=USERNAME to USERNAME
-$user_name = '' . htmlspecialchars($_GET["user"]) . '';
-$user_display = '' . htmlspecialchars($_GET["user"]) . '';
-
-	// take username ($userraw) and turn it into ?user=USERNAME
-
-$uend = "?user=$userraw&user_display=$user_display";
-$userraw = '' . htmlspecialchars($_GET["user"]) . '';
-	
-	// if userraw = "" (no user) set userraw to NULL
-
-if ( $userraw == "" ) {
-	$userraw = "NULL";
-	$user_display = "Not Logged In";
-}
-
-?>
-  <link rel="stylesheet" href="ui/css/load.css">
-  <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript">
-    $(window).load(function() {
-	$(".loader").fadeOut("slow");
-    })
-  </script>
-	  <div class="loader"></div>
         <div class="navbar">
           <div class="navbar-inner">
 			      <div class="left sliding"><a href="mainf7.php<?php print $uend; ?>" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
@@ -92,7 +64,7 @@ if ( $userraw == "" ) {
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Calendar</div>
-							<div class="item-text">Like Dislike</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
@@ -111,7 +83,7 @@ if ( $userraw == "" ) {
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Calendar</div>
-							<div class="item-text">Like Dislike</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
@@ -133,7 +105,7 @@ if ( $userraw == "" ) {
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Calendar</div>
-							<div class="item-text">Like Dislike</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
@@ -190,4 +162,3 @@ if ( $userraw == "" ) {
 
 	</div>
 </div>
-<script type="text/javascript" src="http://www.ichangerapp.com/js/alerts.js?v=2"></script>
