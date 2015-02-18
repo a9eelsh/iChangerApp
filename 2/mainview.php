@@ -419,6 +419,8 @@ $('#YTResult').on('change',function(){
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/mainview.js"></script>
     <script>
+      causeRepaintsOn = $("h1, h2, h3, p");
+    
       $(window).resize(function() {
       $("h1").css({ "font-size": "8vw" }); 
       });
