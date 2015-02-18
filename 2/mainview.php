@@ -11,7 +11,7 @@
 	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
 	  <link rel="stylesheet" href="ui/css/minor.css?v=3">
 	  <link rel="stylesheet" href="ui/css/app.css">
-	  <link rel="stylesheet" href="ui/css/title.css?v=4">
+	  <link rel="stylesheet" href="ui/css/title.css?v=5">
 	  <!-- JS -->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	  <script>
@@ -45,7 +45,7 @@ jQuery("#res").fitText();
 	  </script>
 	  <style type="text/css">
 h1 {
-font-size: 8vw;  
+font-size: 10vw;  
 }
 	  </style>
   </head>
@@ -424,10 +424,10 @@ $('#YTResult').on('change',function(){
       causeRepaintsOn = $("h1, h2, h3, p");
     
       $(window).resize(function() {
-      $("h1").css({ "font-size": "8vw" }); 
+      $("h1").css({ "font-size": "10vw" }); 
       });
       
-      $("h1").css({ "font-size": "8vw" }); 
+      $("h1").css({ "font-size": "10vw" }); 
     </script>
   </body>
 </html>
