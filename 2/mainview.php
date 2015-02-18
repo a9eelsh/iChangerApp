@@ -184,6 +184,7 @@ jQuery("#res").fitText();
         <div class="item-inner">
           <div class="item-title label">Open</div>
           <div class="item-input">
+          <a href="#" class="item-link smart-select">
             <select id="app" name="app">
               <option>App Store</option>
               <option>Calendar</option>
@@ -214,6 +215,7 @@ jQuery("#res").fitText();
               <option>iChanger</option>
               <option>URI Scheme</option>
             </select>
+          </a>
           </div>
         </div>
       </div>
