@@ -417,9 +417,8 @@ $('#YTResult').on('change',function(){
     <script type="text/javascript" src="js/mainview.js"></script>
     <script type="text/javascript" src="js/jquery.fittext.js"></script>
     <script>
-      causeRepaintsOn = $("h1, h2, h3, p");
       
-      if ( $(window).width() > 321) {     
+      if ( $(window).width() > 320) {     
         $(window).resize(function() {
           $("h1").css({ "font-size": "19vw" }); 
         });
