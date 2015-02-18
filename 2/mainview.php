@@ -181,34 +181,34 @@ jQuery("#res").fitText();
     <li>
           <a href="#" class="item-link smart-select" data-searchbar="true" data-searchbar-placeholder="Search apps">
             <select id="app" name="app">
-              <option>App Store</option>
-              <option>Calendar</option>
-              <option>Facetime</option>
-              <option>GameCenter</option>
-              <option>iBooks</option>
-              <option>iTunes</option>
-              <option>Mail</option>
-              <option>Maps</option>
-              <option>Messages</option>
-              <option>Music</option>
-              <option>Passbook</option>
-              <option>Phone</option>
-              <option>Reminders</option>
-              <option>Remote</option>
-              <option>Safari</option>
-              <option>Videos</option>
-              <option>Chrome</option>
-              <option>Facebook</option>
-              <option>Twitter</option>
-              <option>Flipboard</option>
-              <option>YouTube</option>
-              <option>Instagram</option>
-              <option>Skype</option>
-              <option>Photos</option>
-              <option>Google</option>
-              <option>Google+</option>
-              <option>iChanger</option>
-              <option>URI Scheme</option>
+              <option value="App Store">App Store</option>
+              <option value="Calendar">Calendar</option>
+              <option value="Facetime">Facetime</option>
+              <option value="GameCenter">GameCenter</option>
+              <option value="iBooks">iBooks</option>
+              <option value="iTunes">iTunes</option>
+              <option value="Mail">Mail</option>
+              <option value="Maps">Maps</option>
+              <option value="Messages">Messages</option>
+              <option value="Music">Music</option>
+              <option value="Passbook">Passbook</option>
+              <option value="Phone">Phone</option>
+              <option value="Reminders">Reminders</option>
+              <option value="Remote">Remote</option>
+              <option value="Safari">Safari</option>
+              <option value="Videos">Videos</option>
+              <option value="Chrome">Chrome</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Flipboard">Flipboard</option>
+              <option value="YouTube">YouTube</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Skype">Skype</option>
+              <option value="Photos">Photos</option>
+              <option value="Google">Google</option>
+              <option value="Google+">Google+</option>
+              <option value="iChanger">iChanger</option>
+              <option value="URI Scheme">URI Scheme</option>
             </select>
           <div class="item-content">
           <div class="item-media"><i class="icon icon-custom-app"></i></div>
@@ -241,16 +241,16 @@ jQuery("#res").fitText();
           <div class="item-title label">Function</div>
           <div class="item-input">
             <select id="FBResult" name="func">
-              <option>Your Profile</option>
-              <option>Friends List</option>
-              <option>Notification List</option>
-              <option>News Feed</option>
-              <option>Events Feed</option>
-              <option>Requests List</option>
-              <option>Notes Page</option>
-              <option>Photo Albums</option>
-              <option>Mailbox</option>
-              <option>Messaging</option>
+              <option value="">Your Profile</option>
+              <option value="">Friends List</option>
+              <option value="">Notification List</option>
+              <option value="">News Feed</option>
+              <option value="">Events Feed</option>
+              <option value="">Requests List</option>
+              <option value="">Notes Page</option>
+              <option value="">Photo Albums</option>
+              <option value="">Mailbox</option>
+              <option value="">Messaging</option>
             </select>
           </div>
         </div>
@@ -267,10 +267,10 @@ jQuery("#res").fitText();
           <div class="item-title label">Function</div>
           <div class="item-input">
             <select id="TWResult" name="func">
-              <option>----</option>
-              <option>Timeline</option>
-              <option>Mentions</option>
-              <option>Messages</option>
+              <option value="">----</option>
+              <option value="">Timeline</option>
+              <option value="">Mentions</option>
+              <option value="">Messages</option>
             </select>
           </div>
         </div>
@@ -287,9 +287,9 @@ jQuery("#res").fitText();
           <div class="item-title label">Function</div>
           <div class="item-input">
             <select id="YTResult" name="func">
-              <option>----</option>
-              <option>None</option>
-              <option>Open Video</option>
+              <option value="">----</option>
+              <option value="">None</option>
+              <option value="">Open Video</option>
             </select>
           </div>
         </div>
