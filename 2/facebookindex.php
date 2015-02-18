@@ -1,7 +1,7 @@
         <div class="navbar">
           <div class="navbar-inner">
-			      <div class="left sliding"><a href="mainf7.php<?php print $uend; ?>" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
-            <div class="center sliding">iChanger 2 - Facebook</div>
+			      <div class="left sliding"><a href="mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
+            <div class="center sliding">Facebook</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
@@ -9,9 +9,6 @@
 <div data-page="home" class="page">
 <div class="page-content">
 <div class="list-block">
-              <div class="content-block">
-              Open Facebook to
-              </div>
               <div class="list-block">
                 <ul>
                   <li><a href="fbtest.php?v=noo" onclick="slowLoad()" class="close-panel item-link">
