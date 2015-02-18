@@ -215,7 +215,15 @@ jQuery("#res").fitText();
               <option>iChanger</option>
               <option>URI Scheme</option>
             </select>
-          </a>
+          <div class="item-content">
+          <div class="item-inner">
+            <!-- Select label -->
+            <div class="item-title">App</div>
+            <!-- Selected value, not required -->
+            <div class="item-after">Apple</div>
+          </div>
+        </div>
+      </a>
           </div>
         </div>
       </div>
