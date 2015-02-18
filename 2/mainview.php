@@ -417,13 +417,10 @@ $('#YTResult').on('change',function(){
     <script type="text/javascript" src="js/mainview.js"></script>
     <script type="text/javascript" src="js/jquery.fittext.js"></script>
     <script>
-      
-      if ( $(window).width() > 320) {     
         $(window).resize(function() {
-          $("h1").css({ "font-size": "19vw" }); 
+          $("h1").css({ "font-size": "8vw" }); 
         });
-        $("h1").css({ "font-size": "19vw" }); 
-      }
+        $("h1").css({ "font-size": "8vw" }); 
     </script>
   </body>
 </html>
