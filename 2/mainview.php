@@ -41,9 +41,6 @@ $(document).ready( function() {
 Just some abritrary dumb thing to force redraw
 */
 
-$(window).resize(function() {
-    $("h1").css({ "font-size": "8vw" }); 
-});
 	  </script>
 	  <style type="text/css">
 h1 {
@@ -421,5 +418,10 @@ $('#YTResult').on('change',function(){
 </div>
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/mainview.js"></script>
+    <script>
+      $(window).resize(function() {
+      $("h1").css({ "font-size": "8vw" }); 
+      });
+    </script>
   </body>
 </html>
