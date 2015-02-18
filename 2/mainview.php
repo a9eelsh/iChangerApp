@@ -157,7 +157,6 @@ jQuery("#res").fitText();
           <!-- Create Page -->
           <div data-page="create" class="page cached">
                         <div class="page-content">
-<div class="content-block-title">Create!</div>
 <div class="list-block">
 	<!-- 
 	

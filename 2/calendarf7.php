@@ -29,20 +29,19 @@ if ( $userraw == "" ) {
         <div class="navbar">
           <div class="navbar-inner">
 			      <div class="left sliding"><a href="mainf7.php<?php print $uend; ?>" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
-            <div class="center sliding">iChanger 2 - Calendar</div>
+            <div class="center sliding">Calendar</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
         <div class="pages navbar-through">
           <div data-page="index-1" class="page">
             <div class="page-content">
-		<div class="content-block-title">Calendar Icons</div>
 		<div class="list-block media-list">
 			<ul>
 				<li>
 					<a href="" class="already-istalled open-popover link item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/AppStore/AppStoreDefault.png" width="80">
+							<img src="http://ichangerapp.com/Calendar/calendarDefault.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
@@ -50,7 +49,7 @@ if ( $userraw == "" ) {
 								<div class="item-after">Installed</div>
 							</div>
 							<div class="item-subtitle">Calendar</div>
-							<div class="item-text">Apple's Default AppStore Icon. This icon is here to show you the side by side comparison</div>
+							<div class="item-text">Apple's Default Calendar Icon. This icon is here to show you the side by side comparison</div>
 						</div>
 					</a>
 				</li>
