@@ -13,7 +13,7 @@
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=4">
 	  <!-- JS -->
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	  <script>
 	    $(document).on('change', '.btn-file :file', function() {
   var input = $(this),
@@ -41,6 +41,7 @@ $(document).ready( function() {
 Just some abritrary dumb thing to force redraw
 */
 
+jQuery("#res").fitText();
 	  </script>
 	  <style type="text/css">
 h1 {
@@ -418,12 +419,15 @@ $('#YTResult').on('change',function(){
 </div>
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/mainview.js"></script>
+    <script type="text/javascript" src="js/jquery.fittext.js"></script>
     <script>
       causeRepaintsOn = $("h1, h2, h3, p");
     
       $(window).resize(function() {
       $("h1").css({ "font-size": "8vw" }); 
       });
+      
+      $("h1").css({ "font-size": "8vw" }); 
     </script>
   </body>
 </html>
