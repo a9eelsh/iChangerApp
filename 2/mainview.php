@@ -1,3 +1,8 @@
+<?php
+$isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad');
+$titlesize = "";
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -53,7 +58,7 @@ jQuery("#res").fitText();
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-reveal">
       <div class="content-block">
-        <p>Left panel content goes here</p>
+        <p>Left panel content goes here<?php print $titlesize; print $isiPad; ?></p>
       </div>
     </div>
     <!-- Right panel with cover effect-->
@@ -418,9 +423,9 @@ $('#YTResult').on('change',function(){
     <script type="text/javascript" src="js/jquery.fittext.js"></script>
     <script>
         $(window).resize(function() {
-          $("h1").css({ "font-size": "8vw" }); 
+          $("h1").css({ "font-size": "<?php print $titlesize; ?>vw" }); 
         });
-        $("h1").css({ "font-size": "8vw" }); 
+        $("h1").css({ "font-size": "<?php print $titlesize; ?>vw" }); 
     </script>
   </body>
 </html>
