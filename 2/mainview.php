@@ -20,6 +20,7 @@ if ( $isiPad == "1" ) {
 	  <link rel="stylesheet" href="ui/css/minor.css?v=3">
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=5">
+	  <link rel="stylesheet" href="ui/css/animate.min.css">
 	  <!-- JS -->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	  <script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
