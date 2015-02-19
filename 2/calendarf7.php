@@ -13,7 +13,7 @@
 				<li>
 					<a href="" class="already-istalled open-popover link item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/Calendar/calendarDefault.png" width="80">
+							<img src="http://ichangerapp.com/Calendar/calendarDefault.jpg" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
