@@ -20,7 +20,6 @@ if ( $isiPad == "1" ) {
 	  <link rel="stylesheet" href="ui/css/minor.css?v=3">
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=5">
-	  <link rel="stylesheet" href="ui/css/animate.min.css">
 	  <!-- JS -->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	  <script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
@@ -103,7 +102,7 @@ $(document).ready( function() {
             <div class="page-content">
               <div class="content-block">
                 <div class="content-block-inner">
-                  <p><center><h1 class="maintitle mega animated fadeInDown">iChanger</h1></center></p>
+                  <p><center><h1 class="maintitle mega">iChanger</h1></center></p>
                 </div>
               </div>
               <div class="content-block">
