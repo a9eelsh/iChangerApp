@@ -53,9 +53,53 @@ $(document).ready( function() {
     <!-- Panels overlay-->
     <div class="panel-overlay"></div>
     <!-- Left panel with reveal effect-->
-    <div class="panel panel-left panel-reveal">
-      <div class="content-block">
-        <p>Left panel content goes here<?php print $titlesize; print $isiPad; ?></p>
+    <div class="panel panel-left panel-reveal layout-dark">
+      <div class="list-block">
+      <ul>
+        <li class="item-content">
+          <div class="item-media"><i class="icon icon-f7"></i></div>
+          <div class="item-inner">
+            <div class="item-title">Item title</div>
+            <div class="item-after">Label</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-media"><i class="icon icon-f7"></i></div>
+          <div class="item-inner">
+            <div class="item-title">Item with badge</div>
+            <div class="item-after"><span class="badge">5</span></div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-media"><i class="icon icon-f7"></i></div>
+          <div class="item-inner">
+            <div class="item-title">Another item</div>
+            <div class="item-after">Another label</div>
+          </div>
+        </li>
+      </ul>
+      <div class="list-block-label">List block label text goes here</div>
+    </div>
+    <div class="content-block-title">Only titles</div>
+    <div class="list-block">
+      <ul>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Item title</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Item with badge</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Another item</div>
+          </div>
+        </li>
+      </ul>
+    </div><?php print $titlesize; print $isiPad; ?></p>
       </div>
     </div>
     <!-- Right panel with cover effect-->
