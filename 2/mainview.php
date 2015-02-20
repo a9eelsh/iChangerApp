@@ -56,50 +56,29 @@ $(document).ready( function() {
     <div class="panel panel-left panel-reveal layout-dark">
       <div class="list-block">
       <ul>
+        
         <li class="item-content">
-          <div class="item-media"><i class="icon icon-f7"></i></div>
+          <div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
           <div class="item-inner">
-            <div class="item-title">Item title</div>
-            <div class="item-after">Label</div>
+            <div class="item-title">FAQ</div>
           </div>
         </li>
-        <li class="item-content">
-          <div class="item-media"><i class="icon icon-f7"></i></div>
+        <li class="item-content"><a href="http://bit.ly/iC2newissue" class="item-link close-panel">
+          <div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
           <div class="item-inner">
-            <div class="item-title">Item with badge</div>
-            <div class="item-after"><span class="badge">5</span></div>
-          </div>
+            <div class="item-title">Report Issue</div>
+          </div></a>
         </li>
         <li class="item-content">
-          <div class="item-media"><i class="icon icon-f7"></i></div>
+          <div class="item-media"><i class="icon icon-menu-about"></i></div>
           <div class="item-inner">
-            <div class="item-title">Another item</div>
-            <div class="item-after">Another label</div>
+            <div class="item-title">Credits</div>
           </div>
         </li>
       </ul>
-      <div class="list-block-label">List block label text goes here</div>
+      <div class="list-block-label"><?php print $titlesize; print $isiPad; ?></div>
     </div>
-    <div class="content-block-title">Only titles</div>
-    <div class="list-block">
-      <ul>
-        <li class="item-content">
-          <div class="item-inner">
-            <div class="item-title">Item title</div>
-          </div>
-        </li>
-        <li class="item-content">
-          <div class="item-inner">
-            <div class="item-title">Item with badge</div>
-          </div>
-        </li>
-        <li class="item-content">
-          <div class="item-inner">
-            <div class="item-title">Another item</div>
-          </div>
-        </li>
-      </ul>
-    </div><?php print $titlesize; print $isiPad; ?></p>
+    </p>
       </div>
     </div>
     <!-- Right panel with cover effect-->
