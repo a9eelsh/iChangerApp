@@ -140,12 +140,10 @@ $(document).ready( function() {
               <div class="content-block">
                   <div class="row">
                   <div class="col-50">
-                    <button class="cbutton cbutton--effect-ivana">
-                    <a href="browse.php">
+                    <a href="browse.php" class="cbutton cbutton--effect-ivana">
                     <center><span class="icon browse"><img src="pics/browse.png"></span></center>
                     <center><span class="tabbar-label browse">Browse</span></center>
                     </a>
-                    </button>
                   </div>
                   <div class="col-50">
                     <a href="#create">
