@@ -81,11 +81,10 @@ $(document).ready( function() {
       </a>
     </li>
   </ul>
-  <div class="list-block-label">List block label text goes here</div>
-</div>
-<div class="content-block">
-  <p>iC v3b</p>
-  <p>Framework v0</p>
+  <div class="list-block-label">
+    <p>iC v3b</p>
+    <p>Framework v1.0.2</p>
+  </div>
 </div>
     </p>
       </div>
