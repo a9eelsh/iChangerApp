@@ -449,6 +449,27 @@ $('#YTResult').on('change',function(){
 </div>
 </div>
 </div>
+
+<div class="popup popup-credits">
+<div class="view navbar-fixed">
+<div class="pages">
+<div class="page">
+<div class="navbar theme-white">
+<div class="navbar-inner">
+<div class="center">Credits</div>
+<div class="right"><a href="#" class="link close-popup">Done</a></div>
+</div>
+</div>
+<div class="page-content">
+<div class="content-block">
+<p>We get icons form various sources, including (but not limited to) <a href="http://deviantart.com/" class="external close-popup">DiviantArt.com</a>, <a href="http://uiconstock.com/" class="external close-popup">UIconStock</a>, etc. with explict permission to use in iChanger.</p>
+<p>Extra thanks to <a href="http://ffra.deviantart.com/" class="external close-popup">FFra</a> for supplying amazing icons packs such as Novus, Flatest, Maximal and to <a href="http://dtafalonso.deviantart.com/" class="external close-popup">Dtafalonso</a> for creating awesome packs such as iOS 7 Alternative, iOS 7 Icons (#1-7)</p>
+<p>Credits to <a href="http://icons8.com/" class="external close-popup">Icons8</a> for providing some icons throughout the app.</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/mainview.js"></script>
     <script type="text/javascript" src="js/jquery.fittext.js"></script>
