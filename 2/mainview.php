@@ -54,30 +54,39 @@ $(document).ready( function() {
     <div class="panel-overlay"></div>
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-reveal layout-dark">
-      <div class="list-block">
-      <ul>
-        
-        <li class="item-content">
-          <div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
-          <div class="item-inner">
-            <div class="item-title">FAQ</div>
-          </div>
-        </li>
-        <li class="item-content"><a href="http://bit.ly/iC2newissue" class="item-link close-panel">
-          <div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
-          <div class="item-inner">
-            <div class="item-title">Report Issue</div>
-          </div></a>
-        </li>
-        <li class="item-content">
-          <div class="item-media"><i class="icon icon-menu-about"></i></div>
-          <div class="item-inner">
-            <div class="item-title">Credits</div>
-          </div>
-        </li>
-      </ul>
-      <div class="list-block-label"><?php print $titlesize; print $isiPad; ?></div>
-    </div>
+<div class="list-block">
+  <ul>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><i class="icon icon-menu-tutorial"></i></div>
+        <div class="item-inner">
+          <div class="item-title">FAQ</div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="http://bit.ly/iC2newissue" class="item-link item-content">
+        <div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
+        <div class="item-inner">
+          <div class="item-title">Report Issue</div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="item-link item-content">
+        <div class="item-media"><i class="icon icon-menu-about"></i></div>
+        <div class="item-inner">
+          <div class="item-title">Credits</div>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <div class="list-block-label">List block label text goes here</div>
+</div>
+<div class="content-block">
+  <p>iC v3b</p>
+  <p>Framework v0</p>
+</div>
     </p>
       </div>
     </div>
