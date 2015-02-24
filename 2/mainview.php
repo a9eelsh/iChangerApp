@@ -65,7 +65,7 @@ $(document).ready( function() {
       </a>
     </li>
     <li>
-      <a href="http://bit.ly/iC2newissue" class="item-link item-content">
+      <a href="http://bit.ly/iC2newissue" class="item-link item-content external">
         <div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
         <div class="item-inner">
           <div class="item-title">Report Issue</div>
