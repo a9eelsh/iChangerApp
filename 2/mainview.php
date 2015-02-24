@@ -73,7 +73,7 @@ $(document).ready( function() {
       </a>
     </li>
     <li>
-      <a href="#" class="item-link item-content">
+      <a href="#class" data-popup=".popup-credits" class="item-link item-content open-popup">
         <div class="item-media"><i class="icon icon-menu-about"></i></div>
         <div class="item-inner">
           <div class="item-title">Credits</div>
