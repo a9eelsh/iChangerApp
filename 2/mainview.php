@@ -54,6 +54,7 @@ $(document).ready( function() {
     <div class="panel-overlay"></div>
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-reveal layout-dark">
+<div class="content-block-title">Menu</div>
 <div class="list-block">
   <ul>
     <li>
