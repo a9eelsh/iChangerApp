@@ -23,29 +23,6 @@ if ( $isiPad == "1" ) {
 	  <!-- JS -->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	  <script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
-	  <script>
-	    $(document).on('change', '.btn-file :file', function() {
-  var input = $(this),
-      numFiles = input.get(0).files ? input.get(0).files.length : 1,
-      label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-  input.trigger('fileselect', [numFiles, label]);
-});
-
-$(document).ready( function() {
-    $('.btn-file :file').on('fileselect', function(event, numFiles, label) {
-        
-        var input = $(this).parents('.input-group').find(':text'),
-            log = numFiles > 1 ? numFiles + ' files selected' : label;
-        
-        if( input.length ) {
-            input.val(log);
-        } else {
-            if( log ) alert(log);
-        }
-        
-    });
-});
-	  </script>
   </head>
   <body>
     <!-- Status bar overlay for fullscreen mode-->
@@ -85,6 +62,7 @@ $(document).ready( function() {
   <div class="list-block-label">
     <p>iC v3b</p>
     <p>Framework v1.0.2</p>
+    <p>IiP <?php print $isiPad; ?></p>
   </div>
 </div>
     </p>
@@ -144,6 +122,7 @@ $(document).ready( function() {
                     <center><span class="icon browse"><img src="pics/browse.png"></span></center>
                     <center><span class="tabbar-label browse">Browse</span></center>
                     </a>
+                    
                   </div>
                   <div class="col-50">
                     <a href="#create">
