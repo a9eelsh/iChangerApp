@@ -116,17 +116,17 @@
               
               
 				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=GamEcenter&p=light.jpg&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=GameCenter&p=gc-modern.png&n=Game%20Center&ur=gamecenter://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/GamEcenter/lightOLD.png" width="80">
+							<img src="http://ichangerapp.com/GameCenter/gc-modern.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Light</div>
+								<div class="item-title">Modern</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Game center</div>
-							<div class="item-text">GamEcenter Icon in the Light Icons Pack</div>
+							<div class="item-subtitle">Game Center</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
