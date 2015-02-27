@@ -34,11 +34,11 @@
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="panels.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="gamecenterf7.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-gamecenter"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">GameCenter</div>
+                          <div class="item-title">GameCenter - NEW</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
