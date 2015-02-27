@@ -1,4 +1,4 @@
-<?
-Header( “HTTP/1.1 301 Moved Permanently” ); 
-Header( “Location: about:blank” ); 
+<?php
+header('Location: about:blank', true, 301);
+exit;
 ?>
