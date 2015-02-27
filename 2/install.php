@@ -20,13 +20,16 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichangerapp.com/ui/simages/dl.png"> or <img src="http://ichangerapp.com/ui/simages/plus.png"> then select Add to Homescreen..');
    } else if ( substr_count($ua, '/') === 3 ) {
-     header('Location: http://www.ichangerapp.com/mainview.php');
+     header('Location: http://www.ichangerapp.com/mainview.php', true, 301);
+     exit;
    } else if ( substr_count($ua, '/') === 2 ) {
    } else if ( $bypass == "no" ) {
-      header('Location: http://www.ichangerapp.com/chrome.php');
+      header('Location: http://www.ichangerapp.com/chrome.php', true, 301);
+      exit;
    }
     } else if ( $bypass == "" ) {
-        header('Location: http://www.thelocken.com/ichangerinfo/');
+        header('Location: http://www.thelocken.com/ichangerinfo/', true, 301);
+        exit;
     }
 
 ?>
