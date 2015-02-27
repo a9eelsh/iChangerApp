@@ -133,17 +133,17 @@
               
               
 				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=GamEcenter&p=lightwinter.JPG&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=GameCenter&p=gc-controller.jpg&n=Game%20Center&ur=gamecenter://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/GamEcenter/lightwinter.JPG" width="80">
+							<img src="http://ichangerapp.com/GameCenter/gc-controller.jpg" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Light Winter</div>
+								<div class="item-title">Controller</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Game center</div>
-							<div class="item-text">A Light Winter Themed Game center</div>
+							<div class="item-subtitle">Game Center</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
