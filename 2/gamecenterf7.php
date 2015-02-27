@@ -149,17 +149,17 @@
 				</li>
 
 				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=GamEcenter&p=gamecenter-round1.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=GameCenter&p=gc-dark.png&n=Game%20Center&ur=gamecenter://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/GamEcenter/gamecenter-round.png" width="80">
+							<img src="http://ichangerapp.com/GameCenter/gc-dark.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Round Edged GamEcenter</div>
+								<div class="item-title">Dark</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Game center</div>
-							<div class="item-text">A Round-Edged GamEcenter</div>
+							<div class="item-subtitle">Game Center</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
