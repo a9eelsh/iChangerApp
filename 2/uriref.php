@@ -17,11 +17,12 @@ if ( $gplus == "yes" ) {
 $switch = '' . htmlspecialchars($_GET["switch"]) . '';
 
 // Start Switch
-//if ( $switch = "yes" ) {
+//if ( $switch == "yes" ) {
 //    $url = "urigen.php";
 //} else {
     $url = "uridata.php";
 //}
 
-header('Location: 'print $url; '?n='print $appname; '&a='print $iconfolder; '&p='print $iconmain; '&pe='print $iconext; '&ur='print $appurl; '&v='print $v; '&gplus='print $gplus; '&c='print $iconcdir; '', true, 301);
+header('Location: '.$url.'?n='.$appname.'&a='.$iconfolder.'&p='.$iconmain.'&pe='.$iconext.'&ur='.$appurl.'&v='.$v.'&gplus='.$gplus.'&c='.$iconcdir.'', true, 301);
 exit;
+?>
