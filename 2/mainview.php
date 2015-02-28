@@ -167,7 +167,7 @@ if ( $isiPad == "1" ) {
 	Start Form 
 	
 	-->
-<form action="http://www.ichangerapp.com/custom/customend.php" method="POST" enctype="multipart/form-data">
+<form action="http://www.ichangerapp.com/custom/file_upload.php" method="POST" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -->
     
