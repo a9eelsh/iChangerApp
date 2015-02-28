@@ -6,7 +6,7 @@ $extension = end($temp);
 $filesize = $_FILES["file"]["size"];
 $requestraw = '' . htmlspecialchars($_GET["req"]) . '';
 $fname = '' . htmlspecialchars($_POST["name"]) . '';
-$ficon = '' . htmlspecialchars($_GET["file"]) . '';
+$ficon = '' . htmlspecialchars($_GET["icon"]) . '';
 $func = $_POST["func"];
 $app = $_POST["app"];
 $video = $_POST["video"];
@@ -21,10 +21,10 @@ if (file_exists($rand)) {
     mkdir("upload/$rand/");
     $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
 }
-//if (empty($filesize)) {
-//    $resultnotice .= "Please Choose an Icon to upload.. Redirecting";
-//    header('Location: http://www.ichangerapp.com/mainf7.php?error=noicon');
-//}
+if (empty($filesize)) {
+    $resultnotice .= "Please Choose an Icon to upload.. Redirecting";
+    header('Location: http://www.ichangerapp.com/mainf7.php?error=noicon');
+}
 
 
 if ((($_FILES["file"]["type"] == "image/gif")
