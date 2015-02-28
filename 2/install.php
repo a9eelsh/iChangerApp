@@ -76,4 +76,3 @@ if(navigator.userAgent.match('CriOS')) {
 	  <noscript>
 	  	<meta http-equiv="refresh" content="0;URL='http://ichangerapp.com/enable/javascript.php?no=js'" /> 
 	  </noscript>
-	  iChanger Installer
