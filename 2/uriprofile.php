@@ -12,8 +12,8 @@ $url = "uridata.php";
 if ( $gplus == "yes" ) {
 	$gplusurl = "%2B";
 }
-$UUID =  rand(32,32);
-$UUID2 =  rand(20,20);
+$UUID =  rand;
+$UUID2 =  rand;
 
 $image = 'http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'' . htmlspecialchars($iconext) . '';
 $imageData = base64_encode(file_get_contents($image));
@@ -27,7 +27,7 @@ $imageData = base64_encode(file_get_contents($image));
 			<key>FullScreen</key>
 			<true/>
 			<key>Icon</key>
-			<data><?php print $imageData; ?></data>
+			</data><?php print $imageData; ?></data>
 			<key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
