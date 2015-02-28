@@ -73,16 +73,16 @@
             <ul>-->
           
 				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=Glimpse.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=iBooks&p=ib-open-hd.png&n=iBooks&ur=itms-books://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/AppStore/Glimpse.png" width="80">
+							<img src="http://ichangerapp.com/iBooks/ib-open-hd.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Glimpse</div>
+								<div class="item-title">Opened Book</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">ibooks</div>
+							<div class="item-subtitle">iBooks</div>
 							<div class="item-text"></div>
 						</div>
 					</a>
