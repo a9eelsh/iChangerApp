@@ -167,7 +167,7 @@ if ( $isiPad == "1" ) {
 	Start Form 
 	
 	-->
-<form action="http://www.ichangerapp.com/custom/file_upload.php" method="POST" enctype="multipart/form-data">
+<form action="/custom/file_upload.php" method="post" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -->
     
@@ -231,7 +231,7 @@ if ( $isiPad == "1" ) {
         <div class="item-inner">
           <div class="item-title label">Icon</div>
           <div class="item-input">
-            <input name="file" id="file" type="file" accept="image/*" capture="camera" value="Choose Icon">
+            <input type="file" name="file" id="file"><br>
           </div>
         </div>
       </div>
