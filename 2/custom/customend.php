@@ -25,6 +25,8 @@ if (empty($filesize)) {
     $resultnotice .= "Please Choose an Icon to upload.. Redirecting";
     header('Location: http://www.ichangerapp.com/mainf7.php?error=noicon');
 }
+
+
 if ((($_FILES["file"]["type"] == "image/gif")
 || ($_FILES["file"]["type"] == "image/jpeg")
 || ($_FILES["file"]["type"] == "image/jpg")
@@ -55,6 +57,7 @@ if ((($_FILES["file"]["type"] == "image/gif")
 } else {
 	$result .=  "FAIL";
 }
+
 $myfile = fopen("latest_ref.txt", "w") 
 	// echo error if failed to open latest_ref.txt
 	or die("<p>Error!</p><p>Error Code: HTTP_REF_LATESTREF_OPEN_ERROR</p>");
@@ -113,13 +116,17 @@ fwrite($myfile, $time);
 fclose($myfile);
 ?>
 <?php
+
 if ( $requestraw == "ipeep" ) {
 	$request = "Custom iPeep";
 }
+
 if ( $requestraw == "custom" ) {
 	$request = "Custom Icon";
 }
+
 $funcnotice = " and open ".$func.".";
+
 // URL SCHEME DATABASE
 // APP STORE
 if ( $app == "App Store" ) {
@@ -229,12 +236,16 @@ if ( $app == "Google" ) {
 if ( $app == "Google+" ) {
   $urls = "gplus://";
 }
+
 // URLSCHEME
 if ( $app == "URL Scheme" ) {
   $urls = "".$customuri."";
 }
+
+
 //                 ---- START FUNCTIONS ----
 // FACEBOOK
+
 // FB YOUR PROFILE
 if ( $func == "Your Profile" ) {
   $urls = "fb://profile";
@@ -267,15 +278,20 @@ if ( $func == "Notes Page" ) {
 if ( $func == "Photo Albums" ) {
   $urls = "fb://albums";
 }
+
 // YOUTUBE
+
 // YT VIDEO LINK
 if ( $func == "Open Video" ) {
   $urls = 'https://www.youtube.com/watch?v='.$video.'';
 }
+
 // YT NONE
 if ( $app == "YouTube" && $func == "None" ) {
   $urls = 'https://www.youtube.com/';
 }
+
+
 ?>
   <link rel="stylesheet" href="../ui/css/load.css">
   <script src="http://www.lockenfiles.tk/cdn/jquery-1.11.1.min.js"></script>
