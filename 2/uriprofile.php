@@ -17,7 +17,6 @@ $UUID2 =  rand(20,20);
 
 $image = 'http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'' . htmlspecialchars($iconext) . '';
 $imageData = base64_encode(file_get_contents($image));
-$src = 'data: '.mime_content_type($image).';base64,'.$imageData;
 
 header("Content-type: text/xml");
 echo "<?xml version='1.0' encoding='UTF-8'?>";
