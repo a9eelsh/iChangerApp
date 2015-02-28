@@ -17,14 +17,6 @@ $UUID2 =  rand(20,20);
 
 $image = 'http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'' . htmlspecialchars($iconext) . '';
 $imageData = base64_encode(file_get_contents($image));
-
-header("Content-type: text/xml");
-echo "<?xml version='1.0' encoding='UTF-8'?>";
-echo "<note>";
-echo "<from>Jani</from>";
-echo "<to>Tove</to>";
-echo "<message>Remember me this weekend</message>";
-echo "</note>";
 ?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
