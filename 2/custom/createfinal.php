@@ -14,27 +14,27 @@ if ((($_FILES["file"]["type"] == "image/gif")
 && ($_FILES["file"]["size"] < 2000000)
 && in_array($extension, $allowedExts)) {
   if ($_FILES["file"]["error"] > 0) {
-    echo "Return Code: " . $_FILES["file"]["error"] . "<br>";
+    $result .= "Return Code: " . $_FILES["file"]["error"] . "<br>";
   } else {
-    echo "Upload: " . $_FILES["file"]["name"] . "<br>";
-    echo "Type: " . $_FILES["file"]["type"] . "<br>";
-    echo "Size: " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
-    echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br>";
+    $result .= "Upload: " . $_FILES["file"]["name"] . "<br>";
+    $result .= "Type: " . $_FILES["file"]["type"] . "<br>";
+    $result .= "Size: " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
+    $result .= "Temp file: " . $_FILES["file"]["tmp_name"] . "<br>";
     if (file_exists("$rand/" . $_FILES["file"]["name"])) {
-      echo $_FILES["file"]["name"] . " already exists. ";
+      $result .= $_FILES["file"]["name"] . " already exists. ";
     } else {
       move_uploaded_file($_FILES["file"]["tmp_name"],
       "upload/" . $_FILES["file"]["name"]);
-      echo "Stored in: " . "$rand/" . $_FILES["file"]["name"];
+      $result .= "Stored in: " . "$rand/" . $_FILES["file"]["name"];
     }
   }
 } else {
-	echo "FAIL";
+	$result .= "FAIL";
 }
 
 
 $myfile = fopen("latest_ref.txt", "w") 
-	// echo error if failed to open latest_ref.txt
+	// $result .= error if failed to open latest_ref.txt
 	or die("<p>Error!</p><p>Error Code: HTTP_REF_LATESTREF_OPEN_ERROR</p>");
 // HTTP_REFERER
 $after = "\n";
@@ -89,4 +89,6 @@ fwrite($myfile, $date);
 fwrite($myfile, $after);
 fwrite($myfile, $time);
 fclose($myfile);
+
+print $result;
 ?>
