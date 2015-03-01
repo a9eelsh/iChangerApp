@@ -167,7 +167,7 @@ if ( $isiPad == "1" ) {
 	Start Form 
 	
 	-->
-<form action="/custom/customend.php" method="post" enctype="multipart/form-data">
+<form action="/custom/createfinal.php" method="post" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -->
     
@@ -231,7 +231,7 @@ if ( $isiPad == "1" ) {
         <div class="item-inner">
           <div class="item-title label">Icon</div>
           <div class="item-input">
-            <input type="file" name="file" id="file"><br>
+            <input type="file" name="file" id="file" accept="image/*"><br>
           </div>
         </div>
       </div>

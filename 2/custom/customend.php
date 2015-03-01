@@ -16,21 +16,21 @@ if ((($_FILES["file"]["type"] == "image/gif")
   $result = "Passed EXTENSION VERI";
   if ($_FILES["file"]["error"] > 0) {
     $result = "Passed ERROR";
-    echo "Return Code: " . $_FILES["file"]["error"] . "<br>";
+    $result .= "Return Code: " . $_FILES["file"]["error"] . "<br>";
   } else {
     $result = "Passed UPLOAD";
-    echo "Upload: " . $_FILES["file"]["name"] . "<br>";
-    echo "Type: " . $_FILES["file"]["type"] . "<br>";
-    echo "Size: " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
-    echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br>";
+    $result .= "Upload: " . $_FILES["file"]["name"] . "<br>";
+    $result .= "Type: " . $_FILES["file"]["type"] . "<br>";
+    $result .= "Size: " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
+    $result .= "Temp file: " . $_FILES["file"]["tmp_name"] . "<br>";
     if (file_exists("$rand/" . $_FILES["file"]["name"])) {
       $result = "Passed error file exists";
-      echo $_FILES["file"]["name"] . " already exists. ";
+      $result .= $_FILES["file"]["name"] . " already exists. ";
     } else {
       $result = "Passed move file";
       move_uploaded_file($_FILES["file"]["tmp_name"],
       "upload/" . $_FILES["file"]["name"]);
-      echo "Stored in: " . "$rand/" . $_FILES["file"]["name"];
+      $result .= "Stored in: " . "$rand/" . $_FILES["file"]["name"];
     }
   }
 } else {
@@ -38,6 +38,9 @@ if ((($_FILES["file"]["type"] == "image/gif")
 	print $result;
 }
 
+	$endfile = "$rand/" . $_FILES["file"]["name"] . "";
+	$endpicture = "" . $_FILES["file"]["name"] . "";
+	$endfolder = "$rand";
 
 
 
