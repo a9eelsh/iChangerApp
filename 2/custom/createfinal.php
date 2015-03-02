@@ -24,7 +24,7 @@ if ((($_FILES["file"]["type"] == "image/gif")
       $result .= $_FILES["file"]["name"] . " already exists. ";
     } else {
       move_uploaded_file($_FILES["file"]["tmp_name"],
-      "upload/" . $_FILES["file"]["name"]);
+      "upload/$rand/" . $_FILES["file"]["name"]);
       $result .= "Stored in: " . "$rand/" . $_FILES["file"]["name"];
     }
   }
@@ -32,6 +32,9 @@ if ((($_FILES["file"]["type"] == "image/gif")
 	$result .= "FAIL";
 }
 
+$endfile = "$rand/" . $_FILES["file"]["name"] . "";
+$endpicture = "" . $_FILES["file"]["name"] . "";
+$endfolder = "$rand";
 
 $myfile = fopen("latest_ref.txt", "w") 
 	// $result .= error if failed to open latest_ref.txt
@@ -108,37 +111,36 @@ print $result;
   	<link rel="stylesheet" href="../ui/css/framework7.themes.css">
   </head>
   <body>
-    <!-- Status bar overlay for full screen mode (PhoneGap) -->
     <div class="statusbar-overlay"></div>
-    <!-- Views -->
     <div class="views">
-      <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
-        <!-- Top Navbar-->
         <div class="navbar">
           <div class="navbar-inner">
-            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
-            <div class="center sliding">Awesome App</div>
+            <div class="center sliding">Your Creation</div>
           </div>
         </div>
-        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
         <div class="pages navbar-through toolbar-through">
-          <!-- Page, "data-page" contains page name -->
           <div data-page="index" class="page">
-            <!-- Scrollable page content -->
             <div class="page-content">
               <p>Page content goes here</p>
-              <!-- Link to another page -->
-              <a href="about.html">About app</a>
+              <div class="list-block media-list">
+                <ul>
+                  <li>
+                    <a href="#" class="item-link item-content">
+                      <div class="item-media"><img src="..." width="80"></div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">Yellow Submarine</div>
+                          <div class="item-after">$15</div>
+                        </div>
+                        <div class="item-subtitle">Beatles</div>
+                        <div class="item-text">Lorem ipsum dolor sit amet...</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </div>
-        <!-- Bottom Toolbar-->
-        <div class="toolbar">
-          <div class="toolbar-inner">
-            <!-- Toolbar links -->
-            <a href="#" class="link">Link 1</a>
-            <a href="#" class="link">Link 2</a>
           </div>
         </div>
       </div>
