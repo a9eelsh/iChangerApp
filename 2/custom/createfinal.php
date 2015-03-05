@@ -12,7 +12,7 @@ if (file_exists($rand)) {
     $resultnotice .= "Please try again later or report an issue from the menu";
 } else {
     mkdir("upload/$rand/");
-    $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
+    $resuly .= "".$rand."";
 }
 if (empty($filesize)) {
     header('Location: http://www.ichangerapp.com/mainview.php?error=noicon');
@@ -29,16 +29,16 @@ if ((($_FILES["file"]["type"] == "image/gif")
   if ($_FILES["file"]["error"] > 0) {
     $result .= "Return Code: " . $_FILES["file"]["error"] . "<br>";
   } else {
-    $result .= "Upload: " . $_FILES["file"]["name"] . "<br>";
-    $result .= "Type: " . $_FILES["file"]["type"] . "<br>";
-    $result .= "Size: " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
-    $result .= "Temp file: " . $_FILES["file"]["tmp_name"] . "<br>";
+    $result .= "" . $_FILES["file"]["name"] . "<br>";
+    $result .= "" . $_FILES["file"]["type"] . "<br>";
+    $result .= "" . ($_FILES["file"]["size"] / 1024) . " kB<br>";
+    $result .= "" . $_FILES["file"]["tmp_name"] . "<br>";
     if (file_exists("$rand/" . $_FILES["file"]["name"])) {
       $result .= $_FILES["file"]["name"] . " already exists. ";
     } else {
       move_uploaded_file($_FILES["file"]["tmp_name"],
       "upload/$rand/" . $_FILES["file"]["name"]);
-      $result .= "Stored in: " . "$rand/" . $_FILES["file"]["name"];
+      $result .= "" . "$rand/" . $_FILES["file"]["name"];
     }
   }
 } else {
@@ -298,7 +298,6 @@ if ( $app == "YouTube" && $func == "None" ) {
           <div class="navbar-inner">
 			      <div class="left sliding"><a href="http://ichangerapp.com/mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Your Creation</div>
-            <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
         <div class="pages navbar-through toolbar-through">
@@ -315,15 +314,11 @@ if ( $app == "YouTube" && $func == "None" ) {
                           <div class="item-after">Install</div>
                         </div>
                         <div class="item-subtitle"><?php print $request; ?></div>
-                        <div class="item-text">You custom shortcut will open <?php echo $_POST["app"]; print $funcnotice; ?> <?php echo $resultnotice; ?></div>
+                        <div class="item-text">You custom shortcut will open <?php echo $_POST["app"]; print $funcnotice; ?></div>
                       </div>
                     </a>
                   </li>
                 </ul>
-              </div>
-              <div class="content-block-title">Notice</div>
-              <div class="content-block">
-                <p>Concerned about privacy? <a href="#" data-popup=".popup-privacy" class="open-popup close-panel item-link">Tap here for privacy info</a></p>
               </div>
               <div class="content-block">
                 <p><?php echo $result; ?></p>
