@@ -23,6 +23,8 @@ $UUID2 =  rand;
 
 $image = file_get_contents('http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'' . htmlspecialchars($iconext) . '');
 $imageData = base64_encode($image);
+
+header('Content-type: text/xml');
 ?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
