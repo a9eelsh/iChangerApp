@@ -284,6 +284,7 @@ if ( $app == "YouTube" && $func == "None" ) {
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <link rel="stylesheet" href="../ui/css/framework7.min.css">
     <link rel="stylesheet" href="../ui/css/framework7.themes.css">
+    <link rel="stylesheet" href="../ui/css/minor.css">
   </head>
   <body>
     <!-- Status bar overlay for full screen mode (PhoneGap) -->
