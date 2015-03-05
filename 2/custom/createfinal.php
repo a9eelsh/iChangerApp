@@ -343,6 +343,5 @@ if ( $app == "YouTube" && $func == "None" ) {
       </div>
     </div>
     <script type="text/javascript" src="../js/framework7.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   </body>
 </html> 
