@@ -3,6 +3,7 @@ $allowedExts = array("gif", "jpeg", "jpg", "png");
 $temp = explode(".", $_FILES["file"]["name"]);
 $extension = end($temp);
 $rand = substr(md5(microtime()),rand(0,26),5);
+$filesize = $_FILES["file"]["size"];
 
 // check if folder exists+
 if (file_exists($rand)) {
@@ -308,7 +309,6 @@ if ( $app == "YouTube" && $func == "None" ) {
         <div class="pages navbar-through toolbar-through">
           <div data-page="index" class="page">
             <div class="page-content">
-              <p>Page content goes here</p>
               <div class="list-block media-list">
                 <ul>
                   <li>
