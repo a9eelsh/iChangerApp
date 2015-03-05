@@ -8,9 +8,15 @@ $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
 $v = '' . htmlspecialchars($_GET["v"]) . '';
 $gplus = '' . htmlspecialchars($_GET["gplus"]) . '';
 $switch = '' . htmlspecialchars($_GET["switch"]) . '';
-$url = "uridata.php";
+$gplus = '' . htmlspecialchars($_GET["gplus"]) . '';
 if ( $gplus == "yes" ) {
-	$gplusurl = "%2B";
+	$gplusn = "%2B";
+}
+$uploaddir = "upload";
+if ( $iconcdir == "custom" ) {
+    $iconfolder = ''.$iconcdir.'/'.$uploaddir.'/'.$icondir.'';
+} else {
+    $iconfolder = ''.$icondir.'';
 }
 $UUID =  rand;
 $UUID2 =  rand;
