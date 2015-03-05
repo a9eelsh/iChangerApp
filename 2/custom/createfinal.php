@@ -294,10 +294,10 @@ if ( $app == "YouTube" && $func == "None" ) {
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
         <!-- Top Navbar-->
-        <div class="navbar">
+        <div class="navbar theme-white">
           <div class="navbar-inner">
-			      <div class="left sliding"><a href="http://ichangerapp.com/mainf7.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
-            <div class="center sliding">iChanger 2 - Your Custom App Icon</div>
+			      <div class="left sliding"><a href="http://ichangerapp.com/mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
+            <div class="center sliding">Your Creation</div>
             <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
           </div>
         </div>
