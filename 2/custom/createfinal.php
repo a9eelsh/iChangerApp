@@ -281,19 +281,8 @@ if ( $app == "YouTube" && $func == "None" ) {
   $urls = 'https://www.youtube.com/';
 }
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Required meta tags-->
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <!-- Your app title -->
-    <title>My App</title>
-    <!-- Path to Framework7 Library CSS-->
     <link rel="stylesheet" href="../ui/css/framework7.min.css">
-    <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="../ui/css/framework7.themes.css">
   </head>
   <body>
@@ -304,10 +293,14 @@ if ( $app == "YouTube" && $func == "None" ) {
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
         <!-- Top Navbar-->
-        <div class="navbar">
-          <div class="navbar-inner">
-            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
-            <div class="center sliding">Awesome App</div>
+        <div class="navbar theme-white">
+          <!-- Navbar inner for Index page-->
+          <div data-page="index" class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="center sliding">Your Creation</div>
+            <div class="right">
+              <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
           </div>
         </div>
         <div class="pages navbar-through toolbar-through">
@@ -342,6 +335,5 @@ if ( $app == "YouTube" && $func == "None" ) {
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="../js/framework7.min.js"></script>
   </body>
 </html> 
