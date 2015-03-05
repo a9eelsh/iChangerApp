@@ -8,7 +8,7 @@ $appurl = '' . htmlspecialchars($_GET["ur"]) . '';
 $v = '' . htmlspecialchars($_GET["v"]) . '';
 $gplus = '' . htmlspecialchars($_GET["gplus"]) . '';
 $switch = '' . htmlspecialchars($_GET["switch"]) . '';
-$url = "uriprofile.php";
+$url = "uridata.php";
 if ( $gplus == "yes" ) {
 	$gplusurl = "%2B";
 }
