@@ -298,6 +298,7 @@ if ( $app == "YouTube" && $func == "None" ) {
           <div class="navbar-inner">
 			      <div class="left sliding"><a href="http://ichangerapp.com/mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Your Creation</div>
+            <div class="right"></div>
           </div>
         </div>
         <div class="pages navbar-through toolbar-through">
