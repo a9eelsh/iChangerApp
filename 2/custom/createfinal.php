@@ -287,20 +287,27 @@ if ( $app == "YouTube" && $func == "None" ) {
     <!-- Required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
     <link rel="stylesheet" href="../ui/css/framework7.min.css">
-  	<link rel="stylesheet" href="../ui/css/framework7.themes.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="../ui/css/framework7.themes.css">
   </head>
   <body>
+    <!-- Status bar overlay for full screen mode (PhoneGap) -->
     <div class="statusbar-overlay"></div>
+    <!-- Views -->
     <div class="views">
+      <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
-        <div class="navbar theme-white">
+        <!-- Top Navbar-->
+        <div class="navbar">
           <div class="navbar-inner">
-            <!-- We have home navbar without left link-->
-            <div class="center sliding">Your Creation</div>
-            <div class="right">
-              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
-            </div>
+            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+            <div class="center sliding">Awesome App</div>
           </div>
         </div>
         <div class="pages navbar-through toolbar-through">
@@ -336,5 +343,6 @@ if ( $app == "YouTube" && $func == "None" ) {
       </div>
     </div>
     <script type="text/javascript" src="../js/framework7.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   </body>
 </html> 
