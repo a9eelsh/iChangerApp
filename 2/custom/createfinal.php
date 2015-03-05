@@ -287,12 +287,6 @@ if ( $app == "YouTube" && $func == "None" ) {
     <!-- Required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <style>
-      .statusbar-overlay {
-        background: SkyBlue;
-      }
-    </style>
-    <link rel="stylesheet" href="../ui/css/framework7.css">
     <link rel="stylesheet" href="../ui/css/framework7.min.css">
   	<link rel="stylesheet" href="../ui/css/framework7.themes.css">
   </head>
@@ -302,8 +296,11 @@ if ( $app == "YouTube" && $func == "None" ) {
       <div class="view view-main">
         <div class="navbar theme-white">
           <div class="navbar-inner">
-            <div class="left sliding"><a href="http://ichangerapp.com/mainview.php" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+            <!-- We have home navbar without left link-->
             <div class="center sliding">Your Creation</div>
+            <div class="right">
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
           </div>
         </div>
         <div class="pages navbar-through toolbar-through">
