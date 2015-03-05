@@ -18,7 +18,11 @@ if ( $iconcdir == "custom" ) {
 } else {
     $iconfolder = ''.$icondir.'';
 }
-$UUID =  rand;
+$u1 = rand(15, 15);
+$u2 = rand(4, 4);
+$u3 = rand(4, 4);
+$u4 = rand(12, 12);
+
 $UUID2 =  rand;
 
 $imageraw = 'http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'' . htmlspecialchars($iconext) . '';
@@ -50,7 +54,7 @@ $mobileconfig .= "			<string>".$UUID2."</string>";
 $mobileconfig .= "			<key>PayloadType</key>";
 $mobileconfig .= "			<string>com.apple.webClip.managed</string>";
 $mobileconfig .= "			<key>PayloadUUID</key>";
-$mobileconfig .= "			<string>".$UUID."</string>";
+$mobileconfig .= "			<string>'.$u1.'-'.$u2'-'.$u3'-'.$u4.'</string>";
 $mobileconfig .= "			<key>PayloadVersion</key>";
 $mobileconfig .= "			<real>1</real>";
 $mobileconfig .= "			<key>Precomposed</key>";
