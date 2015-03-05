@@ -25,6 +25,8 @@ $imageraw = 'http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . ht
 $image = file_get_contents('http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'' . htmlspecialchars($iconext) . '');
 $imageData = base64_encode($image);
 
+
+$mobileconfig .= '<?xml version="1.0" encoding="UTF-8"?>';
 $mobileconfig .= '<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">';
 $mobileconfig .= '<plist version="1.0">';
 $mobileconfig .= "<dict>";
