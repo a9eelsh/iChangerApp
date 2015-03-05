@@ -3,7 +3,19 @@ $allowedExts = array("gif", "jpeg", "jpg", "png");
 $temp = explode(".", $_FILES["file"]["name"]);
 $extension = end($temp);
 $rand = substr(md5(microtime()),rand(0,26),5);
-mkdir("upload/$rand/");
+
+// check if folder exists+
+if (file_exists($rand)) {
+  // folder exists, overlapping can occor
+    $resultnotice .= "Our servers are overloaded and cannot upload your icon.";
+    $resultnotice .= "Please try again later or report an issue from the menu";
+} else {
+    mkdir("upload/$rand/");
+    $resultnotice .= "We have successfully created your Custom Icon! [UIC, ".$rand."]";
+}
+if (empty($filesize)) {
+    header('Location: http://www.ichangerapp.com/mainview.php?error=noicon');
+}
 
 if ((($_FILES["file"]["type"] == "image/gif")
 || ($_FILES["file"]["type"] == "image/jpeg")
@@ -93,7 +105,180 @@ fwrite($myfile, $after);
 fwrite($myfile, $time);
 fclose($myfile);
 
-print $result;
+
+if ( $requestraw == "ipeep" ) {
+	$request = "Custom iPeep";
+}
+
+if ( $requestraw == "custom" ) {
+	$request = "Custom Icon";
+}
+
+$funcnotice = " and open ".$func.".";
+
+// URL SCHEME DATABASE
+// APP STORE
+if ( $app == "App Store" ) {
+  $urls = "itms-apps://itunes.apple.com";
+}
+// CALENDAR
+if ( $app == "Calendar" ) {
+  $urls = "calshow://";
+}
+// FACETIME
+if ( $app == "Facetime" ) {
+  $urls = "facetime://";
+}
+// GAMECENTER
+if ( $app == "GameCenter" ) {
+  $urls = "gamecenter://";
+}
+// IBOOKS
+if ( $app == "iBooks" ) {
+  $urls = "ibooks://";
+}
+// ITUNES
+if ( $app == "iTunes" ) {
+  $urls = "http://itunes.apple.com";
+}
+// MAIL
+if ( $app == "Mail" ) {
+  $urls = "message://";
+}
+// MAPS
+if ( $app == "Maps" ) {
+  $urls = "maps://";
+}
+// MESSAGES
+if ( $app == "Messages" ) {
+  $urls = "sms://";
+}
+// MUSIC
+if ( $app == "Music" ) {
+  $urls = "music://";
+}
+// PASSBOOK
+if ( $app == "Passbook" ) {
+  $urls = "shoebox://";
+}
+// PHONE
+if ( $app == "Phone" ) {
+  // calls person directly
+  $urls = "tel://";
+}
+// REMINDERS
+if ( $app == "Reminders" ) {
+  // Undocumented, Apple is against it
+  // http://www.iphonehacks.com/2013/10/launch-center-pro-undocumented-urls-apple-apps.html
+  $urls = "x-apple-reminder://";
+}
+// REMOTE
+if ( $app == "Remote" ) {
+  $urls = "remote://";
+}
+// SAFARI
+if ( $app == "Safari" ) {
+  // Run iChanger's BrowerClose.php
+  $urls = "http://ichangerapp.com/BrowserClose.php";
+}
+// VIDEOS
+if ( $app == "Videos" ) {
+  $urls = "videos://";
+}
+// CHROME
+if ( $app == "Chrome" ) {
+  $urls = "googlechrome://";
+}
+// FACEBOOK
+if ( $app == "Facebook" ) {
+  $urls = "fb://feed";
+}
+// TWITTER
+if ( $app == "Twitter" ) {
+  $urls = "twitter://";
+}
+// FLIPBOARD
+if ( $app == "Flipboard" ) {
+  $urls = "flipboard://";
+}
+// YOUTUBE
+if ( $app == "YouTube" ) {
+  $urls = "http://www.youtube.com/";
+}
+// INSTAGRAM
+if ( $app == "Instagram" ) {
+  $urls = "instagram://app";
+}
+// SKYPE
+if ( $app == "Skype" ) {
+  $urls = "skype://";
+}
+// PHOTOS
+if ( $app == "Photos" ) {
+  $urls = "photos-redirect://";
+}
+// GOOGLE
+if ( $app == "Google" ) {
+  $urls = "googleapp://";
+}
+// GOOGLE+
+if ( $app == "Google+" ) {
+  $urls = "gplus://";
+}
+
+// URLSCHEME
+if ( $app == "URL Scheme" ) {
+  $urls = "".$customuri."";
+}
+
+
+//                 ---- START FUNCTIONS ----
+// FACEBOOK
+
+// FB YOUR PROFILE
+if ( $func == "Your Profile" ) {
+  $urls = "fb://profile";
+}
+// FB FRIENDS LIST
+if ( $func == "Friends List" ) {
+  $urls = "fb://friends";
+}
+// FB NOTI LIST
+if ( $func == "Notification List" ) {
+  $urls = "fb://notifications";
+}
+// FB NEWS FEED
+if ( $func == "News Feed" ) {
+  $urls = "fb://feed";
+}
+// FB EVENTS PAGE
+if ( $func == "Events Page" ) {
+  $urls = "fb://events";
+}
+// FB REQUESTS LIST
+if ( $func == "Requests List" ) {
+  $urls = "fb://requests";
+}
+// FB NOTES PAGE
+if ( $func == "Notes Page" ) {
+  $urls = "fb://notes";
+}
+// FB PHOTO ALBUMS
+if ( $func == "Photo Albums" ) {
+  $urls = "fb://albums";
+}
+
+// YOUTUBE
+
+// YT VIDEO LINK
+if ( $func == "Open Video" ) {
+  $urls = 'https://www.youtube.com/watch?v='.$video.'';
+}
+
+// YT NONE
+if ( $app == "YouTube" && $func == "None" ) {
+  $urls = 'https://www.youtube.com/';
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -114,8 +299,9 @@ print $result;
     <div class="statusbar-overlay"></div>
     <div class="views">
       <div class="view view-main">
-        <div class="navbar">
+        <div class="navbar theme-white">
           <div class="navbar-inner">
+            <div class="left sliding"><a href="http://ichangerapp.com/mainview.php" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Your Creation</div>
           </div>
         </div>
@@ -126,19 +312,26 @@ print $result;
               <div class="list-block media-list">
                 <ul>
                   <li>
-                    <a href="#" class="item-link item-content">
-                      <div class="item-media"><img src="..." width="80"></div>
+                    <a href="http://ichangerapp.com/uriref.php?a=<?php print $endfolder; ?>&p=<?php print $endpicture; ?>&n=<?php echo $_POST["title"]; ?>&c=custom&ur=<?php echo $urls; ?>" class="external item-link item-content">
+                      <div class="item-media"><img src="http://ichangerapp.com/custom/upload/<?php print $endfile; ?>" width="80"></div>
                       <div class="item-inner">
                         <div class="item-title-row">
-                          <div class="item-title">Yellow Submarine</div>
-                          <div class="item-after">$15</div>
+                          <div class="item-title"><?php echo $_POST["title"]; ?></div>
+                          <div class="item-after">Install</div>
                         </div>
-                        <div class="item-subtitle">Beatles</div>
-                        <div class="item-text">Lorem ipsum dolor sit amet...</div>
+                        <div class="item-subtitle"><?php print $request; ?></div>
+                        <div class="item-text">You custom shortcut will open <?php echo $_POST["app"]; print $funcnotice; ?> <?php echo $resultnotice; ?></div>
                       </div>
                     </a>
                   </li>
                 </ul>
+              </div>
+              <div class="content-block-title">Notice</div>
+              <div class="content-block">
+                <p>Concerned about privacy? <a href="#" data-popup=".popup-privacy" class="open-popup close-panel item-link">Tap here for privacy info</a></p>
+              </div>
+              <div class="content-block">
+                <p><?php echo $result; ?></p>
               </div>
             </div>
           </div>
@@ -146,6 +339,5 @@ print $result;
       </div>
     </div>
     <script type="text/javascript" src="../js/framework7.min.js"></script>
-    <script type="text/javascript" src="../js/my-app.js"></script>
   </body>
 </html> 
