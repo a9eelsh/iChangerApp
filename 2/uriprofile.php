@@ -21,6 +21,7 @@ if ( $iconcdir == "custom" ) {
 $UUID =  rand;
 $UUID2 =  rand;
 
+$imageraw = 'http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'' . htmlspecialchars($iconext) . '';
 $image = file_get_contents('http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'' . htmlspecialchars($iconext) . '');
 $imageData = base64_encode($image);
 
@@ -33,7 +34,7 @@ $mobileconfig .= "		<dict>";
 $mobileconfig .= "			<key>FullScreen</key>";
 $mobileconfig .= "			<true/>";
 $mobileconfig .= "			<key>Icon</key>";
-$mobileconfig .= "			</data>".$imageData."</data>";
+$mobileconfig .= "			</data>".$imageraw."</data>";
 $mobileconfig .= "			<key>IsRemovable</key>";
 $mobileconfig .= "			<true/>";
 $mobileconfig .= "			<key>Label</key>";
