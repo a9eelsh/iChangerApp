@@ -8,7 +8,7 @@ $json = file_get_contents($url);
 
 $object = json_decode($json);
 
-$array = json_decode($json, TRUE);
+$array = json_decode($json, true);
 
 // pull data
 
