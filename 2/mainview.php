@@ -1,4 +1,5 @@
 <?php
+$UserID = htmlspecialchars(["id"]);
 $isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad');
 if ( $isiPad == "1" ) {
   $titlesize = "10";
@@ -63,6 +64,7 @@ if ( $isiPad == "1" ) {
     <p>iC v3b</p>
     <p>Framework v1.0.2</p>
     <p>IiP <?php print $isiPad; ?></p>
+    <p>UserID <?php print $UserID; ?></p>
   </div>
 </div>
     </p>
