@@ -4,14 +4,14 @@ $UserID = '' . htmlspecialchars($_GET["id"]) . '';
 
 $url = 'http://ichangerapp.com/user/'.$UserID.'.json';
 
-$json = file_get_contents($url);
+$jsonf = file_get_contents($url);
 
-$json = json_decode($json, true);
+$json = json_decode($jsonf, true);
 echo $json['Email'];
 echo $json['UserID'];
 echo $json['Facebook'];
 ?>
-v9
+v10
 <p>LOAD DATA</p>
 <p>userid <?php print $UserID; ?></p>
 <p>url <?php print $url; ?></p>
