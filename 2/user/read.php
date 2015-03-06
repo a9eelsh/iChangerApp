@@ -12,5 +12,7 @@ print $jfo->{'Email'};
 //$item['assets']['RAM']
 
 print $email;
+
+print $jfo['Email'];
 ?>
-v1
+v2
