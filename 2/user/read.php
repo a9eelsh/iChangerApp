@@ -19,9 +19,8 @@ $value3 = $array->Email;
 $value4 = $array['Email'];
 
 $value5 = $json->Email;
-$value6 = $json['Email'];
 ?>
-v7
+v7.5
 <p>LOAD DATA</p>
 <p>userid <?php print $UserID; ?></p>
 <p>url <?php print $url; ?></p>
