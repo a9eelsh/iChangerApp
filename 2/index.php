@@ -1,12 +1,15 @@
 <?php
-$dev = '' . htmlspecialchars($_GET["dev"]) . '';
+$dev = htmlspecialchars($_GET["dev"]);
+$install = htmlspecialchars($_GET["i"]);
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
-$UserID = rand(10,10);
-
+$UserID = rand(8,8);
 
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
-   if ( strpos($ua,"safari") && $dev == "y" ) { // safari on iPhone/iPad with dev perms
+   if ( strpos($ua,"safari") && $v == "3" ) { // safari on iPhone/iPad with dev perms
+      header('Location: http://ichangerapp.com/install.php?v=3', true, 301);
+      exit;
+   } else if ( strpos($ua,"safari") && $i == "y" ) { // safari on iPhone/iPad with dev perms
       header('Location: http://ichangerapp.com/install.php?id='.$UserID.'', true, 301);
       exit;
    } else if ( substr_count($ua, '/') === 3 ) { //stand alone WebApp on iPhone/iPad
