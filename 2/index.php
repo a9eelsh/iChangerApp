@@ -9,7 +9,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") && $v == "3" ) { // safari on iPhone/iPad with dev perms
       header('Location: http://ichangerapp.com/install.php?v=3', true, 301);
       exit;
-   } else if ( strpos($ua,"safari") && $i == "y" ) { // safari on iPhone/iPad with dev perms
+   } else if ( strpos($ua,"safari") && $install == "y" ) { // safari on iPhone/iPad with dev perms
       header('Location: http://ichangerapp.com/install.php?id='.$UserID.'', true, 301);
       exit;
    } else if ( substr_count($ua, '/') === 3 ) { //stand alone WebApp on iPhone/iPad
