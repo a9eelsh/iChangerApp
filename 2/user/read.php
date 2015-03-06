@@ -17,8 +17,11 @@ $value2 = $object['Email'];
 
 $value3 = $array->Email;
 $value4 = $array['Email'];
+
+$value5 = $json->Email;
+$value6 = $json['Email'];
 ?>
-v6
+v7
 <p>LOAD DATA</p>
 <p>userid <?php print $UserID; ?></p>
 <p>url <?php print $url; ?></p>
@@ -30,3 +33,5 @@ v6
 <p>value2 <?php print $value2; ?></p>
 <p>value3 <?php print $value3; ?></p>
 <p>value4 <?php print $value4; ?></p>
+<p>value5 <?php print $value5; ?></p>
+<p>value6 <?php print $value6; ?></p>
