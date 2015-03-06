@@ -1,5 +1,5 @@
 <?php
-$UserID = htmlspecialchars(["id"]);
+$UserID = htmlspecialchars($_GET["id"]);
 $isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad');
 if ( $isiPad == "1" ) {
   $titlesize = "10";
