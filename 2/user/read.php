@@ -1,20 +1,19 @@
 <?php
 $UserID = '' . htmlspecialchars($_GET["id"]) . '';
-// copy file content into a string var
-$json_file = file_get_contents('test.json');
-// convert the string to a json object
-$jfo = json_decode($json_file);
-// read the title value
-$email = $jfo->Email;
 
-print $jfo->{'Email'};
+$url = ''.$UserID.'.json';
 
-//$item['assets']['RAM']
+$json = file_get_contents($url);
 
-print $email;
+$object = json_decode($json);
 
-print $jfo['Email'];
+$array = json_decode($json, TRUE);
 
-print $UserID;
+echo $object->whatever;
 ?>
-v4
+v5
+<p>userid <?php print $UserID; ?></p>
+<p>url <?php print $url; ?></p>
+<p>json <?php print $json; ?></p>
+<p>object <?php print $object; ?></p>
+<p>array <?php print $array; ?></p>
