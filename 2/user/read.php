@@ -7,5 +7,9 @@ $jfo = json_decode($json_file);
 // read the title value
 $email = $jfo->Email;
 
+print $jfo->{'Email'};
+
+//$item['assets']['RAM']
+
 print $email;
 ?>
