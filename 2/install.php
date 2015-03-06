@@ -5,6 +5,8 @@
 | iChanger 2 Main Handler |
  \-----------------------/
  */
+$UserID = '' . htmlspecialchars($_GET["id"]) . '';
+
 
 // http://74.125.224.174:6080/php/urlblock.php?vsys=1&cat=7509&title=streaming-media&rulename=Allow%20Student%20Content%20Filtering&uid=30687&url=http://youtube.com%2fMacy%27s
 // detect if bypass is enabled, if it is disable fowarding to computer site
@@ -20,7 +22,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") ) {
       //echo('<!--Running in safari on iPhone/iPad--><h1>To install iChanger 2 press <img src="http://ichangerapp.com/ui/simages/dl.png"> or <img src="http://ichangerapp.com/ui/simages/plus.png"> then select Add to Homescreen..');
    } else if ( substr_count($ua, '/') === 3 ) {
-     header('Location: http://www.ichangerapp.com/mainview.php', true, 301);
+     header('Location: http://www.ichangerapp.com/mainview.php?'.$UserID.'', true, 301);
      exit;
    } else if ( substr_count($ua, '/') === 2 ) {
    } else if ( $bypass == "no" ) {
@@ -35,9 +37,9 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
 ?>
 <!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>
-  <title>iChanger 3b</title>
+  <title>iChanger</title>
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="iChanger 3b">
+  <meta name="apple-mobile-web-app-title" content="iChanger">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -67,12 +69,12 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   // remove session if visit again
   	addToHomescreen.removeSession()
   </script>
-<script>
-if(navigator.userAgent.match('CriOS')) {
-    window.location.replace("http://www.ichangerapp.com/chrome.php");
-}
-</script>
+    <script>
+    if(navigator.userAgent.match('CriOS')) {
+        window.location.replace("http://www.ichangerapp.com/chrome.php");
+    }
+    </script>
 </head>
-	  <noscript>
-	  	<meta http-equiv="refresh" content="0;URL='http://ichangerapp.com/enable/javascript.php?no=js'" /> 
-	  </noscript>
+    <noscript>
+        <meta http-equiv="refresh" content="0;URL='http://ichangerapp.com/enable/javascript.php?no=js'" /> 
+    </noscript>
