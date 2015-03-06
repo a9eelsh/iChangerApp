@@ -3,7 +3,7 @@ $dev = htmlspecialchars($_GET["dev"]);
 $install = htmlspecialchars($_GET["i"]);
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
-$UserID = rand(8,8);
+$UserID = substr(md5(microtime()),rand(0,26),10);
 
 if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
    if ( strpos($ua,"safari") && $v == "3" ) { // safari on iPhone/iPad with dev perms
