@@ -1,7 +1,7 @@
 <?php
 $UserID = '' . htmlspecialchars($_GET["id"]) . '';
 // copy file content into a string var
-$json_file = file_get_contents(''.$UserID.'.json');
+$json_file = file_get_contents('test.json');
 // convert the string to a json object
 $jfo = json_decode($json_file);
 // read the title value
@@ -17,4 +17,4 @@ print $jfo['Email'];
 
 print $UserID;
 ?>
-v3
+v4
