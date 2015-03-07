@@ -1,13 +1,5 @@
-<?php 
-/*
- _________________________
-|-------------------------|
-| iChanger 2 Main Handler |
- \-----------------------/
- */
+<?php
 $UserID = '' . htmlspecialchars($_GET["id"]) . '';
-
-
 // http://74.125.224.174:6080/php/urlblock.php?vsys=1&cat=7509&title=streaming-media&rulename=Allow%20Student%20Content%20Filtering&uid=30687&url=http://youtube.com%2fMacy%27s
 // detect if bypass is enabled, if it is disable fowarding to computer site
 $bypass = '' . htmlspecialchars($_GET["b"]) . '';
@@ -35,7 +27,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
     }
 
 ?>
-<!-- COPYRIGHT 2014 TheLocken LLC All Rights Reserved + DMCA Rights -->
+<!-- COPYRIGHT 2015 TheLocken LLC All Rights Reserved + DMCA Rights -->
 <head>
   <title>iChanger</title>
   <meta name="mobile-web-app-capable" content="yes">
