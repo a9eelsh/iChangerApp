@@ -62,7 +62,7 @@ if ( $isiPad == "1" ) {
   </ul>
   <div class="list-block-label">
     <p>iC v3b</p>
-    <p>Framework v1.0.2</p>
+    <p>Framework v1.0.3</p>
     <p>IiP <?php print $isiPad; ?></p>
     <p>UserID <?php print $UserID; ?></p>
   </div>
