@@ -1,7 +1,7 @@
 <?php
-    $api_url = "test.json";
-    $response = file_get_contents($api_url);
-    $my_array = json_decode($response);
-    $my_array->places->place[0]->woe_name;
-    print $my_array->places->place[0]->woe_name;
-    echo $my_array->places->place[0]->woe_name;
+$array = json_decode('{"id":1,"name":"foo","email":"foo@test.com"}', true);
+//$array['id'] == 1
+//$array['name'] == "foo"
+//$array['email'] == "foo@test.com"
+print $array['id'];
+print $array['email'];
