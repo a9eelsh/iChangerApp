@@ -1,18 +1,11 @@
 <?php
-$array = json_decode('{"id":1,"name":"foo","email":"foo@test.com"}', true);
+$url = 'test.json';
+$JSON = file_get_contents($url);
 
-$url = htmlspecialchars($_GET['id']);
+// echo the JSON (you can echo this to JavaScript to use it there)
+echo $JSON;
 
-$urlend = ''.$url.'.json';
-$JSON = file_get_contents($urlend);
-$userarray = json_decode($JSON);
-//$array['id'] == 1
-//$array['name'] == "foo"
-//$array['email'] == "foo@test.com"
-print $array['id'];
-echo "\n";
-print $array['email'];
-echo "\n";
-print $userarray['UserID'];
-echo "\n";
-echo "v4";
+// You can decode it to process it in PHP
+$data = json_decode($JSON);
+var_dump($data);
+?>
