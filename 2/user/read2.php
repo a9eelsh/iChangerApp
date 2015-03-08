@@ -8,4 +8,6 @@ echo $JSON;
 // You can decode it to process it in PHP
 $data = json_decode($JSON);
 var_dump($data);
+echo "\n";
+print $array['UserID'];
 ?>
