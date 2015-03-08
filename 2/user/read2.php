@@ -9,5 +9,5 @@ echo $JSON;
 $data = json_decode($JSON);
 var_dump($data);
 echo "\n";
-print $array['UserID'];
+print $data['UserID'];
 ?>
