@@ -1,18 +1,4 @@
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <link rel="stylesheet" href="../ui/css/framework7.min.css">
-    <link rel="stylesheet" href="../ui/css/framework7.themes.css">
-    <link rel="stylesheet" href="../ui/css/minor.css">
-    <link rel="stylesheet" href="../ui/css/app.css">
-  </head>
-  <body>
-    <!-- Status bar overlay for full screen mode (PhoneGap) -->
-    <div class="statusbar-overlay"></div>
-    <!-- Views -->
-    <div class="views">
-      <!-- Your main view, should have "view-main" class -->
-      <div class="view view-main">
-        <!-- Top Navbar-->
-        <div class="navbar theme-white">
+        <div class="navbar greennavbar theme-white">
           <div class="navbar-inner">
 			      <div class="left sliding"><a href="http://ichangerapp.com/mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Settings</div>

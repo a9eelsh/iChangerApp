@@ -18,7 +18,7 @@ if ( $isiPad == "1" ) {
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
-	  <link rel="stylesheet" href="ui/css/minor.css?v=3">
+	  <link rel="stylesheet" href="ui/css/minor.css?v=4">
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=5">
 	  <!-- JS -->
@@ -101,7 +101,7 @@ if ( $isiPad == "1" ) {
             <div class="center sliding">Browse</div>
           </div>
           <!-- Navbar inner for Create page-->
-          <div data-page="create" class="navbar-inner cached">
+          <div data-page="create" class="navbar-inner cached rednavbar">
             <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Create</div>
           </div>

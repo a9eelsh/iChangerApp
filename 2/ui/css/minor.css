@@ -3,6 +3,17 @@
   background: #74baee;
   color: #ffffff;
 }
+.greennavbar {
+  border-bottom: none;
+  background: #4cd964;
+  color: #ffffff;
+}
+.rednavbar {
+  border-bottom: none;
+  background: #ff3b30;
+  color: #ffffff;
+}
+
 .statusbar-overlay {
   background: SkyBlue;
 }
