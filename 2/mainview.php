@@ -82,6 +82,12 @@ if ( $isiPad == "1" ) {
     <p>Framework v1.0.3</p>
     <p>IiP <?php print $isiPad; ?></p>
     <p>UserID <?php print $UserID; ?></p>
+    <p><div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div></p>
   </div>
 </div>
     </p>
