@@ -1,3 +1,10 @@
+<?php
+$UserID = htmlspecialchars($_GET['id']);
+$xml = new SimpleXMLElement(file_get_contents("http://ichangerapp.com/user/".$UserID.""));
+$UserID = $xml->UserID;
+$username = $xml->username;
+$facebook = $xml->facebook;
+?>
         <div class="navbar greennavbar theme-white">
           <div class="navbar-inner">
 			      <div class="left sliding"><a href="http://ichangerapp.com/mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
@@ -11,17 +18,17 @@
               <div class="list-block">
                 <ul>
                   <li class="item-content">
-                    <div class="item-media"><i class="icon icon-s"></i></div>
+                    <div class="item-media"><i class="icon icon-settings-username"></i></div>
                     <div class="item-inner">
                       <div class="item-title">Username</div>
-                      <div class="item-after">Label</div>
+                      <div class="item-after"><?php print $username; ?></div>
                     </div>
                   </li>
                   <li class="item-content">
                     <div class="item-media"><i class="icon icon-settings-userid"></i></div>
                     <div class="item-inner">
                       <div class="item-title">User ID</div>
-                      <div class="item-after">Label</div>
+                      <div class="item-after"><?php print $UserID; ?></div>
                     </div>
                   </li>
                 </div>

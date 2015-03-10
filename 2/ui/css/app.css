@@ -347,3 +347,9 @@ width:29px;
 height:29px;
 background-image:url(../../thumbs/Barcode-50.png);
 }
+
+i.icon.icon-settings-username {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/Collaborator-50.png);
+}
