@@ -1,6 +1,6 @@
 <?php
 $UserID = htmlspecialchars($_GET['id']);
-$xml = new SimpleXMLElement(file_get_contents("http://ichangerapp.com/user/".$UserID.""));
+$xml = new SimpleXMLElement(file_get_contents("http://ichangerapp.com/user/users/".$UserID.""));
 $UserID = $xml->UserID;
 $username = $xml->username;
 $facebook = $xml->facebook;
