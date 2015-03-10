@@ -341,3 +341,9 @@ color: #3498DB;
 .create, .meta {
 color: #E74C3C;
 }
+
+i.icon.icon-settings-userid {
+width:29px;
+height:29px;
+background-image:url(../../thumbs/Barcode-50.png);
+}

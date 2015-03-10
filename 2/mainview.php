@@ -81,7 +81,7 @@ if ( $isiPad == "1" ) {
       <!-- Your main view, should have "view-main" class-->
       <div class="view view-main">
         <!-- Top Navbar-->
-        <div class="navbar theme-white">
+        <div class="navbar skybluenavbar theme-white">
           <!-- Navbar inner for Index page-->
           <div data-page="index" class="navbar-inner">
             <!-- We have home navbar without left link-->
