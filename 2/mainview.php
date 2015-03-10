@@ -120,7 +120,7 @@ if ( $isiPad == "1" ) {
               <div class="content-block">
                   <div class="row">
                   <div class="col-50">
-                    <a href="browse.php" class="cbutton cbutton--effect-ivana">
+                    <a href="browse.php?id=<?php print $UserID; ?>" class="cbutton cbutton--effect-ivana">
                     <center><span class="icon browse"><img src="pics/browse.png"></span></center>
                     <center><span class="tabbar-label browse">Browse</span></center>
                     </a>
@@ -169,7 +169,7 @@ if ( $isiPad == "1" ) {
 	Start Form 
 	
 	-->
-<form action="/custom/createfinal.php" method="post" enctype="multipart/form-data">
+<form action="/custom/createfinal.php?id=<?php print $UserID; ?>" method="post" enctype="multipart/form-data">
   <ul>
     <!-- Text inputs -->
     
