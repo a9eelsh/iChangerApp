@@ -11,14 +11,14 @@
               <div class="list-block">
                 <ul>
                   <li class="item-content">
-                    <div class="item-media"><i class="icon icon-f7"></i></div>
+                    <div class="item-media"><i class="icon icon-s"></i></div>
                     <div class="item-inner">
                       <div class="item-title">Username</div>
                       <div class="item-after">Label</div>
                     </div>
                   </li>
                   <li class="item-content">
-                    <div class="item-media"><i class="icon icon-f7"></i></div>
+                    <div class="item-media"><i class="icon icon-settings-userid"></i></div>
                     <div class="item-inner">
                       <div class="item-title">User ID</div>
                       <div class="item-after">Label</div>
