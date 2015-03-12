@@ -41,6 +41,7 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   // set ath to awalys stay open, etc
     addToHomescreen({
          appID: 'com.thelocken.iChanger',
+         privateModeOverride: true,
    		skipFirstVisit: false,
    		maxDisplayCount: 0,
    		debug: true,
