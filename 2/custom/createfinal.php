@@ -49,6 +49,7 @@ if ((($_FILES["file"]["type"] == "image/gif")
 $endfile = "$rand/" . $_FILES["file"]["name"] . "";
 $endpicture = "" . $_FILES["file"]["name"] . "";
 $endfolder = "$rand";
+$UserID = '' . htmlspecialchars($_GET["id"]) . '';
 
 $myfile = fopen("latest_ref.txt", "w") 
 	// $result .= error if failed to open latest_ref.txt
@@ -299,7 +300,7 @@ $shortenedurl = file_get_contents('http://ichangerapp.com/s/shorten.php?longurl=
         <!-- Top Navbar-->
         <div class="navbar theme-white">
           <div class="navbar-inner">
-			      <div class="left sliding"><a href="http://ichangerapp.com/mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
+			      <div class="left sliding"><a href="http://ichangerapp.com/mainview.php?id=<?php print $UserID; ?>" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Your Creation</div>
             <div class="right"></div>
           </div>
