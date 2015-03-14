@@ -283,7 +283,7 @@ if ( $app == "YouTube" && $func == "None" ) {
   $urls = 'https://www.youtube.com/';
 }
 $urlencode = urlencode('http://ichangerapp.com/uriref.php?a='.$endfolder.'&p='.$endpicture.'&n='.$_POST["title"].'&c=custom&ur='.$urls.'');
-$shortenedurl = file_get_contents('../s/shorten.php?longurl=' . urlencode('http://ichangerapp.com/uriref.php?a='.$endfolder.'&p='.$endpicture.'&n='.$_POST["title"].'&c=custom&ur='.$urls.''));
+$shortenedurl = file_get_contents('.../s/shorten.php?longurl=' . urlencode('http://ichangerapp.com/uriref.php?a='.$endfolder.'&p='.$endpicture.'&n='.$_POST["title"].'&c=custom&ur='.$urls.''));
 ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <link rel="stylesheet" href="../ui/css/framework7.min.css">
