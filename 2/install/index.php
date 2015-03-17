@@ -34,6 +34,8 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   <link rel="apple-touch-icon" sizes="76x76" href="ios/AppIcon.appiconset/Icon-76.png" />
   <link rel="apple-touch-icon" sizes="152x152" href="ios/AppIcon.appiconset/Icon-76@2x.png" />
   <link rel="apple-touch-icon" sizes="58x58" href="ios/AppIcon.appiconset/Icon-Small@2x.png" />
+  <link rel="apple-touch-startup-image" media="(device-width: 320px)" href="pics/startup.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" href="pics/startup.png">
   <!-- End Icons -->
   <script>
   // remove session if visit again
