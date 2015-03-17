@@ -21,7 +21,7 @@ if ( $isiPad == "1" ) {
 	  <link rel="stylesheet" href="ui/css/minor.css?v=4">
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=5">
-	  <link rel="stylesheet" href="ui/css/material.min.css">
+	  <link rel="stylesheet" href="ui/css/material.alert.css">
 	  <!-- JS -->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   </head>
