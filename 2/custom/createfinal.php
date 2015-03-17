@@ -282,8 +282,32 @@ if ( $func == "Open Video" ) {
 if ( $app == "YouTube" && $func == "None" ) {
   $urls = 'https://www.youtube.com/';
 }
-$urlencode = urlencode('http://ichangerapp.com/uriref.php?a='.$endfolder.'&p='.$endpicture.'&n='.$_POST["title"].'&c=custom&ur='.$urls.'');
-$shortenedurl = file_get_contents('http://ichangerapp.com/s/shorten.php?longurl=' . urlencode('http://ichangerapp.com/uriref.php?a='.$endfolder.'&p='.$endpicture.'&n='.$_POST["title"].'&c=custom&ur='.$urls.''));
+
+$longUrl = 'http://ichangerapp.com/uriref.php?a='.$endfolder.'&p='.$endpicture.'&n='.$_POST["title"].'&c=custom&ur='.$urls.'';
+
+$apiKey = 'AIzaSyDZbxKdz95HcMl7OCIbxN3i9vC2Em3kzKc';
+
+$postData = array('longUrl' => $longUrl, 'key' => $apiKey);
+$jsonData = json_encode($postData);
+
+$curlObj = curl_init();
+
+curl_setopt($curlObj, CURLOPT_URL, 'https://www.googleapis.com/urlshortener/v1/url');
+curl_setopt($curlObj, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($curlObj, CURLOPT_SSL_VERIFYPEER, 0);
+curl_setopt($curlObj, CURLOPT_HEADER, 0);
+curl_setopt($curlObj, CURLOPT_HTTPHEADER, array('Content-type:application/json'));
+curl_setopt($curlObj, CURLOPT_POST, 1);
+curl_setopt($curlObj, CURLOPT_POSTFIELDS, $jsonData);
+
+$response = curl_exec($curlObj);
+
+// Change the response json string to object
+$json = json_decode($response);
+
+curl_close($curlObj);
+
+//echo 'Shortened URL is: '.$json->id;
 ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <link rel="stylesheet" href="../ui/css/framework7.min.css">
@@ -333,8 +357,7 @@ $shortenedurl = file_get_contents('http://ichangerapp.com/s/shorten.php?longurl=
                       <div class="item-inner">
                         <div class="item-title label">Share</div>
                         <div class="item-input">
-                          <input type="text" value="<?php print $shortenedurl; ?>">
-                          <?php print $urlencode; ?>
+                          <input type="text" value="<?php print $json->id; ?>">
                         </div>
                       </div>
                     </div>
