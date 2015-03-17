@@ -185,14 +185,26 @@ if ( $isiPad == "1" ) {
           </div>
           <!-- Create Page -->
           <div data-page="create" class="page cached">
-                        <div class="page-content">
+          <div class="page-content">
+<script>
+  function pleaseWait() {
+     document.getElementById('material-design').style.display = 'block';
+  }
+</script>
+<div style="material-design" id="material-design" style="display: none;">
+<div class="alert alert-dismissable alert-info">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <h4>Please Wait</h4>
+    <p>Your custom shortcut is being created Please Wait.</p>
+</div>
+</div>
 <div class="list-block">
 	<!-- 
 	
 	Start Form 
 	
 	-->
-<form action="/custom/createfinal.php?id=<?php print $UserID; ?>" method="post" enctype="multipart/form-data">
+<form action="/custom/createfinal.php?id=<?php print $UserID; ?>" method="post" enctype="multipart/form-data" onsubmit="pleaseWait();">
   <ul>
     <!-- Text inputs -->
     
