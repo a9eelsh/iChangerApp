@@ -25,7 +25,43 @@ if ( $isiPad == "1" ) {
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   </head>
   <body>
+    <style>
+.alert {
+	padding: 19px 15px;
+	color: #fefefe;
+	position: relative;
+	font: 14px/20px Museo300Regular, Helvetica, Arial, sans-serif;
+}
+.alert .msg { padding: 0 20px 0 40px;}
+.alert p { margin: 0;}
+.alert .toggle-alert {
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	display: block;
+	text-indent: -10000px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(255, 255, 255, 0.1);
+	-moz-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(255, 255, 255, 0.1);
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(255, 255, 255, 0.1);
+	background: rgba(0, 0, 0, 0.08) url(images/alert.png) no-repeat 6px 6px;
+}
+.info-box {		background: #2fa9f6 url(images/info.png) no-repeat 14px 14px;}
+.success-box {	background: #7EB62E url(images/success.png) no-repeat 14px 14px;}
+.error-box {	background: #f64b2f url(images/error.png) no-repeat 14px 14px;}
+.notice-box {	background: #f6ca2f url(images/notice.png) no-repeat 14px 14px;}
+.download-box {	background: #a555ca url(images/download.png) no-repeat 14px 14px;}
+    </style>
     <script>
+     jQuery(document).ready(function() {
+        $(".alert .toggle-alert").click(function(){
+        $(this).closest(".alert").slideUp();
+          return false;
+        });
+     });
+
       window.fbAsyncInit = function() {
         FB.init({
           appId      : '537201576422410',
@@ -190,17 +226,10 @@ if ( $isiPad == "1" ) {
      document.getElementById('material-design').style.display = 'block';
   }
 </script>
-<section>
-<div id="material-design" class="material-design alert alert-dismissable alert-info" style="display: none;">
-    <style type="text/css" scoped="true">
-        @import url('ui/css/material.min.css');
-        @import url('http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css');
-    </style>
-    <button type="button" class="close" data-dismiss="alert">×</button>
-    <h4>Please Wait</h4>
-    <p>Your custom shortcut is being created Please Wait.</p>
+<div class="info-box alert material-design" id="material-design" style="display: none;">
+<div class="msg">Info – Information message will goes here</div>
+<a class="toggle-alert" href="#">Toggle</a>
 </div>
-</section>
 <div class="list-block">
 	<!-- 
 	
@@ -492,7 +521,6 @@ $('#YTResult').on('change',function(){
 </div>
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <script type="text/javascript" src="js/mainview.js"></script>
-    <script type="text/javascript" src="js/jquery.scoped.js"></script>
     <script>
         $(window).resize(function() {
           $("h1").css({ "font-size": "<?php print $titlesize; ?>vw" }); 
