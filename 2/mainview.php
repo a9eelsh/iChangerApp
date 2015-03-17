@@ -16,6 +16,7 @@ if ( $isiPad == "1" ) {
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>iChanger</title>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
+    <script src="js/less.min.js"></script>
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
 	  <link rel="stylesheet" href="ui/css/minor.css?v=4">
