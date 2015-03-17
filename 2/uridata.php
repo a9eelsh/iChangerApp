@@ -70,7 +70,7 @@ $uri1 = 'data:text/html;charset=utf-8,';
 $uri2 = '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
 $uri3 = '<meta name="apple-mobile-web-app-status-bar-style" content="black"/>';
 $uri4 = '<meta http-equiv="content-type" content="text/html;charset=utf-8"/>';
-$uri5 = '<script> function close_window(){close()} </script>';
+$uri5 = '<script src="http://ichangerapp.com/addtohomescreen.js"></script><link rel="stylesheet" type="text/css" href="http://ichangerapp.com/addtohomescreen.css"><script> function close_window(){close()} addToHomescreen({appID:"com.thelocken.iChanger.Generated",privateModeOverride:!0,skipFirstVisit:!1,maxDisplayCount:0,debug:!0,startDelay:0,lifespan:0}); </script>';
 $uri5S = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) . '' . htmlspecialchars($iconext) . '">';
 // . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'16' . htmlspecialchars($iconext) . '
 $uri6 = '<link rel="apple-touch-icon" href="http://ichangerapp.com/' . htmlspecialchars($iconfolder) . '/' . htmlspecialchars($iconmain) .'16' . htmlspecialchars($iconext) . '" sizes="16x16">';
