@@ -14,13 +14,14 @@ if ( $isiPad == "1" ) {
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>iChanger MainView</title>
+    <title>iChanger</title>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="ui/css/framework7.min.css">
 	  <link rel="stylesheet" href="ui/css/framework7.themes.min.css">
 	  <link rel="stylesheet" href="ui/css/minor.css?v=4">
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=5">
+	  <link rel="stylesheet/less" type="text/css" href="ui/less/material-index.less"/>
 	  <!-- JS -->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	  <script type="text/javascript" src="//wurfl.io/wurfl.js"></script>

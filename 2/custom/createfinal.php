@@ -315,11 +315,6 @@ curl_close($curlObj);
     <link rel="stylesheet" href="../ui/css/framework7.min.css">
     <link rel="stylesheet" href="../ui/css/framework7.themes.css">
     <link rel="stylesheet" href="../ui/css/minor.css">
-    <script>
-      function showLoading() {
-        document.getElementById('material-design').style.display = 'block';
-      }
-    </script>
   </head>
   <body>
     <!-- Status bar overlay for full screen mode (PhoneGap) -->
@@ -339,12 +334,6 @@ curl_close($curlObj);
         <div class="pages navbar-through toolbar-through">
           <div data-page="index" class="page">
             <div class="page-content">
-              <div class="material-design" id="material-design" style="display: none;">
-                <div class="alert alert-dismissable alert-info">
-                  <button type="button" class="close" data-dismiss="alert">×</button>
-                  <strong>Heads up!</strong> This <a href="javascript:void(0)" class="alert-link">alert needs your attention</a>, but it's not super important.
-                </div>
-              </div>
               <div class="list-block media-list">
                 <ul>
                   <li>
@@ -378,7 +367,6 @@ curl_close($curlObj);
                 </ul>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
