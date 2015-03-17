@@ -192,12 +192,10 @@ if ( $isiPad == "1" ) {
      document.getElementById('material-design').style.display = 'block';
   }
 </script>
-<div style="material-design" id="material-design" style="display: none;">
-<div class="alert alert-dismissable alert-info">
+<div id="material-design" class="material-design alert alert-dismissable alert-info" style="display: none;">
     <button type="button" class="close" data-dismiss="alert">×</button>
     <h4>Please Wait</h4>
     <p>Your custom shortcut is being created Please Wait.</p>
-</div>
 </div>
 <div class="list-block">
 	<!-- 
