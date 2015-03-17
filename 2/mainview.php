@@ -227,8 +227,8 @@ if ( $isiPad == "1" ) {
   }
 </script>
 <div class="info-box alert material-design" id="material-design" style="display: none;">
-<div class="msg">Info – Information message will goes here</div>
-<a class="toggle-alert" href="#">Toggle</a>
+<div class="msg">Creating you custom shortcut, Please Wait.</div>
+<a class="toggle-alert" href="#">Close</a>
 </div>
 <div class="list-block">
 	<!-- 
