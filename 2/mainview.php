@@ -21,11 +21,9 @@ if ( $isiPad == "1" ) {
 	  <link rel="stylesheet" href="ui/css/minor.css?v=4">
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=5">
-	  <link rel="stylesheet/less" type="text/css" href="ui/less/material-index.less?v=1"/>
+	  <link rel="stylesheet" href="ui/css/material.min.css">
 	  <!-- JS -->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	  <script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
-	  <script type="text/javascript" src="js/less.min.js"></script>
   </head>
   <body>
     <script>
