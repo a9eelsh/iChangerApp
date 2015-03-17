@@ -325,7 +325,7 @@ curl_close($curlObj);
       <div class="view view-main">
         <!-- Top Navbar-->
         <div class="navbar theme-white">
-          <div class="navbar-inner">
+          <div class="navbar-inner rednavbar">
 			      <div class="left sliding"><a href="http://ichangerapp.com/mainview.php?id=<?php print $UserID; ?>" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Your Creation</div>
             <div class="right"></div>
