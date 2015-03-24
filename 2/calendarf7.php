@@ -95,13 +95,13 @@
               
               
 				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=Novus2&pe=.png&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Calendar&p=cal-metrogoogle.png&n=Calendar&ur=calshow://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/AppStore/Novus.png" width="80">
+							<img src="http://ichangerapp.com/Calendar/cal-metrogoogle.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Novus</div>
+								<div class="item-title">Metro Google</div>
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Calendar</div>

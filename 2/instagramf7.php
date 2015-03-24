@@ -112,7 +112,7 @@ if ( $userraw == "" ) {
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Instagram</div>
-							<div class="item-text">Like Dislike</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
@@ -134,7 +134,7 @@ if ( $userraw == "" ) {
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Instagram</div>
-							<div class="item-text">Like Dislike</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
@@ -155,24 +155,24 @@ if ( $userraw == "" ) {
 								<div class="item-after">Install</div>
 							</div>
 							<div class="item-subtitle">Instagram</div>
-							<div class="item-text">Like Dislike</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
               
               
 				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=lightwinter.JPG&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Instagram&p=ig-outline.png&n=Instagram&ur=instagram://app" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/AppStore/lightwinter.JPG" width="80">
+							<img src="http://ichangerapp.com/Instagram/ig-outline.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Light Winter</div>
+								<div class="item-title">Outline</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">App Store</div>
-							<div class="item-text">A Light Winter Themed App Store</div>
+							<div class="item-subtitle">Instagram</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
