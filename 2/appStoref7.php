@@ -82,7 +82,7 @@
 								<div class="item-title">Glimpse</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">App Store</div>
+							<div class="item-subtitle">HazZbroGaminG</div>
 							<div class="item-text"></div>
 						</div>
 					</a>
@@ -104,7 +104,7 @@
 								<div class="item-title">Novus</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">App Store</div>
+							<div class="item-subtitle">FFra</div>
 							<div class="item-text"></div>
 						</div>
 					</a>
