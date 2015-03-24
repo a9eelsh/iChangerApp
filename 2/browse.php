@@ -14,7 +14,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-appstore"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">App Store - WORKING</div>
+                          <div class="item-title">App Store</div>
 						<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -22,7 +22,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-calendar"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Calendar - NEW</div>
+                          <div class="item-title">Calendar</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -38,7 +38,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-gamecenter"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">GameCenter - NEW</div>
+                          <div class="item-title">GameCenter</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -50,7 +50,7 @@
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="media-lists.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="itunesf7.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-itunes"></i></div>
                         <div class="item-inner">
@@ -62,7 +62,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-mail"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Mail - NEW</div>
+                          <div class="item-title">Mail</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -78,7 +78,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-messages"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Messages - NEW</div>
+                          <div class="item-title">Messages</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -86,7 +86,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-music"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Music - NEW</div>
+                          <div class="item-title">Music</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -102,7 +102,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-phone"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Phone - No Current URIS</div>
+                          <div class="item-title">Phone</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -143,7 +143,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-3-chrome"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Chrome - NEW</div>
+                          <div class="item-title">Chrome</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -151,7 +151,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-3-facebook"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Facebook - BETA</div>
+                          <div class="item-title">Facebook</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -175,7 +175,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-youtube"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">YouTube - NEW</div>
+                          <div class="item-title">YouTube</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -183,7 +183,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-3-instagram"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Instagram - WORKING</div>
+                          <div class="item-title">Instagram</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -191,7 +191,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-skype"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Skype - NEW</div>
+                          <div class="item-title">Skype</div>
 							<span class="list-val button ">Theme</span>
                           <!--<div class="item-after"><span class="badge bg-green">NEW</span></div>-->
                         </div>
@@ -200,7 +200,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-photos"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Photos - NEW</div>
+                          <div class="item-title">Photos</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -208,7 +208,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-google"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Google - NEW</div>
+                          <div class="item-title">Google</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
@@ -216,7 +216,7 @@
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-gplus"></i></div>
                         <div class="item-inner">
-                          <div class="item-title">Google+ - NEW</div>
+                          <div class="item-title">Google+</div>
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
