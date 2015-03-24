@@ -20,7 +20,7 @@
 								<div class="item-title">Default</div>
 								<div class="item-after">Installed</div>
 							</div>
-							<div class="item-subtitle">Calendar</div>
+							<div class="item-subtitle">Apple</div>
 							<div class="item-text">Apple's Default Calendar Icon. This icon is here to show you the side by side comparison</div>
 						</div>
 					</a>
@@ -38,7 +38,7 @@
 								<div class="item-title">Metal Boxed Calendar</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Calendar</div>
+							<div class="item-subtitle">Martz90</div>
 							<div class="item-text">Put your Calendar in a metal box!</div>
 						</div>
 					</a>
@@ -63,7 +63,7 @@
 								<div class="item-title">Maximal</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Calendar</div>
+							<div class="item-subtitle">FFra</div>
 							<div class="item-text"></div>
 						</div>
 					</a>
@@ -82,7 +82,7 @@
 								<div class="item-title">iOS 7 Alternative</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Dtafalonso</div>
+							<div class="item-subtitle">dtafalonso</div>
 							<div class="item-text"></div>
 						</div>
 					</a>
@@ -104,7 +104,7 @@
 								<div class="item-title">Metro Google</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Calendar</div>
+							<div class="item-subtitle">igh0zt</div>
 							<div class="item-text"></div>
 						</div>
 					</a>
@@ -116,34 +116,34 @@
               
               
 				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=light.jpg&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Calendar&p=cal-shad.png&n=Calendar&ur=calshow://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/AppStore/lightOLD.png" width="80">
+							<img src="http://ichangerapp.com/Calendar/cal-shad.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Light</div>
+								<div class="item-title">Long Shadow</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Calendar</div>
-							<div class="item-text">AppStore Icon in the Light Icons Pack</div>
+							<div class="item-subtitle">PelFusion</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
               
               
 				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=AppStore&p=lightwinter.JPG&n=App%20Store&ur=itms-apps://itunes.apple.com" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Calendar&p=cal-mat.png&n=Calendar&ur=calshow://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/AppStore/lightwinter.JPG" width="80">
+							<img src="http://ichangerapp.com/Calendar/cal-mat.png" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
-								<div class="item-title">Light Winter</div>
+								<div class="item-title">iOS 8 Material</div>
 								<div class="item-after">Install</div>
 							</div>
-							<div class="item-subtitle">Calendar</div>
-							<div class="item-text">A Light Winter Themed App Store</div>
+							<div class="item-subtitle">dtafalonso</div>
+							<div class="item-text"></div>
 						</div>
 					</a>
 				</li>
