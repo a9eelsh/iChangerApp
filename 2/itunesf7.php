@@ -89,31 +89,7 @@
 				</li>
               
               
-              
-              
-              
-              
-              
-				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=iTunes&p=it-rs.png&n=iTunes&ur=itms://" class="external item-link item-content">
-						<div class="item-media">
-							<img src="http://ichangerapp.com/iTunes/it-rs.png" width="80">
-						</div>
-						<div class="item-inner">
-							<div class="item-title-row">
-								<div class="item-title">Realistically Soft</div>
-								<div class="item-after">Install</div>
-							</div>
-							<div class="item-subtitle">iTunes</div>
-							<div class="item-text"></div>
-						</div>
-					</a>
-				</li>
-				
-              
-              
-              
-              
+
               
 				<li>
 					<a href="http://ichangerapp.com/uriref.php?a=iTunes&p=it-reverse.png&n=iTunes&ur=itms://" class="external item-link item-content">
