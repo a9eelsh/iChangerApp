@@ -96,7 +96,7 @@ if ( $isiPad == "1" ) {
       </a>
     </li>
     <li>
-      <a href="http://j.mp/iC2Issue" class="item-link item-content external">
+      <a href="http://j.mp/iC2Issue" class="item-link item-content external" target="_blank">
         <div class="item-media"><i class="icon icon-menu-reportaproblem"></i></div>
         <div class="item-inner">
           <div class="item-title">Report Issue</div>
