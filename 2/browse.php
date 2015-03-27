@@ -90,7 +90,7 @@
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="pull-to-refresh.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="passbookf7.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-passbook"></i></div>
                         <div class="item-inner">
@@ -98,32 +98,7 @@
 							<span class="list-val button ">Theme</span>
                         </div>
                       </div></a></li>
-                  <li><a href="phonef7.php" class="item-link">
-                      <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-phone"></i></div>
-                        <div class="item-inner">
-                          <div class="item-title">Phone</div>
-							<span class="list-val button ">Theme</span>
-                        </div>
-                      </div></a></li>
-                  <li><a href="messages.html<?php print $uend; ?>" class="item-link">
-                      <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-reminders"></i></div>
-                        <div class="item-inner">
-                          <div class="item-title">Reminders</div>
-							<span class="list-val button ">Theme</span>
-                        </div>
-                      </div></a></li>
-                  <li><a href="grid.html<?php print $uend; ?>" class="item-link">
-                      <div class="item-content">
-                        <div class="item-media"><i class="icon icon-app-remote"></i></div>
-                        <div class="item-inner">
-                          <div class="item-title">Remote</div>
-							<span class="list-val button ">Theme</span>
-                          <!--<div class="item-after"><span class="badge bg-green">NEW</span></div>-->
-                        </div>
-                      </div></a></li>
-                  <li><a href="preloader.html<?php print $uend; ?>" class="item-link">
+                  <li><a href="safarif7.php" class="item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-safari"></i></div>
                         <div class="item-inner">
