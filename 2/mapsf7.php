@@ -95,9 +95,9 @@
               
               
 				<li>
-					<a href="http://ichangerapp.com/uriref.php?a=Maps&p=mp-google.png&n=Maps&ur=maps://" class="external item-link item-content">
+					<a href="http://ichangerapp.com/uriref.php?a=Maps&p=mp-google.jpg&n=Maps&ur=maps://" class="external item-link item-content">
 						<div class="item-media">
-							<img src="http://ichangerapp.com/Maps/mp-google.png" width="80">
+							<img src="http://ichangerapp.com/Maps/mp-google.jpg" width="80">
 						</div>
 						<div class="item-inner">
 							<div class="item-title-row">
