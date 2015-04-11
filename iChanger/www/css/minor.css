@@ -1,0 +1,53 @@
+.skybluenavbar {
+  border-bottom: none;
+  background: #74baee;
+  color: #ffffff;
+}
+.greennavbar {
+  border-bottom: none;
+  background: #4cd964;
+  color: #ffffff;
+}
+.rednavbar {
+  border-bottom: none;
+  background: #ff3b30;
+  color: #ffffff;
+}
+
+.statusbar-overlay {
+  background: SkyBlue;
+}
+.picupload {
+  -webkit-appearence: none;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+
+html{
+    font-size: 100%;    
+}
+
+#resize {
+  font-size: 8vw;  
+}
