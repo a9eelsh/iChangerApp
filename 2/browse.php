@@ -1,16 +1,16 @@
-        <div class="navbar skybluenavbar">
-          <div class="navbar-inner">
-			      <div class="left sliding"><a href="mainview.php" class="back link"><i class="icon icon-back"></i><span>Back</span></a></div>
-            <div class="center sliding">Browse</div>
-            <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
-          </div>
-        </div>
-        <div class="pages navbar-through">
-          <div data-page="browse" class="page">
-            <div class="page-content">
-              <div class="list-block">
-                <ul>
-                  <li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
+<div data-page="browse" class="page">
+<div class="navbar skybluenavbar">
+<div class="navbar-inner">
+<div class="left"><a href="mainview.php" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+<div class="center">Browse</div>
+<div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+</div>
+</div>
+<div class="page-content">
+<div class="content-block-title">Use icons made by Professional Artists</div>
+<div class="list-block">
+<ul>
+<li><a href="appStoref7.php" target="_blank" onclick="slowLoad()" class="close-panel item-link">
                       <div class="item-content">
                         <div class="item-media"><i class="icon icon-app-appstore"></i></div>
                         <div class="item-inner">
