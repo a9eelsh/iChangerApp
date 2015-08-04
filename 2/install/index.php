@@ -29,11 +29,11 @@ if ( strpos($ua,"iphone") || strpos($ua,"ipad") ) {
   <script src="http://ichangerapp.com/addtohomescreen.js"></script>
   <script src="http://ichangerapp.com/js/staystand.js"></script>
   <!-- Icons -->
-  <link rel="apple-touch-icon" href="ios/AppIcon.appiconset/Icon-60@2x.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="ios/AppIcon.appiconset/Icon-60@3x.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="ios/AppIcon.appiconset/Icon-76.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="ios/AppIcon.appiconset/Icon-76@2x.png" />
-  <link rel="apple-touch-icon" sizes="58x58" href="ios/AppIcon.appiconset/Icon-Small@2x.png" />
+  <link rel="apple-touch-icon" href="http://ichangerapp.com/ios/AppIcon.appiconset/Icon-60@2x.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="http://ichangerapp.com/ios/AppIcon.appiconset/Icon-60@3x.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="http://ichangerapp.com/ios/AppIcon.appiconset/Icon-76.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="http://ichangerapp.com/ios/AppIcon.appiconset/Icon-76@2x.png" />
+  <link rel="apple-touch-icon" sizes="58x58" href="http://ichangerapp.com/ios/AppIcon.appiconset/Icon-Small@2x.png" />
   <!-- End Icons -->
   <script>
   // remove session if visit again
