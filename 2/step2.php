@@ -12,7 +12,7 @@ $PORTS_ARE_SSL= 'true';
 
 $COMPANY_NAME = 'MyCompany';
 $DESCRIBE_NAME = 'MyZimbraService';
-$WEBSITE = 'http://mywebsite.local':
+$WEBSITE = 'http://mywebsite.local';
 
 
 #The following XML-file was generated using Apples iPhone Configuration Utility:
@@ -23,13 +23,13 @@ $data = '<?xml version="1.0" encoding="UTF-8"?>
         <key>ConsentText</key>
         <dict>
                 <key>default</key>
-                <string>Sets up '.echo $DESCRIBE_NAME.'.</string>
+                <string>Sets up '. $DESCRIBE_NAME.'.</string>
         </dict>
         <key>PayloadContent</key>
         <array>
                 <dict>
                         <key>EmailAccountDescription</key>
-                        <string>'.echo $DESCRIBE_NAME.' IMAP %DESCRIPTION%</string>
+                        <string>'.$DESCRIBE_NAME.' IMAP %DESCRIPTION%</string>
                         <key>EmailAccountType</key>
                         <string>EmailTypeIMAP</string>
                         <key>EmailAddress</key>
@@ -37,11 +37,11 @@ $data = '<?xml version="1.0" encoding="UTF-8"?>
                         <key>IncomingMailServerAuthentication</key>
                         <string>EmailAuthPassword</string>
                         <key>IncomingMailServerHostName</key>
-                        <string>'.echo $IMAP_SERVER.'</string>
+                        <string>'.$IMAP_SERVER.'</string>
                         <key>IncomingMailServerPortNumber</key>
-                        <integer>'.echo $IMAP_PORT.'</integer>
+                        <integer>'.$IMAP_PORT.'</integer>
                         <key>IncomingMailServerUseSSL</key>
-                        <'.echo $PORTS_ARE_SSL.'/>
+                        <'.$PORTS_ARE_SSL.'/>
                         <key>IncomingMailServerUsername</key>
                         <string>%EMAIL%</string>
                         <key>IncomingPassword</key>
@@ -49,11 +49,11 @@ $data = '<?xml version="1.0" encoding="UTF-8"?>
                         <key>OutgoingMailServerAuthentication</key>
                         <string>EmailAuthPassword</string>
                         <key>OutgoingMailServerHostName</key>
-                        <string>'.echo $SMTP_SERVER.'</string>
+                        <string>'.$SMTP_SERVER.'</string>
                         <key>OutgoingMailServerPortNumber</key>
-                        <integer>'.echo $SMTP_PORT.'</integer>
+                        <integer>'.$SMTP_PORT.'</integer>
                         <key>OutgoingMailServerUseSSL</key>
-                        <'.echo $PORTS_ARE_SSL.'/>
+                        <'.$PORTS_ARE_SSL.'/>
                         <key>OutgoingMailServerUsername</key>
                         <string>%EMAIL%</string>
                         <key>OutgoingPasswordSameAsIncomingPassword</key>
@@ -61,11 +61,11 @@ $data = '<?xml version="1.0" encoding="UTF-8"?>
                         <key>PayloadDescription</key>
                         <string>Configures email account.</string>
                         <key>PayloadDisplayName</key>
-                        <string>'.echo $DESCRIBE_NAME.' %DESCRIPTION%</string>
+                        <string>'.$DESCRIBE_NAME.' %DESCRIPTION%</string>
                         <key>PayloadIdentifier</key>
                         <string>com.mail.%DESCRIPTION%.email1</string>
                         <key>PayloadOrganization</key>
-                        <string>'.echo $COMPANY_NAME.'</string>
+                        <string>'.$COMPANY_NAME.'</string>
                         <key>PayloadType</key>
                         <string>com.apple.mail.managed</string>
                         <key>PayloadUUID</key>
@@ -83,27 +83,27 @@ $data = '<?xml version="1.0" encoding="UTF-8"?>
                 </dict>
                 <dict>
                         <key>CalDAVAccountDescription</key>
-                        <string>'.echo $DESCRIBE_NAME.' Calendar %DESCRIPTION%</string>
+                        <string>'.$DESCRIBE_NAME.' Calendar %DESCRIPTION%</string>
                         <key>CalDAVHostName</key>
-                        <string>'.echo $CAL_SERVER.'/string>
+                        <string>'.$CAL_SERVER.'/string>
                         <key>CalDAVPassword</key>
                         <string>%PASSWORD%</string>
                         <key>CalDAVPort</key>
-                        <integer>'.echo $SMTP_PORT.'</integer>
+                        <integer>'.$SMTP_PORT.'</integer>
                         <key>CalDAVPrincipalURL</key>
-                        <string>'.echo $HTTP_MODE.'://'.echo $CAL_SERVER.'/principals/users/%EMAIL%/</string>
+                        <string>'.$HTTP_MODE.'://'.$CAL_SERVER.'/principals/users/%EMAIL%/</string>
                         <key>CalDAVUseSSL</key>
-                        <'.echo $PORTS_ARE_SSL.'/>
+                        <'.$PORTS_ARE_SSL.'/>
                         <key>CalDAVUsername</key>
                         <string>%EMAIL%</string>
                         <key>PayloadDescription</key>
                         <string>Configures CalDAV account.</string>
                         <key>PayloadDisplayName</key>
-                        <string>CalDAV ('.echo $DESCRIBE_NAME.' CAL)</string>
+                        <string>CalDAV ('.$DESCRIBE_NAME.' CAL)</string>
                         <key>PayloadIdentifier</key>
                         <string>com.mail.%DESCRIPTION%.caldav2</string>
                         <key>PayloadOrganization</key>
-                        <string>'.echo $COMPANY_NAME.'</string>
+                        <string>'.$COMPANY_NAME.'</string>
                         <key>PayloadType</key>
                         <string>com.apple.caldav.account</string>
                         <key>PayloadUUID</key>
@@ -113,27 +113,27 @@ $data = '<?xml version="1.0" encoding="UTF-8"?>
                 </dict>
                 <dict>
                         <key>CardDAVAccountDescription</key>
-                        <string>'.echo $DESCRIBE_NAME.' Contacts %DESCRIPTION%</string>
+                        <string>'.$DESCRIBE_NAME.' Contacts %DESCRIPTION%</string>
                         <key>CardDAVHostName</key>
-                        <string>'.echo $CARD_SERVER.'</string>
+                        <string>'.$CARD_SERVER.'</string>
                         <key>CardDAVPassword</key>
                         <string>%PASSWORD%</string>
                         <key>CardDAVPort</key>
                         <integer>443</integer>
                         <key>CardDAVPrincipalURL</key>
-                        <string>'.echo $HTTP_MODE.'://'.echo $CARD_SERVER.'/principals/users/%EMAIL%/</string>
+                        <string>'.$HTTP_MODE.'://'.$CARD_SERVER.'/principals/users/%EMAIL%/</string>
                         <key>CardDAVUseSSL</key>
-                        <'.echo $PORTS_ARE_SSL.'/>
+                        <'.$PORTS_ARE_SSL.'/>
                         <key>CardDAVUsername</key>
                         <string>%EMAIL%</string>
                         <key>PayloadDescription</key>
                         <string>Configures CardDAV account.</string>
                         <key>PayloadDisplayName</key>
-                        <string>CardDAV ('.echo $DESCRIBE_NAME.' Contacts) %DESCRIPTION%</string>
+                        <string>CardDAV ('.$DESCRIBE_NAME.' Contacts) %DESCRIPTION%</string>
                         <key>PayloadIdentifier</key>
                         <string>com.mail.%DESCRIPTION%.carddav3</string>
                         <key>PayloadOrganization</key>
-                        <string>'.echo $COMPANY_NAME.'</string>
+                        <string>'.$COMPANY_NAME.'</string>
                         <key>PayloadType</key>
                         <string>com.apple.carddav.account</string>
                         <key>PayloadUUID</key>
@@ -150,15 +150,15 @@ $data = '<?xml version="1.0" encoding="UTF-8"?>
                         <key>IsRemovable</key>
                         <false/>
                         <key>Label</key>
-                        <string>'.echo $COMPANY_NAME.'</string>
+                        <string>'.$COMPANY_NAME.'</string>
                         <key>PayloadDescription</key>
                         <string>Adds a Web Clip.</string>
                         <key>PayloadDisplayName</key>
-                        <string>Web Clip ('.echo $COMPANY_NAME.')</string>
+                        <string>Web Clip ('.$COMPANY_NAME.')</string>
                         <key>PayloadIdentifier</key>
                         <string>com.mail.%DESCRIPTION%.webclip4</string>
                         <key>PayloadOrganization</key>
-                        <string>'.echo $COMPANY_NAME.' %DESCRIPTION%</string>
+                        <string>'.$COMPANY_NAME.' %DESCRIPTION%</string>
                         <key>PayloadType</key>
                         <string>com.apple.webClip.managed</string>
                         <key>PayloadUUID</key>
@@ -166,17 +166,17 @@ $data = '<?xml version="1.0" encoding="UTF-8"?>
                         <key>PayloadVersion</key>
                         <integer>1</integer>
                         <key>URL</key>
-                        <string>'.echo $WEBSITE.'</string>
+                        <string>'.$WEBSITE.'</string>
                 </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Detta ställer in ditt '.echo $DESCRIBE_NAME.'-konto på din enhet.</string>
+        <string>Detta ställer in ditt '.$DESCRIBE_NAME.'-konto på din enhet.</string>
         <key>PayloadDisplayName</key>
-        <string>'.echo $DESCRIBE_NAME.' %DESCRIPTION%</string>
+        <string>'.$DESCRIBE_NAME.' %DESCRIPTION%</string>
         <key>PayloadIdentifier</key>
         <string>com.mail.%DESCRIPTION%</string>
         <key>PayloadOrganization</key>
-        <string>'.echo $COMPANY_NAME.' %DESCRIPTION%</string>
+        <string>'.$COMPANY_NAME.' %DESCRIPTION%</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadType</key>
@@ -207,7 +207,7 @@ $run3=str_replace ($find3, $replace3, $run2);
 
 #Let the download begin:
 header("Content-type: plain/text");
-header("Content-Disposition: attachment; filename='.echo $DESCRIBE_NAME.'AccountSetup.mobileconfig");
+header("Content-Disposition: attachment; filename='.$DESCRIBE_NAME.'AccountSetup.mobileconfig");
 echo $run3;
  ?>
 
