@@ -67,7 +67,7 @@ if ( $isiPad == "1" ) {
     <!-- Panels overlay-->
     <div class="panel-overlay"></div>
     <!-- Left panel with reveal effect-->
-    <div class="panel panel-left panel-reveal">
+    <div class="panel panel-left panel-reveal layout-dark">
     <div class="content-block-title">Menu</div>
 <div class="list-block">
   <ul>
@@ -121,7 +121,7 @@ if ( $isiPad == "1" ) {
       <!-- Your main view, should have "view-main" class-->
       <div class="view view-main">
         <!-- Top Navbar-->
-        <div class="navbar">
+        <div class="navbar skybluenavbar theme-white">
           <!-- Navbar inner for Index page-->
           <div data-page="index" class="navbar-inner">
             <!-- We have home navbar without left link-->
@@ -141,7 +141,7 @@ if ( $isiPad == "1" ) {
             <div class="center sliding">Browse</div>
           </div>
           <!-- Navbar inner for Form page-->
-          <div data-page="create" class="navbar-inner cached">
+          <div data-page="create" class="navbar-inner cached rednavbar">
             <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Create</div>
           </div>
