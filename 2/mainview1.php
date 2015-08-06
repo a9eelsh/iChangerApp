@@ -13,18 +13,19 @@ if ( $isiPad == "1" ) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>iChanger</title>
+    <!-- CSS -->
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="ui/css/framework7.min.css?v=3">
-	  <link rel="stylesheet" href="ui/css/minor.css?v=4">
+    <link rel="stylesheet" href="ui/css/framework7.min.css">
+    <link rel="stylesheet" href="css/my-app.css">
+    <link rel="stylesheet" href="ui/css/minor.css?v=4">
 	  <link rel="stylesheet" href="ui/css/app.css">
 	  <link rel="stylesheet" href="ui/css/title.css?v=5">
 	  <!-- JS -->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   </head>
   <body>
-    <style>
+      <style>
 .alert {
 	padding: 19px 15px;
 	color: #fefefe;
@@ -60,30 +61,14 @@ if ( $isiPad == "1" ) {
           return false;
         });
      });
-
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '537201576422410',
-          xfbml      : true,
-          version    : 'v2.2'
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+</script>
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
     <div class="panel-overlay"></div>
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-reveal layout-dark">
-<div class="content-block-title">Menu</div>
+    <div class="content-block-title">Menu</div>
 <div class="list-block">
   <ul>
     <li>
@@ -124,8 +109,6 @@ if ( $isiPad == "1" ) {
 </div></p>
   </div>
 </div>
-    </p>
-      </div>
     </div>
     <!-- Right panel with cover effect-->
     <div class="panel panel-right panel-cover">
@@ -152,12 +135,12 @@ if ( $isiPad == "1" ) {
             <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">About Us</div>
           </div>
-          <!-- Navbar inner for Browse page-->
+          <!-- Navbar inner for Services page-->
           <div data-page="browse" class="navbar-inner cached">
             <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Browse</div>
           </div>
-          <!-- Navbar inner for Create page-->
+          <!-- Navbar inner for Form page-->
           <div data-page="create" class="navbar-inner cached rednavbar">
             <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
             <div class="center sliding">Create</div>
@@ -227,8 +210,8 @@ if ( $isiPad == "1" ) {
 </script>
 <div class="info-box alert material-design" id="material-design" style="display: none;">
 <div class="msg">Creating you custom shortcut, Please Wait.</div>
-<a class="toggle-alert" href="#">Close</a>
 </div>
+<div class="content-block-title">Menu</div>
 <div class="list-block">
 	<!-- 
 	
@@ -402,7 +385,11 @@ if ( $isiPad == "1" ) {
     </div>
     <!--          END CUSTOM URI SCHEME ID                        -->
   </ul>
-	<input type="submit" name="submit" value="Create!" class="button button-big color-red">
+  <div class="content-block">
+                <div class="row">
+                    <input type="submit" name="submit" value="Create!" class="button button-big button-fill color-green">
+                </div>
+  </div>
 	</form>
 </div>
 	<div class="content-block-title">Notice</div>
